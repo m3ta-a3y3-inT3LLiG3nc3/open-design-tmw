@@ -1,0 +1,5020 @@
+<!-- ijfw schema:1 codebase-index -->
+# Codebase index
+
+Generated: 2026-10-09T13:09:04Z
+Root: .
+
+Files: 5000
+
+## By file
+
+- `./.agent/skills/ablate-ai-layer/SKILL.md` (156 lines, .md) -- name: ablate-ai-layer
+- `./.agent/skills/ablate-ai-layer/references/comparison.md` (132 lines, .md) -- The hard part of an ablation is not deleting things. It is seeing what you lost.
+- `./.agent/skills/ablate-ai-layer/scripts/map_layer.py` (165 lines, .py) -- Finds every instruction/context artifact any mainstream coding agent would load,
+- `./.agent/skills/ablate-ai-layer/scripts/run_ablation.py` (324 lines, .py) -- Executes the same probe task N times with the AI layer intact and N times with it
+- `./.agent/skills/agents-sdk/SKILL.md` (221 lines, .md) -- name: agents-sdk
+- `./.agent/skills/agents-sdk/references/browse-the-web.md` (63 lines, .md) -- Fetch https://developers.cloudflare.com/agents/api-reference/browse-the-web/ for complete documentation.
+- `./.agent/skills/agents-sdk/references/callable.md` (92 lines, .md) -- Fetch https://developers.cloudflare.com/agents/api-reference/callable-methods/ for complete documentation.
+- `./.agent/skills/agents-sdk/references/client-sdk.md` (110 lines, .md) -- Fetch https://developers.cloudflare.com/agents/api-reference/client-sdk/ for complete documentation.
+- `./.agent/skills/agents-sdk/references/codemode.md` (110 lines, .md) -- Fetch https://developers.cloudflare.com/agents/api-reference/codemode/ for complete documentation.
+- `./.agent/skills/agents-sdk/references/configuration.md` (72 lines, .md) -- Fetch https://developers.cloudflare.com/agents/api-reference/configuration/ for complete documentation.
+- `./.agent/skills/agents-sdk/references/durable-execution.md` (51 lines, .md) -- Fetch https://developers.cloudflare.com/agents/api-reference/durable-execution/ for complete documentation.
+- `./.agent/skills/agents-sdk/references/email.md` (146 lines, .md) -- Fetch https://developers.cloudflare.com/agents/api-reference/email/ for complete documentation.
+- `./.agent/skills/agents-sdk/references/human-in-the-loop.md` (67 lines, .md) -- Fetch https://developers.cloudflare.com/agents/concepts/human-in-the-loop/ for complete documentation.
+- `./.agent/skills/agents-sdk/references/mcp.md` (188 lines, .md) -- Fetch https://developers.cloudflare.com/agents/api-reference/mcp-client-api/ and https://developers.cloudflare.com/agent
+- `./.agent/skills/agents-sdk/references/observability.md` (44 lines, .md) -- Fetch https://developers.cloudflare.com/agents/api-reference/observability/ for complete documentation.
+- `./.agent/skills/agents-sdk/references/queue-retries.md` (79 lines, .md) -- Fetch https://developers.cloudflare.com/agents/api-reference/queue-tasks/ and https://developers.cloudflare.com/agents/a
+- `./.agent/skills/agents-sdk/references/routing.md` (75 lines, .md) -- Fetch https://developers.cloudflare.com/agents/api-reference/routing/ for complete documentation.
+- `./.agent/skills/agents-sdk/references/server-driven-messages.md` (63 lines, .md) -- Fetch https://developers.cloudflare.com/agents/api-reference/trigger-patterns/ for complete documentation.
+- `./.agent/skills/agents-sdk/references/state-scheduling.md` (171 lines, .md) -- Fetch https://developers.cloudflare.com/agents/api-reference/store-and-sync-state/ and https://developers.cloudflare.com
+- `./.agent/skills/agents-sdk/references/streaming-chat.md` (198 lines, .md) -- Fetch https://developers.cloudflare.com/agents/api-reference/chat-agents/ for complete documentation.
+- `./.agent/skills/agents-sdk/references/think.md` (112 lines, .md) -- Fetch https://developers.cloudflare.com/agents/api-reference/think/ for complete documentation.
+- `./.agent/skills/agents-sdk/references/voice.md` (68 lines, .md) -- Fetch https://developers.cloudflare.com/agents/api-reference/voice/ for complete documentation.
+- `./.agent/skills/agents-sdk/references/webhooks-push.md` (86 lines, .md) -- Fetch https://developers.cloudflare.com/agents/api-reference/webhooks/ for complete documentation.
+- `./.agent/skills/agents-sdk/references/workflows.md` (132 lines, .md) -- Fetch https://developers.cloudflare.com/agents/api-reference/run-workflows/ for complete documentation.
+- `./.agent/skills/ast-grep/SKILL.md` (323 lines, .md) -- name: ast-grep
+- `./.agent/skills/ast-grep/references/rule_reference.md` (297 lines, .md) -- This document provides comprehensive documentation for ast-grep rule syntax, covering all rule types and metavariables.
+- `./.agent/skills/audit-hosting/SKILL.md` (83 lines, .md) -- name: audit-hosting
+- `./.agent/skills/browseros-neo/SKILL.md` (54 lines, .md) -- name: browseros-neo
+- `./.agent/skills/build-dark-factory/SKILL.md` (806 lines, .md) -- name: build-dark-factory
+- `./.agent/skills/build-dark-factory/references/automation.md` (277 lines, .md) -- Three separate choices that people collapse into one. Separate them explicitly in the
+- `./.agent/skills/build-dark-factory/references/deployment.md` (100 lines, .md) -- Component 3 is the shortest to build and the easiest to skip. Skip it and you have not
+- `./.agent/skills/build-dark-factory/references/guidance-layer.md` (216 lines, .md) -- Three files, three different jobs. The split is the whole teaching.
+- `./.agent/skills/build-dark-factory/references/interview.md` (469 lines, .md) -- is a default they confirm.**
+- `./.agent/skills/build-dark-factory/references/setup.md` (245 lines, .md) -- Everything in this file is a thing that broke a real factory. None of it is interesting,
+- `./.agent/skills/build-dark-factory/references/validation-harness.md` (450 lines, .md) -- This is component 5, it is most of the work, and it is the only component that
+- `./.agent/skills/build-dark-factory/scripts/_audit_runner.py` (599 lines, .py) --     python scripts/_audit_runner.py            # audit the shipped template
+- `./.agent/skills/build-dark-factory/scripts/_test_audit_runner.py` (105 lines, .py) -- r\"\"\"Does each audit in `_audit_runner.py` actually FIRE?
+- `./.agent/skills/build-dark-factory/scripts/_test_factory_doctor.py` (395 lines, .py) -- The skill's own rule is that a gate which has never failed is a gate nobody has
+- `./.agent/skills/build-dark-factory/scripts/_test_runner.py` (1611 lines, .py) --     python scripts/_test_runner.py                 # run everything
+- `./.agent/skills/build-dark-factory/scripts/factory_doctor.py` (1312 lines, .py) -- Answers the questions a human keeps meaning to check and never does:
+- `./.agent/skills/build-dark-factory/templates/CLAUDE.md` (90 lines, .md) -- <!--
+- `./.agent/skills/build-dark-factory/templates/FACTORY.md` (85 lines, .md) -- <!--
+- `./.agent/skills/build-dark-factory/templates/FACTORY_RULES.md` (236 lines, .md) -- <!--
+- `./.agent/skills/build-dark-factory/templates/MISSION.md` (161 lines, .md) -- <!--
+- `./.agent/skills/build-dark-factory/templates/harness/README.md` (159 lines, .md) -- Component 5. The longest part of the build, and the only one that decides whether the
+- `./.agent/skills/build-dark-factory/templates/harness/appproc.py` (217 lines, .py) --     http     a server. Started on a dynamic port, polled until it answers.
+- `./.agent/skills/build-dark-factory/templates/harness/ci.py` (266 lines, .py) --     python harness/ci.py            the whole gate
+- `./.agent/skills/build-dark-factory/templates/harness/e2e.py` (117 lines, .py) -- Not a suite. The answer to interview R1.1 - \"the single most valuable thing a user does
+- `./.agent/skills/build-dark-factory/templates/harness/holdout/run.py` (141 lines, .py) --     .factory/holdout/run.py      <- here. The builder cannot read this directory.
+- `./.agent/skills/build-dark-factory/templates/harness/mutations/run.py` (125 lines, .py) --     python harness/mutations/run.py
+- `./.agent/skills/build-dark-factory/templates/runner/.factory/decisions.md` (39 lines, .md) -- <!--
+- `./.agent/skills/build-dark-factory/templates/runner/README.md` (174 lines, .md) -- The execution layer. Copy `factory/` into your repository and you have a working
+- `./.agent/skills/build-dark-factory/templates/runner/factory/config.sh` (258 lines, .sh) -- FACTORY_AGENT=\"${FACTORY_AGENT:-claude}\"
+- `./.agent/skills/build-dark-factory/templates/runner/factory/cost.py` (124 lines, .py) -- Instrumented on day one rather than added after the first surprising invoice, because
+- `./.agent/skills/build-dark-factory/templates/runner/factory/deploy.sh` (168 lines, .sh) -- set -euo pipefail
+- `./.agent/skills/build-dark-factory/templates/runner/factory/gate.sh` (296 lines, .sh) -- set -euo pipefail
+- `./.agent/skills/build-dark-factory/templates/runner/factory/gh_backend.py` (628 lines, .py) -- The file backend in `factory/state.py` is unchanged and still works on a clone with no
+- `./.agent/skills/build-dark-factory/templates/runner/factory/guard.py` (209 lines, .py) -- FACTORY_RULES.md 5, 6 and 8. This runs BEFORE any other evaluation, because a change
+- `./.agent/skills/build-dark-factory/templates/runner/factory/init-labels.sh` (125 lines, .sh) -- set -euo pipefail
+- `./.agent/skills/build-dark-factory/templates/runner/factory/install-trigger.sh` (199 lines, .sh) -- set -euo pipefail
+- `./.agent/skills/build-dark-factory/templates/runner/factory/merge.sh` (273 lines, .sh) -- set -euo pipefail
+- `./.agent/skills/build-dark-factory/templates/runner/factory/node_failure.py` (101 lines, .py) --     python factory/node_failure.py <node.json> <node-name> <max-budget-usd>
+- `./.agent/skills/build-dark-factory/templates/runner/factory/orchestrator.sh` (466 lines, .sh) -- set -euo pipefail
+- `./.agent/skills/build-dark-factory/templates/runner/factory/prompts/fix.md` (71 lines, .md) -- <!--
+- `./.agent/skills/build-dark-factory/templates/runner/factory/prompts/implement.md` (85 lines, .md) -- <!--
+- `./.agent/skills/build-dark-factory/templates/runner/factory/prompts/judge.md` (113 lines, .md) -- <!--
+- `./.agent/skills/build-dark-factory/templates/runner/factory/prompts/plan.md` (151 lines, .md) -- <!--
+- `./.agent/skills/build-dark-factory/templates/runner/factory/prompts/prime.md` (47 lines, .md) -- <!--
+- `./.agent/skills/build-dark-factory/templates/runner/factory/prompts/review.md` (80 lines, .md) -- <!--
+- `./.agent/skills/build-dark-factory/templates/runner/factory/prompts/triage.md` (108 lines, .md) -- <!--
+- `./.agent/skills/build-dark-factory/templates/runner/factory/run-workflow.sh` (799 lines, .sh) -- set -euo pipefail
+- `./.agent/skills/build-dark-factory/templates/runner/factory/state.py` (487 lines, .py) -- TWO BACKENDS, ONE TABLE.
+- `./.agent/skills/build-dark-factory/templates/runner/factory/tripwire.py` (64 lines, .py) -- This should be impossible. The validator runs in its own worktree with its own context,
+- `./.agent/skills/build-dark-factory/templates/runner/issues/0001-example.md` (67 lines, .md) -- id: 0001
+- `./.agent/skills/build-iterated-agentic-loop/SKILL.md` (214 lines, .md) -- name: build-iterated-agentic-loop
+- `./.agent/skills/build-iterated-agentic-loop/references/agent-iteration.ts` (174 lines, .ts) -- interface Args {
+- `./.agent/skills/build-iterated-agentic-loop/references/agent-runner-templates.md` (149 lines, .md) -- Use one of these inside the workflow's agent run step. Broad permission modes are appropriate only on trusted, isolated 
+- `./.agent/skills/build-iterated-agentic-loop/references/example-skill.md` (171 lines, .md) -- name: narrow-react-prop-types
+- `./.agent/skills/build-iterated-agentic-loop/references/memory-template.md` (7 lines, .md) -- Standing feedback for future `Agent: <Task Title>` runs.
+- `./.agent/skills/build-iterated-agentic-loop/references/prompt-template.md` (62 lines, .md) -- You are <task summary> in this repository. Begin by using the `<skill-name>` skill.
+- `./.agent/skills/build-iterated-agentic-loop/references/response-template.md` (103 lines, .md) -- This template defines how the CI agent should format its final response, which becomes the body of the GitHub PR.
+- `./.agent/skills/build-iterated-agentic-loop/references/skill-template.md` (57 lines, .md) -- name: <skill-name>
+- `./.agent/skills/chatgpt-apps/SKILL.md` (320 lines, .md) -- name: chatgpt-apps
+- `./.agent/skills/chatgpt-apps/references/app-archetypes.md` (132 lines, .md) -- Load this reference before choosing a starting point for a new ChatGPT app. The goal is to keep the skill inside a small
+- `./.agent/skills/chatgpt-apps/references/apps-sdk-docs-workflow.md` (135 lines, .md) -- Use this reference to keep code generation aligned with current OpenAI Apps SDK docs.
+- `./.agent/skills/chatgpt-apps/references/interactive-state-sync-patterns.md` (113 lines, .md) -- Use this reference when building ChatGPT apps with long-lived widget state, repeated interactions, or component-initiate
+- `./.agent/skills/chatgpt-apps/references/repo-contract-and-validation.md` (93 lines, .md) -- Load this reference when scaffolding or reviewing a generated ChatGPT app repo.
+- `./.agent/skills/chatgpt-apps/references/search-fetch-standard.md` (67 lines, .md) -- Load this reference when the app is connector-like, data-only, sync-oriented, or meant to work well with company knowled
+- `./.agent/skills/chatgpt-apps/references/upstream-example-workflow.md` (79 lines, .md) -- Load this reference when starting a greenfield ChatGPT app or when deciding whether to adapt an upstream example or use 
+- `./.agent/skills/chatgpt-apps/references/window-openai-patterns.md` (79 lines, .md) -- Load this reference when a task needs ChatGPT-only widget features, when translating older examples that use an `app` wr
+- `./.agent/skills/cloudflare-email-service/SKILL.md` (103 lines, .md) -- name: cloudflare-email-service
+- `./.agent/skills/cloudflare-email-service/references/cli-and-mcp.md` (125 lines, .md) -- Manage Cloudflare Email Service from the command line and coding agents.
+- `./.agent/skills/cloudflare-email-service/references/deliverability.md` (285 lines, .md) -- For full details, see the [deliverability docs](https://developers.cloudflare.com/email-service/concepts/deliverability/
+- `./.agent/skills/cloudflare-email-service/references/rest-api.md` (184 lines, .md) -- Send emails via HTTP requests from any application. If your app runs on Cloudflare Workers, use the [Workers binding](se
+- `./.agent/skills/cloudflare-email-service/references/routing.md` (199 lines, .md) -- Handle incoming emails sent to your domain via a Worker's `email()` handler. Forward, reply, reject, or parse emails pro
+- `./.agent/skills/cloudflare-email-service/references/sending.md` (252 lines, .md) -- Send emails from Cloudflare Workers using the native binding, or from AI agents using the Agents SDK. If your app is NOT
+- `./.agent/skills/cloudflare-one-migrations/SKILL.md` (110 lines, .md) -- name: cloudflare-one-migrations
+- `./.agent/skills/cloudflare-one/SKILL.md` (176 lines, .md) -- name: cloudflare-one
+- `./.agent/skills/cloudflare/SKILL.md` (248 lines, .md) -- name: cloudflare
+- `./.agent/skills/cloudflare/references/agents-sdk/README.md` (89 lines, .md) -- Cloudflare Agents SDK enables building AI-powered agents on Durable Objects with state, WebSockets, SQL, scheduling, and
+- `./.agent/skills/cloudflare/references/agents-sdk/api.md` (190 lines, .md) -- For AI chat with auto-streaming, message history, tools, resumable streaming.
+- `./.agent/skills/cloudflare/references/agents-sdk/configuration.md` (182 lines, .md) -- ```jsonc
+- `./.agent/skills/cloudflare/references/agents-sdk/gotchas.md` (158 lines, .md) -- ```ts
+- `./.agent/skills/cloudflare/references/agents-sdk/patterns.md` (192 lines, .md) -- ```ts
+- `./.agent/skills/cloudflare/references/ai-gateway/README.md` (175 lines, .md) -- Expert guidance for implementing Cloudflare AI Gateway - a universal gateway for AI model providers with analytics, cach
+- `./.agent/skills/cloudflare/references/ai-gateway/configuration.md` (111 lines, .md) -- AI > AI Gateway > Create Gateway > Configure (auth, caching, rate limiting, logging)
+- `./.agent/skills/cloudflare/references/ai-gateway/dynamic-routing.md` (82 lines, .md) -- Configure complex routing in dashboard without code changes. Use route names instead of model names.
+- `./.agent/skills/cloudflare/references/ai-gateway/features.md` (96 lines, .md) -- Dashboard: Settings → Cache Responses → Enable
+- `./.agent/skills/cloudflare/references/ai-gateway/sdk-integration.md` (114 lines, .md) -- ```typescript
+- `./.agent/skills/cloudflare/references/ai-gateway/troubleshooting.md` (88 lines, .md) -- | Error | Cause | Fix |
+- `./.agent/skills/cloudflare/references/ai-search/README.md` (138 lines, .md) -- Expert guidance for implementing Cloudflare AI Search (formerly AutoRAG), Cloudflare's managed semantic search and RAG s
+- `./.agent/skills/cloudflare/references/ai-search/api.md` (87 lines, .md) -- ```typescript
+- `./.agent/skills/cloudflare/references/ai-search/configuration.md` (88 lines, .md) -- ```jsonc
+- `./.agent/skills/cloudflare/references/ai-search/gotchas.md` (81 lines, .md) -- ```typescript
+- `./.agent/skills/cloudflare/references/ai-search/patterns.md` (85 lines, .md) -- | Use | Method | Returns |
+- `./.agent/skills/cloudflare/references/analytics-engine/README.md` (94 lines, .md) -- Expert guidance for implementing unlimited-cardinality analytics at scale using Cloudflare Workers Analytics Engine.
+- `./.agent/skills/cloudflare/references/analytics-engine/api.md` (112 lines, .md) -- Fire-and-forget (returns `void`, not Promise). Writes happen asynchronously.
+- `./.agent/skills/cloudflare/references/analytics-engine/configuration.md` (112 lines, .md) -- 1. Add binding to `wrangler.jsonc`
+- `./.agent/skills/cloudflare/references/analytics-engine/gotchas.md` (85 lines, .md) -- ```typescript
+- `./.agent/skills/cloudflare/references/analytics-engine/patterns.md` (83 lines, .md) -- | Use Case | Key Metrics | Index On |
+- `./.agent/skills/cloudflare/references/api-shield/README.md` (44 lines, .md) -- Expert guidance for API Shield - comprehensive API security suite for discovery, protection, and monitoring.
+- `./.agent/skills/cloudflare/references/api-shield/api.md` (141 lines, .md) -- Base: `/zones/{zone_id}/api_gateway`
+- `./.agent/skills/cloudflare/references/api-shield/configuration.md` (192 lines, .md) -- > ⚠️ **Classic Schema Validation deprecated.** Use Schema Validation 2.0.
+- `./.agent/skills/cloudflare/references/api-shield/gotchas.md` (125 lines, .md) -- 1. Delete ALL Classic schema validation rules
+- `./.agent/skills/cloudflare/references/api-shield/patterns.md` (180 lines, .md) -- ```bash
+- `./.agent/skills/cloudflare/references/api/README.md` (66 lines, .md) -- Guide for working with Cloudflare's REST API - authentication, SDK usage, common patterns, and troubleshooting.
+- `./.agent/skills/cloudflare/references/api/api.md` (204 lines, .md) -- ```typescript
+- `./.agent/skills/cloudflare/references/api/configuration.md` (160 lines, .md) -- | Platform | Command |
+- `./.agent/skills/cloudflare/references/api/gotchas.md` (225 lines, .md) -- - **1200 requests / 5 minutes** per user/token (global)
+- `./.agent/skills/cloudflare/references/api/patterns.md` (204 lines, .md) -- ```typescript
+- `./.agent/skills/cloudflare/references/argo-smart-routing/README.md` (90 lines, .md) -- Cloudflare Argo Smart Routing is a performance optimization service that detects real-time network issues and routes web
+- `./.agent/skills/cloudflare/references/argo-smart-routing/api.md` (240 lines, .md) -- ```
+- `./.agent/skills/cloudflare/references/argo-smart-routing/configuration.md` (197 lines, .md) -- ```hcl
+- `./.agent/skills/cloudflare/references/argo-smart-routing/gotchas.md` (111 lines, .md) -- 1. **Always check editability** before attempting to enable/disable Argo
+- `./.agent/skills/cloudflare/references/argo-smart-routing/patterns.md` (104 lines, .md) -- ```typescript
+- `./.agent/skills/cloudflare/references/artifacts/README.md` (79 lines, .md) -- Store versioned file trees behind a repo-style interface that works from Workers, the REST API, and Git-compatible tooli
+- `./.agent/skills/cloudflare/references/artifacts/api.md` (128 lines, .md) -- Use Artifacts through the **Workers binding**, the **REST control plane**, and **Git-compatible remotes**.
+- `./.agent/skills/cloudflare/references/artifacts/configuration.md` (92 lines, .md) -- Configure the `artifacts` binding in your Wrangler config:
+- `./.agent/skills/cloudflare/references/bindings/README.md` (122 lines, .md) -- Expert guidance on Cloudflare Workers Bindings - the runtime APIs that connect Workers to Cloudflare platform resources.
+- `./.agent/skills/cloudflare/references/bindings/api.md` (203 lines, .md) -- Cloudflare generates binding types via `npx wrangler types`. This creates `.wrangler/types/runtime.d.ts` with your Env i
+- `./.agent/skills/cloudflare/references/bindings/configuration.md` (188 lines, .md) -- ```jsonc
+- `./.agent/skills/cloudflare/references/bindings/gotchas.md` (208 lines, .md) -- ```typescript
+- `./.agent/skills/cloudflare/references/bindings/patterns.md` (200 lines, .md) -- ```typescript
+- `./.agent/skills/cloudflare/references/bot-management/README.md` (94 lines, .md) -- Enterprise-grade bot detection, protection, and mitigation using ML/heuristics, bot scores, JavaScript detections, and v
+- `./.agent/skills/cloudflare/references/bot-management/api.md` (169 lines, .md) -- ```typescript
+- `./.agent/skills/cloudflare/references/bot-management/configuration.md` (163 lines, .md) -- - **New:** Security > Settings > Filter \"Bot traffic\"
+- `./.agent/skills/cloudflare/references/bot-management/gotchas.md` (114 lines, .md) -- 1. Check Security Events for specific WAF rule ID blocking Yandex
+- `./.agent/skills/cloudflare/references/bot-management/patterns.md` (182 lines, .md) -- ```txt
+- `./.agent/skills/cloudflare/references/browser-rendering/README.md` (78 lines, .md) -- - One-off, stateless tasks (screenshot, PDF, content fetch)
+- `./.agent/skills/cloudflare/references/browser-rendering/api.md` (108 lines, .md) -- | Endpoint | Description | Key Options |
+- `./.agent/skills/cloudflare/references/browser-rendering/configuration.md` (78 lines, .md) -- ```bash
+- `./.agent/skills/cloudflare/references/browser-rendering/gotchas.md` (88 lines, .md) -- | Limit | Free | Paid |
+- `./.agent/skills/cloudflare/references/browser-rendering/patterns.md` (91 lines, .md) -- ```typescript
+- `./.agent/skills/cloudflare/references/c3/README.md` (111 lines, .md) -- Official CLI for scaffolding Cloudflare Workers and Pages projects with templates, TypeScript, and instant deployment.
+- `./.agent/skills/cloudflare/references/c3/api.md` (71 lines, .md) -- ```bash
+- `./.agent/skills/cloudflare/references/c3/configuration.md` (81 lines, .md) -- ```
+- `./.agent/skills/cloudflare/references/c3/gotchas.md` (92 lines, .md) -- ```bash
+- `./.agent/skills/cloudflare/references/c3/patterns.md` (82 lines, .md) -- ```bash
+- `./.agent/skills/cloudflare/references/cache-reserve/README.md` (147 lines, .md) -- Cache Reserve is part of **Smart Shield**, Cloudflare's comprehensive security and performance suite:
+- `./.agent/skills/cloudflare/references/cache-reserve/api.md` (194 lines, .md) -- ```
+- `./.agent/skills/cloudflare/references/cache-reserve/configuration.md` (169 lines, .md) -- ```bash
+- `./.agent/skills/cloudflare/references/cache-reserve/gotchas.md` (132 lines, .md) -- - Use edge cache only (shorter TTLs)
+- `./.agent/skills/cloudflare/references/cache-reserve/patterns.md` (197 lines, .md) -- ```typescript
+- `./.agent/skills/cloudflare/references/containers/README.md` (85 lines, .md) -- Use when working with Cloudflare Containers: deploying containerized apps on Workers platform, configuring container-ena
+- `./.agent/skills/cloudflare/references/containers/api.md` (187 lines, .md) -- ```typescript
+- `./.agent/skills/cloudflare/references/containers/configuration.md` (188 lines, .md) -- ```jsonc
+- `./.agent/skills/cloudflare/references/containers/gotchas.md` (178 lines, .md) -- ```typescript
+- `./.agent/skills/cloudflare/references/containers/patterns.md` (202 lines, .md) -- ```typescript
+- `./.agent/skills/cloudflare/references/cron-triggers/README.md` (99 lines, .md) -- Schedule Workers execution using cron expressions. Runs on Cloudflare's global network during underutilized periods.
+- `./.agent/skills/cloudflare/references/cron-triggers/api.md` (196 lines, .md) -- ```typescript
+- `./.agent/skills/cloudflare/references/cron-triggers/configuration.md` (180 lines, .md) -- ```jsonc
+- `./.agent/skills/cloudflare/references/cron-triggers/gotchas.md` (199 lines, .md) -- - 9am PST (UTC-8) → `(9 - (-8) + 24) % 24 = 17` → `0 17 * * *`
+- `./.agent/skills/cloudflare/references/cron-triggers/patterns.md` (190 lines, .md) -- ```typescript
+- `./.agent/skills/cloudflare/references/d1/README.md` (133 lines, .md) -- Expert guidance for Cloudflare D1, a serverless SQLite database designed for horizontal scale-out across multiple databa
+- `./.agent/skills/cloudflare/references/d1/api.md` (196 lines, .md) -- ```typescript
+- `./.agent/skills/cloudflare/references/d1/configuration.md` (191 lines, .md) -- ```jsonc
+- `./.agent/skills/cloudflare/references/d1/gotchas.md` (98 lines, .md) -- | Limit | Free Tier | Paid Plans | Notes |
+- `./.agent/skills/cloudflare/references/d1/patterns.md` (189 lines, .md) -- ```typescript
+- `./.agent/skills/cloudflare/references/ddos/README.md` (41 lines, .md) -- Autonomous, always-on protection against DDoS attacks across L3/4 and L7.
+- `./.agent/skills/cloudflare/references/ddos/api.md` (164 lines, .md) -- ```typescript
+- `./.agent/skills/cloudflare/references/ddos/configuration.md` (93 lines, .md) -- 1. Navigate to Security > DDoS
+- `./.agent/skills/cloudflare/references/ddos/gotchas.md` (107 lines, .md) -- 1. Lower sensitivity for specific rule/category
+- `./.agent/skills/cloudflare/references/ddos/patterns.md` (174 lines, .md) -- ```typescript
+- `./.agent/skills/cloudflare/references/do-storage/README.md` (75 lines, .md) -- Persistent storage API for Durable Objects with SQLite and KV backends, PITR, and automatic concurrency control.
+- `./.agent/skills/cloudflare/references/do-storage/api.md` (102 lines, .md) -- ```typescript
+- `./.agent/skills/cloudflare/references/do-storage/configuration.md` (112 lines, .md) -- ```jsonc
+- `./.agent/skills/cloudflare/references/do-storage/gotchas.md` (150 lines, .md) -- Durable Objects use **input/output gates** to prevent race conditions:
+- `./.agent/skills/cloudflare/references/do-storage/patterns.md` (194 lines, .md) -- ```typescript
+- `./.agent/skills/cloudflare/references/do-storage/testing.md` (183 lines, .md) -- Testing Durable Objects with storage using `vitest-pool-workers`.
+- `./.agent/skills/cloudflare/references/durable-objects/README.md` (185 lines, .md) -- Expert guidance for building stateful applications with Cloudflare Durable Objects.
+- `./.agent/skills/cloudflare/references/durable-objects/api.md` (187 lines, .md) -- ```typescript
+- `./.agent/skills/cloudflare/references/durable-objects/configuration.md` (160 lines, .md) -- ```jsonc
+- `./.agent/skills/cloudflare/references/durable-objects/gotchas.md` (197 lines, .md) -- ```typescript
+- `./.agent/skills/cloudflare/references/durable-objects/patterns.md` (201 lines, .md) -- | Need | Pattern | ID Strategy |
+- `./.agent/skills/cloudflare/references/email-routing/README.md` (89 lines, .md) -- Cloudflare Email Routing enables custom email addresses for your domain that route to verified destination addresses. It
+- `./.agent/skills/cloudflare/references/email-routing/api.md` (195 lines, .md) -- ```typescript
+- `./.agent/skills/cloudflare/references/email-routing/configuration.md` (186 lines, .md) -- ```jsonc
+- `./.agent/skills/cloudflare/references/email-routing/gotchas.md` (196 lines, .md) -- ```typescript
+- `./.agent/skills/cloudflare/references/email-routing/patterns.md` (229 lines, .md) -- ```typescript
+- `./.agent/skills/cloudflare/references/email-workers/README.md` (151 lines, .md) -- Process incoming emails programmatically using Cloudflare Workers runtime.
+- `./.agent/skills/cloudflare/references/email-workers/api.md` (237 lines, .md) -- Complete API reference for Cloudflare Email Workers runtime.
+- `./.agent/skills/cloudflare/references/email-workers/configuration.md` (112 lines, .md) -- ```jsonc
+- `./.agent/skills/cloudflare/references/email-workers/gotchas.md` (125 lines, .md) -- ```typescript
+- `./.agent/skills/cloudflare/references/email-workers/patterns.md` (102 lines, .md) -- ```typescript
+- `./.agent/skills/cloudflare/references/flagship/README.md` (59 lines, .md) -- Feature flag service for controlling feature visibility without redeploying code. Define flags with targeting rules and 
+- `./.agent/skills/cloudflare/references/flagship/api.md` (390 lines, .md) -- The binding is available as `env.FLAGS` (type `Flagship` from `@cloudflare/workers-types`).
+- `./.agent/skills/cloudflare/references/flagship/configuration.md` (202 lines, .md) -- Add a Flagship binding to your Wrangler config to access flags via `env.FLAGS`.
+- `./.agent/skills/cloudflare/references/flagship/gotchas.md` (178 lines, .md) -- 1. Is the flag enabled? (`\"enabled\": true`)
+- `./.agent/skills/cloudflare/references/flagship/patterns.md` (469 lines, .md) -- ```typescript
+- `./.agent/skills/cloudflare/references/graphql-api/README.md` (147 lines, .md) -- Query analytics data across all Cloudflare products via a single GraphQL endpoint. Covers HTTP requests, Workers metrics
+- `./.agent/skills/cloudflare/references/graphql-api/api.md` (175 lines, .md) -- The schema has a single entry point: `Query.viewer`. Mutations are not supported.
+- `./.agent/skills/cloudflare/references/graphql-api/configuration.md` (118 lines, .md) -- | Permission | Scope | Use Case |
+- `./.agent/skills/cloudflare/references/graphql-api/gotchas.md` (110 lines, .md) -- | Limit | Value |
+- `./.agent/skills/cloudflare/references/graphql-api/patterns.md` (225 lines, .md) -- Use time dimension granularity matching your range (see Best Practices below).
+- `./.agent/skills/cloudflare/references/hyperdrive/README.md` (82 lines, .md) -- Accelerates database queries from Workers via connection pooling, edge setup, query caching.
+- `./.agent/skills/cloudflare/references/hyperdrive/api.md` (143 lines, .md) -- See [README.md](./README.md) for overview, [configuration.md](./configuration.md) for setup.
+- `./.agent/skills/cloudflare/references/hyperdrive/configuration.md` (159 lines, .md) -- See [README.md](./README.md) for overview.
+- `./.agent/skills/cloudflare/references/hyperdrive/gotchas.md` (77 lines, .md) -- See [README.md](./README.md), [configuration.md](./configuration.md), [api.md](./api.md), [patterns.md](./patterns.md).
+- `./.agent/skills/cloudflare/references/hyperdrive/patterns.md` (190 lines, .md) -- See [README.md](./README.md), [configuration.md](./configuration.md), [api.md](./api.md).
+- `./.agent/skills/cloudflare/references/images/README.md` (61 lines, .md) -- - **Transform in Worker?** → [api.md](api.md#workers-binding-api-2026-primary-method) (Workers Binding API)
+- `./.agent/skills/cloudflare/references/images/api.md` (96 lines, .md) -- ```toml
+- `./.agent/skills/cloudflare/references/images/configuration.md` (211 lines, .md) -- Add to `wrangler.toml`:
+- `./.agent/skills/cloudflare/references/images/gotchas.md` (99 lines, .md) -- | Mode | Best For | Behavior |
+- `./.agent/skills/cloudflare/references/images/patterns.md` (115 lines, .md) -- ```
+- `./.agent/skills/cloudflare/references/kv/README.md` (89 lines, .md) -- Globally-distributed, eventually-consistent key-value store optimized for high read volume and low latency.
+- `./.agent/skills/cloudflare/references/kv/api.md` (160 lines, .md) -- ```typescript
+- `./.agent/skills/cloudflare/references/kv/configuration.md` (144 lines, .md) -- ```bash
+- `./.agent/skills/cloudflare/references/kv/gotchas.md` (131 lines, .md) -- ```typescript
+- `./.agent/skills/cloudflare/references/kv/patterns.md` (196 lines, .md) -- ```typescript
+- `./.agent/skills/cloudflare/references/miniflare/README.md` (105 lines, .md) -- Local simulator for Cloudflare Workers development/testing. Runs Workers in workerd sandbox implementing runtime APIs - 
+- `./.agent/skills/cloudflare/references/miniflare/api.md` (187 lines, .md) -- ```typescript
+- `./.agent/skills/cloudflare/references/miniflare/configuration.md` (173 lines, .md) -- ```js
+- `./.agent/skills/cloudflare/references/miniflare/gotchas.md` (160 lines, .md) -- - Analytics Engine (use mocks)
+- `./.agent/skills/cloudflare/references/miniflare/patterns.md` (181 lines, .md) -- | Approach | Use Case | Speed | Setup | Runtime |
+- `./.agent/skills/cloudflare/references/network-interconnect/README.md` (99 lines, .md) -- Private, high-performance connectivity to Cloudflare's network. **Enterprise-only**.
+- `./.agent/skills/cloudflare/references/network-interconnect/api.md` (199 lines, .md) -- See [README.md](README.md) for overview.
+- `./.agent/skills/cloudflare/references/network-interconnect/configuration.md` (114 lines, .md) -- See [README.md](README.md) for overview.
+- `./.agent/skills/cloudflare/references/network-interconnect/gotchas.md` (165 lines, .md) -- 1. Verify cross-connect installed
+- `./.agent/skills/cloudflare/references/network-interconnect/patterns.md` (166 lines, .md) -- See [README.md](README.md) for overview.
+- `./.agent/skills/cloudflare/references/observability/README.md` (88 lines, .md) -- Use this to route to the correct file without loading all content:
+- `./.agent/skills/cloudflare/references/observability/api.md` (164 lines, .md) -- ```graphql
+- `./.agent/skills/cloudflare/references/observability/configuration.md` (169 lines, .md) -- ```jsonc
+- `./.agent/skills/cloudflare/references/observability/gotchas.md` (115 lines, .md) -- ```bash
+- `./.agent/skills/cloudflare/references/observability/patterns.md` (105 lines, .md) -- ```typescript
+- `./.agent/skills/cloudflare/references/pages-functions/README.md` (98 lines, .md) -- Serverless functions on Cloudflare Pages using Workers runtime. Full-stack dev with file-based routing.
+- `./.agent/skills/cloudflare/references/pages-functions/api.md` (143 lines, .md) -- ```typescript
+- `./.agent/skills/cloudflare/references/pages-functions/configuration.md` (122 lines, .md) -- ```bash
+- `./.agent/skills/cloudflare/references/pages-functions/gotchas.md` (94 lines, .md) -- | Symptom | Likely Cause | Solution |
+- `./.agent/skills/cloudflare/references/pages-functions/patterns.md` (137 lines, .md) -- Non-blocking tasks after response sent (analytics, cleanup, webhooks):
+- `./.agent/skills/cloudflare/references/pages/README.md` (88 lines, .md) -- JAMstack platform for full-stack apps on Cloudflare's global network.
+- `./.agent/skills/cloudflare/references/pages/api.md` (204 lines, .md) -- ```
+- `./.agent/skills/cloudflare/references/pages/configuration.md` (201 lines, .md) -- ```jsonc
+- `./.agent/skills/cloudflare/references/pages/gotchas.md` (203 lines, .md) -- - **Problem**: No updates since 2024; incompatible with Next.js 15+; missing App Router features
+- `./.agent/skills/cloudflare/references/pages/patterns.md` (204 lines, .md) -- ```typescript
+- `./.agent/skills/cloudflare/references/pipelines/README.md` (90 lines, .md) -- Streaming ingest: receive events over HTTP/Workers/Logpush, transform with SQL, write to R2 as Iceberg tables or Parquet
+- `./.agent/skills/cloudflare/references/pipelines/api.md` (124 lines, .md) -- Code templates and verified behavior. For the full SQL function set and HTTP status semantics, pull `https://developers.
+- `./.agent/skills/cloudflare/references/pipelines/configuration.md` (155 lines, .md) -- Templates for creating streams, sinks, and pipelines via CLI, REST, or Terraform. For the full flag/field list and allow
+- `./.agent/skills/cloudflare/references/pipelines/gotchas.md` (58 lines, .md) -- Non-obvious failure modes (not well covered by docs). For current limits and error semantics, pull `https://developers.c
+- `./.agent/skills/cloudflare/references/pipelines/patterns.md` (130 lines, .md) -- Code-first patterns. For observability dataset/field schemas and Logpush dataset lists, pull `https://developers.cloudfl
+- `./.agent/skills/cloudflare/references/pulumi/README.md` (100 lines, .md) -- Expert guidance for Cloudflare Pulumi Provider (@pulumi/cloudflare).
+- `./.agent/skills/cloudflare/references/pulumi/api.md` (200 lines, .md) -- Export resource identifiers:
+- `./.agent/skills/cloudflare/references/pulumi/configuration.md` (198 lines, .md) -- ```typescript
+- `./.agent/skills/cloudflare/references/pulumi/gotchas.md` (181 lines, .md) -- ```typescript
+- `./.agent/skills/cloudflare/references/pulumi/patterns.md` (191 lines, .md) -- ```typescript
+- `./.agent/skills/cloudflare/references/queues/README.md` (96 lines, .md) -- Flexible message queuing for async task processing with guaranteed at-least-once delivery and configurable batching.
+- `./.agent/skills/cloudflare/references/queues/api.md` (206 lines, .md) -- ```typescript
+- `./.agent/skills/cloudflare/references/queues/configuration.md` (144 lines, .md) -- ```bash
+- `./.agent/skills/cloudflare/references/queues/gotchas.md` (206 lines, .md) -- ```typescript
+- `./.agent/skills/cloudflare/references/queues/patterns.md` (220 lines, .md) -- ```typescript
+- `./.agent/skills/cloudflare/references/r2-data-catalog/README.md` (75 lines, .md) -- Managed Apache Iceberg REST catalog built into R2 buckets. No catalog servers to run.
+- `./.agent/skills/cloudflare/references/r2-data-catalog/api.md` (122 lines, .md) -- Two APIs: the **control-plane REST API** (Cloudflare-specific) and the **Iceberg REST catalog API** (standard, used via 
+- `./.agent/skills/cloudflare/references/r2-data-catalog/configuration.md` (98 lines, .md) -- Enable the catalog, create tokens, turn on automatic maintenance, connect clients. For exhaustive token/permission optio
+- `./.agent/skills/cloudflare/references/r2-data-catalog/gotchas.md` (55 lines, .md) -- Common failure modes and operational behavior. For limits, recommendations, and supported settings, pull `https://develo
+- `./.agent/skills/cloudflare/references/r2-data-catalog/patterns.md` (122 lines, .md) -- Code templates with PyIceberg (lightweight, no JVM) and PySpark (full Iceberg ecosystem). For per-engine config (DuckDB,
+- `./.agent/skills/cloudflare/references/r2-sql/README.md` (64 lines, .md) -- Serverless, distributed, **read-only** query engine (Apache DataFusion) for Apache Iceberg tables in R2 Data Catalog.
+- `./.agent/skills/cloudflare/references/r2-sql/api.md` (121 lines, .md) -- Read-only SQL over Iceberg (Apache DataFusion). Query templates only. For the authoritative list of supported syntax, fu
+- `./.agent/skills/cloudflare/references/r2-sql/configuration.md` (50 lines, .md) -- Auth and setup. For the current permission matrix and wrangler flags, pull `https://developers.cloudflare.com/r2-sql/ref
+- `./.agent/skills/cloudflare/references/r2-sql/gotchas.md` (39 lines, .md) -- Operational pitfalls. For the authoritative list of supported features, unsupported features, and recommended workaround
+- `./.agent/skills/cloudflare/references/r2-sql/patterns.md` (118 lines, .md) -- Code templates for CLI, REST, and Worker access. For performance/partitioning best practices, pull `https://developers.c
+- `./.agent/skills/cloudflare/references/r2/README.md` (95 lines, .md) -- S3-compatible object storage with zero egress fees, optimized for large file storage and delivery.
+- `./.agent/skills/cloudflare/references/r2/api.md` (200 lines, .md) -- ```typescript
+- `./.agent/skills/cloudflare/references/r2/configuration.md` (165 lines, .md) -- ```jsonc
+- `./.agent/skills/cloudflare/references/r2/gotchas.md` (190 lines, .md) -- ```typescript
+- `./.agent/skills/cloudflare/references/r2/patterns.md` (193 lines, .md) -- ```typescript
+- `./.agent/skills/cloudflare/references/realtime-sfu/README.md` (65 lines, .md) -- Expert guidance for building real-time audio/video/data applications using Cloudflare Realtime SFU (Selective Forwarding
+- `./.agent/skills/cloudflare/references/realtime-sfu/api.md` (158 lines, .md) -- ```bash
+- `./.agent/skills/cloudflare/references/realtime-sfu/configuration.md` (137 lines, .md) -- 1. Navigate to https://dash.cloudflare.com/?to=/:account/calls
+- `./.agent/skills/cloudflare/references/realtime-sfu/gotchas.md` (133 lines, .md) -- 1. Verify SDP exchange complete
+- `./.agent/skills/cloudflare/references/realtime-sfu/patterns.md` (174 lines, .md) -- ```
+- `./.agent/skills/cloudflare/references/realtimekit/README.md` (113 lines, .md) -- Expert guidance for building real-time video and audio applications using **Cloudflare RealtimeKit** - a comprehensive S
+- `./.agent/skills/cloudflare/references/realtimekit/api.md` (212 lines, .md) -- Complete API reference for Meeting object, REST endpoints, and SDK methods.
+- `./.agent/skills/cloudflare/references/realtimekit/configuration.md` (203 lines, .md) -- Configuration guide for RealtimeKit setup, client SDKs, and wrangler integration.
+- `./.agent/skills/cloudflare/references/realtimekit/gotchas.md` (169 lines, .md) -- Verify token validity, check API token has **Realtime / Realtime Admin** permissions, enable TURN service for restrictiv
+- `./.agent/skills/cloudflare/references/realtimekit/patterns.md` (223 lines, .md) -- ```tsx
+- `./.agent/skills/cloudflare/references/sandbox/README.md` (96 lines, .md) -- Secure isolated code execution in containers on Cloudflare's edge. Run untrusted code, manage files, expose services, in
+- `./.agent/skills/cloudflare/references/sandbox/api.md` (198 lines, .md) -- ```typescript
+- `./.agent/skills/cloudflare/references/sandbox/configuration.md` (143 lines, .md) -- ```typescript
+- `./.agent/skills/cloudflare/references/sandbox/gotchas.md` (194 lines, .md) -- ```typescript
+- `./.agent/skills/cloudflare/references/sandbox/patterns.md` (201 lines, .md) -- ```typescript
+- `./.agent/skills/cloudflare/references/secrets-store/README.md` (74 lines, .md) -- Account-level encrypted secret management for Workers and AI Gateway.
+- `./.agent/skills/cloudflare/references/secrets-store/api.md` (200 lines, .md) -- ```typescript
+- `./.agent/skills/cloudflare/references/secrets-store/configuration.md` (185 lines, .md) -- ```jsonc
+- `./.agent/skills/cloudflare/references/secrets-store/gotchas.md` (97 lines, .md) -- ```typescript
+- `./.agent/skills/cloudflare/references/secrets-store/patterns.md` (207 lines, .md) -- Zero-downtime rotation with versioned naming (`api_key_v1`, `api_key_v2`):
+- `./.agent/skills/cloudflare/references/smart-placement/README.md` (138 lines, .md) -- Automatic workload placement optimization to minimize latency by running Workers closer to backend infrastructure rather
+- `./.agent/skills/cloudflare/references/smart-placement/api.md` (183 lines, .md) -- Query Worker placement status via Cloudflare API:
+- `./.agent/skills/cloudflare/references/smart-placement/configuration.md` (196 lines, .md) -- ```jsonc
+- `./.agent/skills/cloudflare/references/smart-placement/gotchas.md` (174 lines, .md) -- - Ensure Worker receives consistent global traffic
+- `./.agent/skills/cloudflare/references/smart-placement/patterns.md` (183 lines, .md) -- ```typescript
+- `./.agent/skills/cloudflare/references/snippets/README.md` (68 lines, .md) -- Expert guidance for **Cloudflare Snippets ONLY** - a lightweight JavaScript-based edge logic platform for modifying HTTP
+- `./.agent/skills/cloudflare/references/snippets/api.md` (198 lines, .md) -- ```javascript
+- `./.agent/skills/cloudflare/references/snippets/configuration.md` (227 lines, .md) -- ```
+- `./.agent/skills/cloudflare/references/snippets/gotchas.md` (86 lines, .md) -- Runtime error or syntax error. Wrap code in try/catch:
+- `./.agent/skills/cloudflare/references/snippets/patterns.md` (135 lines, .md) -- ```javascript
+- `./.agent/skills/cloudflare/references/spectrum/README.md` (52 lines, .md) -- Cloudflare Spectrum provides security and acceleration for ANY TCP or UDP-based application. It's a global Layer 4 (L4) 
+- `./.agent/skills/cloudflare/references/spectrum/api.md` (181 lines, .md) -- ```
+- `./.agent/skills/cloudflare/references/spectrum/configuration.md` (194 lines, .md) -- Use when origin is a single server with static IP.
+- `./.agent/skills/cloudflare/references/spectrum/gotchas.md` (145 lines, .md) -- 1. Verify origin firewall allows Cloudflare IP ranges
+- `./.agent/skills/cloudflare/references/spectrum/patterns.md` (196 lines, .md) -- ```hcl
+- `./.agent/skills/cloudflare/references/static-assets/README.md` (65 lines, .md) -- Expert guidance for deploying and configuring static assets with Cloudflare Workers. This skill covers configuration pat
+- `./.agent/skills/cloudflare/references/static-assets/api.md` (199 lines, .md) -- The `ASSETS` binding provides access to static assets via the `Fetcher` interface.
+- `./.agent/skills/cloudflare/references/static-assets/configuration.md` (186 lines, .md) -- Minimal configuration requires only `assets.directory`:
+- `./.agent/skills/cloudflare/references/static-assets/gotchas.md` (162 lines, .md) -- Instead of `run_worker_first = true`, use array patterns:
+- `./.agent/skills/cloudflare/references/static-assets/patterns.md` (189 lines, .md) -- ```typescript
+- `./.agent/skills/cloudflare/references/stream/README.md` (114 lines, .md) -- Serverless live and on-demand video streaming platform with one API.
+- `./.agent/skills/cloudflare/references/stream/api-live.md` (195 lines, .md) -- Live input creation, status checking, simulcast, and WebRTC streaming.
+- `./.agent/skills/cloudflare/references/stream/api.md` (199 lines, .md) -- Upload, playback, live streaming, and management APIs.
+- `./.agent/skills/cloudflare/references/stream/configuration.md` (141 lines, .md) -- Setup, environment variables, and wrangler configuration.
+- `./.agent/skills/cloudflare/references/stream/gotchas.md` (130 lines, .md) -- - **Cause**: Processing large/complex video
+- `./.agent/skills/cloudflare/references/stream/patterns.md` (184 lines, .md) -- Common workflows, full-stack flows, and best practices.
+- `./.agent/skills/cloudflare/references/tail-workers/README.md` (89 lines, .md) -- Specialized Workers that consume execution events from producer Workers for logging, debugging, analytics, and observabi
+- `./.agent/skills/cloudflare/references/tail-workers/api.md` (200 lines, .md) -- ```typescript
+- `./.agent/skills/cloudflare/references/tail-workers/configuration.md` (176 lines, .md) -- Create a Worker with a `tail()` handler:
+- `./.agent/skills/cloudflare/references/tail-workers/gotchas.md` (192 lines, .md) -- ```typescript
+- `./.agent/skills/cloudflare/references/tail-workers/patterns.md` (180 lines, .md) -- While most tail Worker implementations are custom, these libraries may help:
+- `./.agent/skills/cloudflare/references/terraform/README.md` (102 lines, .md) -- - **Provider-first**: Use Terraform provider for ALL infrastructure - never mix with wrangler.jsonc for the same resourc
+- `./.agent/skills/cloudflare/references/terraform/api.md` (178 lines, .md) -- Query existing Cloudflare resources to reference in your configurations.
+- `./.agent/skills/cloudflare/references/terraform/configuration.md` (197 lines, .md) -- Complete resource configurations for Cloudflare infrastructure.
+- `./.agent/skills/cloudflare/references/terraform/gotchas.md` (150 lines, .md) -- Common issues, security considerations, and best practices.
+- `./.agent/skills/cloudflare/references/terraform/patterns.md` (174 lines, .md) -- Architecture patterns, multi-environment setups, and real-world use cases.
+- `./.agent/skills/cloudflare/references/tunnel/README.md` (129 lines, .md) -- Secure outbound-only connections between infrastructure and Cloudflare's global network.
+- `./.agent/skills/cloudflare/references/tunnel/api.md` (193 lines, .md) -- ```bash
+- `./.agent/skills/cloudflare/references/tunnel/configuration.md` (157 lines, .md) -- Tunnels use one of two config sources:
+- `./.agent/skills/cloudflare/references/tunnel/gotchas.md` (147 lines, .md) -- ```bash
+- `./.agent/skills/cloudflare/references/tunnel/networking.md` (168 lines, .md) -- Cloudflared requires outbound access on:
+- `./.agent/skills/cloudflare/references/tunnel/patterns.md` (192 lines, .md) -- ```yaml
+- `./.agent/skills/cloudflare/references/turn/README.md` (82 lines, .md) -- Expert guidance for implementing Cloudflare TURN Service in WebRTC applications.
+- `./.agent/skills/cloudflare/references/turn/api.md` (239 lines, .md) -- Complete API documentation for Cloudflare TURN service credentials and key management.
+- `./.agent/skills/cloudflare/references/turn/configuration.md` (179 lines, .md) -- Setup and configuration for Cloudflare TURN service in Workers and applications.
+- `./.agent/skills/cloudflare/references/turn/gotchas.md` (231 lines, .md) -- Common mistakes, security best practices, and troubleshooting for Cloudflare TURN.
+- `./.agent/skills/cloudflare/references/turn/patterns.md` (213 lines, .md) -- Production-ready patterns for implementing Cloudflare TURN in WebRTC applications.
+- `./.agent/skills/cloudflare/references/turnstile/README.md` (99 lines, .md) -- Expert guidance for implementing Cloudflare Turnstile - a smart CAPTCHA alternative that protects websites from bots wit
+- `./.agent/skills/cloudflare/references/turnstile/api.md` (240 lines, .md) -- The Turnstile JavaScript API is available at `window.turnstile` after loading the script.
+- `./.agent/skills/cloudflare/references/turnstile/configuration.md` (222 lines, .md) -- ```html
+- `./.agent/skills/cloudflare/references/turnstile/gotchas.md` (218 lines, .md) -- ```javascript
+- `./.agent/skills/cloudflare/references/turnstile/patterns.md` (193 lines, .md) -- ```html
+- `./.agent/skills/cloudflare/references/vectorize/README.md` (133 lines, .md) -- Globally distributed vector database for AI applications. Store and query vector embeddings for semantic search, recomme
+- `./.agent/skills/cloudflare/references/vectorize/api.md` (88 lines, .md) -- ```typescript
+- `./.agent/skills/cloudflare/references/vectorize/configuration.md` (88 lines, .md) -- ```bash
+- `./.agent/skills/cloudflare/references/vectorize/gotchas.md` (76 lines, .md) -- Insert/upsert/delete return immediately but vectors aren't queryable for 5-10 seconds.
+- `./.agent/skills/cloudflare/references/vectorize/patterns.md` (90 lines, .md) -- ```typescript
+- `./.agent/skills/cloudflare/references/waf/README.md` (113 lines, .md) -- Cloudflare WAF protects web applications from attacks through managed rulesets and custom rules.
+- `./.agent/skills/cloudflare/references/waf/api.md` (202 lines, .md) -- ```typescript
+- `./.agent/skills/cloudflare/references/waf/configuration.md` (203 lines, .md) -- - Permission: `Zone.WAF Edit` or `Zone.Firewall Services Edit`
+- `./.agent/skills/cloudflare/references/waf/gotchas.md` (204 lines, .md) -- Phases execute sequentially (can't be changed):
+- `./.agent/skills/cloudflare/references/waf/patterns.md` (197 lines, .md) -- ```typescript
+- `./.agent/skills/cloudflare/references/web-analytics/README.md` (141 lines, .md) -- Privacy-first web analytics providing Core Web Vitals, traffic metrics, and user insights without compromising visitor p
+- `./.agent/skills/cloudflare/references/web-analytics/configuration.md` (76 lines, .md) -- Dashboard → Web Analytics → Add site → Select hostname → Done
+- `./.agent/skills/cloudflare/references/web-analytics/gotchas.md` (82 lines, .md) -- ```html
+- `./.agent/skills/cloudflare/references/web-analytics/integration.md` (60 lines, .md) -- ```html
+- `./.agent/skills/cloudflare/references/web-analytics/patterns.md` (91 lines, .md) -- Dashboard → Core Web Vitals → Click metric → Debug View shows top 5 problematic elements.
+- `./.agent/skills/cloudflare/references/workerd/README.md` (78 lines, .md) -- V8-based JS/Wasm runtime powering Cloudflare Workers. Use as app server, dev tool, or HTTP proxy.
+- `./.agent/skills/cloudflare/references/workerd/api.md` (185 lines, .md) -- ```javascript
+- `./.agent/skills/cloudflare/references/workerd/configuration.md` (183 lines, .md) -- ```capnp
+- `./.agent/skills/cloudflare/references/workerd/gotchas.md` (139 lines, .md) -- ❌ Wrong:
+- `./.agent/skills/cloudflare/references/workerd/patterns.md` (192 lines, .md) -- ```capnp
+- `./.agent/skills/cloudflare/references/workers-ai/README.md` (197 lines, .md) -- Expert guidance for Cloudflare Workers AI - serverless GPU-powered AI inference at the edge.
+- `./.agent/skills/cloudflare/references/workers-ai/api.md` (112 lines, .md) -- ```typescript
+- `./.agent/skills/cloudflare/references/workers-ai/configuration.md` (97 lines, .md) -- ```jsonc
+- `./.agent/skills/cloudflare/references/workers-ai/gotchas.md` (114 lines, .md) -- ```typescript
+- `./.agent/skills/cloudflare/references/workers-ai/patterns.md` (120 lines, .md) -- ```typescript
+- `./.agent/skills/cloudflare/references/workers-for-platforms/README.md` (89 lines, .md) -- Multi-tenant platform with isolated customer code execution at scale.
+- `./.agent/skills/cloudflare/references/workers-for-platforms/api.md` (196 lines, .md) -- ```bash
+- `./.agent/skills/cloudflare/references/workers-for-platforms/configuration.md` (167 lines, .md) -- ```jsonc
+- `./.agent/skills/cloudflare/references/workers-for-platforms/gotchas.md` (134 lines, .md) -- ```typescript
+- `./.agent/skills/cloudflare/references/workers-for-platforms/patterns.md` (188 lines, .md) -- ```typescript
+- `./.agent/skills/cloudflare/references/workers-playground/README.md` (127 lines, .md) -- Cloudflare Workers Playground is a browser-based sandbox for instantly experimenting with, testing, and deploying Cloudf
+- `./.agent/skills/cloudflare/references/workers-playground/api.md` (101 lines, .md) -- ```javascript
+- `./.agent/skills/cloudflare/references/workers-playground/configuration.md` (163 lines, .md) -- Navigate to [workers.cloudflare.com/playground](https://workers.cloudflare.com/playground)
+- `./.agent/skills/cloudflare/references/workers-playground/gotchas.md` (88 lines, .md) -- | Limitation | Impact | Workaround |
+- `./.agent/skills/cloudflare/references/workers-playground/patterns.md` (132 lines, .md) -- ```javascript
+- `./.agent/skills/cloudflare/references/workers-vpc/README.md` (127 lines, .md) -- Connect Cloudflare Workers to private networks and internal infrastructure using TCP Sockets.
+- `./.agent/skills/cloudflare/references/workers-vpc/api.md` (202 lines, .md) -- Complete API reference for the Cloudflare Workers TCP Sockets API (`cloudflare:sockets`).
+- `./.agent/skills/cloudflare/references/workers-vpc/configuration.md` (147 lines, .md) -- Setup and configuration for TCP Sockets in Cloudflare Workers.
+- `./.agent/skills/cloudflare/references/workers-vpc/gotchas.md` (167 lines, .md) -- Common pitfalls, limitations, and solutions for TCP Sockets in Cloudflare Workers.
+- `./.agent/skills/cloudflare/references/workers-vpc/patterns.md` (209 lines, .md) -- Real-world patterns and examples for TCP Sockets in Cloudflare Workers.
+- `./.agent/skills/cloudflare/references/workers/README.md` (108 lines, .md) -- Expert guidance for building, deploying, and optimizing Cloudflare Workers applications.
+- `./.agent/skills/cloudflare/references/workers/api.md` (195 lines, .md) -- ```typescript
+- `./.agent/skills/cloudflare/references/workers/configuration.md` (185 lines, .md) -- ```jsonc
+- `./.agent/skills/cloudflare/references/workers/frameworks.md` (197 lines, .md) -- Workers-native web framework with excellent TypeScript support and middleware ecosystem.
+- `./.agent/skills/cloudflare/references/workers/gotchas.md` (137 lines, .md) -- ```typescript
+- `./.agent/skills/cloudflare/references/workers/patterns.md` (198 lines, .md) -- ```typescript
+- `./.agent/skills/cloudflare/references/workflows/README.md` (77 lines, .md) -- Durable multi-step applications with automatic retries, state persistence, and long-running execution.
+- `./.agent/skills/cloudflare/references/workflows/api.md` (218 lines, .md) -- ```typescript
+- `./.agent/skills/cloudflare/references/workflows/configuration.md` (152 lines, .md) -- ```jsonc
+- `./.agent/skills/cloudflare/references/workflows/gotchas.md` (90 lines, .md) -- Limits and pricing change over time. **Always fetch the latest values** from the official docs before citing specific nu
+- `./.agent/skills/cloudflare/references/workflows/patterns.md` (175 lines, .md) -- ```typescript
+- `./.agent/skills/cloudflare/references/wrangler/README.md` (135 lines, .md) -- Official CLI for Cloudflare Workers - develop, manage, and deploy Workers from the command line.
+- `./.agent/skills/cloudflare/references/wrangler/api.md` (188 lines, .md) -- Node.js APIs for testing and development.
+- `./.agent/skills/cloudflare/references/wrangler/configuration.md` (197 lines, .md) -- Configuration reference for wrangler.jsonc (recommended).
+- `./.agent/skills/cloudflare/references/wrangler/gotchas.md` (197 lines, .md) -- - `wrangler dev` (default): Local simulation, fast, limited accuracy
+- `./.agent/skills/cloudflare/references/wrangler/patterns.md` (209 lines, .md) -- Common workflows and best practices.
+- `./.agent/skills/cloudflare/references/zaraz/IMPLEMENTATION_SUMMARY.md` (121 lines, .md) -- | File | Lines | Purpose |
+- `./.agent/skills/cloudflare/references/zaraz/README.md` (111 lines, .md) -- Expert guidance for Cloudflare Zaraz - server-side tag manager for loading third-party tools at the edge.
+- `./.agent/skills/cloudflare/references/zaraz/api.md` (112 lines, .md) -- Client-side JavaScript API for tracking events, setting properties, and managing consent.
+- `./.agent/skills/cloudflare/references/zaraz/configuration.md` (90 lines, .md) -- 1. Domain → Zaraz → Start setup
+- `./.agent/skills/cloudflare/references/zaraz/gotchas.md` (81 lines, .md) -- 1. Tool enabled in dashboard (green dot)
+- `./.agent/skills/cloudflare/references/zaraz/patterns.md` (74 lines, .md) -- ```javascript
+- `./.agent/skills/connect-domain/SKILL.md` (69 lines, .md) -- name: connect-domain
+- `./.agent/skills/deploy-to-hosting/SKILL.md` (115 lines, .md) -- name: deploy-to-hosting
+- `./.agent/skills/design-control-loop/SKILL.md` (172 lines, .md) -- name: design-control-loop
+- `./.agent/skills/design-control-loop/references/agent-iteration.ts` (174 lines, .ts) -- interface Args {
+- `./.agent/skills/design-control-loop/references/agent-runner-templates.md` (157 lines, .md) -- Use one of these inside the workflow's agent run step. Broad permission modes are appropriate only on trusted, isolated 
+- `./.agent/skills/design-control-loop/references/control-loop-taxonomy.md` (75 lines, .md) -- Use this to explain an agent loop as a control system before designing one, so it is observable, bounded, and reviewable
+- `./.agent/skills/design-control-loop/references/example-control-loop.md` (57 lines, .md) -- One fully worked loop, to make the taxonomy concrete. **This is an illustration, not a template.** A real loop from a pr
+- `./.agent/skills/design-control-loop/references/example-skill.md` (171 lines, .md) -- name: narrow-react-prop-types
+- `./.agent/skills/design-control-loop/references/memory-template.md` (7 lines, .md) -- Standing feedback for future `Agent: <Task Title>` runs. This is the human-on-the-loop steering channel: it is loaded in
+- `./.agent/skills/design-control-loop/references/prompt-template.md` (58 lines, .md) -- You are <task summary> in this repository. Begin by using the `<skill-name>` skill.
+- `./.agent/skills/design-control-loop/references/response-template.md` (103 lines, .md) -- This template defines how the CI agent should format its final response, which becomes the body of the GitHub PR.
+- `./.agent/skills/design-control-loop/references/skill-template.md` (57 lines, .md) -- name: <skill-name>
+- `./.agent/skills/durable-objects/SKILL.md` (186 lines, .md) -- name: durable-objects
+- `./.agent/skills/durable-objects/references/rules.md` (295 lines, .md) -- Create one DO per logical unit needing coordination: chat room, game session, document, user, tenant.
+- `./.agent/skills/durable-objects/references/testing.md` (264 lines, .md) -- Use `@cloudflare/vitest-pool-workers` to test DOs inside the Workers runtime.
+- `./.agent/skills/durable-objects/references/workers.md` (346 lines, .md) -- High-level guidance for Workers that invoke Durable Objects.
+- `./.agent/skills/hooks-create/SKILL.md` (218 lines, .md) -- name: hooks-create
+- `./.agent/skills/hostinger-headless/SKILL.md` (56 lines, .md) -- name: hostinger-headless
+- `./.agent/skills/hostinger-headless/references/DATABASE.md` (49 lines, .md) -- Use this when the app needs MySQL, or when a deploy \"succeeded\" but the app cannot reach its database. Everything here
+- `./.agent/skills/hostinger-headless/references/DEPLOYMENT.md` (36 lines, .md) -- Match the deploy method to what the project actually is — this is the single most common failure point.
+- `./.agent/skills/hostinger-headless/references/SETUP.md` (35 lines, .md) -- Everything here uses the **hosting** MCP operations. If they're missing, ask the user to enable the Websites product gro
+- `./.agent/skills/hostinger-headless/references/STORE.md` (52 lines, .md) -- Two API surfaces — don't mix them:
+- `./.agent/skills/hostinger-headless/references/WORDPRESS.md` (51 lines, .md) -- Use WordPress when the site has **owner-managed content**: a blog, news, articles, or any content the owner must edit wi
+- `./.agent/skills/imagegen/SKILL.md` (279 lines, .md) -- name: \"imagegen\"
+- `./.agent/skills/imagegen/references/cli.md` (160 lines, .md) -- This file is for the fallback CLI mode only. Read it only after the user explicitly asks to use `scripts/image_gen.py` i
+- `./.agent/skills/imagegen/references/codex-network.md` (33 lines, .md) -- This file is for the fallback CLI mode only. Read it only after the user explicitly asks to use `scripts/image_gen.py`.
+- `./.agent/skills/imagegen/references/image-api.md` (49 lines, .md) -- This file is for the fallback CLI mode only. Use it only after the user explicitly asks to use `scripts/image_gen.py` in
+- `./.agent/skills/imagegen/references/prompting.md` (98 lines, .md) -- These prompting principles are shared by both top-level modes of the skill:
+- `./.agent/skills/imagegen/references/sample-prompts.md` (376 lines, .md) -- These prompt recipes are shared across both top-level modes of the skill:
+- `./.agent/skills/imagegen/scripts/image_gen.py` (926 lines, .py) -- Used only when the user explicitly opts into CLI fallback mode.
+- `./.agent/skills/improve-claude-md/SKILL.md` (258 lines, .md) -- name: improve-claude-md
+- `./.agent/skills/join-meeting/SKILL.md` (1913 lines, .md) -- name: join-meeting
+- `./.agent/skills/maintain-wordpress/SKILL.md` (74 lines, .md) -- name: maintain-wordpress
+- `./.agent/skills/migrate-to-hosting/SKILL.md` (80 lines, .md) -- name: migrate-to-hosting
+- `./.agent/skills/narrow-react-prop-types/SKILL.md` (180 lines, .md) -- name: narrow-react-prop-types
+- `./.agent/skills/narrow-react-prop-types/references/narrow-component-props-memory.md` (7 lines, .md) -- Standing feedback for future `Agent: Narrow React Component Props` runs.
+- `./.agent/skills/narrow-react-prop-types/references/response-template.md` (52 lines, .md) -- Format your final response as GitHub-flavored markdown following this template. This response becomes the PR body.
+- `./.agent/skills/open-knowledge-discovery/SKILL.md` (134 lines, .md) -- name: open-knowledge-discovery
+- `./.agent/skills/open-knowledge-write-skill/SKILL.md` (176 lines, .md) -- name: open-knowledge-write-skill
+- `./.agent/skills/open-knowledge-write-skill/references/description-optimization.md` (34 lines, .md) -- The `description` is the **entire** signal the agent uses to decide whether to
+- `./.agent/skills/open-knowledge-write-skill/references/pressure-testing.md` (40 lines, .md) -- A **discipline** skill enforces a behavior the agent tends to abandon under
+- `./.agent/skills/openai-docs/SKILL.md` (167 lines, .md) -- name: \"openai-docs\"
+- `./.agent/skills/openai-docs/references/latest-model.md` (36 lines, .md) -- This file is a curated helper. Every recommendation here must be verified against current OpenAI docs before it is repea
+- `./.agent/skills/openai-docs/references/prompting-guide.md` (244 lines, .md) -- GPT-5.5 works best when prompts define the outcome and leave room for the model to choose an efficient solution path. Co
+- `./.agent/skills/openai-docs/references/upgrade-guide.md` (181 lines, .md) -- Use this guide when the user explicitly asks to upgrade an existing integration to GPT-5.5. Pair it with current OpenAI 
+- `./.agent/skills/openai-docs/scripts/resolve-latest-model-info.js` (147 lines, .js) -- const fs = require(\"node:fs/promises\");
+- `./.agent/skills/opportunity-scan/SKILL.md` (124 lines, .md) -- name: opportunity-scan
+- `./.agent/skills/piv-commit/SKILL.md` (33 lines, .md) -- name: piv-commit
+- `./.agent/skills/piv-create-pr/SKILL.md` (95 lines, .md) -- name: piv-create-pr
+- `./.agent/skills/piv-fix-review-findings/SKILL.md` (53 lines, .md) -- name: piv-fix-review-findings
+- `./.agent/skills/piv-implement-issue/SKILL.md` (243 lines, .md) -- name: piv-implement-issue
+- `./.agent/skills/piv-implement/SKILL.md` (129 lines, .md) -- name: piv-implement
+- `./.agent/skills/piv-investigate-issue/SKILL.md` (246 lines, .md) -- name: piv-investigate-issue
+- `./.agent/skills/piv-plan-implementation/SKILL.md` (511 lines, .md) -- name: piv-plan-implementation
+- `./.agent/skills/piv-review-changes/SKILL.md` (114 lines, .md) -- name: piv-review-changes
+- `./.agent/skills/piv-review-pr/SKILL.md` (93 lines, .md) -- name: piv-review-pr
+- `./.agent/skills/piv-run-full-loop/SKILL.md` (76 lines, .md) -- name: piv-run-full-loop
+- `./.agent/skills/piv-slice-epic/SKILL.md` (93 lines, .md) -- name: piv-slice-epic
+- `./.agent/skills/piv-validate/SKILL.md` (90 lines, .md) -- name: piv-validate
+- `./.agent/skills/plan-architecture/SKILL.md` (161 lines, .md) -- name: plan-architecture
+- `./.agent/skills/plan-create-prd/SKILL.md` (135 lines, .md) -- name: plan-create-prd
+- `./.agent/skills/plan-create-stories/SKILL.md` (86 lines, .md) -- name: plan-create-stories
+- `./.agent/skills/plugin-creator/SKILL.md` (160 lines, .md) -- name: plugin-creator
+- `./.agent/skills/plugin-creator/references/plugin-json-spec.md` (170 lines, .md) -- ```json
+- `./.agent/skills/plugin-creator/scripts/create_basic_plugin.py` (301 lines, .py) -- from __future__ import annotations
+- `./.agent/skills/prime-backend/SKILL.md` (106 lines, .md) -- name: prime-backend
+- `./.agent/skills/prime-codebase/SKILL.md` (101 lines, .md) -- name: prime-codebase
+- `./.agent/skills/prime-frontend/SKILL.md` (99 lines, .md) -- name: prime-frontend
+- `./.agent/skills/qu3bii-builder-brokers/SKILL.md` (91 lines, .md) -- name: qu3bii-builder-brokers
+- `./.agent/skills/qu3bii-content-swarm/SKILL.md` (65 lines, .md) -- name: qu3bii-content-swarm
+- `./.agent/skills/qu3bii-hermes-voice/SKILL.md` (79 lines, .md) -- name: qu3bii-hermes-voice
+- `./.agent/skills/qu3bii-intel-swarm/SKILL.md` (72 lines, .md) -- name: qu3bii-intel-swarm
+- `./.agent/skills/qu3bii-meeting-ops/SKILL.md` (78 lines, .md) -- name: qu3bii-meeting-ops
+- `./.agent/skills/qu3bii-ops-swarm/SKILL.md` (58 lines, .md) -- name: qu3bii-ops-swarm
+- `./.agent/skills/qu3bii-orchestrator/AGENTS.md` (155 lines, .md) -- > You are **Qu3bii**, chief brain, executive orchestrator, and strategist of
+- `./.agent/skills/qu3bii-orchestrator/SKILL.md` (62 lines, .md) -- name: qu3bii-orchestrator
+- `./.agent/skills/qu3bii-revenue-swarm/SKILL.md` (63 lines, .md) -- name: qu3bii-revenue-swarm
+- `./.agent/skills/qu3bii-webdev-swarm/SKILL.md` (63 lines, .md) -- name: qu3bii-webdev-swarm
+- `./.agent/skills/rules-check-drift/SKILL.md` (70 lines, .md) -- name: rules-check-drift
+- `./.agent/skills/rules-create-global/SKILL.md` (169 lines, .md) -- name: rules-create-global
+- `./.agent/skills/sandbox-sdk/SKILL.md` (177 lines, .md) -- name: sandbox-sdk
+- `./.agent/skills/sandbox-sdk/references/api-quick-ref.md` (113 lines, .md) -- Detailed API for `@cloudflare/sandbox`. For full docs: https://developers.cloudflare.com/sandbox/api/
+- `./.agent/skills/sandbox-sdk/references/examples.md` (49 lines, .md) -- All examples: https://github.com/cloudflare/sandbox-sdk/tree/main/examples
+- `./.agent/skills/second-brain-audit/SKILL.md` (230 lines, .md) -- name: second-brain-audit
+- `./.agent/skills/second-brain-audit/scripts/audit.py` (400 lines, .py) -- The counting lives here, in code, rather than in the skill's prompt. That is the
+- `./.agent/skills/setup-ai-tutor/SKILL.md` (81 lines, .md) -- name: setup-ai-tutor
+- `./.agent/skills/show-me/SKILL.md` (127 lines, .md) -- name: show-me
+- `./.agent/skills/ski/SKILL.md` (290 lines, .md) -- name: ski
+- `./.agent/skills/ski/heartbeat.py` (150 lines, .py) -- SKI agent liveness + project auto-bind.
+- `./.agent/skills/ski/meeting_tee.py` (124 lines, .py) -- Spawned by the agent INSTEAD of the bridge for agentic meetings:
+- `./.agent/skills/skill-installer/SKILL.md` (58 lines, .md) -- name: skill-installer
+- `./.agent/skills/skill-installer/scripts/github_utils.py` (21 lines, .py) -- from __future__ import annotations
+- `./.agent/skills/skill-installer/scripts/install-skill-from-github.py` (308 lines, .py) -- from __future__ import annotations
+- `./.agent/skills/skill-installer/scripts/list-skills.py` (107 lines, .py) -- from __future__ import annotations
+- `./.agent/skills/skills-create/SKILL.md` (94 lines, .md) -- name: skills-create
+- `./.agent/skills/skills-create/references/creating-skills.md` (76 lines, .md) -- Read `skill-standards.md` first. This is the full create runbook.
+- `./.agent/skills/skills-create/references/refactoring-skills.md` (51 lines, .md) -- Read `skill-standards.md` first. Use this when a `SKILL.md` has grown fat — a long body that loads (and costs
+- `./.agent/skills/skills-create/references/skill-standards.md` (120 lines, .md) -- The rules every skill obeys — create or refactor. This is the shared \"curated context\"; keep it here, not
+- `./.agent/skills/skills-create/references/validation.md` (49 lines, .md) -- Run these after creating or refactoring a skill. Fix failures before declaring done.
+- `./.agent/skills/skills-create/templates/SKILL.template.md` (39 lines, .md) -- name: <skill-name>
+- `./.agent/skills/system-evolution-review/SKILL.md` (192 lines, .md) -- name: system-evolution-review
+- `./.agent/skills/system-execution-report/SKILL.md` (73 lines, .md) -- name: system-execution-report
+- `./.agent/skills/troubleshoot-website/SKILL.md` (104 lines, .md) -- name: troubleshoot-website
+- `./.agent/skills/turnstile-spin/README.md` (50 lines, .md) -- End-to-end setup skill for Cloudflare Turnstile. Loads when an agent is asked to add Turnstile, set up CAPTCHA, or prote
+- `./.agent/skills/turnstile-spin/SKILL.md` (192 lines, .md) -- name: turnstile-spin
+- `./.agent/skills/turnstile-spin/references/astro.md` (105 lines, .md) -- For Astro projects. The widget renders in a page; siteverify lives in an Astro Action, an API route, or a Pages Function
+- `./.agent/skills/turnstile-spin/references/hugo.md` (95 lines, .md) -- For Hugo static sites. The widget renders on any page that includes the partial; siteverify happens at whatever backend 
+- `./.agent/skills/turnstile-spin/references/nextjs-app.md` (138 lines, .md) -- For `app/`-directory Next.js projects. The widget needs to run on the client, so the page or component must be `\"use cl
+- `./.agent/skills/turnstile-spin/references/nextjs-pages.md` (63 lines, .md) -- For older Next.js projects using `pages/` rather than `app/`. The widget renders client-side; siteverify lives in the AP
+- `./.agent/skills/turnstile-spin/references/sveltekit.md` (96 lines, .md) -- For SvelteKit projects. The widget renders in the page; siteverify is called from a SvelteKit form action (or a `+server
+- `./.agent/skills/turnstile-spin/references/vanilla-html.md` (107 lines, .md) -- For static sites or any project without a JS framework. The widget renders client-side; the form submits to whatever bac
+- `./.agent/skills/turnstile-spin/scripts/auth-probe.sh` (73 lines, .sh) -- set -uo pipefail
+- `./.agent/skills/turnstile-spin/scripts/fetch-secret.sh` (67 lines, .sh) -- set -uo pipefail
+- `./.agent/skills/turnstile-spin/scripts/persist-skill.sh` (53 lines, .sh) -- set -uo pipefail
+- `./.agent/skills/turnstile-spin/scripts/validate.sh` (99 lines, .sh) -- set -uo pipefail
+- `./.agent/skills/turnstile-spin/scripts/widget-create.sh` (57 lines, .sh) -- set -uo pipefail
+- `./.agent/skills/turnstile-spin/tests/validation.md` (61 lines, .md) -- These cases match the assertions in the Turnstile Spin PRD. Run them after editing this skill to confirm an agent loadin
+- `./.agent/skills/web-perf/SKILL.md` (201 lines, .md) -- name: web-perf
+- `./.agent/skills/workers-best-practices/SKILL.md` (127 lines, .md) -- name: workers-best-practices
+- `./.agent/skills/workers-best-practices/references/review.md` (174 lines, .md) -- How to review Workers code for type correctness, API usage, config validity, and best practices. This is self-contained 
+- `./.agent/skills/workers-best-practices/references/rules.md` (463 lines, .md) -- Each rule has an imperative summary, what to check, the correct pattern, and an anti-pattern where applicable. Code exam
+- `./.agent/skills/worktree-create/SKILL.md` (69 lines, .md) -- name: worktree-create
+- `./.agent/skills/worktree-create/references/worktree-setup.md` (66 lines, .md) -- A git worktree shares the repository's object store and **tracked** files, but is otherwise a *fresh checkout*. It
+- `./.agent/skills/worktree-merge/SKILL.md` (65 lines, .md) -- name: worktree-merge
+- `./.agent/skills/wrangler/SKILL.md` (922 lines, .md) -- name: wrangler
+- `./.agent/skills/yeet/SKILL.md` (132 lines, .md) -- name: \"yeet\"
+- `./.claude/commands/od-contribute.md` (23 lines, .md) -- description: Open a first-contribution PR (or bug issue) on nexu-io/open-design — works for non-coders too.
+- `./.claude/learning/knowledge-cache.md` (3 lines, .md) -- Add explicit, verified question-and-answer learnings here.
+- `./.claude/learning/patterns.md` (7 lines, .md) -- Generated: 2026-10-09T13:06:16.301Z
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/CHECKLIST.md` (26 lines, .md) -- Connectivity
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/SKILL.md` (18 lines, .md) -- name: tscircuit
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/SYNTAX.md` (229 lines, .md) -- A circuit is typically a default export that returns a `<board />` or a form-factor board component from `@tscircuit/com
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/UPSTREAM.md` (113 lines, .md) -- - Repository: https://github.com/tscircuit/skill
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/UPSTREAM_SKILL.md` (167 lines, .md) -- name: tscircuit
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/WORKFLOW.md` (92 lines, .md) -- - Prefer a standard template when possible (Arduino Shield, Raspberry Pi HAT, etc.)
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/elements/analogsimulation.md` (32 lines, .md) -- Configure and run SPICE simulations for a tscircuit board.
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/elements/battery.md` (24 lines, .md) -- A `<battery />` is a power source that provides electrical energy through electrochemical reactions. Batteries are essen
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/elements/board.md` (23 lines, .md) -- Root element that contains all chips and traces to create a printed circuit board.
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/elements/breakout.md` (68 lines, .md) -- A `<breakout />` is similar to a [`<group />`](./group.md) but is meant for situations where you want to guide the autor
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/elements/breakoutpoint.md` (27 lines, .md) -- A `<breakoutpoint />` defines an explicit location where a connection should exit a [`<breakout />`](./breakout.md). Use
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/elements/cadassembly.md` (39 lines, .md) -- A CAD assembly is a collection of cad models and constraints to \"put together\" a component.
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/elements/cadmodel.md` (31 lines, .md) -- A CAD model is a 3D model of a component that can be used in a CAD assembly.
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/elements/capacitor.md` (28 lines, .md) -- A `<capacitor />` stores electrical energy in an electric field. Capacitors are commonly used for filtering, energy stor
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/elements/chip.md` (44 lines, .md) -- Used to represent virtually any single-part electronic component. Extremely flexible and supports custom footprints and 
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/elements/connector.md` (125 lines, .md) -- A general-purpose connector component for board-to-board, cable, and edge interfaces.
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/elements/constraint.md` (73 lines, .md) -- The `<constraint />` element is used to enforce geometric relationships between different elements in a PCB footprint. C
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/elements/copperpour.md` (34 lines, .md) -- The `<copperpour />` element (also known as a groundplane) fills large areas of a layer with copper tied to a specific n
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/elements/coppertext.md` (28 lines, .md) -- Copper-layer text for labels, logos, and exposed copper markings.
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/elements/courtyardcircle.md` (32 lines, .md) -- Draw circular IPC courtyard markings around footprint features.
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/elements/courtyardoutline.md` (42 lines, .md) -- Draw custom polygon courtyard boundaries for irregular package geometry.
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/elements/courtyardpill.md` (29 lines, .md) -- Pill-shaped courtyard geometry for a custom footprint.
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/elements/courtyardrect.md` (38 lines, .md) -- Draw rectangular IPC courtyard markings around a footprint body.
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/elements/crystal.md` (28 lines, .md) -- A crystal oscillator provides a stable clock signal essential for timing applications and microcontroller operations.
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/elements/currentsource.md` (26 lines, .md) -- Current source component for simulation-oriented circuits.
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/elements/cutout.md` (35 lines, .md) -- Remove material from a board outline to create slots, notches, or other interior shapes.
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/elements/diode.md` (23 lines, .md) -- Diodes are semiconductor devices that allow current to flow primarily in one direction, making them ideal for rectificat
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/elements/fabricationnotedimension.md` (27 lines, .md) -- Dimension callout drawn on the fabrication layer.
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/elements/fabricationnotepath.md` (29 lines, .md) -- Polyline/path annotation on the fabrication layer.
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/elements/fabricationnoterect.md` (40 lines, .md) -- Highlight fabrication callouts and assembly regions with rectangular annotations on the fabrication layer.
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/elements/fabricationnotetext.md` (32 lines, .md) -- The `<fabricationnotetext />` element adds fabrication layer callouts and build notes for assemblers.
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/elements/fiducial.md` (34 lines, .md) -- A reference marker used for optical alignment during automated PCB assembly.
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/elements/footprint.md` (95 lines, .md) -- Used to define the physical layout and connection points for components on a printed circuit board.
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/elements/fuse.md` (28 lines, .md) -- A `<fuse />` is a safety device that protects electrical circuits by interrupting current flow when it exceeds a predete
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/elements/group.md` (29 lines, .md) -- A group is the basic container element that can contain other elements.
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/elements/hole.md` (23 lines, .md) -- Used for mounting and does not have conductive properties.
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/elements/inductor.md` (27 lines, .md) -- An `<inductor />` stores electrical energy in a magnetic field when current flows through it. Inductors are commonly use
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/elements/jumper.md` (23 lines, .md) -- A simple connector that typically uses a pinrow footprint but can be used for custom layouts as well.
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/elements/led.md` (23 lines, .md) -- Light emitting diodes are diodes that emit light when current passes through them. They are commonly used as indicators 
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/elements/mosfet.md` (26 lines, .md) -- A MOSFET or \"metal-oxide-semiconductor field-effect transistor\" is a type of transistor that is used to control the fl
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/elements/mountedboard.md` (26 lines, .md) -- Place one board as a mounted child assembly of another.
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/elements/net.md` (27 lines, .md) -- The `<net />` element represents a bunch of traces that are all connected. You should use nets for representing power bu
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/elements/netalias.md` (25 lines, .md) -- Deprecated schematic net label alias. Prefer `<netlabel />`.
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/elements/netlabel.md` (60 lines, .md) -- The `<netlabel />` element attaches a text label to a net on the schematic. It replaces the old `<netalias />` element.
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/elements/opamp.md` (30 lines, .md) -- Operational amplifier component with standard five-pin aliases.
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/elements/panel.md` (24 lines, .md) -- Manufacturing panel that arranges one or more boards.
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/elements/pcbkeepout.md` (22 lines, .md) -- Keepout region that blocks copper/features in a PCB area.
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/elements/pcbnotedimension.md` (31 lines, .md) -- The `<pcbnotedimension />` element adds dimension annotations to PCBs showing measurements between two points.
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/elements/pcbnoteline.md` (30 lines, .md) -- Draw straight lines on your PCB for annotations, guides, and visual indicators.
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/elements/pcbnotepath.md` (31 lines, .md) -- Draw complex paths and polylines on your PCB using multiple connected points.
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/elements/pcbnoterect.md` (30 lines, .md) -- Draw rectangles on your PCB to highlight areas, create visual boundaries, and organize board sections.
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/elements/pcbnotetext.md` (29 lines, .md) -- Add text annotations and labels to your PCB layout.
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/elements/pcbtrace.md` (30 lines, .md) -- Explicit low-level PCB trace geometry.
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/elements/pinheader.md` (34 lines, .md) -- The `<pinheader />` element is used to create a male or female pin header with configurable spacing and number of pins.
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/elements/pinout.md` (26 lines, .md) -- Chip-style element used to generate or document pinouts.
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/elements/platedhole.md` (34 lines, .md) -- The `<platedhole />` element is used to represent a plated through hole on a PCB.
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/elements/port.md` (38 lines, .md) -- Define connection points within custom schematic symbols.
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/elements/potentiometer.md` (27 lines, .md) -- A potentiometer is a three-terminal resistor with a sliding or rotating contact that forms an adjustable voltage divider
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/elements/pushbutton.md` (26 lines, .md) -- Pushbuttons a common type of switch normally open momentary switch. They are commonly used as a reset or pairing button.
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/elements/resistor.md` (27 lines, .md) -- A `<resistor />` is an extremely common element of electronic designs. It limits the flow of electricity and is critical
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/elements/resonator.md` (28 lines, .md) -- Provides a stable frequency reference for circuits, often used in clock or timing applications.
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/elements/schematicarc.md` (39 lines, .md) -- Draw circular arcs within custom schematic symbols.
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/elements/schematicbox.md` (22 lines, .md) -- Schematic-space box for grouping or callouts.
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/elements/schematiccell.md` (26 lines, .md) -- A single cell inside `<schematictable />`.
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/elements/schematiccircle.md` (36 lines, .md) -- Draw circles within custom schematic symbols.
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/elements/schematicline.md` (39 lines, .md) -- Draw straight lines within custom schematic symbols.
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/elements/schematicpath.md` (40 lines, .md) -- Draw connected line segments within custom schematic symbols.
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/elements/schematicrect.md` (38 lines, .md) -- Draw rectangles and boxes within custom schematic symbols.
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/elements/schematicrow.md` (26 lines, .md) -- A row inside `<schematictable />`.
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/elements/schematicsection.md` (91 lines, .md) -- Groups components into a named section on the schematic (e.g. \"Power\", \"Digital\").
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/elements/schematictable.md` (48 lines, .md) -- Draw tables within schematics.
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/elements/schematictext.md` (23 lines, .md) -- The `<schematictext />` element places text directly on the schematic.
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/elements/silkscreencircle.md` (27 lines, .md) -- Silkscreen circles are often used to indicate \"pin1\" on a chip.
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/elements/silkscreenline.md` (31 lines, .md) -- The `<silkscreenline />` element creates a line on the silkscreen layer within a footprint.
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/elements/silkscreenpath.md` (70 lines, .md) -- The `<silkscreenpath />` element is used to define a custom drawn path on the silkscreen layer.
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/elements/silkscreenrect.md` (25 lines, .md) -- Silkscreen rectangles can be used to encapsulate a rectangular area around a chip.
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/elements/silkscreentext.md` (23 lines, .md) -- The `<silkscreentext />` element is used to add text to the silkscreen layer within a PCB footprint.
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/elements/smtpad.md` (35 lines, .md) -- The `<smtpad />` element is used to represent a surface mount pad.
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/elements/solderjumper.md` (21 lines, .md) -- Small pads that can be cut or bridged with solder for configuration options.
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/elements/subcircuit.md` (29 lines, .md) -- A `<subcircuit />` is a powerful organizational element in tscircuit that represents a collection of elements that are t
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/elements/subpanel.md` (26 lines, .md) -- Nested grouping inside a manufacturing `<panel />`.
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/elements/switch.md` (21 lines, .md) -- A switch is a mechanical device that can be used to connect or disconnect a circuit.
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/elements/symbol.md` (54 lines, .md) -- Used to define custom schematic representations for chips using primitive drawing components like rectangles, circles, l
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/elements/testpoint.md` (26 lines, .md) -- A `<testpoint />` is a designated location on a PCB that provides easy access for testing, debugging, and measuring elec
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/elements/trace.md` (28 lines, .md) -- The `<trace />` element represents an electrical connection between two or more points in your circuit. Traces can conne
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/elements/tracehint.md` (24 lines, .md) -- Autorouter hint that nudges a trace through preferred points.
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/elements/transistor.md` (25 lines, .md) -- A transistor is a three-terminal semiconductor device that can amplify or switch electronic signals. It is a fundamental
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/elements/via.md` (30 lines, .md) -- A via is a plated hole that connects different layers of a PCB. Vias are commonly used to route traces between layers an
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/elements/voltageprobe.md` (36 lines, .md) -- Measure voltages at specific nodes during SPICE simulation.
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/elements/voltagesource.md` (36 lines, .md) -- Add a voltage source for SPICE simulations and schematic power inputs.
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/templates/arduino-shield-led.tsx` (14 lines, .tsx) -- import React from \"react\"
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/templates/chip-with-pinouts.tsx` (65 lines, .tsx) -- import type { ChipProps } from \"tscircuit\"
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/templates/group-layout.tsx` (13 lines, .tsx) -- import React from \"react\"
+- `./.claude/plugins/.nimbalyst-generated/electronics/skills/tscircuit/templates/minimal-board.tsx` (13 lines, .tsx) -- import React from \"react\"
+- `./.claude/skills/file-style-conventions/SKILL.md` (75 lines, .md) -- name: file-style-conventions
+- `./.claude/skills/od-contribute/SKILL.md` (320 lines, .md) -- name: od-contribute
+- `./.claude/skills/od-contribute/install.sh` (136 lines, .sh) -- set -euo pipefail
+- `./.claude/skills/od-contribute/references/design-system-anatomy.md` (51 lines, .md) -- Reference for the `od-contribute` skill's `validate-design-system.sh` step.
+- `./.claude/skills/od-contribute/references/newcomer-tone.md` (42 lines, .md) -- Per user feedback ([[feedback_outreach_minimal]]), keep it minimal. The PR body is the **only** place we get to shape th
+- `./.claude/skills/od-contribute/references/od-repo-map.md` (38 lines, .md) -- Mirrors `nexu-io/open-design` `CONTRIBUTING.md` so the skill doesn't need to re-fetch it on every run. **If this drifts 
+- `./.claude/skills/od-contribute/references/skill-anatomy.md` (53 lines, .md) -- Reference for the `od-contribute` skill's `validate-skill-submission.sh` step and for guiding a user through assembling 
+- `./.claude/skills/od-contribute/scripts/check-prereqs.sh` (121 lines, .sh) -- set -uo pipefail
+- `./.claude/skills/od-contribute/scripts/config.sh` (66 lines, .sh) -- set -euo pipefail
+- `./.claude/skills/od-contribute/scripts/create-issue.sh` (100 lines, .sh) -- set -euo pipefail
+- `./.claude/skills/od-contribute/scripts/create-pr.sh` (116 lines, .sh) -- set -euo pipefail
+- `./.claude/skills/od-contribute/scripts/discover-doc-gaps.sh` (118 lines, .sh) -- set -uo pipefail
+- `./.claude/skills/od-contribute/scripts/discover-i18n-gaps.sh` (114 lines, .sh) -- set -euo pipefail
+- `./.claude/skills/od-contribute/scripts/setup-workspace.sh` (92 lines, .sh) -- set -euo pipefail
+- `./.claude/skills/od-contribute/scripts/validate-design-system.sh` (97 lines, .sh) -- set -uo pipefail
+- `./.claude/skills/od-contribute/scripts/validate-markdown.sh` (205 lines, .sh) -- set -uo pipefail
+- `./.claude/skills/od-contribute/scripts/validate-skill-submission.sh` (138 lines, .sh) -- set -uo pipefail
+- `./.claude/skills/od-contribute/templates/ISSUE-BODY-bug.md` (37 lines, .md) -- {{WHAT_HAPPENED}}
+- `./.claude/skills/od-contribute/templates/PR-BODY-design-system.md` (37 lines, .md) -- A new Design System — **{{BRAND_NAME}}** — at `design-systems/{{BRAND_SLUG}}/DESIGN.md`.
+- `./.claude/skills/od-contribute/templates/PR-BODY-docs.md` (32 lines, .md) -- {{ONE_LINE_SUMMARY}}
+- `./.claude/skills/od-contribute/templates/PR-BODY-i18n.md` (41 lines, .md) -- - New file: `{{TRANSLATED_PATH}}`
+- `./.claude/skills/od-contribute/templates/PR-BODY-skill.md` (37 lines, .md) -- A new Skill — **{{SKILL_NAME}}** — at `skills/{{SKILL_SLUG}}/`.
+- `./.claude/skills/self-learning/SKILL.md` (212 lines, .md) -- name: self-learning
+- `./.claude/skills/skill-creator/SKILL.md` (681 lines, .md) -- name: skill-creator
+- `./.claude/skills/skill-creator/references/writing-effective-descriptions.md` (45 lines, .md) -- The `description` field in YAML frontmatter is critical—it determines when Claude will automatically use your skill.
+- `./.claude/skills/skill-feedback-adaptation/SKILL.md` (201 lines, .md) -- name: skill-feedback-adaptation
+- `./.claude/skills/skill-official-updater/SKILL.md` (148 lines, .md) -- name: skill-official-updater
+- `./.claude/skills/skill-usage-insights/SKILL.md` (118 lines, .md) -- name: skill-usage-insights
+- `./.cursor/skills/file-style-conventions/SKILL.md` (75 lines, .md) -- name: file-style-conventions
+- `./.cursor/skills/self-learning/SKILL.md` (212 lines, .md) -- name: self-learning
+- `./.cursor/skills/skill-creator/SKILL.md` (681 lines, .md) -- name: skill-creator
+- `./.cursor/skills/skill-creator/references/writing-effective-descriptions.md` (45 lines, .md) -- The `description` field in YAML frontmatter is critical—it determines when Claude will automatically use your skill.
+- `./.cursor/skills/skill-feedback-adaptation/SKILL.md` (201 lines, .md) -- name: skill-feedback-adaptation
+- `./.cursor/skills/skill-official-updater/SKILL.md` (148 lines, .md) -- name: skill-official-updater
+- `./.cursor/skills/skill-usage-insights/SKILL.md` (118 lines, .md) -- name: skill-usage-insights
+- `./.github/AGENTS.md` (213 lines, .md) -- This directory is still only partially standardized. Several historical workflows and helper locations do not yet follow
+- `./.github/copilot-instructions.md` (22 lines, .md) -- This repository deploys **native GitHub Copilot instructions** under `.github/instructions/*.instructions.md`.
+- `./.github/instructions/file-style-conventions.instructions.md` (74 lines, .md) -- name: \"file-style-conventions\"
+- `./.github/instructions/self-learning.instructions.md` (211 lines, .md) -- name: \"self-learning\"
+- `./.github/instructions/skill-creator.instructions.md` (687 lines, .md) -- name: \"skill-creator\"
+- `./.github/instructions/skill-feedback-adaptation.instructions.md` (203 lines, .md) -- name: \"skill-feedback-adaptation\"
+- `./.github/instructions/skill-official-updater.instructions.md` (147 lines, .md) -- name: \"skill-official-updater\"
+- `./.github/instructions/skill-usage-insights.instructions.md` (121 lines, .md) -- name: \"skill-usage-insights\"
+- `./.github/pull_request_template.md` (70 lines, .md) -- <!-- Required for issue/PR auto-link. Use Fixes / Closes / Resolves so the
+- `./.github/scripts/agent-pr-explore-local.sh` (105 lines, .sh) -- set -euo pipefail
+- `./.github/scripts/agent-pr-explore-sandbox.sh` (1510 lines, .sh) -- set -euo pipefail
+- `./.github/scripts/convergence.py` (2260 lines, .py) -- from __future__ import annotations
+- `./.github/scripts/dsh-upstream-drift.ts` (457 lines, .ts) -- import { createHmac } from \"node:crypto\";
+- `./.github/scripts/handoff.py` (509 lines, .py) -- from __future__ import annotations
+- `./.github/scripts/lib/config.py` (55 lines, .py) -- import json
+- `./.github/scripts/lib/feishu/client.ts` (105 lines, .ts) -- import { createHmac } from \"node:crypto\";
+- `./.github/scripts/lib/feishu/release.ts` (461 lines, .ts) -- import type { FeishuCard } from \"./client.ts\";
+- `./.github/scripts/lib/github.py` (177 lines, .py) -- from __future__ import annotations
+- `./.github/scripts/lib/http.ts` (180 lines, .ts) -- type GitHubJobStep = {
+- `./.github/scripts/lib/postinstall_plan.py` (123 lines, .py) -- The Plan describes the delivered state. Invocation IDs, concurrency and cache
+- `./.github/scripts/lib/r2.py` (224 lines, .py) -- from __future__ import annotations
+- `./.github/scripts/lib/workload_products.py` (62 lines, .py) -- See docs/ci/workload-products.md for the producer and consumer contract.
+- `./.github/scripts/pack.py` (387 lines, .py) -- from __future__ import annotations
+- `./.github/scripts/postinstall.py` (231 lines, .py) -- from __future__ import annotations
+- `./.github/scripts/provision-agent-pr-explore-runner.sh` (209 lines, .sh) -- set -uo pipefail
+- `./.github/scripts/publish_whats_new.py` (322 lines, .py) -- The daemon reads one hosted JSON document and resolves anything malformed to
+- `./.github/scripts/r2.ts` (140 lines, .ts) -- import { spawnSync } from 'node:child_process';
+- `./.github/scripts/release.py` (348 lines, .py) -- from __future__ import annotations
+- `./.github/scripts/release/assets/linux.sh` (28 lines, .sh) -- set -euo pipefail
+- `./.github/scripts/release/assets/mac-intel.sh` (37 lines, .sh) -- set -euo pipefail
+- `./.github/scripts/release/assets/mac.sh` (74 lines, .sh) -- set -euo pipefail
+- `./.github/scripts/release/build-mac.sh` (325 lines, .sh) -- set -euo pipefail
+- `./.github/scripts/release/cache/mac.sh` (74 lines, .sh) -- set -euo pipefail
+- `./.github/scripts/release/dispatch-validation.sh` (54 lines, .sh) -- set -euo pipefail
+- `./.github/scripts/release/github/cleanup-artifacts.sh` (63 lines, .sh) -- set -euo pipefail
+- `./.github/scripts/release/github/stable-notes.sh` (35 lines, .sh) -- set -euo pipefail
+- `./.github/scripts/release/installed_acceptance.py` (61 lines, .py) -- import argparse
+- `./.github/scripts/release/report/mac.sh` (91 lines, .sh) -- set -euo pipefail
+- `./.github/scripts/release/report/report-json.ts` (182 lines, .ts) -- import { existsSync, mkdirSync, readdirSync, readFileSync, statSync, writeFileSync } from \"node:fs\";
+- `./.github/scripts/release/resolve-daily-beta-recovery.ts` (116 lines, .ts) -- import { appendFileSync, readFileSync } from \"node:fs\";
+- `./.github/scripts/release/resolve-patch-cut.ts` (193 lines, .ts) -- import { execFileSync } from \"node:child_process\";
+- `./.github/scripts/release/smoke-artifacts.ts` (220 lines, .ts) -- import { createHash } from \"node:crypto\";
+- `./.github/scripts/release/stable-docker.py` (345 lines, .py) -- The workflow owns transport (curl/docker). This helper owns the fail-closed
+- `./.github/scripts/release_notice.ts` (51 lines, .ts) -- import {
+- `./.github/scripts/release_notification.ts` (65 lines, .ts) -- import { appendFileSync } from \"node:fs\";
+- `./.github/scripts/rerun_infra_cancel.py` (1476 lines, .py) -- This is the decision + action helper for `.github/workflows/rerun.atom.yml`.
+- `./.github/scripts/runners.py` (108 lines, .py) -- import os
+- `./.github/scripts/scopes.py` (405 lines, .py) -- import argparse
+- `./.github/scripts/template.py` (112 lines, .py) -- from __future__ import annotations
+- `./.github/scripts/workspace.py` (56 lines, .py) -- import hashlib
+- `./.github/templates/merge-queue/ci-failure-with-excerpt.md` (17 lines, .md) -- <!-- merge-queue-ci-failure -->
+- `./.github/templates/merge-queue/ci-failure.md` (12 lines, .md) -- <!-- merge-queue-ci-failure -->
+- `./.github/templates/merge-queue/needs-maintainer-check.md` (6 lines, .md) -- <!-- merge-queue-needs-maintainer-check -->
+- `./.github/templates/merge-queue/needs-validation.md` (6 lines, .md) -- <!-- merge-queue-needs-validation -->
+- `./.kiro/skills/file-style-conventions/SKILL.md` (75 lines, .md) -- name: file-style-conventions
+- `./.kiro/skills/self-learning/SKILL.md` (212 lines, .md) -- name: self-learning
+- `./.kiro/skills/skill-creator/SKILL.md` (681 lines, .md) -- name: skill-creator
+- `./.kiro/skills/skill-creator/references/writing-effective-descriptions.md` (45 lines, .md) -- The `description` field in YAML frontmatter is critical—it determines when Claude will automatically use your skill.
+- `./.kiro/skills/skill-feedback-adaptation/SKILL.md` (201 lines, .md) -- name: skill-feedback-adaptation
+- `./.kiro/skills/skill-official-updater/SKILL.md` (148 lines, .md) -- name: skill-official-updater
+- `./.kiro/skills/skill-usage-insights/SKILL.md` (118 lines, .md) -- name: skill-usage-insights
+- `./AGENTS.md` (630 lines, .md) -- ijfw_version: 1.3.2
+- `./CHANGELOG.md` (1904 lines, .md) -- All notable changes to this project are documented here.
+- `./CLAUDE.md` (41 lines, .md) -- This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+- `./CONTEXT.md` (107 lines, .md) -- OpenDesign is a local-first design workspace where projects contain generated design files and agent conversations. This
+- `./CONTRIBUTING.md` (332 lines, .md) -- Thanks for thinking about contributing. OD is small on purpose — most of the value lives in **files** (skills, design 
+- `./MAINTAINERS.md` (243 lines, .md) -- <p align=\"center\"><b>English</b> · <a href=\"docs/i18n/MAINTAINERS.pt-BR.md\">Português (Brasil)</a> · <a href=\"do
+- `./PRIVACY.md` (131 lines, .md) -- This page describes what data the OpenDesign desktop and web app collects,
+- `./QUICKSTART.md` (357 lines, .md) -- <p align=\"center\"><b>English</b> · <a href=\"docs/i18n/QUICKSTART.pt-BR.md\">Português (Brasil)</a> · <a href=\"doc
+- `./README.md` (755 lines, .md) -- <h1 align=\"center\">OpenDesign: The First Collaborative Design Agent Workspace</h1>
+- `./RELEASE-NOTES-0.10.0.md` (93 lines, .md) -- 🎨 **`141 PRs` · `50 contributors` · `2 days`** — **The all-in-one Agentic design workspace.** 0.9.0 put the AI en
+- `./TRANSLATIONS.md` (843 lines, .md) -- > **Quick start for contributors:** This guide helps you add a new language translation to OpenDesign in ~2 hours instea
+- `./apps/AGENTS.md` (60 lines, .md) -- Follow the root `AGENTS.md` first. This file only records module-level boundaries for `apps/`.
+- `./apps/closure/AGENTS.md` (10 lines, .md) -- This app owns OpenDesign Closure content and its distribution contribution.
+- `./apps/closure/esbuild.config.ts` (12 lines, .ts) -- import { build } from \"esbuild\";
+- `./apps/closure/src/fixture.ts` (12 lines, .ts) -- export const closureFixture = Object.freeze({
+- `./apps/closure/src/index.ts` (71 lines, .ts) -- import {
+- `./apps/closure/tests/closure.test.ts` (73 lines, .ts) -- import { describe, expect, it } from \"vitest\";
+- `./apps/daemon/AGENTS.md` (154 lines, .md) -- Follow the root `AGENTS.md` and `apps/AGENTS.md` first. This file records daemon-specific code organization and editing 
+- `./apps/daemon/DIAGNOSTICS.md` (127 lines, .md) -- The daemon observes Run errors, failed terminal fallbacks, automatic/model retries,
+- `./apps/daemon/src/agent-companion-setup.ts` (255 lines, .ts) -- import { createHash } from 'node:crypto';
+- `./apps/daemon/src/agent-protocol/README.md` (112 lines, .md) -- Daemon module providing the ACP and pi RPC subprocess protocol adapters used to drive external AI agent CLIs from the Op
+- `./apps/daemon/src/agent-protocol/acp/constants.ts` (60 lines, .ts) -- export const ACP_PROTOCOL_VERSION = 1;
+- `./apps/daemon/src/agent-protocol/acp/emission-provenance.ts` (24 lines, .ts) -- export interface AcpEmissionMeta {
+- `./apps/daemon/src/agent-protocol/acp/index.ts` (10 lines, .ts) -- export { type AcpMcpServerInput, buildAcpSessionNewParams } from './session-params.js';
+- `./apps/daemon/src/agent-protocol/acp/json.ts` (147 lines, .ts) -- import type { JsonObject } from './types.js';
+- `./apps/daemon/src/agent-protocol/acp/models.ts` (324 lines, .ts) -- import { spawn } from 'node:child_process';
+- `./apps/daemon/src/agent-protocol/acp/rpc.ts` (337 lines, .ts) -- import type { JsonRpcId, RpcWritable } from './types.js';
+- `./apps/daemon/src/agent-protocol/acp/session-params.ts` (107 lines, .ts) -- import path from 'node:path';
+- `./apps/daemon/src/agent-protocol/acp/session.ts` (1611 lines, .ts) -- import path from 'node:path';
+- `./apps/daemon/src/agent-protocol/acp/stdio-mcp.ts` (163 lines, .ts) -- interface VersionCore {
+- `./apps/daemon/src/agent-protocol/acp/tool-execution-lifecycle.ts` (343 lines, .ts) -- import { constants as osConstants } from 'node:os';
+- `./apps/daemon/src/agent-protocol/acp/types.ts` (18 lines, .ts) -- import type { Writable } from 'node:stream';
+- `./apps/daemon/src/agent-protocol/acp/updates.ts` (837 lines, .ts) -- import { isTodoWriteToolName } from '@open-design/contracts';
+- `./apps/daemon/src/agent-protocol/codex-app-server/cleanup-owner.ts` (78 lines, .ts) -- import type { ChildProcess } from 'node:child_process';
+- `./apps/daemon/src/agent-protocol/codex-app-server/normalize.ts` (709 lines, .ts) -- import { createCodexTurnUsage } from '../../observability/codex-turn-usage.js';
+- `./apps/daemon/src/agent-protocol/codex-app-server/session.ts` (508 lines, .ts) -- import { createCodexAppServerNormalizer } from './normalize.js';
+- `./apps/daemon/src/agent-protocol/codex-app-server/thread-cleanup.ts` (249 lines, .ts) -- import { spawn } from 'node:child_process';
+- `./apps/daemon/src/agent-protocol/core/index.ts` (5 lines, .ts) -- export { createJsonLineStream } from './json-line-stream.js';
+- `./apps/daemon/src/agent-protocol/core/json-line-stream.ts` (319 lines, .ts) -- export function createJsonLineStream(onMessage: (message: unknown, rawLine: string) => void) {
+- `./apps/daemon/src/agent-protocol/dsh-profile/frames.ts` (172 lines, .ts) -- import {
+- `./apps/daemon/src/agent-protocol/dsh-profile/index.ts` (9 lines, .ts) -- export * from './types.js';
+- `./apps/daemon/src/agent-protocol/dsh-profile/probe.ts` (89 lines, .ts) -- import { parseDshProfileRuntimeFrame } from './frames.js';
+- `./apps/daemon/src/agent-protocol/dsh-profile/session.ts` (295 lines, .ts) -- import type { ChildProcess } from 'node:child_process';
+- `./apps/daemon/src/agent-protocol/dsh-profile/stream.ts` (107 lines, .ts) -- import { StringDecoder } from 'node:string_decoder';
+- `./apps/daemon/src/agent-protocol/dsh-profile/types.ts` (179 lines, .ts) -- export const DSH_PROFILE_PROTOCOL_VERSION = 1 as const;
+- `./apps/daemon/src/agent-protocol/index.ts` (15 lines, .ts) -- export { createJsonLineStream } from './core/index.js';
+- `./apps/daemon/src/agent-protocol/pi-rpc/events.ts` (201 lines, .ts) -- import type { JsonRecord, SendAgentEvent, TokenUsage } from './internal.js';
+- `./apps/daemon/src/agent-protocol/pi-rpc/index.ts` (8 lines, .ts) -- export { mapPiRpcEvent } from './events.js';
+- `./apps/daemon/src/agent-protocol/pi-rpc/internal.ts` (53 lines, .ts) -- export type JsonRecord = Record<string, unknown>;
+- `./apps/daemon/src/agent-protocol/pi-rpc/models.ts` (47 lines, .ts) -- export type PiModelOption = { id: string; label: string };
+- `./apps/daemon/src/agent-protocol/pi-rpc/session.ts` (414 lines, .ts) -- import fs from 'node:fs';
+- `./apps/daemon/src/agent-session-resume.ts` (528 lines, .ts) -- import { createHash, randomUUID } from 'node:crypto';
+- `./apps/daemon/src/agents.ts` (32 lines, .ts) -- export {
+- `./apps/daemon/src/amr-stderr-filter.ts` (73 lines, .ts) -- function isAmrOpenCodeBootstrapStderrLine(line: string): boolean {
+- `./apps/daemon/src/analytics.ts` (570 lines, .ts) -- import crypto from 'node:crypto';
+- `./apps/daemon/src/api-token-auth.ts` (61 lines, .ts) -- import { timingSafeEqual } from 'node:crypto';
+- `./apps/daemon/src/app-config.ts` (1004 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/daemon/src/app-version.ts` (172 lines, .ts) -- import { readFile, stat } from 'node:fs/promises';
+- `./apps/daemon/src/artifact-focus-marker.ts` (376 lines, .ts) -- import fs from 'node:fs';
+- `./apps/daemon/src/artifacts-cli.ts` (152 lines, .ts) -- import { readFile } from 'node:fs/promises';
+- `./apps/daemon/src/artifacts/create.ts` (121 lines, .ts) -- import { Buffer } from 'node:buffer';
+- `./apps/daemon/src/artifacts/deliverable-syntax-finalization.ts` (303 lines, .ts) -- import {
+- `./apps/daemon/src/artifacts/deliverable-syntax-metrics.ts` (112 lines, .ts) -- import {
+- `./apps/daemon/src/artifacts/deliverable-syntax-quotes.ts` (185 lines, .ts) -- import type { DeliverableSyntaxSafeFixRule } from '@open-design/contracts';
+- `./apps/daemon/src/artifacts/deliverable-syntax-repair.ts` (103 lines, .ts) -- import {
+- `./apps/daemon/src/artifacts/deliverable-syntax-safe-fix.ts` (460 lines, .ts) -- import {
+- `./apps/daemon/src/artifacts/deliverable-syntax.ts` (593 lines, .ts) -- import { createHash } from 'node:crypto';
+- `./apps/daemon/src/artifacts/linked-page-delivery.ts` (85 lines, .ts) -- import fs from 'node:fs/promises';
+- `./apps/daemon/src/artifacts/manifest.ts` (308 lines, .ts) -- import path from 'node:path';
+- `./apps/daemon/src/artifacts/publication-guard.ts` (89 lines, .ts) -- import { Buffer } from 'node:buffer';
+- `./apps/daemon/src/artifacts/runtime-compat.ts` (53 lines, .ts) -- import { Buffer } from 'node:buffer';
+- `./apps/daemon/src/artifacts/standalone-html.ts` (1390 lines, .ts) -- import { parse } from '@babel/parser';
+- `./apps/daemon/src/artifacts/stub-guard.ts` (304 lines, .ts) -- import type { Dirent } from 'node:fs';
+- `./apps/daemon/src/artifacts/successful-run-deliverable-finalization.ts` (91 lines, .ts) -- import type {
+- `./apps/daemon/src/artifacts/text-suppression.ts` (354 lines, .ts) -- type EventSink = (event: { type: 'text_delta'; delta: string }) => void;
+- `./apps/daemon/src/automation-ingestions.ts` (545 lines, .ts) -- import { randomUUID } from 'node:crypto';
+- `./apps/daemon/src/automation-proposals.ts` (344 lines, .ts) -- import { randomUUID } from 'node:crypto';
+- `./apps/daemon/src/automation-routine-evolution.ts` (116 lines, .ts) -- import type { RoutineRunStatus, RoutineRunTrigger } from './routines.js';
+- `./apps/daemon/src/automation-templates.ts` (336 lines, .ts) -- import { promises as fsp } from 'node:fs';
+- `./apps/daemon/src/automations/workspace-scope.ts` (71 lines, .ts) -- export interface PersistedAutomationWorkspaceScope {
+- `./apps/daemon/src/brand-routes.ts` (980 lines, .ts) -- import fs from 'node:fs';
+- `./apps/daemon/src/brands/design-md-input.ts` (387 lines, .ts) -- import type { Brand, BrandColor, BrandColorRole, BrandFontSpec } from '@open-design/contracts';
+- `./apps/daemon/src/brands/design-md.ts` (182 lines, .ts) -- import type { Brand, BrandColor, BrandFontSpec } from '@open-design/contracts';
+- `./apps/daemon/src/brands/engine/README.md` (138 lines, .md) -- An Ant-Design-style brand engine: a brand collapses into a tiny **Seed**
+- `./apps/daemon/src/brands/engine/artifacts/_shared.ts` (380 lines, .ts) -- import {
+- `./apps/daemon/src/brands/engine/artifacts/deck.ts` (642 lines, .ts) -- import type { Brand } from \"../../schema.js\";
+- `./apps/daemon/src/brands/engine/artifacts/email.ts` (407 lines, .ts) -- import type { Brand } from \"../../schema.js\";
+- `./apps/daemon/src/brands/engine/artifacts/form.ts` (404 lines, .ts) -- import { button } from \"../kit.js\";
+- `./apps/daemon/src/brands/engine/artifacts/generic.ts` (35 lines, .ts) -- import { button, card, tag } from \"../kit.js\";
+- `./apps/daemon/src/brands/engine/artifacts/index.ts` (130 lines, .ts) -- import type { Brand, AssetKind } from \"../../schema.js\";
+- `./apps/daemon/src/brands/engine/artifacts/landing.ts` (711 lines, .ts) -- import { button, tag, accordion, testimonial, pricingCard } from \"../kit.js\";
+- `./apps/daemon/src/brands/engine/artifacts/newsletter.ts` (239 lines, .ts) -- import { button } from \"../kit.js\";
+- `./apps/daemon/src/brands/engine/artifacts/poster.ts` (359 lines, .ts) -- import type { Brand } from \"../../schema.js\";
+- `./apps/daemon/src/brands/engine/build.ts` (496 lines, .ts) -- import fs from \"node:fs\";
+- `./apps/daemon/src/brands/engine/derive.ts` (475 lines, .ts) -- import { generate, presets } from \"./palette.js\";
+- `./apps/daemon/src/brands/engine/export.ts` (71 lines, .ts) -- import {
+- `./apps/daemon/src/brands/engine/index.ts` (50 lines, .ts) -- export type {
+- `./apps/daemon/src/brands/engine/kit.ts` (1231 lines, .ts) -- import { type DesignTokens, flattenTokens, varRef } from \"./types.js\";
+- `./apps/daemon/src/brands/engine/palette.ts` (259 lines, .ts) -- const hueStep = 2; // 色相阶梯
+- `./apps/daemon/src/brands/engine/seed.ts` (335 lines, .ts) -- import { isRenderableFontFamily, type SeedToken } from \"./types.js\";
+- `./apps/daemon/src/brands/engine/types.ts` (262 lines, .ts) -- export interface SeedToken {
+- `./apps/daemon/src/brands/fonts.ts` (327 lines, .ts) -- import fs from \"node:fs\";
+- `./apps/daemon/src/brands/imagery-fallback.ts` (514 lines, .ts) -- import { createHash } from 'node:crypto';
+- `./apps/daemon/src/brands/index.ts` (2327 lines, .ts) -- import fs from 'node:fs';
+- `./apps/daemon/src/brands/kit-i18n.ts` (236 lines, .ts) -- export type BrandKitLocale = 'en' | 'zh-CN' | 'zh-TW';
+- `./apps/daemon/src/brands/kit-render.ts` (222 lines, .ts) -- import fs from 'node:fs';
+- `./apps/daemon/src/brands/logo-fallback.ts` (337 lines, .ts) -- import fs from 'node:fs';
+- `./apps/daemon/src/brands/memory.ts` (228 lines, .ts) -- import type { Brand } from '@open-design/contracts';
+- `./apps/daemon/src/brands/prefetch.ts` (1063 lines, .ts) -- import fs from \"node:fs\";
+- `./apps/daemon/src/brands/provisional.ts` (170 lines, .ts) -- import type { Brand, BrandColor } from '@open-design/contracts';
+- `./apps/daemon/src/brands/safe-fetch.ts` (173 lines, .ts) -- import { promises as dnsPromises, lookup as dnsLookupCb } from 'node:dns';
+- `./apps/daemon/src/brands/schema.ts` (48 lines, .ts) -- import type {
+- `./apps/daemon/src/brands/seed-fallback.ts` (373 lines, .ts) -- import type { BrandColor, BrandColorRole, BrandFontSpec } from '@open-design/contracts';
+- `./apps/daemon/src/brands/seed.ts` (266 lines, .ts) -- import type { PrefetchResult } from './prefetch.js';
+- `./apps/daemon/src/brands/store.ts` (235 lines, .ts) -- import { randomBytes } from 'node:crypto';
+- `./apps/daemon/src/brands/system.ts` (184 lines, .ts) -- import fs from 'node:fs';
+- `./apps/daemon/src/brands/validate.ts` (152 lines, .ts) -- import {
+- `./apps/daemon/src/browser-sessions.ts` (178 lines, .ts) -- import { spawn, type ChildProcess } from 'node:child_process';
+- `./apps/daemon/src/browser/browser-open.ts` (78 lines, .ts) -- import { spawn as nodeSpawn } from 'node:child_process';
+- `./apps/daemon/src/browser/browser-use-diagnostics.ts` (118 lines, .ts) -- import fs from 'node:fs';
+- `./apps/daemon/src/browser/index.ts` (11 lines, .ts) -- export * from './browser-open.js';
+- `./apps/daemon/src/byok-tools.ts` (1693 lines, .ts) -- import path from 'node:path';
+- `./apps/daemon/src/chat-artifacts/blob-store.ts` (309 lines, .ts) -- import { createHash, randomUUID } from 'node:crypto';
+- `./apps/daemon/src/chat-artifacts/capture.ts` (498 lines, .ts) -- import type Database from 'better-sqlite3';
+- `./apps/daemon/src/chat-artifacts/cover.ts` (566 lines, .ts) -- import fs from 'node:fs';
+- `./apps/daemon/src/chat-artifacts/gc.ts` (169 lines, .ts) -- import type Database from 'better-sqlite3';
+- `./apps/daemon/src/chat-artifacts/maintenance.ts` (211 lines, .ts) -- import type Database from 'better-sqlite3';
+- `./apps/daemon/src/chat-artifacts/mime.ts` (19 lines, .ts) -- import { kindFor, mimeFor } from '../projects.js';
+- `./apps/daemon/src/chat-artifacts/policy.ts` (85 lines, .ts) -- import type { ChatArtifactDisplayPolicy } from './types.js';
+- `./apps/daemon/src/chat-artifacts/quota.ts` (97 lines, .ts) -- import type Database from 'better-sqlite3';
+- `./apps/daemon/src/chat-artifacts/reconcile.ts` (293 lines, .ts) -- import type Database from 'better-sqlite3';
+- `./apps/daemon/src/chat-artifacts/refs.ts` (104 lines, .ts) -- import type Database from 'better-sqlite3';
+- `./apps/daemon/src/chat-artifacts/run-capture.ts` (341 lines, .ts) -- import path from 'node:path';
+- `./apps/daemon/src/chat-artifacts/store.ts` (741 lines, .ts) -- import type Database from 'better-sqlite3';
+- `./apps/daemon/src/chat-artifacts/telemetry.ts` (54 lines, .ts) -- import type { ChatArtifactCaptureResultProps } from '@open-design/contracts';
+- `./apps/daemon/src/chat-artifacts/types.ts` (118 lines, .ts) -- import type { ChatArtifactSnapshotState as ContractChatArtifactSnapshotState } from '@open-design/contracts';
+- `./apps/daemon/src/chat-artifacts/video-cover.ts` (215 lines, .ts) -- import fs from 'node:fs';
+- `./apps/daemon/src/claude-diagnostics.ts` (261 lines, .ts) -- import path from 'node:path';
+- `./apps/daemon/src/cli-help/brands-cli-help.ts` (43 lines, .ts) -- export const BRAND_USAGE = `Usage:
+- `./apps/daemon/src/cli-help/design-systems-cli-help.ts` (25 lines, .ts) -- export const DESIGN_SYSTEMS_USAGE = `Usage:
+- `./apps/daemon/src/cli-help/index.ts` (8 lines, .ts) -- export * from './brands-cli-help.js';
+- `./apps/daemon/src/cli.ts` (12129 lines, .ts) -- import { readFileSync, writeFileSync } from 'node:fs';
+- `./apps/daemon/src/codex-archived-rollout-index.ts` (55 lines, .ts) -- import { lstat, realpath } from 'node:fs/promises';
+- `./apps/daemon/src/codex-cli.ts` (201 lines, .ts) -- import { spawn } from 'node:child_process';
+- `./apps/daemon/src/codex-config-normalize.ts` (328 lines, .ts) -- import { randomBytes } from 'node:crypto';
+- `./apps/daemon/src/codex-pets.ts` (278 lines, .ts) -- import { readdir, readFile, stat } from 'node:fs/promises';
+- `./apps/daemon/src/codex-rollout-usage.ts` (191 lines, .ts) -- import os from 'node:os';
+- `./apps/daemon/src/collab/account-billing-summary-cache.ts` (57 lines, .ts) -- import type { WorkspaceBillingSummary } from '@open-design/contracts';
+- `./apps/daemon/src/collab/active-workspace-selection.ts` (177 lines, .ts) -- import fs from 'node:fs';
+- `./apps/daemon/src/collab/authorized-team-project-pull.ts` (436 lines, .ts) -- import { lstat, mkdtemp, readdir, rename, rm } from 'node:fs/promises';
+- `./apps/daemon/src/collab/background-pull-size-guard.ts` (319 lines, .ts) -- import type { AuthorizedTeamProjectPullInspection } from './authorized-team-project-pull.js';
+- `./apps/daemon/src/collab/collab-cloud-error.ts` (85 lines, .ts) -- export type CollabCloudErrorKind =
+- `./apps/daemon/src/collab/collab-cloud-service.ts` (754 lines, .ts) -- import type {
+- `./apps/daemon/src/collab/collab-publish-watcher.ts` (136 lines, .ts) -- import type { ResourceHubPrincipal } from './resource-principal.js';
+- `./apps/daemon/src/collab/comment-relay-outbox.ts` (227 lines, .ts) -- import type Database from 'better-sqlite3';
+- `./apps/daemon/src/collab/concurrency-gate.ts` (138 lines, .ts) -- export const COLLAB_VELA_FANOUT_CONCURRENCY = 8;
+- `./apps/daemon/src/collab/created-project-workspace.ts` (177 lines, .ts) -- import type { ApiErrorResponse } from '@open-design/contracts';
+- `./apps/daemon/src/collab/event-refresh-coordinator.ts` (193 lines, .ts) -- export interface EventRefreshScheduler {
+- `./apps/daemon/src/collab/hub-events-subscriber.ts` (797 lines, .ts) -- import type { WorkspaceBillingRevisionClock } from '@open-design/contracts';
+- `./apps/daemon/src/collab/invite-continue.ts` (81 lines, .ts) -- import type { WorkspaceCollabContext } from '@open-design/contracts';
+- `./apps/daemon/src/collab/invite-create.ts` (110 lines, .ts) -- import {
+- `./apps/daemon/src/collab/persisted-team-share.ts` (39 lines, .ts) -- import type { ResourceHubPrincipal } from './resource-principal.js';
+- `./apps/daemon/src/collab/persistent-sync-cache.ts` (169 lines, .ts) -- import {
+- `./apps/daemon/src/collab/presence-tracker.ts` (108 lines, .ts) -- import type { CollabPresenceMember } from '@open-design/contracts';
+- `./apps/daemon/src/collab/proactive-content-pull.ts` (2387 lines, .ts) -- const WITNESS_MAX_AGE_MS = 5_000;
+- `./apps/daemon/src/collab/project-content-transfer-state.ts` (152 lines, .ts) -- import type { ProjectContentTransferState } from '@open-design/contracts';
+- `./apps/daemon/src/collab/project-request-authority.ts` (271 lines, .ts) -- import type { Response } from 'express';
+- `./apps/daemon/src/collab/project-share-dir.ts` (9 lines, .ts) -- export function resolveProjectShareDir(
+- `./apps/daemon/src/collab/project-workspace-scope.ts` (112 lines, .ts) -- import type {
+- `./apps/daemon/src/collab/public-file-failure.ts` (80 lines, .ts) -- import {
+- `./apps/daemon/src/collab/public-file-publication-store.ts` (145 lines, .ts) -- import type Database from 'better-sqlite3';
+- `./apps/daemon/src/collab/publish-scheduler.ts` (264 lines, .ts) -- import { COLLAB_VELA_FANOUT_CONCURRENCY, ConcurrencyGate } from './concurrency-gate.js';
+- `./apps/daemon/src/collab/pull-profile.ts` (194 lines, .ts) -- const ENABLED_VALUES = new Set(['1', 'true', 'yes', 'on']);
+- `./apps/daemon/src/collab/remembered-team-resource-scopes.ts` (104 lines, .ts) -- import type { TeamResourceRequestScope } from './team-resource-share.js';
+- `./apps/daemon/src/collab/request-workspace-context.ts` (99 lines, .ts) -- import type { WorkspaceCollabContext } from '@open-design/contracts';
+- `./apps/daemon/src/collab/resource-principal.ts` (31 lines, .ts) -- import {
+- `./apps/daemon/src/collab/runtime.ts` (904 lines, .ts) -- import type { ProjectSyncState } from '@open-design/contracts';
+- `./apps/daemon/src/collab/shared-project-placeholder.ts` (60 lines, .ts) -- export const SHARED_PROJECT_PLACEHOLDER_METADATA_KEY = 'sharedProjectPlaceholderAt';
+- `./apps/daemon/src/collab/should-publish.ts` (64 lines, .ts) -- import type { ResourceHubPrincipal } from './resource-principal.js';
+- `./apps/daemon/src/collab/stub-resource-adapter.ts` (29 lines, .ts) -- import type { ResourcePublishAdapter } from './publish-scheduler.js';
+- `./apps/daemon/src/collab/swr-cache.ts` (79 lines, .ts) -- export interface SwrCache<T> {
+- `./apps/daemon/src/collab/sync-digest.ts` (180 lines, .ts) -- import { readVelaControlApiContext } from '../integrations/vela.js';
+- `./apps/daemon/src/collab/sync-snapshot-store.ts` (150 lines, .ts) -- import type Database from 'better-sqlite3';
+- `./apps/daemon/src/collab/team-mirror-materializer.ts` (421 lines, .ts) -- import Database from 'better-sqlite3';
+- `./apps/daemon/src/collab/team-mirror-promotion.ts` (596 lines, .ts) -- import { randomUUID } from 'node:crypto';
+- `./apps/daemon/src/collab/team-projects-change-emitter.ts` (48 lines, .ts) -- export type TeamProjectsChange = {
+- `./apps/daemon/src/collab/team-projects.ts` (29 lines, .ts) -- import type { TeamProject } from '@open-design/contracts';
+- `./apps/daemon/src/collab/team-resource-list-cache.ts` (129 lines, .ts) -- import { ConcurrencyGate, mapWithGate } from './concurrency-gate.js';
+- `./apps/daemon/src/collab/team-resource-materialization.ts` (214 lines, .ts) -- import { createHash } from 'node:crypto';
+- `./apps/daemon/src/collab/team-resource-share.ts` (404 lines, .ts) -- import type {
+- `./apps/daemon/src/collab/team-resource-state.ts` (66 lines, .ts) -- import {
+- `./apps/daemon/src/collab/team-resource-version-store.ts` (107 lines, .ts) -- import fs from 'node:fs';
+- `./apps/daemon/src/collab/team-share-scope.ts` (171 lines, .ts) -- import type { WorkspaceType } from '@open-design/contracts';
+- `./apps/daemon/src/collab/vela-cli-collab-client.ts` (264 lines, .ts) -- import type {
+- `./apps/daemon/src/collab/vela-cli-resource-adapter.ts` (446 lines, .ts) -- import {
+- `./apps/daemon/src/collab/vela-cli-resource-pull-batcher.ts` (149 lines, .ts) -- import {
+- `./apps/daemon/src/collab/vela-cli-team-projects.ts` (681 lines, .ts) -- import type { ProjectMetadata, TeamProject } from '@open-design/contracts';
+- `./apps/daemon/src/collab/vela-workspace-context.ts` (998 lines, .ts) -- import { getDiagnosticsEvidence, recordDiagnosticFailure } from '../services/diagnostics-evidence.js';
+- `./apps/daemon/src/collab/workspace-authority-health.ts` (118 lines, .ts) -- export type WorkspaceAuthorityCacheMode = 'legacy' | 'observe' | 'adaptive';
+- `./apps/daemon/src/collab/workspace-billing-runtime.ts` (1530 lines, .ts) -- import type {
+- `./apps/daemon/src/collab/workspace-context.ts` (347 lines, .ts) -- import {
+- `./apps/daemon/src/collab/workspace-exact-authority-cache.ts` (132 lines, .ts) -- import type { WorkspaceDirectoryItem } from '@open-design/contracts';
+- `./apps/daemon/src/collab/workspace-exact-context-cache.ts` (207 lines, .ts) -- import type { WorkspaceCollabContext } from '@open-design/contracts';
+- `./apps/daemon/src/collab/workspace-hub-subscriptions.ts` (152 lines, .ts) -- import type { HubEventsSubscriber } from './hub-events-subscriber.js';
+- `./apps/daemon/src/collab/workspace-invalidation-poller.ts` (293 lines, .ts) -- import type {
+- `./apps/daemon/src/collab/workspace-project-home.ts` (189 lines, .ts) -- export interface WorkspaceProjectHomeRow {
+- `./apps/daemon/src/collab/workspace-projects-reconciler.ts` (598 lines, .ts) -- import type { WorkspaceInvalidationSsePayload } from '@open-design/contracts';
+- `./apps/daemon/src/collab/workspace-resource-mutation.ts` (1050 lines, .ts) -- import type { WorkspaceCollabContext } from '@open-design/contracts';
+- `./apps/daemon/src/collab/workspace-resources-reconciler.ts` (381 lines, .ts) -- import type {
+- `./apps/daemon/src/collab/workspace-scope.ts` (51 lines, .ts) -- export type WorkspaceScopeSource =
+- `./apps/daemon/src/community-pets-sync.ts` (311 lines, .ts) -- import { mkdir, stat, writeFile } from 'node:fs/promises';
+- `./apps/daemon/src/connectionTest.ts` (3236 lines, .ts) -- import { spawn } from 'node:child_process';
+- `./apps/daemon/src/connectors/catalog.ts` (258 lines, .ts) -- import type { BoundedJsonObject, BoundedJsonValue } from '../live-artifacts/schema.js';
+- `./apps/daemon/src/connectors/composio-config.ts` (115 lines, .ts) -- import fs from 'node:fs';
+- `./apps/daemon/src/connectors/composio-curation.ts` (123 lines, .ts) -- import type { ConnectorToolCuration } from './catalog.js';
+- `./apps/daemon/src/connectors/composio-descriptions.ts` (805 lines, .ts) -- export interface ComposioToolkitMetadata {
+- `./apps/daemon/src/connectors/composio.ts` (1540 lines, .ts) -- import crypto from 'node:crypto';
+- `./apps/daemon/src/connectors/routes.ts` (818 lines, .ts) -- import net from 'node:net';
+- `./apps/daemon/src/connectors/service.ts` (939 lines, .ts) -- import fs from 'node:fs';
+- `./apps/daemon/src/constants.ts` (1 lines, .ts) -- export const ACTIVE_CONTEXT_TTL_MS = 5 * 60 * 1000;
+- `./apps/daemon/src/conversation-fork-title.ts` (79 lines, .ts) -- const OUR_NUMBER_SUFFIX = / \((\d{1,3})\)$/;
+- `./apps/daemon/src/copilot-stream.ts` (141 lines, .ts) -- import { boundedRawAgentEvent } from './runtimes/run-event-payload-budget.js';
+- `./apps/daemon/src/craft.ts` (103 lines, .ts) -- import { readFile } from \"node:fs/promises\";
+- `./apps/daemon/src/critique/AGENTS.md` (80 lines, .md) -- Module map agents enter when they need to change anything in the critique
+- `./apps/daemon/src/critique/__fixtures__/adapters/synthetic-bad.ts` (39 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/daemon/src/critique/__fixtures__/adapters/synthetic-good.ts` (61 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/daemon/src/critique/__fixtures__/run-prerelease.ts` (104 lines, .ts) -- import path from 'node:path';
+- `./apps/daemon/src/critique/adapter-degraded.ts` (140 lines, .ts) -- import type { DegradedReason } from '@open-design/contracts/critique';
+- `./apps/daemon/src/critique/artifact-handler.ts` (218 lines, .ts) -- import { promises as fs, constants as fsConstants } from 'node:fs';
+- `./apps/daemon/src/critique/artifact-writer.ts` (176 lines, .ts) -- import * as path from 'node:path';
+- `./apps/daemon/src/critique/config.ts` (88 lines, .ts) -- import { defaultCritiqueConfig, FALLBACK_POLICIES } from '@open-design/contracts/critique';
+- `./apps/daemon/src/critique/conformance-history.ts` (133 lines, .ts) -- import { promises as fs } from 'node:fs';
+- `./apps/daemon/src/critique/conformance.ts` (314 lines, .ts) -- import type { CritiqueConfig, DegradedReason, PanelEvent, PanelistRole } from '@open-design/contracts/critique';
+- `./apps/daemon/src/critique/errors.ts` (20 lines, .ts) -- export class MalformedBlockError extends Error {
+- `./apps/daemon/src/critique/interrupt-handler.ts` (131 lines, .ts) -- import type { Request, Response } from 'express';
+- `./apps/daemon/src/critique/orchestrator.ts` (972 lines, .ts) -- import type { ChildProcess } from 'node:child_process';
+- `./apps/daemon/src/critique/parser.ts` (46 lines, .ts) -- import type { PanelEvent } from '@open-design/contracts/critique';
+- `./apps/daemon/src/critique/parsers/v1.ts` (724 lines, .ts) -- import type { PanelEvent, PanelistRole } from '@open-design/contracts/critique';
+- `./apps/daemon/src/critique/persistence.ts` (393 lines, .ts) -- import type Database from 'better-sqlite3';
+- `./apps/daemon/src/critique/ratchet.ts` (268 lines, .ts) -- import type { RolloutPhase } from './rollout.js';
+- `./apps/daemon/src/critique/rollout.ts` (165 lines, .ts) -- export type SkillCritiquePolicy = 'required' | 'opt-in' | 'opt-out' | null;
+- `./apps/daemon/src/critique/run-registry.ts` (108 lines, .ts) -- export interface RunHandle {
+- `./apps/daemon/src/critique/scoreboard.ts` (91 lines, .ts) -- import type { CritiqueConfig, PanelEvent, PanelistRole, RoundDecision } from '@open-design/contracts/critique';
+- `./apps/daemon/src/critique/spawn-inputs.ts` (41 lines, .ts) -- export function narrowProjectCritiqueOverride(
+- `./apps/daemon/src/critique/transcript.ts` (178 lines, .ts) -- import { createReadStream, createWriteStream } from 'node:fs';
+- `./apps/daemon/src/cwd-aliases.ts` (215 lines, .ts) -- import { createReadStream, createWriteStream } from 'node:fs';
+- `./apps/daemon/src/daemon-paths.ts` (163 lines, .ts) -- import fs from 'node:fs';
+- `./apps/daemon/src/daemon-startup.ts` (180 lines, .ts) -- import type { Server } from 'node:http';
+- `./apps/daemon/src/daemon-url.ts` (160 lines, .ts) -- import { spawn } from \"node:child_process\";
+- `./apps/daemon/src/db.ts` (5490 lines, .ts) -- import Database from 'better-sqlite3';
+- `./apps/daemon/src/deck-export.ts` (251 lines, .ts) -- import { readFile } from 'node:fs/promises';
+- `./apps/daemon/src/deploy.ts` (2028 lines, .ts) -- import fs from 'node:fs';
+- `./apps/daemon/src/deploy/cloudflare-pages-helpers.ts` (162 lines, .ts) -- import type Database from 'better-sqlite3';
+- `./apps/daemon/src/deploy/failure-detail.ts` (80 lines, .ts) -- import {
+- `./apps/daemon/src/design-systems/frontmatter.ts` (215 lines, .ts) -- export type FrontmatterScalar = string | number | boolean | null;
+- `./apps/daemon/src/design-systems/generation-jobs.ts` (455 lines, .ts) -- import { randomUUID } from 'node:crypto';
+- `./apps/daemon/src/design-systems/github-import.ts` (174 lines, .ts) -- import { execFile } from 'node:child_process';
+- `./apps/daemon/src/design-systems/import.ts` (958 lines, .ts) -- import { copyFile, mkdir, readFile, readdir, realpath, stat, writeFile } from 'node:fs/promises';
+- `./apps/daemon/src/design-systems/index.ts` (4292 lines, .ts) -- import { createHash, randomUUID } from 'node:crypto';
+- `./apps/daemon/src/design-systems/preview.ts` (624 lines, .ts) -- type ColorToken = { name: string; value: string };
+- `./apps/daemon/src/design-systems/rename-args.ts` (61 lines, .ts) -- export interface DesignSystemRenameArgs {
+- `./apps/daemon/src/design-systems/server-services.ts` (966 lines, .ts) -- import { createHash } from 'node:crypto';
+- `./apps/daemon/src/design-systems/shadcn-import.ts` (860 lines, .ts) -- import { mkdir, mkdtemp, rm, writeFile } from 'node:fs/promises';
+- `./apps/daemon/src/design-systems/showcase.ts` (877 lines, .ts) -- type ColorToken = { name: string; value: string; role: string };
+- `./apps/daemon/src/design-systems/source-context.ts` (375 lines, .ts) -- import type { UserDesignSystemInput } from './index.js';
+- `./apps/daemon/src/design-systems/swift-colors.ts` (125 lines, .ts) -- export interface SwiftColorToken {
+- `./apps/daemon/src/design-systems/team-owner-materialization.ts` (22 lines, .ts) -- export interface WorkspaceDesignSystemBindingWitness {
+- `./apps/daemon/src/design-systems/team-project-share.ts` (278 lines, .ts) -- import {
+- `./apps/daemon/src/design-systems/token-contract-rebuild.ts` (393 lines, .ts) -- import { readFile, stat } from 'node:fs/promises';
+- `./apps/daemon/src/design-systems/token-contract.ts` (396 lines, .ts) -- import {
+- `./apps/daemon/src/design-systems/token-evidence.ts` (243 lines, .ts) -- import path from 'node:path';
+- `./apps/daemon/src/design-systems/workspace-owned-create.ts` (116 lines, .ts) -- import type { WorkspaceResourceContext } from '../collab/workspace-resource-mutation.js';
+- `./apps/daemon/src/design-systems/workspace-team-binding.ts` (64 lines, .ts) -- import type Database from 'better-sqlite3';
+- `./apps/daemon/src/design/claude-design-import.ts` (282 lines, .ts) -- import { mkdir, readFile, writeFile } from 'node:fs/promises';
+- `./apps/daemon/src/design/finalize-design.ts` (982 lines, .ts) -- import { randomBytes } from 'node:crypto';
+- `./apps/daemon/src/design/handoff-design.ts` (269 lines, .ts) -- import type Database from 'better-sqlite3';
+- `./apps/daemon/src/design/index.ts` (10 lines, .ts) -- export * from './finalize-design.js';
+- `./apps/daemon/src/desktop-auth.ts` (103 lines, .ts) -- import { createHmac, timingSafeEqual } from 'node:crypto';
+- `./apps/daemon/src/diagnostics-client-evidence.ts` (129 lines, .ts) -- import express, { type RequestHandler } from 'express';
+- `./apps/daemon/src/diagnostics-export.ts` (498 lines, .ts) -- import { access } from 'node:fs/promises';
+- `./apps/daemon/src/document-preview.ts` (308 lines, .ts) -- import { execFile } from 'node:child_process';
+- `./apps/daemon/src/export-cli-request.ts` (60 lines, .ts) -- import type { ExportFormat, ExportImageFormat, ExportResult } from \"@open-design/contracts\";
+- `./apps/daemon/src/export-cli-routing.ts` (16 lines, .ts) -- export function exportRoutePath(format: string): string {
+- `./apps/daemon/src/figma/fig-decode.ts` (449 lines, .ts) -- import * as zlib from 'node:zlib';
+- `./apps/daemon/src/figma/figma-import.ts` (279 lines, .ts) -- import path from 'node:path';
+- `./apps/daemon/src/genui/events.ts` (110 lines, .ts) -- import type {
+- `./apps/daemon/src/genui/index.ts` (31 lines, .ts) -- export * from './events.js';
+- `./apps/daemon/src/genui/registry.ts` (180 lines, .ts) -- import { createHash } from 'node:crypto';
+- `./apps/daemon/src/genui/store.ts` (291 lines, .ts) -- import type Database from 'better-sqlite3';
+- `./apps/daemon/src/github-install-source.ts` (66 lines, .ts) -- const GITHUB_HOSTS = new Set(['github.com', 'www.github.com']);
+- `./apps/daemon/src/handoff-cli.ts` (199 lines, .ts) -- import type { HandoffRequest, HandoffResponse } from '@open-design/contracts/api/handoff';
+- `./apps/daemon/src/home-expansion.ts` (39 lines, .ts) -- import os from 'node:os';
+- `./apps/daemon/src/http/adapter.ts` (59 lines, .ts) -- import type { Express, Request, Response } from 'express';
+- `./apps/daemon/src/http/api-errors.ts` (41 lines, .ts) -- import type { ApiError, ApiErrorCode, ApiErrorResponse } from '@open-design/contracts';
+- `./apps/daemon/src/http/api-failure-journal.ts` (66 lines, .ts) -- import { recordDiagnosticFailure } from '../services/diagnostics-evidence.js';
+- `./apps/daemon/src/http/client-request-id.ts` (7 lines, .ts) -- import type { Request } from 'express';
+- `./apps/daemon/src/http/index.ts` (5 lines, .ts) -- export * from './types.js';
+- `./apps/daemon/src/http/local-daemon-request.ts` (114 lines, .ts) -- import net from 'node:net';
+- `./apps/daemon/src/http/oauth-result-page.ts` (86 lines, .ts) -- export interface OAuthResultPageOptions {
+- `./apps/daemon/src/http/origin-guard.ts` (20 lines, .ts) -- import type { Request } from 'express';
+- `./apps/daemon/src/http/parse.ts` (23 lines, .ts) -- import type { Request } from 'express';
+- `./apps/daemon/src/http/response.ts` (32 lines, .ts) -- import type { Response } from 'express';
+- `./apps/daemon/src/http/tool-request-auth.ts` (69 lines, .ts) -- import type { Request, Response } from 'express';
+- `./apps/daemon/src/http/types.ts` (32 lines, .ts) -- import type { ApiError } from '@open-design/contracts';
+- `./apps/daemon/src/import-export-routes.ts` (2156 lines, .ts) -- import type { Express, Response } from 'express';
+- `./apps/daemon/src/inline-assets.ts` (412 lines, .ts) -- export interface AssetHandle {
+- `./apps/daemon/src/installation.ts` (217 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/daemon/src/integrations/aborted-error.ts` (26 lines, .ts) -- export function isAbortedOperationError(error: unknown): boolean {
+- `./apps/daemon/src/integrations/aihubmix.ts` (295 lines, .ts) -- export const AIHUBMIX_APP_CODE = 'DMCY9912';
+- `./apps/daemon/src/integrations/collab-cloud.ts` (196 lines, .ts) -- import type {
+- `./apps/daemon/src/integrations/diagnostic-relay.ts` (88 lines, .ts) -- import { createHash } from 'node:crypto';
+- `./apps/daemon/src/integrations/elevenlabs-voices.ts` (152 lines, .ts) -- import { createHash } from 'node:crypto';
+- `./apps/daemon/src/integrations/google-models.ts` (33 lines, .ts) -- export function googleGenerativeLanguageBaseUrl(baseUrl: string): string {
+- `./apps/daemon/src/integrations/openai-chat-token-params.ts` (54 lines, .ts) -- export function usesMaxCompletionTokens(model: string): boolean {
+- `./apps/daemon/src/integrations/provider-models.ts` (427 lines, .ts) -- import type {
+- `./apps/daemon/src/integrations/telemetry-relay.ts` (19 lines, .ts) -- export const OPEN_DESIGN_TELEMETRY_RELAY_URLS = {
+- `./apps/daemon/src/integrations/vela-billing.ts` (627 lines, .ts) -- import type {
+- `./apps/daemon/src/integrations/vela-command.ts` (376 lines, .ts) -- import { execFile } from 'node:child_process';
+- `./apps/daemon/src/integrations/vela-console-origin.ts` (79 lines, .ts) -- import { resolveAmrProfile } from './vela-profile.js';
+- `./apps/daemon/src/integrations/vela-errors.ts` (332 lines, .ts) -- import {
+- `./apps/daemon/src/integrations/vela-profile.ts` (23 lines, .ts) -- const AMR_PROFILE_ENV = 'OPEN_DESIGN_AMR_PROFILE';
+- `./apps/daemon/src/integrations/vela-team-projects.ts` (78 lines, .ts) -- import type { ProjectSyncState } from '@open-design/contracts';
+- `./apps/daemon/src/integrations/vela-wallet.ts` (304 lines, .ts) -- import { createHash } from 'node:crypto';
+- `./apps/daemon/src/integrations/vela.ts` (1908 lines, .ts) -- import { spawn, type ChildProcess } from 'node:child_process';
+- `./apps/daemon/src/integrations/xai-credentials.ts` (80 lines, .ts) -- import { refreshXAIToken } from './xai-oauth.js';
+- `./apps/daemon/src/integrations/xai-oauth-server.ts` (251 lines, .ts) -- import http from 'node:http';
+- `./apps/daemon/src/integrations/xai-oauth.ts` (172 lines, .ts) -- import {
+- `./apps/daemon/src/integrations/xai-tokens.ts` (187 lines, .ts) -- import { chmod, mkdir, readFile, rename, writeFile } from 'node:fs/promises';
+- `./apps/daemon/src/langfuse-bridge.ts` (1945 lines, .ts) -- import { codexTurnUsageFromEvents } from './observability/codex-turn-usage.js';
+- `./apps/daemon/src/langfuse-trace.ts` (3306 lines, .ts) -- import type { EvalContextV2 } from './observability/eval-context.js';
+- `./apps/daemon/src/library-install.ts` (220 lines, .ts) -- import { execFile } from 'node:child_process';
+- `./apps/daemon/src/library-store.ts` (660 lines, .ts) -- import type Database from 'better-sqlite3';
+- `./apps/daemon/src/library-sync.ts` (355 lines, .ts) -- import path from 'node:path';
+- `./apps/daemon/src/library-tokens.ts` (135 lines, .ts) -- import type Database from 'better-sqlite3';
+- `./apps/daemon/src/library.ts` (456 lines, .ts) -- import type Database from 'better-sqlite3';
+- `./apps/daemon/src/linked-dirs.ts` (63 lines, .ts) -- import path from 'node:path';
+- `./apps/daemon/src/lint-artifact.ts` (1000 lines, .ts) -- import type { ArtifactLintFinding, ArtifactLintSeverity } from '@open-design/contracts';
+- `./apps/daemon/src/live-artifacts/http-helpers.ts` (77 lines, .ts) -- import type { Response } from 'express';
+- `./apps/daemon/src/live-artifacts/refresh-service.ts` (248 lines, .ts) -- import {
+- `./apps/daemon/src/live-artifacts/refresh.ts` (739 lines, .ts) -- import { execFile } from 'node:child_process';
+- `./apps/daemon/src/live-artifacts/render.ts` (280 lines, .ts) -- import type { BoundedJsonObject } from './schema.js';
+- `./apps/daemon/src/live-artifacts/schema.ts` (904 lines, .ts) -- export type BoundedJsonValue = null | boolean | number | string | BoundedJsonValue[] | { [key: string]: BoundedJsonValue
+- `./apps/daemon/src/live-artifacts/store.ts` (1284 lines, .ts) -- import { randomBytes } from 'node:crypto';
+- `./apps/daemon/src/logging/critique.ts` (72 lines, .ts) -- export type CritiqueLogEvent =
+- `./apps/daemon/src/mcp-agent-install.ts` (501 lines, .ts) -- import path from 'node:path';
+- `./apps/daemon/src/mcp-apps/brief-resource.ts` (556 lines, .ts) -- export const OPEN_DESIGN_BRIEF_APP_VERSION = 'v8' as const;
+- `./apps/daemon/src/mcp-bootstrap.ts` (328 lines, .ts) -- import { spawn } from \"node:child_process\";
+- `./apps/daemon/src/mcp-brief.ts` (666 lines, .ts) -- import {
+- `./apps/daemon/src/mcp-config.ts` (1243 lines, .ts) -- import { mkdir, readFile, rename, writeFile } from 'node:fs/promises';
+- `./apps/daemon/src/mcp-install-info.ts` (111 lines, .ts) -- export interface BuildMcpInstallPayloadInputs {
+- `./apps/daemon/src/mcp-live-artifacts-server.ts` (266 lines, .ts) -- import readline from 'node:readline';
+- `./apps/daemon/src/mcp-managed-registration.ts` (72 lines, .ts) -- import {
+- `./apps/daemon/src/mcp-oauth.ts` (601 lines, .ts) -- import { mkdir, readFile, rename, writeFile } from 'node:fs/promises';
+- `./apps/daemon/src/mcp-observability.ts` (308 lines, .ts) -- import { createHash } from 'node:crypto';
+- `./apps/daemon/src/mcp-routes.ts` (493 lines, .ts) -- import type { Express } from 'express';
+- `./apps/daemon/src/mcp-tokens.ts` (258 lines, .ts) -- import { chmod, mkdir, readFile, rename, writeFile } from 'node:fs/promises';
+- `./apps/daemon/src/mcp-workspace-context.ts` (130 lines, .ts) -- import type {
+- `./apps/daemon/src/mcp.ts` (3601 lines, .ts) -- import { Server } from '@modelcontextprotocol/sdk/server/index.js';
+- `./apps/daemon/src/media-adapters/capabilities.ts` (40 lines, .ts) -- import type { ModelCapability } from './types.js';
+- `./apps/daemon/src/media-adapters/index.ts` (14 lines, .ts) -- export * from './types.js';
+- `./apps/daemon/src/media-adapters/seed.ts` (127 lines, .ts) -- import type { ModelCapability } from './types.js';
+- `./apps/daemon/src/media-adapters/types.ts` (115 lines, .ts) -- export type MediaFamily = 'seedance' | 'wan' | 'veo' | 'generic';
+- `./apps/daemon/src/media-adapters/video.ts` (292 lines, .ts) -- import type {
+- `./apps/daemon/src/media/amr-image-staging.ts` (76 lines, .ts) -- import { randomUUID } from 'node:crypto';
+- `./apps/daemon/src/media/config.ts` (543 lines, .ts) -- import { mkdir, readFile, writeFile } from 'node:fs/promises';
+- `./apps/daemon/src/media/diagnostics.ts` (59 lines, .ts) -- import { redactSecrets } from '../redact.js';
+- `./apps/daemon/src/media/hyperframes-runtime.ts` (52 lines, .ts) -- import { createRequire } from 'node:module';
+- `./apps/daemon/src/media/hyperframes-scaffold.ts` (114 lines, .ts) -- import { lstat, mkdir, rm, writeFile } from 'node:fs/promises';
+- `./apps/daemon/src/media/image-generation-retry.ts` (133 lines, .ts) -- export type ImageGenerationRetryReason = 'rate_limit_429' | 'service_unavailable_503';
+- `./apps/daemon/src/media/index.ts` (4393 lines, .ts) -- import { mkdir, mkdtemp, readFile, rm, stat, writeFile } from 'node:fs/promises';
+- `./apps/daemon/src/media/models.ts` (266 lines, .ts) -- export type MediaSurface = 'image' | 'video' | 'audio';
+- `./apps/daemon/src/media/policy.ts` (91 lines, .ts) -- import {
+- `./apps/daemon/src/media/prompt-templates.ts` (143 lines, .ts) -- import { readdir, readFile, stat } from 'node:fs/promises';
+- `./apps/daemon/src/media/task-batches.ts` (92 lines, .ts) -- export interface MediaTaskBatchInput {
+- `./apps/daemon/src/media/task-error.ts` (53 lines, .ts) -- import { mediaFailureNextStep } from '@open-design/contracts';
+- `./apps/daemon/src/media/task-store.ts` (206 lines, .ts) -- import type Database from 'better-sqlite3';
+- `./apps/daemon/src/media/tasks.ts` (422 lines, .ts) -- import type Database from 'better-sqlite3';
+- `./apps/daemon/src/media/vela.ts` (678 lines, .ts) -- import { copyFile, mkdtemp, readFile, rm, stat } from 'node:fs/promises';
+- `./apps/daemon/src/memory-cleanup.ts` (127 lines, .ts) -- import { promises as fsp } from 'node:fs';
+- `./apps/daemon/src/memory-connectors.ts` (1355 lines, .ts) -- import type {
+- `./apps/daemon/src/memory-extractions.ts` (259 lines, .ts) -- import type { MemoryExtractionOrigin } from '@open-design/contracts';
+- `./apps/daemon/src/memory-llm.ts` (1502 lines, .ts) -- import { MEMORY_TYPES } from '@open-design/contracts';
+- `./apps/daemon/src/memory-rules.ts` (251 lines, .ts) -- import type {
+- `./apps/daemon/src/memory-verify.ts` (202 lines, .ts) -- import { randomUUID } from 'node:crypto';
+- `./apps/daemon/src/memory.ts` (1195 lines, .ts) -- import { promises as fsp } from 'node:fs';
+- `./apps/daemon/src/metrics/index.ts` (129 lines, .ts) -- import {
+- `./apps/daemon/src/metrics/workspace-authority.ts` (168 lines, .ts) -- import { Counter, Histogram, register } from 'prom-client';
+- `./apps/daemon/src/migration/index.ts` (9 lines, .ts) -- export * from './legacy-data-migrator.js';
+- `./apps/daemon/src/migration/legacy-data-migrator.ts` (397 lines, .ts) -- import * as fs from 'node:fs';
+- `./apps/daemon/src/migration/update-apply-observations.ts` (365 lines, .ts) -- import { UPDATE_LIFECYCLE_STAGES, parseUpdateLifecycleObservation, type UpdateLifecycleObservedProps } from '@open-desig
+- `./apps/daemon/src/native-folder-dialog.ts` (74 lines, .ts) -- export interface NativeFolderDialogCommand {
+- `./apps/daemon/src/native-session-recovery.ts` (191 lines, .ts) -- import { createHash } from 'node:crypto';
+- `./apps/daemon/src/next-step-marker.ts` (357 lines, .ts) -- import {
+- `./apps/daemon/src/observability/codex-turn-usage.ts` (41 lines, .ts) -- type Counters = { input: number; output: number; total: number; modelCalls: number };
+- `./apps/daemon/src/observability/delivery-state.ts` (135 lines, .ts) -- import { createHash } from 'node:crypto';
+- `./apps/daemon/src/observability/eval-context.ts` (144 lines, .ts) -- import { createHash } from 'node:crypto';
+- `./apps/daemon/src/observability/main-run-observation.ts` (326 lines, .ts) -- import {
+- `./apps/daemon/src/observability/run-exporter.ts` (78 lines, .ts) -- import type { TelemetryPrefs } from '../app-config.js';
+- `./apps/daemon/src/observability/run-terminal-lifecycle.ts` (232 lines, .ts) -- import type { RunTerminalLifecycleStatus } from '@open-design/contracts';
+- `./apps/daemon/src/observability/runtime-child-observations.ts` (329 lines, .ts) -- import { createHash } from 'node:crypto';
+- `./apps/daemon/src/observability/task-analytics-operations.ts` (454 lines, .ts) -- import type {
+- `./apps/daemon/src/observability/task-object-summary.ts` (31 lines, .ts) -- export function taskObjectMetadata(runs: Record<string, unknown>[]) {
+- `./apps/daemon/src/observability/task-observation-aggregation.ts` (1252 lines, .ts) -- import { createHash } from 'node:crypto';
+- `./apps/daemon/src/observability/task-observation-otlp-exporter.ts` (1115 lines, .ts) -- import { createHash } from 'node:crypto';
+- `./apps/daemon/src/observability/task-observation-rollout.ts` (1479 lines, .ts) -- import { evidenceStore, reconcileTaskObjectReasons } from '../services/evidence-delivery.js';
+- `./apps/daemon/src/observability/task-trace-projection.ts` (53 lines, .ts) -- import { taskObjectMetadata } from './task-object-summary.js';
+- `./apps/daemon/src/orbit-agent-summary.ts` (39 lines, .ts) -- const NO_LIVE_ARTIFACT_SUMMARY =
+- `./apps/daemon/src/orbit.ts` (605 lines, .ts) -- import { mkdir, readFile, rename, writeFile } from 'node:fs/promises';
+- `./apps/daemon/src/origin-validation.ts` (295 lines, .ts) -- export interface ParsedHostHeader {
+- `./apps/daemon/src/panel-grammar-strip.ts` (133 lines, .ts) -- import { CRITIQUE_GRAMMAR_TAGS, critiqueGrammarTagPattern } from '@open-design/contracts';
+- `./apps/daemon/src/pdf-export.ts` (113 lines, .ts) -- import path from 'node:path';
+- `./apps/daemon/src/plugins/apply.ts` (383 lines, .ts) -- import {
+- `./apps/daemon/src/plugins/atom-bodies.ts` (122 lines, .ts) -- import path from 'node:path';
+- `./apps/daemon/src/plugins/atoms.ts` (55 lines, .ts) -- export type AtomStatus = 'implemented' | 'planned';
+- `./apps/daemon/src/plugins/atoms/auto-surfaces.ts` (77 lines, .ts) -- import type {
+- `./apps/daemon/src/plugins/atoms/build-test.ts` (278 lines, .ts) -- import path from 'node:path';
+- `./apps/daemon/src/plugins/atoms/built-ins.ts` (79 lines, .ts) -- import { FIRST_PARTY_ATOMS } from '../atoms.js';
+- `./apps/daemon/src/plugins/atoms/code-import.ts` (276 lines, .ts) -- import path from 'node:path';
+- `./apps/daemon/src/plugins/atoms/design-extract.ts` (94 lines, .ts) -- import path from 'node:path';
+- `./apps/daemon/src/plugins/atoms/diff-review-genui-bridge.ts` (112 lines, .ts) -- import { runDiffReview, type DiffReviewer, type DiffReviewReport } from './diff-review.js';
+- `./apps/daemon/src/plugins/atoms/diff-review.ts` (233 lines, .ts) -- import path from 'node:path';
+- `./apps/daemon/src/plugins/atoms/figma-extract.ts` (430 lines, .ts) -- import path from 'node:path';
+- `./apps/daemon/src/plugins/atoms/handoff.ts` (330 lines, .ts) -- import path from 'node:path';
+- `./apps/daemon/src/plugins/atoms/patch-edit.ts` (446 lines, .ts) -- import path from 'node:path';
+- `./apps/daemon/src/plugins/atoms/registry.ts` (159 lines, .ts) -- import type Database from 'better-sqlite3';
+- `./apps/daemon/src/plugins/atoms/rewrite-plan.ts` (311 lines, .ts) -- import path from 'node:path';
+- `./apps/daemon/src/plugins/atoms/token-map.ts` (412 lines, .ts) -- import path from 'node:path';
+- `./apps/daemon/src/plugins/bundled.ts` (309 lines, .ts) -- import path from 'node:path';
+- `./apps/daemon/src/plugins/connector-gate.ts` (207 lines, .ts) -- import type {
+- `./apps/daemon/src/plugins/connector-probe.ts` (34 lines, .ts) -- import type { ConnectorCatalogDefinition, ConnectorStatus } from '../connectors/catalog.js';
+- `./apps/daemon/src/plugins/context-craft.ts` (28 lines, .ts) -- import type { AppliedPluginSnapshot, InstalledPluginRecord, PluginManifest } from '@open-design/contracts';
+- `./apps/daemon/src/plugins/critique-prompt-gate.ts` (74 lines, .ts) -- export const CRITIQUE_THEATER_ATOM_ID = 'critique-theater';
+- `./apps/daemon/src/plugins/diff.ts` (195 lines, .ts) -- import type { InstalledPluginRecord, PluginManifest } from '@open-design/contracts';
+- `./apps/daemon/src/plugins/doctor.ts` (212 lines, .ts) -- import { manifestSourceDigest, resolveContext, validateSafe, type RegistryView } from '@open-design/plugin-runtime';
+- `./apps/daemon/src/plugins/duplicate-project.ts` (473 lines, .ts) -- import { copyFile, lstat, mkdir, readdir, readFile, stat, writeFile } from 'node:fs/promises';
+- `./apps/daemon/src/plugins/ensure-core-stages.ts` (137 lines, .ts) -- import type { PluginPipeline, PipelineStage } from '@open-design/contracts';
+- `./apps/daemon/src/plugins/events.ts` (194 lines, .ts) -- export type PluginEventKind =
+- `./apps/daemon/src/plugins/example-binding.ts` (125 lines, .ts) -- import { createHash } from 'node:crypto';
+- `./apps/daemon/src/plugins/export.ts` (204 lines, .ts) -- import path from 'node:path';
+- `./apps/daemon/src/plugins/gc.ts` (104 lines, .ts) -- import type Database from 'better-sqlite3';
+- `./apps/daemon/src/plugins/index.ts` (112 lines, .ts) -- export * from './atoms.js';
+- `./apps/daemon/src/plugins/installer.ts` (1006 lines, .ts) -- import path from 'node:path';
+- `./apps/daemon/src/plugins/local-skill.ts` (78 lines, .ts) -- import path from 'node:path';
+- `./apps/daemon/src/plugins/local-source.ts` (106 lines, .ts) -- import type Database from 'better-sqlite3';
+- `./apps/daemon/src/plugins/lockfile.ts` (112 lines, .ts) -- import { mkdir, readFile, writeFile } from 'node:fs/promises';
+- `./apps/daemon/src/plugins/marketplace-doctor.ts` (81 lines, .ts) -- import type { MarketplaceManifest } from '@open-design/contracts';
+- `./apps/daemon/src/plugins/marketplace-seed.ts` (152 lines, .ts) -- import fs from 'node:fs';
+- `./apps/daemon/src/plugins/marketplaces.ts` (523 lines, .ts) -- import { randomUUID } from 'node:crypto';
+- `./apps/daemon/src/plugins/pack.ts` (169 lines, .ts) -- import path from 'node:path';
+- `./apps/daemon/src/plugins/persistence.ts` (228 lines, .ts) -- import type Database from 'better-sqlite3';
+- `./apps/daemon/src/plugins/pipeline-runner.ts` (109 lines, .ts) -- import type Database from 'better-sqlite3';
+- `./apps/daemon/src/plugins/pipeline.ts` (253 lines, .ts) -- import { randomUUID } from 'node:crypto';
+- `./apps/daemon/src/plugins/plugin-asset-cache.ts` (431 lines, .ts) -- import { createHash } from 'node:crypto';
+- `./apps/daemon/src/plugins/plugin-preview-bakes.ts` (126 lines, .ts) -- import { existsSync, readFileSync, statSync } from 'node:fs';
+- `./apps/daemon/src/plugins/publish.ts` (289 lines, .ts) -- export type PublishCatalog =
+- `./apps/daemon/src/plugins/registry.ts` (487 lines, .ts) -- import path from 'node:path';
+- `./apps/daemon/src/plugins/resolve-snapshot.ts` (509 lines, .ts) -- import type Database from 'better-sqlite3';
+- `./apps/daemon/src/plugins/scaffold.ts` (179 lines, .ts) -- import path from 'node:path';
+- `./apps/daemon/src/plugins/scenario-binding.ts` (190 lines, .ts) -- import type Database from 'better-sqlite3';
+- `./apps/daemon/src/plugins/search.ts` (115 lines, .ts) -- import type { InstalledPluginRecord, PluginManifest, TrustTier } from '@open-design/contracts';
+- `./apps/daemon/src/plugins/share-helpers.ts` (457 lines, .ts) -- import fs from 'node:fs';
+- `./apps/daemon/src/plugins/simulate.ts` (208 lines, .ts) -- import type { PluginPipeline } from '@open-design/contracts';
+- `./apps/daemon/src/plugins/skill-candidates.ts` (391 lines, .ts) -- import crypto from 'node:crypto';
+- `./apps/daemon/src/plugins/snapshot-diff.ts` (224 lines, .ts) -- import type { AppliedPluginSnapshot } from '@open-design/contracts';
+- `./apps/daemon/src/plugins/snapshots.ts` (517 lines, .ts) -- import { randomUUID } from 'node:crypto';
+- `./apps/daemon/src/plugins/stats.ts` (179 lines, .ts) -- import type { InstalledPluginRecord, PluginSourceKind } from '@open-design/contracts';
+- `./apps/daemon/src/plugins/strategy-binding.ts` (47 lines, .ts) -- import type {
+- `./apps/daemon/src/plugins/strategy-package.ts` (306 lines, .ts) -- import {
+- `./apps/daemon/src/plugins/strategy-provenance.ts` (142 lines, .ts) -- import {
+- `./apps/daemon/src/plugins/strategy-recipe.ts` (196 lines, .ts) -- import path from 'node:path';
+- `./apps/daemon/src/plugins/strategy-stage-policy.ts` (75 lines, .ts) -- import type {
+- `./apps/daemon/src/plugins/trust.ts` (216 lines, .ts) -- import type { InstalledPluginRecord, PluginManifest, TrustTier } from '@open-design/contracts';
+- `./apps/daemon/src/plugins/until.ts` (211 lines, .ts) -- export type SignalKind = 'number' | 'boolean';
+- `./apps/daemon/src/plugins/validate.ts` (114 lines, .ts) -- import path from 'node:path';
+- `./apps/daemon/src/plugins/verify.ts` (163 lines, .ts) -- import type { DoctorReport } from './doctor.js';
+- `./apps/daemon/src/project-design-token-suggestions.ts` (331 lines, .ts) -- import { readFile } from 'node:fs/promises';
+- `./apps/daemon/src/project-file-versions.ts` (781 lines, .ts) -- import type {
+- `./apps/daemon/src/project-ignored-dirs.ts` (40 lines, .ts) -- export const IGNORED_PROJECT_DIR_NAMES = new Set([
+- `./apps/daemon/src/project-locations.ts` (130 lines, .ts) -- import { lstat, mkdir, readdir, readFile, realpath, writeFile } from 'node:fs/promises';
+- `./apps/daemon/src/project-root.ts` (23 lines, .ts) -- import path from 'node:path';
+- `./apps/daemon/src/project-watchers.ts` (224 lines, .ts) -- import type { Stats } from 'node:fs';
+- `./apps/daemon/src/projects.ts` (1747 lines, .ts) -- import { constants as fsConstants, createReadStream } from 'node:fs';
+- `./apps/daemon/src/projects/archive-filename.ts` (8 lines, .ts) -- export function sanitizeArchiveFilename(raw: unknown): string {
+- `./apps/daemon/src/prompt-telemetry.ts` (599 lines, .ts) -- import { createHash } from 'node:crypto';
+- `./apps/daemon/src/prompts/core-slim.ts` (438 lines, .ts) -- import type { ExecutionProfile } from '@open-design/contracts';
+- `./apps/daemon/src/prompts/deck-framework.ts` (10 lines, .ts) -- export {
+- `./apps/daemon/src/prompts/directions.ts` (338 lines, .ts) -- export interface DesignDirection {
+- `./apps/daemon/src/prompts/discovery.ts` (318 lines, .ts) -- import type { ExecutionProfile } from '@open-design/contracts';
+- `./apps/daemon/src/prompts/media-contract.ts` (612 lines, .ts) -- import {
+- `./apps/daemon/src/prompts/official-system.ts` (203 lines, .ts) -- import type { ExecutionProfile } from '@open-design/contracts';
+- `./apps/daemon/src/prompts/panel.ts` (226 lines, .ts) -- import type { CritiqueConfig } from '@open-design/contracts/critique';
+- `./apps/daemon/src/prompts/research-contract.ts` (73 lines, .ts) -- const DEFAULT_MAX_SOURCES = 5;
+- `./apps/daemon/src/prompts/stable-sections.ts` (212 lines, .ts) -- import { createHash } from 'node:crypto';
+- `./apps/daemon/src/prompts/system.ts` (2238 lines, .ts) -- import { renderOfficialDesignerPrompt } from './official-system.js';
+- `./apps/daemon/src/qa/cta-hierarchy.ts` (378 lines, .ts) -- import { type CheerioAPI, load } from 'cheerio';
+- `./apps/daemon/src/qa/deck-layout.ts` (186 lines, .ts) -- import { type CheerioAPI, load } from 'cheerio';
+- `./apps/daemon/src/question-form-detect.ts` (24 lines, .ts) -- export {
+- `./apps/daemon/src/reasoning-egress.ts` (186 lines, .ts) -- import type { Response } from 'express';
+- `./apps/daemon/src/redact.ts` (228 lines, .ts) -- interface Pattern {
+- `./apps/daemon/src/registry/database-backend.ts` (127 lines, .ts) -- import type Database from 'better-sqlite3';
+- `./apps/daemon/src/registry/github-backend.ts` (166 lines, .ts) -- import type { MarketplaceManifest } from '@open-design/contracts';
+- `./apps/daemon/src/registry/static-backend.ts` (191 lines, .ts) -- import type { MarketplaceManifest, MarketplacePluginEntry } from '@open-design/contracts';
+- `./apps/daemon/src/registry/versioning.ts` (184 lines, .ts) -- import type { MarketplacePluginEntry } from '@open-design/contracts';
+- `./apps/daemon/src/research/cli-args.ts` (15 lines, .ts) -- export interface ResearchSubcommandArgs {
+- `./apps/daemon/src/research/index.ts` (114 lines, .ts) -- import type {
+- `./apps/daemon/src/research/tavily.ts` (122 lines, .ts) -- import type { ResearchSource } from '@open-design/contracts/api/research';
+- `./apps/daemon/src/resource-cli.ts` (19 lines, .ts) -- import { runVelaCommand } from './integrations/vela-command.js';
+- `./apps/daemon/src/role-marker-guard.ts` (297 lines, .ts) -- export const FABRICATED_ROLE_MARKER_RE =
+- `./apps/daemon/src/route-context-contract.ts` (58 lines, .ts) -- import type { ServerContext } from './server-context.js';
+- `./apps/daemon/src/route-registration-guard.ts` (50 lines, .ts) -- import type { Express } from 'express';
+- `./apps/daemon/src/routes/active-context.ts` (128 lines, .ts) -- import type { Express } from 'express';
+- `./apps/daemon/src/routes/attribution.ts` (354 lines, .ts) -- import express, { type Express, type Request } from 'express';
+- `./apps/daemon/src/routes/automation.ts` (125 lines, .ts) -- import type { Express } from 'express';
+- `./apps/daemon/src/routes/browser-sessions.ts` (40 lines, .ts) -- import type { Express } from 'express';
+- `./apps/daemon/src/routes/chat.ts` (2379 lines, .ts) -- import type { Express } from 'express';
+- `./apps/daemon/src/routes/collab-context.ts` (1105 lines, .ts) -- import { getDiagnosticsEvidence, recordDiagnosticFailure } from '../services/diagnostics-evidence.js';
+- `./apps/daemon/src/routes/collab-presence.ts` (984 lines, .ts) -- import type { Express, Request, Response } from 'express';
+- `./apps/daemon/src/routes/collab-sync.ts` (2556 lines, .ts) -- import type { Express, Request, Response } from 'express';
+- `./apps/daemon/src/routes/daemon.ts` (202 lines, .ts) -- import path from 'node:path';
+- `./apps/daemon/src/routes/deliverable-syntax-tool.ts` (254 lines, .ts) -- import type { Express, Request, Response } from 'express';
+- `./apps/daemon/src/routes/deploy.ts` (348 lines, .ts) -- import type { Express } from 'express';
+- `./apps/daemon/src/routes/design-system-tool.ts` (104 lines, .ts) -- import type { Express, Request, Response } from 'express';
+- `./apps/daemon/src/routes/design-systems.ts` (1132 lines, .ts) -- import type { Express, Request, Response } from 'express';
+- `./apps/daemon/src/routes/genui.ts` (253 lines, .ts) -- import type { Express } from 'express';
+- `./apps/daemon/src/routes/handoff.ts` (180 lines, .ts) -- import type { Express } from 'express';
+- `./apps/daemon/src/routes/host-tools.ts` (384 lines, .ts) -- import { spawn } from 'node:child_process';
+- `./apps/daemon/src/routes/library.ts` (748 lines, .ts) -- import { createReadStream } from 'node:fs';
+- `./apps/daemon/src/routes/live-artifact.ts` (382 lines, .ts) -- import type { Express } from 'express';
+- `./apps/daemon/src/routes/media.ts` (1353 lines, .ts) -- import fs from 'node:fs';
+- `./apps/daemon/src/routes/memory.ts` (699 lines, .ts) -- import type { Express } from 'express';
+- `./apps/daemon/src/routes/open-design-public-metadata.ts` (74 lines, .ts) -- import type { Express } from 'express';
+- `./apps/daemon/src/routes/plugins/assets.ts` (398 lines, .ts) -- import type { Express, Request, Response } from 'express';
+- `./apps/daemon/src/routes/plugins/index.ts` (1039 lines, .ts) -- import type { Express, NextFunction, Request, RequestHandler, Response } from 'express';
+- `./apps/daemon/src/routes/plugins/marketplaces.ts` (121 lines, .ts) -- import type { Express, Request } from 'express';
+- `./apps/daemon/src/routes/project/analytics.ts` (26 lines, .ts) -- export function workspaceProjectGroupCountProperties(input: {
+- `./apps/daemon/src/routes/project/cancel-owned-runs.ts` (33 lines, .ts) -- interface RunCancellationService {
+- `./apps/daemon/src/routes/project/chat-artifacts.ts` (285 lines, .ts) -- import type { Express, Request, Response } from 'express';
+- `./apps/daemon/src/routes/project/comments.ts` (750 lines, .ts) -- import type { Express, Request } from 'express';
+- `./apps/daemon/src/routes/project/conversations.ts` (739 lines, .ts) -- import type { Express } from 'express';
+- `./apps/daemon/src/routes/project/index.ts` (8008 lines, .ts) -- import { createHash, randomUUID } from 'node:crypto';
+- `./apps/daemon/src/routes/routine.ts` (599 lines, .ts) -- import type { Express } from 'express';
+- `./apps/daemon/src/routes/runs.ts` (4099 lines, .ts) -- import type { Express, Request, Response } from 'express';
+- `./apps/daemon/src/routes/social-share.ts` (31 lines, .ts) -- import type { Express } from 'express';
+- `./apps/daemon/src/routes/static-resource.ts` (1529 lines, .ts) -- import type { Express, Response } from 'express';
+- `./apps/daemon/src/routes/strategy-rollout.ts` (46 lines, .ts) -- import type { Express, RequestHandler } from 'express';
+- `./apps/daemon/src/routes/team-resource-share.ts` (193 lines, .ts) -- import type { Express, Request, Response } from 'express';
+- `./apps/daemon/src/routes/team-resources.ts` (77 lines, .ts) -- import type { Express } from 'express';
+- `./apps/daemon/src/routes/telemetry.ts` (708 lines, .ts) -- import { observeUpdateLifecycleStages } from '../migration/update-apply-observations.js';
+- `./apps/daemon/src/routes/terminal.ts` (142 lines, .ts) -- import type { Express } from 'express';
+- `./apps/daemon/src/routes/touchpoint-content-cache.ts` (673 lines, .ts) -- import { createHash } from 'node:crypto';
+- `./apps/daemon/src/routes/vela.ts` (1420 lines, .ts) -- import type { Express, Request, Response } from 'express';
+- `./apps/daemon/src/routes/whats-new.ts` (23 lines, .ts) -- import type { Express } from 'express';
+- `./apps/daemon/src/routes/xai.ts` (422 lines, .ts) -- import type { Express } from 'express';
+- `./apps/daemon/src/routines.ts` (730 lines, .ts) -- import { randomUUID } from 'node:crypto';
+- `./apps/daemon/src/run-analytics-observability.ts` (1558 lines, .ts) -- import type {
+- `./apps/daemon/src/run-artifact-fs.ts` (559 lines, .ts) -- import { createHash } from 'node:crypto';
+- `./apps/daemon/src/run-deliverable-validation.ts` (347 lines, .ts) -- import fs from 'node:fs/promises';
+- `./apps/daemon/src/run-diagnostics.ts` (740 lines, .ts) -- import type {
+- `./apps/daemon/src/run-failure-classification.ts` (1767 lines, .ts) -- import { asObject } from './agent-protocol/acp/json.js';
+- `./apps/daemon/src/run-html-version-snapshots.ts` (133 lines, .ts) -- import fs from 'node:fs';
+- `./apps/daemon/src/run-lifecycle-tracer.ts` (209 lines, .ts) -- import type { RunTelemetryTimestamps } from './run-analytics-observability.js';
+- `./apps/daemon/src/run-result.ts` (49 lines, .ts) -- export type RunResult = 'success' | 'failed' | 'cancelled';
+- `./apps/daemon/src/run-retry-policy.ts` (286 lines, .ts) -- import type {
+- `./apps/daemon/src/run-tool-bundle.ts` (185 lines, .ts) -- import type { McpAuthMode, McpServerConfig, McpTransport } from './mcp-config.js';
+- `./apps/daemon/src/runtimes/acp-handshake-failure.ts` (164 lines, .ts) -- import { isAcpCliSessionRefusalText } from '../run-failure-classification.js';
+- `./apps/daemon/src/runtimes/acp-handshake-id.ts` (46 lines, .ts) -- export const ACP_HANDSHAKE_MAX_RPC_ID = 2;
+- `./apps/daemon/src/runtimes/acp-service-failure.ts` (143 lines, .ts) -- import { classifyAgentServiceFailure } from './auth.js';
+- `./apps/daemon/src/runtimes/agent-process.ts` (553 lines, .ts) -- import { ChildProcess, spawn } from 'node:child_process';
+- `./apps/daemon/src/runtimes/amr-model-cache.ts` (106 lines, .ts) -- import type { AmrModelsResponse } from '@open-design/contracts';
+- `./apps/daemon/src/runtimes/amr-model-probe.ts` (71 lines, .ts) -- import {
+- `./apps/daemon/src/runtimes/auth.ts` (669 lines, .ts) -- import { execAgentFile } from './invocation.js';
+- `./apps/daemon/src/runtimes/byok-opencode.ts` (286 lines, .ts) -- import type { ByokChatProviderConfig } from '@open-design/contracts';
+- `./apps/daemon/src/runtimes/capabilities.ts` (3 lines, .ts) -- import type { RuntimeCapabilityMap } from './types.js';
+- `./apps/daemon/src/runtimes/chat-prompt-inputs.ts` (1003 lines, .ts) -- import fs from 'node:fs';
+- `./apps/daemon/src/runtimes/chat-run-context.ts` (281 lines, .ts) -- const WORKSPACE_CONTEXT_KINDS = new Set([
+- `./apps/daemon/src/runtimes/chat-run-lifecycle.ts` (354 lines, .ts) -- const DEFAULT_CHAT_RUN_INACTIVITY_TIMEOUT_MS = 10 * 60 * 1000;
+- `./apps/daemon/src/runtimes/chat-run-messages.ts` (880 lines, .ts) -- import { performance } from 'node:perf_hooks';
+- `./apps/daemon/src/runtimes/chat-run-records.ts` (305 lines, .ts) -- import type {
+- `./apps/daemon/src/runtimes/claude-child-evidence.ts` (1114 lines, .ts) -- import { createHash } from 'node:crypto';
+- `./apps/daemon/src/runtimes/claude-stream.ts` (1198 lines, .ts) -- import { createRoleMarkerGuard, type RoleMarkerGuard } from '../role-marker-guard.js';
+- `./apps/daemon/src/runtimes/codex-child-evidence.ts` (1193 lines, .ts) -- import { createHash } from 'node:crypto';
+- `./apps/daemon/src/runtimes/codex-model-preflight.ts` (479 lines, .ts) -- import { readFile, realpath, stat } from 'node:fs/promises';
+- `./apps/daemon/src/runtimes/defs/aider.ts` (63 lines, .ts) -- import { DEFAULT_MODEL_OPTION } from './shared.js';
+- `./apps/daemon/src/runtimes/defs/amp.ts` (57 lines, .ts) -- import { DEFAULT_MODEL_OPTION } from './shared.js';
+- `./apps/daemon/src/runtimes/defs/amr.ts` (701 lines, .ts) -- import { existsSync, readFileSync } from 'node:fs';
+- `./apps/daemon/src/runtimes/defs/antigravity.ts` (255 lines, .ts) -- import {
+- `./apps/daemon/src/runtimes/defs/atomcode.ts` (70 lines, .ts) -- import { DEFAULT_MODEL_OPTION } from './shared.js';
+- `./apps/daemon/src/runtimes/defs/byok-opencode.ts` (37 lines, .ts) -- import { opencodeByokModelId } from '../byok-opencode.js';
+- `./apps/daemon/src/runtimes/defs/claude.ts` (153 lines, .ts) -- import { agentCapabilities } from '../capabilities.js';
+- `./apps/daemon/src/runtimes/defs/codebuddy.ts` (128 lines, .ts) -- import { agentCapabilities } from '../capabilities.js';
+- `./apps/daemon/src/runtimes/defs/codex.ts` (677 lines, .ts) -- import { spawnSync } from 'node:child_process';
+- `./apps/daemon/src/runtimes/defs/copilot.ts` (80 lines, .ts) -- import { DEFAULT_MODEL_OPTION } from './shared.js';
+- `./apps/daemon/src/runtimes/defs/cursor-agent.ts` (106 lines, .ts) -- import { DEFAULT_MODEL_OPTION } from './shared.js';
+- `./apps/daemon/src/runtimes/defs/deepseek-harness.ts` (104 lines, .ts) -- import { existsSync } from 'node:fs';
+- `./apps/daemon/src/runtimes/defs/deepseek.ts` (53 lines, .ts) -- import { DEFAULT_MODEL_OPTION } from './shared.js';
+- `./apps/daemon/src/runtimes/defs/devin.ts` (46 lines, .ts) -- import { detectAcpModels, DEFAULT_MODEL_OPTION } from './shared.js';
+- `./apps/daemon/src/runtimes/defs/grok-build.ts` (110 lines, .ts) -- import { DEFAULT_MODEL_OPTION } from './shared.js';
+- `./apps/daemon/src/runtimes/defs/hermes.ts` (52 lines, .ts) -- import { detectAcpModels, DEFAULT_MODEL_OPTION } from './shared.js';
+- `./apps/daemon/src/runtimes/defs/kilo.ts` (21 lines, .ts) -- import { detectAcpModels, DEFAULT_MODEL_OPTION } from './shared.js';
+- `./apps/daemon/src/runtimes/defs/kimi.ts` (33 lines, .ts) -- import { detectAcpModels, DEFAULT_MODEL_OPTION } from './shared.js';
+- `./apps/daemon/src/runtimes/defs/kiro.ts` (22 lines, .ts) -- import { detectAcpModels, DEFAULT_MODEL_OPTION } from './shared.js';
+- `./apps/daemon/src/runtimes/defs/mimo.ts` (26 lines, .ts) -- import { DEFAULT_MODEL_OPTION } from './shared.js';
+- `./apps/daemon/src/runtimes/defs/opencode.ts` (184 lines, .ts) -- import { DEFAULT_MODEL_OPTION } from './shared.js';
+- `./apps/daemon/src/runtimes/defs/pi.ts` (99 lines, .ts) -- import path from 'node:path';
+- `./apps/daemon/src/runtimes/defs/qoder.ts` (58 lines, .ts) -- import path from 'node:path';
+- `./apps/daemon/src/runtimes/defs/qwen.ts` (38 lines, .ts) -- import { DEFAULT_MODEL_OPTION } from './shared.js';
+- `./apps/daemon/src/runtimes/defs/reasonix.ts` (76 lines, .ts) -- import os from 'node:os';
+- `./apps/daemon/src/runtimes/defs/shared.ts` (47 lines, .ts) -- import { detectAcpModels } from '../../agent-protocol/index.js';
+- `./apps/daemon/src/runtimes/defs/trae-cli.ts` (23 lines, .ts) -- import { detectAcpModels, DEFAULT_MODEL_OPTION } from './shared.js';
+- `./apps/daemon/src/runtimes/defs/vibe.ts` (21 lines, .ts) -- import { detectAcpModels, DEFAULT_MODEL_OPTION } from './shared.js';
+- `./apps/daemon/src/runtimes/detection.ts` (898 lines, .ts) -- import { createHash } from 'node:crypto';
+- `./apps/daemon/src/runtimes/diagnostics.ts` (158 lines, .ts) -- import { agentBinEnvKey, agentSearchDirs } from './executables.js';
+- `./apps/daemon/src/runtimes/env.ts` (400 lines, .ts) -- import os from 'node:os';
+- `./apps/daemon/src/runtimes/executables.ts` (449 lines, .ts) -- import { accessSync, constants, existsSync, statSync } from 'node:fs';
+- `./apps/daemon/src/runtimes/invocation.ts` (49 lines, .ts) -- import { execFile } from 'node:child_process';
+- `./apps/daemon/src/runtimes/json-event-stream.ts` (1455 lines, .ts) -- import {
+- `./apps/daemon/src/runtimes/launch.ts` (217 lines, .ts) -- import { accessSync, closeSync, constants, openSync, readdirSync, readSync, realpathSync, statSync } from 'node:fs';
+- `./apps/daemon/src/runtimes/local-profiles.ts` (225 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/daemon/src/runtimes/mcp.ts` (26 lines, .ts) -- import type { RuntimeAgentDef } from './types.js';
+- `./apps/daemon/src/runtimes/metadata.ts` (126 lines, .ts) -- import {
+- `./apps/daemon/src/runtimes/mmd-routes.ts` (166 lines, .ts) -- import { readFile } from 'node:fs/promises';
+- `./apps/daemon/src/runtimes/models.ts` (233 lines, .ts) -- import type { RuntimeAgentDef, RuntimeModelOption } from './types.js';
+- `./apps/daemon/src/runtimes/od-next-capability-gate.ts` (728 lines, .ts) -- import { createHash } from 'node:crypto';
+- `./apps/daemon/src/runtimes/od-next-exact-input.ts` (868 lines, .ts) -- import { parseOdNextPromptBundleV2 } from '@open-design/contracts';
+- `./apps/daemon/src/runtimes/opencode-child-evidence.ts` (665 lines, .ts) -- import { createHash } from 'node:crypto';
+- `./apps/daemon/src/runtimes/opencode-event-plugin.ts` (81 lines, .ts) -- import { createHash, randomUUID } from 'node:crypto';
+- `./apps/daemon/src/runtimes/opencode-log.ts` (177 lines, .ts) -- import { readdirSync, readFileSync, statSync } from 'node:fs';
+- `./apps/daemon/src/runtimes/opencode-permissions.ts` (47 lines, .ts) -- import { agentCapabilities } from './capabilities.js';
+- `./apps/daemon/src/runtimes/opencode-tool-events.ts` (53 lines, .ts) -- type Event = Record<string, unknown>;
+- `./apps/daemon/src/runtimes/paths.ts` (20 lines, .ts) -- import path from 'node:path';
+- `./apps/daemon/src/runtimes/plain-stream.ts` (472 lines, .ts) -- import type { ProjectFile } from '@open-design/contracts';
+- `./apps/daemon/src/runtimes/project-amr-trace-env.ts` (172 lines, .ts) -- import { getWorkspaceProjectByProjectId } from '../db.js';
+- `./apps/daemon/src/runtimes/prompt-budget.ts` (250 lines, .ts) -- import type { RuntimeAgentDef, RuntimePromptBudgetError } from './types.js';
+- `./apps/daemon/src/runtimes/prompt-file.ts` (29 lines, .ts) -- import { promises as fs } from 'node:fs';
+- `./apps/daemon/src/runtimes/qoder-stream.ts` (200 lines, .ts) -- import { Buffer } from 'node:buffer';
+- `./apps/daemon/src/runtimes/qwen-settings.ts` (153 lines, .ts) -- import { readFile } from 'node:fs/promises';
+- `./apps/daemon/src/runtimes/registry.ts` (91 lines, .ts) -- import { amrAgentDef } from './defs/amr.js';
+- `./apps/daemon/src/runtimes/resolution.ts` (12 lines, .ts) -- import { getAgentDef } from './registry.js';
+- `./apps/daemon/src/runtimes/run-artifacts.ts` (345 lines, .ts) -- import type { TrackingRunResult } from '@open-design/contracts/analytics';
+- `./apps/daemon/src/runtimes/run-done-key.ts` (6 lines, .ts) -- import { randomBytes } from 'node:crypto';
+- `./apps/daemon/src/runtimes/run-event-payload-budget.ts` (511 lines, .ts) -- import { createHash } from 'node:crypto';
+- `./apps/daemon/src/runtimes/run-lifecycle-analytics.ts` (401 lines, .ts) -- import { projectKindFromMetadataToTracking } from '@open-design/contracts/analytics';
+- `./apps/daemon/src/runtimes/run-produced-files.ts` (290 lines, .ts) -- import path from 'node:path';
+- `./apps/daemon/src/runtimes/run-restart-recovery.ts` (36 lines, .ts) -- import type { TrackingRunTerminalTrigger } from '@open-design/contracts/analytics';
+- `./apps/daemon/src/runtimes/run-steering.ts` (130 lines, .ts) -- import { agentSupportsMidTurnSteering } from '@open-design/contracts';
+- `./apps/daemon/src/runtimes/run-terminal-reconciliation.ts` (808 lines, .ts) -- import fs from 'node:fs';
+- `./apps/daemon/src/runtimes/runs.ts` (2635 lines, .ts) -- import { randomUUID } from 'node:crypto';
+- `./apps/daemon/src/runtimes/terminal-control.ts` (60 lines, .ts) -- const ESC = '\u001b';
+- `./apps/daemon/src/runtimes/terminal-launch.ts` (130 lines, .ts) -- import { execFile, spawn } from 'node:child_process';
+- `./apps/daemon/src/runtimes/tool-input-path-scanner.ts` (408 lines, .ts) -- const FILE_WRITE_TOOLS: ReadonlySet<string> = new Set([
+- `./apps/daemon/src/runtimes/tool-timing.ts` (69 lines, .ts) -- export interface ToolTimingClock { now(): number }
+- `./apps/daemon/src/runtimes/types.ts` (381 lines, .ts) -- import type { ExecFileOptions } from 'node:child_process';
+- `./apps/daemon/src/runtimes/vela-child-evidence.ts` (849 lines, .ts) -- import {
+- `./apps/daemon/src/sandbox-mode.ts` (195 lines, .ts) -- import fs from 'node:fs';
+- `./apps/daemon/src/server-context.ts` (275 lines, .ts) -- import type { Express } from 'express';
+- `./apps/daemon/src/server.ts` (18212 lines, .ts) -- import { startEvidenceDelivery } from './services/evidence-delivery.js';
+- `./apps/daemon/src/services/automatic-diagnostics.ts` (220 lines, .ts) -- import { readFile, readdir, rename, rm, writeFile } from 'node:fs/promises';
+- `./apps/daemon/src/services/daemon-health.ts` (819 lines, .ts) -- import { randomUUID } from 'node:crypto';
+- `./apps/daemon/src/services/diagnostic-consent.ts` (134 lines, .ts) -- import { readFileSync, renameSync, writeFileSync } from 'node:fs';
+- `./apps/daemon/src/services/diagnostic-faults.ts` (101 lines, .ts) -- import type { RecentApiFailure } from '../http/api-failure-journal.js';
+- `./apps/daemon/src/services/diagnostics-environment.ts` (141 lines, .ts) -- import { execFile } from 'node:child_process';
+- `./apps/daemon/src/services/diagnostics-evidence.ts` (261 lines, .ts) -- import { mkdir, rename, writeFile } from 'node:fs/promises';
+- `./apps/daemon/src/services/evidence-delivery.ts` (260 lines, .ts) -- import { taskObjectMetadata } from '../observability/task-object-summary.js';
+- `./apps/daemon/src/services/internal-run-service.ts` (200 lines, .ts) -- import type { RunAnalyticsFacts } from './run-analytics-lifecycle.js';
+- `./apps/daemon/src/services/login-shell.ts` (71 lines, .ts) -- import { execFile, type ExecFileOptions } from 'node:child_process';
+- `./apps/daemon/src/services/node-pty.ts` (75 lines, .ts) -- import fs from 'node:fs';
+- `./apps/daemon/src/services/open-design-public-metadata.ts` (255 lines, .ts) -- export interface OpenDesignGithubRepoStats {
+- `./apps/daemon/src/services/partitioned-refresh-cache.ts` (172 lines, .ts) -- export interface PartitionedRefreshCacheOptions<T> {
+- `./apps/daemon/src/services/plugin-installation.ts` (233 lines, .ts) -- import fs from 'node:fs';
+- `./apps/daemon/src/services/plugin-share-tasks.ts` (225 lines, .ts) -- import type { randomUUID } from 'node:crypto';
+- `./apps/daemon/src/services/run-analytics-lifecycle.ts` (1284 lines, .ts) -- import { scheduler } from 'node:timers/promises';
+- `./apps/daemon/src/services/run-failure-evidence.ts` (170 lines, .ts) -- import type {
+- `./apps/daemon/src/services/skill-installation.ts` (553 lines, .ts) -- import fs from 'node:fs';
+- `./apps/daemon/src/services/whats-new.ts` (185 lines, .ts) -- import type { WhatsNewContent, WhatsNewLocaleContent } from '@open-design/contracts';
+- `./apps/daemon/src/sidecar/index.ts` (88 lines, .ts) -- import { APP_KEYS, SIDECAR_MESSAGES, isSidecarSource } from \"@open-design/sidecar-proto\";
+- `./apps/daemon/src/sidecar/parent-monitor-gate.ts` (35 lines, .ts) -- let parentMonitorExitHolds = 0;
+- `./apps/daemon/src/sidecar/payload-desktop-handoff.ts` (537 lines, .ts) -- import { randomUUID } from \"node:crypto\";
+- `./apps/daemon/src/sidecar/server.ts` (227 lines, .ts) -- import { randomBytes } from \"node:crypto\";
+- `./apps/daemon/src/skill-catalog-scope.ts` (65 lines, .ts) -- import type { ProjectMetadata } from '@open-design/contracts';
+- `./apps/daemon/src/skills.ts` (1189 lines, .ts) -- import type { Dirent } from \"node:fs\";
+- `./apps/daemon/src/skills/workspace-team-binding.ts` (124 lines, .ts) -- import type Database from 'better-sqlite3';
+- `./apps/daemon/src/static-spa.ts` (34 lines, .ts) -- import type { Express } from 'express';
+- `./apps/daemon/src/storage/amr-terminal-report-outbox.ts` (530 lines, .ts) -- import type Database from 'better-sqlite3';
+- `./apps/daemon/src/storage/aws-sigv4.ts` (136 lines, .ts) -- import { createHash, createHmac } from 'node:crypto';
+- `./apps/daemon/src/storage/daemon-db.ts` (74 lines, .ts) -- export type DaemonDbKind = 'sqlite' | 'postgres';
+- `./apps/daemon/src/storage/db-inspect.ts` (244 lines, .ts) -- import { promises as fsp, statSync } from 'node:fs';
+- `./apps/daemon/src/storage/diagnostic-outbox.ts` (160 lines, .ts) -- import { createHash, randomUUID } from 'node:crypto';
+- `./apps/daemon/src/storage/message-event-payload-heal.ts` (221 lines, .ts) -- import type Database from 'better-sqlite3';
+- `./apps/daemon/src/storage/project-storage.ts` (436 lines, .ts) -- import path from 'node:path';
+- `./apps/daemon/src/storage/run-storage-analytics.ts` (82 lines, .ts) -- import type Database from 'better-sqlite3';
+- `./apps/daemon/src/storage/telemetry-outbox.ts` (122 lines, .ts) -- import { createHash } from 'node:crypto';
+- `./apps/daemon/src/strategies/od-next/automatic-continuation-service.ts` (132 lines, .ts) -- import type {
+- `./apps/daemon/src/strategies/od-next/automatic-simple-production.ts` (734 lines, .ts) -- import {
+- `./apps/daemon/src/strategies/od-next/complex-production.ts` (376 lines, .ts) -- import {
+- `./apps/daemon/src/strategies/od-next/complex-runtime-evidence.ts` (97 lines, .ts) -- import {
+- `./apps/daemon/src/strategies/od-next/coordinator.ts` (1283 lines, .ts) -- import type {
+- `./apps/daemon/src/strategies/od-next/device-frames.ts` (332 lines, .ts) -- import { createHash } from 'node:crypto';
+- `./apps/daemon/src/strategies/od-next/example-skill-source.ts` (163 lines, .ts) -- import type {
+- `./apps/daemon/src/strategies/od-next/frozen-skill-package.ts` (1019 lines, .ts) -- import { createHash } from 'node:crypto';
+- `./apps/daemon/src/strategies/od-next/initial-prompt-bundle-service.ts` (476 lines, .ts) -- import path from 'node:path';
+- `./apps/daemon/src/strategies/od-next/intent-resolution-finalization.ts` (48 lines, .ts) -- import type Database from 'better-sqlite3';
+- `./apps/daemon/src/strategies/od-next/intent-resolution-recovery.ts` (79 lines, .ts) -- import type Database from 'better-sqlite3';
+- `./apps/daemon/src/strategies/od-next/intent-resolution-store.ts` (164 lines, .ts) -- import { createHash } from 'node:crypto';
+- `./apps/daemon/src/strategies/od-next/intent-resolution.ts` (144 lines, .ts) -- import {
+- `./apps/daemon/src/strategies/od-next/native-build-package.ts` (65 lines, .ts) -- import { createHash } from 'node:crypto';
+- `./apps/daemon/src/strategies/od-next/protocol.ts` (511 lines, .ts) -- import {
+- `./apps/daemon/src/strategies/od-next/resolver.ts` (384 lines, .ts) -- import type { StrategyExecutionModeV2, StrategyRouteV2 } from '@open-design/contracts';
+- `./apps/daemon/src/strategies/od-next/rollout-analytics.ts` (17 lines, .ts) -- import type { OdNextRolloutDecision } from './rollout.js';
+- `./apps/daemon/src/strategies/od-next/rollout.ts` (272 lines, .ts) -- import { createHash } from 'node:crypto';
+- `./apps/daemon/src/strategies/od-next/run-write-evidence.ts` (66 lines, .ts) -- import type Database from 'better-sqlite3';
+- `./apps/daemon/src/strategies/od-next/session-skill-package.ts` (125 lines, .ts) -- import type { ProjectMetadata } from '@open-design/contracts';
+- `./apps/daemon/src/strategies/od-next/task-input-snapshot.ts` (1161 lines, .ts) -- import {
+- `./apps/daemon/src/strategies/task-store.ts` (1898 lines, .ts) -- import { createHash } from 'node:crypto';
+- `./apps/daemon/src/telemetry-environment.ts` (14 lines, .ts) -- const DEFAULT_TELEMETRY_ENV = 'development';
+- `./apps/daemon/src/terminals.ts` (343 lines, .ts) -- import { randomUUID } from 'node:crypto';
+- `./apps/daemon/src/title-marker.ts` (116 lines, .ts) -- export interface AgentTitleMarkerStripper {
+- `./apps/daemon/src/tool-loop-guard.ts` (469 lines, .ts) -- export type ToolLoopReason = 'consecutive-errors' | 'repeated-failure';
+- `./apps/daemon/src/tool-tokens.ts` (300 lines, .ts) -- import { createHash, randomBytes } from 'node:crypto';
+- `./apps/daemon/src/tools-connectors-cli.ts` (2840 lines, .ts) -- import { spawn } from 'node:child_process';
+- `./apps/daemon/src/tools-deliverable-syntax-cli.ts` (155 lines, .ts) -- import type {
+- `./apps/daemon/src/tools-design-systems-cli.ts` (160 lines, .ts) -- type JsonObject = Record<string, unknown>;
+- `./apps/daemon/src/tools-live-artifacts-cli.ts` (312 lines, .ts) -- import { access, readFile } from 'node:fs/promises';
+- `./apps/daemon/src/tools/connectors.ts` (137 lines, .ts) -- import type { ToolTokenGrant } from '../tool-tokens.js';
+- `./apps/daemon/src/trace-object-manifest.ts` (751 lines, .ts) -- import { createHash } from 'node:crypto';
+- `./apps/daemon/src/transcript-export.ts` (527 lines, .ts) -- import fs from 'node:fs';
+- `./apps/daemon/src/user-facing-agent-label.ts` (21 lines, .ts) -- import { basename } from 'node:path';
+- `./apps/daemon/src/workspace-contract.ts` (128 lines, .ts) -- import type {
+- `./apps/daemon/tests/aborted-error.test.ts` (63 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/acp-format-usage.test.ts` (163 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/acp-handshake-failure-wiring.test.ts` (745 lines, .ts) -- import type { Server } from 'node:http';
+- `./apps/daemon/tests/acp-handshake-failure.test.ts` (630 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/acp-inflight-tool-rows.test.ts` (550 lines, .ts) -- import assert from 'node:assert/strict';
+- `./apps/daemon/tests/acp-rpc-observability.test.ts` (57 lines, .ts) -- import { PassThrough } from 'node:stream';
+- `./apps/daemon/tests/acp-service-failure-wiring.test.ts` (516 lines, .ts) -- import type { Server } from 'node:http';
+- `./apps/daemon/tests/acp-service-failure.test.ts` (433 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/acp-stage-timeout-classification.test.ts` (349 lines, .ts) -- import assert from 'node:assert/strict';
+- `./apps/daemon/tests/acp-stage-timeout-wiring.test.ts` (377 lines, .ts) -- import type { Server } from 'node:http';
+- `./apps/daemon/tests/acp-stdio-mcp-wiring.test.ts` (249 lines, .ts) -- import type http from 'node:http';
+- `./apps/daemon/tests/acp-stdio-mcp.test.ts` (159 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/acp-timeout-env.test.ts` (128 lines, .ts) -- import assert from 'node:assert/strict';
+- `./apps/daemon/tests/acp-todo-tool-name.test.ts` (47 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/acp-tool-completion-diagnostics.test.ts` (233 lines, .ts) -- import { EventEmitter } from 'node:events';
+- `./apps/daemon/tests/acp-upstream-retryable-passthrough.test.ts` (320 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/acp.test.ts` (3883 lines, .ts) -- import assert from 'node:assert/strict';
+- `./apps/daemon/tests/active-context-routes.test.ts` (126 lines, .ts) -- import { describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/agent-companion-setup.test.ts` (195 lines, .ts) -- import { createHash } from 'node:crypto';
+- `./apps/daemon/tests/agent-protocol/acp-incomplete-tool-prefix-boundaries.test.ts` (114 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/agent-protocol/acp-incomplete-tool-prefix.test.ts` (42 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/agent-protocol/acp-memory-peer.ts` (235 lines, .ts) -- import { EventEmitter } from 'node:events';
+- `./apps/daemon/tests/agent-protocol/acp-visible-output-flush.test.ts` (123 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/agent-protocol/acp-visible-output-reentry.test.ts` (43 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/agent-protocol/dsh-profile.test.ts` (549 lines, .ts) -- import assert from 'node:assert/strict';
+- `./apps/daemon/tests/agent-protocol/tool-execution-lifecycle.test.ts` (105 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/agent-session-resume.test.ts` (834 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/agui-route.test.ts` (37 lines, .ts) -- import type http from 'node:http';
+- `./apps/daemon/tests/aihubmix-asset-ssrf.test.ts` (155 lines, .ts) -- import { mkdtemp, rm } from 'node:fs/promises';
+- `./apps/daemon/tests/amr-acp-integration.test.ts` (1628 lines, .ts) -- import { spawn, type ChildProcess } from 'node:child_process';
+- `./apps/daemon/tests/amr-auth-analytics.test.ts` (85 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/amr-image-staging.test.ts` (33 lines, .ts) -- import { mkdtemp, mkdir, rm, symlink, writeFile } from 'node:fs/promises';
+- `./apps/daemon/tests/amr-login-cli.test.ts` (207 lines, .ts) -- import http from 'node:http';
+- `./apps/daemon/tests/amr-session-resume.test.ts` (716 lines, .ts) -- import type { Server } from 'node:http';
+- `./apps/daemon/tests/amr-stderr-filter.test.ts` (95 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/analytics-env.test.ts` (194 lines, .ts) -- import { mkdtemp, writeFile } from 'node:fs/promises';
+- `./apps/daemon/tests/api-failure-journal.test.ts` (139 lines, .ts) -- import type { Request, Response } from 'express';
+- `./apps/daemon/tests/api-token-guard.test.ts` (283 lines, .ts) -- import { request as httpRequest, type OutgoingHttpHeaders, type Server } from 'node:http';
+- `./apps/daemon/tests/app-config.test.ts` (1423 lines, .ts) -- import http from 'node:http';
+- `./apps/daemon/tests/app-version.test.ts` (88 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/artifact-focus-marker.test.ts` (406 lines, .ts) -- import { describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/artifact-focus-protocol.test.ts` (169 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/artifacts-cli.test.ts` (188 lines, .ts) -- import { mkdtemp, rm, writeFile } from 'node:fs/promises';
+- `./apps/daemon/tests/artifacts/create.test.ts` (204 lines, .ts) -- import { describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/artifacts/deliverable-syntax-finalization.test.ts` (352 lines, .ts) -- import fs from 'node:fs/promises';
+- `./apps/daemon/tests/artifacts/deliverable-syntax-metrics.test.ts` (94 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/artifacts/deliverable-syntax-quotes.test.ts` (234 lines, .ts) -- import { createHash } from 'node:crypto';
+- `./apps/daemon/tests/artifacts/deliverable-syntax-repair.test.ts` (138 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/artifacts/deliverable-syntax-safe-fix.test.ts` (163 lines, .ts) -- import fs from 'node:fs/promises';
+- `./apps/daemon/tests/artifacts/deliverable-syntax.test.ts` (263 lines, .ts) -- import fs from 'node:fs/promises';
+- `./apps/daemon/tests/artifacts/fixtures/syntax-quotes/README.md` (50 lines, .md) -- `order-stress-r01.sanitized.html` is a privacy-reviewed derivative of the full
+- `./apps/daemon/tests/artifacts/manifest.test.ts` (99 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/artifacts/publication-guard.test.ts` (186 lines, .ts) -- import { mkdtemp, rm } from 'node:fs/promises';
+- `./apps/daemon/tests/artifacts/reconcile-on-run-end.test.ts` (222 lines, .ts) -- import { afterEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/artifacts/runtime-compat.test.ts` (164 lines, .ts) -- import { mkdtemp, readFile, rm } from 'node:fs/promises';
+- `./apps/daemon/tests/artifacts/standalone-html.test.ts` (403 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/artifacts/stub-guard.test.ts` (432 lines, .ts) -- import { mkdtemp, rm, writeFile } from 'node:fs/promises';
+- `./apps/daemon/tests/artifacts/successful-run-deliverable-finalization.test.ts` (164 lines, .ts) -- import fs from 'node:fs/promises';
+- `./apps/daemon/tests/artifacts/text-suppression.test.ts` (180 lines, .ts) -- import assert from 'node:assert/strict';
+- `./apps/daemon/tests/assemble-example-title-patterns.test.ts` (19 lines, .ts) -- import assert from 'node:assert/strict';
+- `./apps/daemon/tests/asset-ssrf-loopback.test.ts` (415 lines, .ts) -- import { describe, it, expect } from 'vitest';
+- `./apps/daemon/tests/attribution.test.ts` (234 lines, .ts) -- import { mkdtemp, rm } from 'node:fs/promises';
+- `./apps/daemon/tests/automatic-diagnostics.test.ts` (93 lines, .ts) -- import { mkdtempSync, rmSync } from 'node:fs';
+- `./apps/daemon/tests/automation-ingestions.test.ts` (102 lines, .ts) -- import { promises as fsp } from 'node:fs';
+- `./apps/daemon/tests/automation-proposals.test.ts` (214 lines, .ts) -- import { promises as fsp } from 'node:fs';
+- `./apps/daemon/tests/automation-routine-evolution.test.ts` (102 lines, .ts) -- import { mkdtempSync, rmSync } from 'node:fs';
+- `./apps/daemon/tests/automation-templates.test.ts` (71 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/automations/workspace-scope.test.ts` (54 lines, .ts) -- import { describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/aws-sigv4.test.ts` (88 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/brand-extraction-engine.test.ts` (2414 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/brand-memory.test.ts` (135 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/brand-prefetch.test.ts` (221 lines, .ts) -- import fs from 'node:fs';
+- `./apps/daemon/tests/brand-routes.test.ts` (1705 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/brand-safe-fetch.test.ts` (117 lines, .ts) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/brands-cli-help.test.ts` (28 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/brands-cli.test.ts` (77 lines, .ts) -- import { execFile } from 'node:child_process';
+- `./apps/daemon/tests/brands-prefetch-abort.test.ts` (35 lines, .ts) -- import { mkdtempSync, rmSync } from 'node:fs';
+- `./apps/daemon/tests/browser-open.test.ts` (40 lines, .ts) -- import { EventEmitter } from 'node:events';
+- `./apps/daemon/tests/browser-use-diagnostics.test.ts` (115 lines, .ts) -- import { mkdtemp, rm, utimes, writeFile } from 'node:fs/promises';
+- `./apps/daemon/tests/byok-tools.test.ts` (1814 lines, .ts) -- import { mkdir, mkdtemp, readFile, rm, writeFile } from 'node:fs/promises';
+- `./apps/daemon/tests/byok/run-input-boundary.test.ts` (62 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/cancel-owned-runs.test.ts` (57 lines, .ts) -- import { describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/chat-artifacts-blob-store.test.ts` (100 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/chat-artifacts-boot-maintenance-wiring.test.ts` (145 lines, .ts) -- import type http from 'node:http';
+- `./apps/daemon/tests/chat-artifacts-capture.test.ts` (264 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/chat-artifacts-file-route-wiring.test.ts` (127 lines, .ts) -- import type http from 'node:http';
+- `./apps/daemon/tests/chat-artifacts-fork-seeding.test.ts` (189 lines, .ts) -- import type http from 'node:http';
+- `./apps/daemon/tests/chat-artifacts-gc.test.ts` (182 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/chat-artifacts-maintenance-loop.test.ts` (224 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/chat-artifacts-media-hook-wiring.test.ts` (123 lines, .ts) -- import type http from 'node:http';
+- `./apps/daemon/tests/chat-artifacts-media-kind-snapshot-policy.test.ts` (317 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/chat-artifacts-recovery.test.ts` (239 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/chat-artifacts-routes.test.ts` (184 lines, .ts) -- import type http from 'node:http';
+- `./apps/daemon/tests/chat-artifacts-run-capture.test.ts` (234 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/chat-artifacts-run-cover.test.ts` (625 lines, .ts) -- import type http from 'node:http';
+- `./apps/daemon/tests/chat-artifacts-store.test.ts` (170 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/chat-artifacts-telemetry.test.ts` (179 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/chat-artifacts-video-cover.test.ts` (414 lines, .ts) -- import type http from 'node:http';
+- `./apps/daemon/tests/chat-artifacts/cover-renderer.test.ts` (200 lines, .ts) -- import fs from 'node:fs';
+- `./apps/daemon/tests/chat-attachments.test.ts` (69 lines, .ts) -- import path from 'node:path';
+- `./apps/daemon/tests/chat-project-authority.test.ts` (342 lines, .ts) -- import http from 'node:http';
+- `./apps/daemon/tests/chat-project-skill-critique-label.test.ts` (160 lines, .ts) -- import type http from 'node:http';
+- `./apps/daemon/tests/chat-route.test.ts` (4692 lines, .ts) -- import type http from 'node:http';
+- `./apps/daemon/tests/chat-run-artifact-quiet-period.test.ts` (644 lines, .ts) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/chat-run-lifecycle-stdin.test.ts` (52 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/chat-run-message-clock.test.ts` (50 lines, .ts) -- import { mkdtempSync, rmSync } from 'node:fs';
+- `./apps/daemon/tests/chat-run-messages-pin.test.ts` (361 lines, .ts) -- import Database from 'better-sqlite3';
+- `./apps/daemon/tests/claude-design-import.test.ts` (363 lines, .ts) -- import { mkdtempSync, rmSync, writeFileSync, readFileSync, readdirSync } from 'node:fs';
+- `./apps/daemon/tests/claude-diagnostics.test.ts` (292 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/claude-sidechain-assistant-error-false-failure.test.ts` (267 lines, .ts) -- import type { Server } from 'node:http';
+- `./apps/daemon/tests/claude-sidechain-turn-end-false-success.test.ts` (228 lines, .ts) -- import type { Server } from 'node:http';
+- `./apps/daemon/tests/cli-deploy.test.ts` (380 lines, .ts) -- import http from 'node:http';
+- `./apps/daemon/tests/cli-files-write.test.ts` (225 lines, .ts) -- import http from 'node:http';
+- `./apps/daemon/tests/cli-lint.test.ts` (293 lines, .ts) -- import http from 'node:http';
+- `./apps/daemon/tests/cli-phase2c.test.ts` (434 lines, .ts) -- import type http from 'node:http';
+- `./apps/daemon/tests/cli-run-steer.test.ts` (223 lines, .ts) -- import http from 'node:http';
+- `./apps/daemon/tests/cli-skills-install.test.ts` (234 lines, .ts) -- import http from 'node:http';
+- `./apps/daemon/tests/cli-startup.test.ts` (665 lines, .ts) -- import { chmod, mkdir, mkdtemp, readFile, rm, writeFile } from 'node:fs/promises';
+- `./apps/daemon/tests/cli-templates.test.ts` (503 lines, .ts) -- import http from 'node:http';
+- `./apps/daemon/tests/client-experience-diagnostics.test.ts` (36 lines, .ts) -- import { expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/codex-app-server-command-output-stream.test.ts` (217 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/codex-app-server-normalize.test.ts` (751 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/codex-app-server-parity.test.ts` (566 lines, .ts) -- import fs from 'node:fs';
+- `./apps/daemon/tests/codex-app-server-patch-stream.test.ts` (88 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/codex-app-server-protocol-contract.test.ts` (201 lines, .ts) -- import { execFileSync } from 'node:child_process';
+- `./apps/daemon/tests/codex-app-server-session.test.ts` (776 lines, .ts) -- import { EventEmitter } from 'node:events';
+- `./apps/daemon/tests/codex-app-server-transport-switch.test.ts` (186 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/codex-config-normalize.test.ts` (545 lines, .ts) -- import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest';
+- `./apps/daemon/tests/codex-model-capability-preflight.test.ts` (410 lines, .ts) -- import type { Server } from 'node:http';
+- `./apps/daemon/tests/codex-provider-env-key.test.ts` (84 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/codex-rollout-usage.test.ts` (236 lines, .ts) -- import { chmodSync, mkdtempSync, mkdirSync, renameSync, rmSync, symlinkSync, writeFileSync } from 'node:fs';
+- `./apps/daemon/tests/codex-session-resume.test.ts` (629 lines, .ts) -- import type { Server } from 'node:http';
+- `./apps/daemon/tests/codex-thinking-tokens.test.ts` (135 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/codex-thread-cleanup-owner.test.ts` (375 lines, .ts) -- import { spawn } from 'node:child_process';
+- `./apps/daemon/tests/codex-thread-cleanup-windows.test.ts` (211 lines, .ts) -- import { EventEmitter, once } from 'node:events';
+- `./apps/daemon/tests/codex-thread-cleanup.test.ts` (224 lines, .ts) -- import { spawn } from 'node:child_process';
+- `./apps/daemon/tests/codex-update-plan-tool.test.ts` (79 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/collab-cli.test.ts` (344 lines, .ts) -- import { execFile } from 'node:child_process';
+- `./apps/daemon/tests/collab-cloud.test.ts` (1180 lines, .ts) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/collab-concurrency-gate.test.ts` (126 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/collab-context-routes.test.ts` (1759 lines, .ts) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/collab-fanout-concurrency.test.ts` (300 lines, .ts) -- import { describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/collab-first-open-materializing.test.ts` (249 lines, .ts) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/collab-fresh-install-placeholder-guard.test.ts` (179 lines, .ts) -- import { describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/collab-presence-routes.test.ts` (1242 lines, .ts) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/collab-presence-tracker.test.ts` (87 lines, .ts) -- import { beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/collab-presence-transport-off.test.ts` (394 lines, .ts) -- import type { Server } from 'node:http';
+- `./apps/daemon/tests/collab-presence-upstream.test.ts` (218 lines, .ts) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/collab-publish-scheduler.test.ts` (237 lines, .ts) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/collab-publish-watcher.test.ts` (96 lines, .ts) -- import { describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/collab-runtime-metadata-refresh.test.ts` (271 lines, .ts) -- import fs from 'node:fs';
+- `./apps/daemon/tests/collab-runtime-upload-badge-window.test.ts` (63 lines, .ts) -- import { describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/collab-status-local-project-fast-path.test.ts` (600 lines, .ts) -- import { afterEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/collab-sync-routes.test.ts` (4970 lines, .ts) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/collab-team-projects-routes.test.ts` (325 lines, .ts) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/collab-workspace-events-route.test.ts` (194 lines, .ts) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/collab-workspace-invalidation-poller.test.ts` (512 lines, .ts) -- import { describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/collab/account-billing-summary-cache.test.ts` (96 lines, .ts) -- import { describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/collab/active-workspace-selection.test.ts` (277 lines, .ts) -- import { mkdtemp, rm, writeFile } from 'node:fs/promises';
+- `./apps/daemon/tests/collab/authorized-team-project-pull.test.ts` (347 lines, .ts) -- import {
+- `./apps/daemon/tests/collab/background-pull-size-guard.test.ts` (728 lines, .ts) -- import { describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/collab/created-project-workspace.test.ts` (121 lines, .ts) -- import { describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/collab/event-refresh-coordinator.test.ts` (116 lines, .ts) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/collab/hub-events-subscriber.test.ts` (905 lines, .ts) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/collab/hub-workspace-context-changed-poll.test.ts` (154 lines, .ts) -- import fs from 'node:fs';
+- `./apps/daemon/tests/collab/persisted-team-share.test.ts` (34 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/collab/persistent-sync-cache.test.ts` (399 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/collab/proactive-content-pull-size-policy.test.ts` (219 lines, .ts) -- import { describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/collab/proactive-content-pull.test.ts` (3362 lines, .ts) -- import { describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/collab/proactive-pull-authorization.test.ts` (109 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/collab/project-content-transfer-state.test.ts` (98 lines, .ts) -- import { describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/collab/project-delete-authority-lease.test.ts` (156 lines, .ts) -- import { describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/collab/project-request-authority.test.ts` (768 lines, .ts) -- import { describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/collab/project-scope-least-privilege.test.ts` (171 lines, .ts) -- import { describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/collab/project-workspace-scope.test.ts` (113 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/collab/pull-profile.test.ts` (91 lines, .ts) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/collab/remembered-team-resource-scopes.test.ts` (119 lines, .ts) -- import { describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/collab/swr-cache.test.ts` (169 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/collab/sync-digest.test.ts` (228 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/collab/team-mirror-materializer.test.ts` (372 lines, .ts) -- import { mkdtemp, rm } from 'node:fs/promises';
+- `./apps/daemon/tests/collab/team-mirror-promotion.test.ts` (901 lines, .ts) -- import { renameSync } from 'node:fs';
+- `./apps/daemon/tests/collab/team-projects-change-emitter.test.ts` (48 lines, .ts) -- import { describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/collab/team-resource-materialization.test.ts` (202 lines, .ts) -- import { mkdtemp, readFile, symlink, writeFile } from 'node:fs/promises';
+- `./apps/daemon/tests/collab/team-share-scope.test.ts` (320 lines, .ts) -- import { mkdtemp, rm } from 'node:fs/promises';
+- `./apps/daemon/tests/collab/workspace-authority-health.test.ts` (136 lines, .ts) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/collab/workspace-billing-runtime.test.ts` (1535 lines, .ts) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/collab/workspace-events-authority.test.ts` (146 lines, .ts) -- import express from 'express';
+- `./apps/daemon/tests/collab/workspace-exact-authority-cache.test.ts` (90 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/collab/workspace-exact-context-cache.test.ts` (202 lines, .ts) -- import { describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/collab/workspace-hub-subscriptions.test.ts` (142 lines, .ts) -- import { describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/collab/workspace-multi-client-scope.test.ts` (146 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/collab/workspace-project-home.test.ts` (250 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/collab/workspace-projects-hub-wiring.test.ts` (745 lines, .ts) -- import fs from 'node:fs';
+- `./apps/daemon/tests/collab/workspace-projects-reconcile-http.test.ts` (833 lines, .ts) -- import express from 'express';
+- `./apps/daemon/tests/collab/workspace-projects-reconcile-membership.test.ts` (472 lines, .ts) -- import express from 'express';
+- `./apps/daemon/tests/collab/workspace-projects-reconciler.test.ts` (546 lines, .ts) -- import { describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/collab/workspace-resource-mutation.test.ts` (854 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/collab/workspace-resources-reconciler.test.ts` (619 lines, .ts) -- import { describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/collab/workspace-scope.test.ts` (52 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/collab/workspace-settings-url.test.ts` (95 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/collab/workspace-switch-warms-caches.test.ts` (413 lines, .ts) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/comment-attachments.test.ts` (807 lines, .ts) -- import { afterEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/comment-pin-seq.test.ts` (302 lines, .ts) -- import { afterEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/comment-relay-outbox.test.ts` (895 lines, .ts) -- import { afterEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/composio-config.test.ts` (285 lines, .ts) -- import { describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/composio-descriptions.test.ts` (38 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/connection-test.test.ts` (5060 lines, .ts) -- import * as http from 'node:http';
+- `./apps/daemon/tests/connectors-routes.test.ts` (1403 lines, .ts) -- import { request as httpRequest, type Server } from 'node:http';
+- `./apps/daemon/tests/connectors-service.test.ts` (936 lines, .ts) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/conversation-fork-title.test.ts` (118 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/craft-route.test.ts` (56 lines, .ts) -- import type http from 'node:http';
+- `./apps/daemon/tests/craft.test.ts` (134 lines, .ts) -- import { describe, expect, it, beforeAll, afterAll } from 'vitest';
+- `./apps/daemon/tests/critique-adapter-degraded.test.ts` (93 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/critique-artifact-endpoint.test.ts` (343 lines, .ts) -- import http from 'node:http';
+- `./apps/daemon/tests/critique-artifact-writer.test.ts` (150 lines, .ts) -- import { mkdtempSync, readFileSync, statSync } from 'node:fs';
+- `./apps/daemon/tests/critique-authority.test.ts` (296 lines, .ts) -- import { describe, it, expect, beforeEach, afterEach } from 'vitest';
+- `./apps/daemon/tests/critique-boot-reconcile.test.ts` (136 lines, .ts) -- import { describe, it, expect, beforeEach, afterEach } from 'vitest';
+- `./apps/daemon/tests/critique-composer.test.ts` (124 lines, .ts) -- import { describe, it, expect } from 'vitest';
+- `./apps/daemon/tests/critique-config.test.ts` (154 lines, .ts) -- import { describe, it, expect } from 'vitest';
+- `./apps/daemon/tests/critique-conformance-history.test.ts` (144 lines, .ts) -- import { promises as fs } from 'node:fs';
+- `./apps/daemon/tests/critique-conformance.test.ts` (560 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/critique-grammar-never-in-prompt.test.ts` (198 lines, .ts) -- import { promises as fsp } from 'node:fs';
+- `./apps/daemon/tests/critique-interrupt-endpoint.test.ts` (359 lines, .ts) -- import http from 'node:http';
+- `./apps/daemon/tests/critique-lifecycle.test.ts` (180 lines, .ts) -- import { describe, it, expect, beforeEach, afterEach } from 'vitest';
+- `./apps/daemon/tests/critique-orchestrator.test.ts` (847 lines, .ts) -- import { describe, it, expect, beforeEach, afterEach, vi } from 'vitest';
+- `./apps/daemon/tests/critique-panel-prompt.test.ts` (174 lines, .ts) -- import { describe, it, expect } from 'vitest';
+- `./apps/daemon/tests/critique-persistence.test.ts` (180 lines, .ts) -- import { describe, expect, it, beforeEach } from 'vitest';
+- `./apps/daemon/tests/critique-ratchet.test.ts` (235 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/critique-rollout.test.ts` (153 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/critique-run-registry.test.ts` (174 lines, .ts) -- import { describe, it, expect, beforeEach } from 'vitest';
+- `./apps/daemon/tests/critique-spawn-inputs.test.ts` (129 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/critique-spawn-wiring.test.ts` (253 lines, .ts) -- import { describe, it, expect, beforeEach, afterEach } from 'vitest';
+- `./apps/daemon/tests/critique-transcript.test.ts` (239 lines, .ts) -- import { describe, it, expect, beforeEach, afterEach } from 'vitest';
+- `./apps/daemon/tests/critique/parsers/v1.test.ts` (574 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/critique/scoreboard.test.ts` (69 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/cwd-aliases.test.ts` (364 lines, .ts) -- import {
+- `./apps/daemon/tests/daemon-health.test.ts` (283 lines, .ts) -- import { existsSync, mkdirSync, mkdtempSync, readdirSync, readFileSync, rmSync, writeFileSync } from 'node:fs';
+- `./apps/daemon/tests/daemon-lifecycle.test.ts` (92 lines, .ts) -- import type http from 'node:http';
+- `./apps/daemon/tests/daemon-startup.test.ts` (75 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/daemon-url-installation-integrity.test.ts` (144 lines, .ts) -- import { execFile } from \"node:child_process\";
+- `./apps/daemon/tests/daemon-url.test.ts` (67 lines, .ts) -- import fs from \"node:fs\";
+- `./apps/daemon/tests/db-agent-sessions.test.ts` (207 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/db-conversation-turn-index.test.ts` (94 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/db-intent-signals.test.ts` (140 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/db-list-conversations-events-payload.test.ts` (285 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/db-message-cancel-origin.test.ts` (149 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/db-message-events.test.ts` (587 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/db-pre-turn-file-names.test.ts` (100 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/db-workspace-resources.test.ts` (176 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/deck-export.test.ts` (243 lines, .ts) -- import { mkdirSync, mkdtempSync, rmSync } from 'node:fs';
+- `./apps/daemon/tests/delete-cancels-active-runs.test.ts` (372 lines, .ts) -- import express from 'express';
+- `./apps/daemon/tests/deliverable-syntax-finalizer-server.test.ts` (296 lines, .ts) -- import type { Server } from 'node:http';
+- `./apps/daemon/tests/deploy-failure-detail.test.ts` (43 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/deploy-routes.test.ts` (1591 lines, .ts) -- import type http from 'node:http';
+- `./apps/daemon/tests/deploy.test.ts` (2577 lines, .ts) -- import { mkdtemp, readFile, rm, writeFile, mkdir } from 'node:fs/promises';
+- `./apps/daemon/tests/design-system-archive.test.ts` (153 lines, .ts) -- import { mkdtempSync, rmSync } from 'node:fs';
+- `./apps/daemon/tests/design-system-preview.test.ts` (312 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/design-system-workspaceless-delete.test.ts` (101 lines, .ts) -- import type { Server } from 'node:http';
+- `./apps/daemon/tests/design-systems-cli-help.test.ts` (34 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/design-systems-workspace-cli.test.ts` (175 lines, .ts) -- import { execFile } from 'node:child_process';
+- `./apps/daemon/tests/design-systems/asset-sync.test.ts` (333 lines, .ts) -- import { mkdir, mkdtemp, readFile, rm, writeFile } from 'node:fs/promises';
+- `./apps/daemon/tests/design-systems/assets.test.ts` (671 lines, .ts) -- import { mkdirSync, mkdtempSync, writeFileSync } from 'node:fs';
+- `./apps/daemon/tests/design-systems/create-user-cleanup.test.ts` (89 lines, .ts) -- import { mkdtemp, readdir, readFile, rm } from 'node:fs/promises';
+- `./apps/daemon/tests/design-systems/design-system-family-workspace-authority.test.ts` (439 lines, .ts) -- import express from 'express';
+- `./apps/daemon/tests/design-systems/explicit-workspace-scope-routes.test.ts` (610 lines, .ts) -- import express from 'express';
+- `./apps/daemon/tests/design-systems/file-score.test.ts` (50 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/design-systems/frontmatter.test.ts` (281 lines, .ts) -- import { mkdirSync, mkdtempSync, writeFileSync } from 'node:fs';
+- `./apps/daemon/tests/design-systems/generation-jobs.test.ts` (346 lines, .ts) -- import { mkdtemp, readFile, rm } from 'node:fs/promises';
+- `./apps/daemon/tests/design-systems/github-import.test.ts` (147 lines, .ts) -- import fs from 'node:fs';
+- `./apps/daemon/tests/design-systems/import-auto-rebuild-route.test.ts` (186 lines, .ts) -- import type http from 'node:http';
+- `./apps/daemon/tests/design-systems/import.test.ts` (303 lines, .ts) -- import fs from 'node:fs';
+- `./apps/daemon/tests/design-systems/index.test.ts` (630 lines, .ts) -- import { mkdir, mkdtemp, readFile, rm, writeFile } from 'node:fs/promises';
+- `./apps/daemon/tests/design-systems/pitch-deck-manifest-required-inputs.test.ts` (57 lines, .ts) -- import { readFile } from 'node:fs/promises';
+- `./apps/daemon/tests/design-systems/re-finalize-workspace-claim.test.ts` (411 lines, .ts) -- import type http from 'node:http';
+- `./apps/daemon/tests/design-systems/rename-args.test.ts` (80 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/design-systems/shadcn-import.test.ts` (468 lines, .ts) -- import fs from 'node:fs';
+- `./apps/daemon/tests/design-systems/showcase.test.ts` (71 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/design-systems/source-context.test.ts` (103 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/design-systems/swift-colors.test.ts` (71 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/design-systems/team-owner-materialization.test.ts` (46 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/design-systems/team-personal-same-id-route-isolation.test.ts` (313 lines, .ts) -- import express from 'express';
+- `./apps/daemon/tests/design-systems/team-project-share.test.ts` (476 lines, .ts) -- import { describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/design-systems/team-resource-consumer-scope.test.ts` (360 lines, .ts) -- import { mkdtemp, mkdir, readFile, rm, writeFile } from 'node:fs/promises';
+- `./apps/daemon/tests/design-systems/token-contract-rebuild.test.ts` (125 lines, .ts) -- import { mkdir, mkdtemp, rm, writeFile } from 'node:fs/promises';
+- `./apps/daemon/tests/design-systems/token-contract.test.ts` (59 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/design-systems/tool-routes.test.ts` (173 lines, .ts) -- import express from 'express';
+- `./apps/daemon/tests/design-systems/workspace-owned-create.test.ts` (157 lines, .ts) -- import { access, mkdtemp, readdir, rm } from 'node:fs/promises';
+- `./apps/daemon/tests/design-systems/workspace-project-rename.test.ts` (313 lines, .ts) -- import type http from 'node:http';
+- `./apps/daemon/tests/design-systems/workspace-project-scope.test.ts` (298 lines, .ts) -- import { createHash } from 'node:crypto';
+- `./apps/daemon/tests/design-systems/workspace-resource-backfill.test.ts` (301 lines, .ts) -- import { mkdirSync, mkdtempSync, readFileSync, rmSync, writeFileSync } from 'node:fs';
+- `./apps/daemon/tests/design-systems/workspace-scope-context-switch.test.ts` (265 lines, .ts) -- import type http from 'node:http';
+- `./apps/daemon/tests/design-systems/workspace-scope.test.ts` (148 lines, .ts) -- import { mkdirSync, mkdtempSync, writeFileSync } from 'node:fs';
+- `./apps/daemon/tests/desktop-import-token-gate.test.ts` (437 lines, .ts) -- import type http from 'node:http';
+- `./apps/daemon/tests/diagnostic-amr-runtime-log.test.ts` (81 lines, .ts) -- import { appendFile, mkdir, mkdtemp, readFile, rename, rm, stat, writeFile } from 'node:fs/promises';
+- `./apps/daemon/tests/diagnostic-consent-rotation.test.ts` (126 lines, .ts) -- import { mkdtemp, rm, writeFile } from 'node:fs/promises';
+- `./apps/daemon/tests/diagnostic-consent.test.ts` (39 lines, .ts) -- import { appendFile, mkdtemp, readFile, rm, writeFile } from 'node:fs/promises';
+- `./apps/daemon/tests/diagnostic-experience.test.ts` (83 lines, .ts) -- import { mkdtempSync, rmSync } from 'node:fs';
+- `./apps/daemon/tests/diagnostic-outbox.test.ts` (56 lines, .ts) -- import { mkdtempSync, rmSync } from 'node:fs';
+- `./apps/daemon/tests/diagnostics-chat-scroll-forensics-body-limit.test.ts` (204 lines, .ts) -- import http from 'node:http';
+- `./apps/daemon/tests/diagnostics-chat-scroll-forensics.test.ts` (190 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/diagnostics-export.test.ts` (712 lines, .ts) -- import { createDiagnosticsEvidence, createEvidenceCheckpointWriter } from '../src/services/diagnostics-evidence.js';
+- `./apps/daemon/tests/directions-cli.test.ts` (67 lines, .ts) -- import { execFile } from 'node:child_process';
+- `./apps/daemon/tests/done-marker-protocol.test.ts` (161 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/elevenlabs-voices.test.ts` (141 lines, .ts) -- import { mkdir, mkdtemp, rm, writeFile } from 'node:fs/promises';
+- `./apps/daemon/tests/export-cli-routing.test.ts` (117 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/export-html-cli.test.ts` (107 lines, .ts) -- import { execFile } from 'node:child_process';
+- `./apps/daemon/tests/export-inline-route.test.ts` (907 lines, .ts) -- import type http from 'node:http';
+- `./apps/daemon/tests/export-renderer-error-redaction.test.ts` (125 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/daemon/tests/export-tool-token-authority.test.ts` (607 lines, .ts) -- import { execFile, execFileSync } from 'node:child_process';
+- `./apps/daemon/tests/export-tool-token-nonloopback-authority.test.ts` (339 lines, .ts) -- import { execFile } from 'node:child_process';
+- `./apps/daemon/tests/figma-cli.test.ts` (152 lines, .ts) -- import { execFile } from 'node:child_process';
+- `./apps/daemon/tests/figma-import-route.test.ts` (93 lines, .ts) -- import fs from 'node:fs';
+- `./apps/daemon/tests/figma-import.test.ts` (120 lines, .ts) -- import { describe, it, expect, beforeEach, afterEach } from 'vitest';
+- `./apps/daemon/tests/finalize-design.test.ts` (1100 lines, .ts) -- import { afterAll, afterEach, beforeAll, describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/finalize-route-abort.test.ts` (200 lines, .ts) -- import * as http from 'node:http';
+- `./apps/daemon/tests/first-visible-output-harness.ts` (395 lines, .ts) -- import type { Server } from 'node:http';
+- `./apps/daemon/tests/first-visible-output-mark.test.ts` (253 lines, .ts) -- import { mkdtemp, rm } from 'node:fs/promises';
+- `./apps/daemon/tests/first-visible-output-telemetry-isolation.test.ts` (127 lines, .ts) -- import { mkdtemp, rm } from 'node:fs/promises';
+- `./apps/daemon/tests/fixtures/claude-cli-recordings/README.md` (39 lines, .md) -- Every `.jsonl` here is **byte-for-byte stdout** captured from a real
+- `./apps/daemon/tests/fixtures/dsh-profile/fake-dsh.ts` (205 lines, .ts) -- import { createInterface } from 'node:readline';
+- `./apps/daemon/tests/fixtures/fake-vela-continuation.ts` (70 lines, .ts) -- import { appendFileSync, readFileSync, writeFileSync } from 'node:fs';
+- `./apps/daemon/tests/fixtures/plugin-fixtures/README.md` (13 lines, .md) -- Declarative plugin fixtures used by Phase 1 plugin-system tests
+- `./apps/daemon/tests/fixtures/plugin-fixtures/sample-plugin/SKILL.md` (23 lines, .md) -- name: sample-plugin
+- `./apps/daemon/tests/fixtures/w123-export-acp-inflight-frames.ts` (203 lines, .ts) -- import { createHash } from 'node:crypto';
+- `./apps/daemon/tests/folder-import-projects.test.ts` (249 lines, .ts) -- import { mkdtempSync, rmSync } from 'node:fs';
+- `./apps/daemon/tests/folder-import-route.test.ts` (1115 lines, .ts) -- import type http from 'node:http';
+- `./apps/daemon/tests/frame-runtime.test.ts` (112 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/daemon/tests/frontmatter.test.ts` (110 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/handoff-cli.test.ts` (249 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/handoff-design.test.ts` (395 lines, .ts) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/handoff-route-abort.test.ts` (147 lines, .ts) -- import * as http from 'node:http';
+- `./apps/daemon/tests/headless-runs.test.ts` (986 lines, .ts) -- import type http from 'node:http';
+- `./apps/daemon/tests/helpers/cursor-agent-stream-shapes.ts` (287 lines, .ts) -- export const CURSOR_SESSION_ID = '00000000-0000-4000-8000-00000000c0de';
+- `./apps/daemon/tests/helpers/db-read-capture.ts` (72 lines, .ts) -- import type Database from 'better-sqlite3';
+- `./apps/daemon/tests/helpers/fig-fixture.ts` (162 lines, .ts) -- import { deflateRawSync } from 'node:zlib';
+- `./apps/daemon/tests/home-expansion.test.ts` (72 lines, .ts) -- import os from 'node:os';
+- `./apps/daemon/tests/host-tools-launch-shell.test.ts` (64 lines, .ts) -- import { EventEmitter } from 'node:events';
+- `./apps/daemon/tests/host-tools-open-in-route.test.ts` (112 lines, .ts) -- import { EventEmitter } from 'node:events';
+- `./apps/daemon/tests/host-tools-routes.test.ts` (85 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/http/adapter.test.ts` (147 lines, .ts) -- import { beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/inline-assets.test.ts` (185 lines, .ts) -- import { mkdtempSync, rmSync, writeFileSync, mkdirSync } from 'node:fs';
+- `./apps/daemon/tests/installation.test.ts` (153 lines, .ts) -- import { mkdir, mkdtemp, readFile, rm, writeFile } from 'node:fs/promises';
+- `./apps/daemon/tests/integrations/telemetry-relay.test.ts` (29 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/integrations/vela-command.test.ts` (622 lines, .ts) -- import { mkdtempSync, rmSync, writeFileSync } from 'node:fs';
+- `./apps/daemon/tests/integrations/vela-errors.test.ts` (461 lines, .ts) -- import { describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/integrations/vela-terminal-command.test.ts` (117 lines, .ts) -- import fs from 'node:fs';
+- `./apps/daemon/tests/integrations/vela-wallet.test.ts` (127 lines, .ts) -- import { mkdirSync, mkdtempSync, rmSync, writeFileSync } from 'node:fs';
+- `./apps/daemon/tests/integrations/vela.routes.test.ts` (3624 lines, .ts) -- import { mkdtempSync, existsSync, readFileSync, writeFileSync, mkdirSync, rmSync } from 'node:fs';
+- `./apps/daemon/tests/integrations/vela.test.ts` (724 lines, .ts) -- import { mkdtempSync, rmSync, mkdirSync, readFileSync, writeFileSync, existsSync, utimesSync } from 'node:fs';
+- `./apps/daemon/tests/integrations/xai/credentials.test.ts` (168 lines, .ts) -- import { mkdtemp, readFile, rm } from 'node:fs/promises';
+- `./apps/daemon/tests/integrations/xai/oauth-server.test.ts` (331 lines, .ts) -- import { afterEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/integrations/xai/oauth.test.ts` (266 lines, .ts) -- import { createHash } from 'node:crypto';
+- `./apps/daemon/tests/integrations/xai/routes.test.ts` (705 lines, .ts) -- import express from 'express';
+- `./apps/daemon/tests/integrations/xai/tokens.test.ts` (238 lines, .ts) -- import {
+- `./apps/daemon/tests/intent-signal-stable-prompt-cache.test.ts` (429 lines, .ts) -- import type { Server } from 'node:http';
+- `./apps/daemon/tests/invite-continue.test.ts` (117 lines, .ts) -- import { describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/invite-create.test.ts` (142 lines, .ts) -- import { describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/langfuse-bridge-nonblocking.test.ts` (178 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/langfuse-bridge.test.ts` (3396 lines, .ts) -- import { mkdir, mkdtemp, rm, writeFile } from 'node:fs/promises';
+- `./apps/daemon/tests/langfuse-env.test.ts` (49 lines, .ts) -- import { afterEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/langfuse-trace.test.ts` (3137 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/late-media-produced-file-association.test.ts` (550 lines, .ts) -- import type http from 'node:http';
+- `./apps/daemon/tests/legacy-data-migrator.test.ts` (535 lines, .ts) -- import * as fs from 'node:fs';
+- `./apps/daemon/tests/library-asset-stream.test.ts` (60 lines, .ts) -- import { PassThrough } from 'node:stream';
+- `./apps/daemon/tests/library-edit-as-page.test.ts` (103 lines, .ts) -- import type http from 'node:http';
+- `./apps/daemon/tests/library-figma-sidecar.test.ts` (110 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/library-ingest-concurrent-hash-race.test.ts` (110 lines, .ts) -- import type { Server } from 'node:http';
+- `./apps/daemon/tests/library-ingest-ssrf.test.ts` (146 lines, .ts) -- import type http from 'node:http';
+- `./apps/daemon/tests/library-install.test.ts` (143 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/library-sync.test.ts` (236 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/linked-dirs.test.ts` (125 lines, .ts) -- import { test } from 'vitest';
+- `./apps/daemon/tests/lint-artifact.test.ts` (1224 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/list-messages-artifact-ref-failure.test.ts` (107 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/live-artifacts-schema.test.ts` (460 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/daemon/tests/live-artifacts-store.test.ts` (1448 lines, .ts) -- import { mkdir, mkdtemp, readdir, readFile, rm, stat, writeFile } from 'node:fs/promises';
+- `./apps/daemon/tests/live-artifacts/render.test.ts` (325 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/local-project-data-plane-outage.test.ts` (312 lines, .ts) -- import http from 'node:http';
+- `./apps/daemon/tests/logging/critique.test.ts` (122 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/marketplace-install-ssrf.test.ts` (134 lines, .ts) -- import type http from 'node:http';
+- `./apps/daemon/tests/mcp-agent-install.test.ts` (274 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/mcp-bootstrap.test.ts` (251 lines, .ts) -- import { MCP_BOOTSTRAP_CONTRACT } from \"@open-design/sidecar-proto\";
+- `./apps/daemon/tests/mcp-brief-app.test.ts` (877 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/mcp-config.test.ts` (1191 lines, .ts) -- import { mkdtemp, readFile, rm, writeFile } from 'node:fs/promises';
+- `./apps/daemon/tests/mcp-create-artifact.test.ts` (152 lines, .ts) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/mcp-daemon-recovery.test.ts` (94 lines, .ts) -- import { describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/mcp-extract-refs.test.ts` (56 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/mcp-fatal-errors.test.ts` (142 lines, .ts) -- import { afterEach, describe, expect, it, vi } from \"vitest\";
+- `./apps/daemon/tests/mcp-fatal-wiring.test.ts` (54 lines, .ts) -- import { afterEach, describe, expect, it, vi } from \"vitest\";
+- `./apps/daemon/tests/mcp-get-artifact.test.ts` (355 lines, .ts) -- import http from 'node:http';
+- `./apps/daemon/tests/mcp-get-file.test.ts` (202 lines, .ts) -- import http from 'node:http';
+- `./apps/daemon/tests/mcp-get-project.test.ts` (64 lines, .ts) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/mcp-install-cli.test.ts` (83 lines, .ts) -- import { execFile } from 'node:child_process';
+- `./apps/daemon/tests/mcp-install-codex.test.ts` (255 lines, .ts) -- import { mkdtempSync, rmSync, writeFileSync } from 'node:fs';
+- `./apps/daemon/tests/mcp-install-info.test.ts` (379 lines, .ts) -- import http from 'node:http';
+- `./apps/daemon/tests/mcp-managed-registration.test.ts` (72 lines, .ts) -- import { MCP_BOOTSTRAP_CONTRACT } from '@open-design/sidecar-proto';
+- `./apps/daemon/tests/mcp-oauth.test.ts` (529 lines, .ts) -- import { mkdtemp, readFile, rm, writeFile } from 'node:fs/promises';
+- `./apps/daemon/tests/mcp-observability.test.ts` (594 lines, .ts) -- import { createHash } from 'node:crypto';
+- `./apps/daemon/tests/mcp-resolve-project.test.ts` (88 lines, .ts) -- import http from 'node:http';
+- `./apps/daemon/tests/mcp-resources-workspace-scope.test.ts` (175 lines, .ts) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/mcp-runs.test.ts` (1005 lines, .ts) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/mcp-spawn.test.ts` (701 lines, .ts) -- import type http from 'node:http';
+- `./apps/daemon/tests/mcp-stdio-idle.test.ts` (124 lines, .ts) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/mcp-telemetry-routes.test.ts` (156 lines, .ts) -- import { describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/mcp-tokens.test.ts` (212 lines, .ts) -- import { mkdtemp, readFile, rm, stat, writeFile } from 'node:fs/promises';
+- `./apps/daemon/tests/mcp-vela-login.test.ts` (176 lines, .ts) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/mcp-workspace-context.test.ts` (157 lines, .ts) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/mcp-workspace-projects.test.ts` (220 lines, .ts) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/mcp-write-tools.test.ts` (419 lines, .ts) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/media-adapters.test.ts` (379 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/media-cli-help.test.ts` (92 lines, .ts) -- import { execFile } from 'node:child_process';
+- `./apps/daemon/tests/media-failure-reaches-run-terminal.test.ts` (539 lines, .ts) -- import type http from 'node:http';
+- `./apps/daemon/tests/media-generate-multi-image.test.ts` (95 lines, .ts) -- import { spawn } from 'node:child_process';
+- `./apps/daemon/tests/media-generate-prompt-file.test.ts` (129 lines, .ts) -- import { spawn } from 'node:child_process';
+- `./apps/daemon/tests/media-generate-structured-error.test.ts` (166 lines, .ts) -- import { spawn } from \"node:child_process\";
+- `./apps/daemon/tests/media-minimax-image.test.ts` (459 lines, .ts) -- import { mkdir, mkdtemp, readFile, rm, writeFile } from 'node:fs/promises';
+- `./apps/daemon/tests/media-scaffold-cli.test.ts` (98 lines, .ts) -- import { spawn } from 'node:child_process';
+- `./apps/daemon/tests/media-wait-safety-output.test.ts` (200 lines, .ts) -- import { spawn } from 'node:child_process';
+- `./apps/daemon/tests/media-wait-stdout-flush.test.ts` (201 lines, .ts) -- import { spawn } from 'node:child_process';
+- `./apps/daemon/tests/media/aihubmix-catalog-ssrf.test.ts` (98 lines, .ts) -- import type http from 'node:http';
+- `./apps/daemon/tests/media/aihubmix.test.ts` (274 lines, .ts) -- import { mkdir, mkdtemp, readFile, rm } from 'node:fs/promises';
+- `./apps/daemon/tests/media/alias-capability.test.ts` (161 lines, .ts) -- import { mkdir, mkdtemp, rm, writeFile } from 'node:fs/promises';
+- `./apps/daemon/tests/media/analytics-routes.test.ts` (285 lines, .ts) -- import { randomUUID } from 'node:crypto';
+- `./apps/daemon/tests/media/config.test.ts` (1075 lines, .ts) -- import { mkdir, mkdtemp, readFile, rm, writeFile } from 'node:fs/promises';
+- `./apps/daemon/tests/media/diagnostics.test.ts` (34 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/media/elevenlabs.test.ts` (416 lines, .ts) -- import { mkdir, mkdtemp, readFile, rm, writeFile } from 'node:fs/promises';
+- `./apps/daemon/tests/media/failure-next-step-record.test.ts` (137 lines, .ts) -- import Database from 'better-sqlite3';
+- `./apps/daemon/tests/media/grok-tts.test.ts` (205 lines, .ts) -- import { mkdir, mkdtemp, readFile, rm, writeFile } from 'node:fs/promises';
+- `./apps/daemon/tests/media/hyperframes-scaffold-routes.test.ts` (121 lines, .ts) -- import type http from 'node:http';
+- `./apps/daemon/tests/media/hyperframes-scaffold.test.ts` (54 lines, .ts) -- import { mkdtemp, readFile, rm } from 'node:fs/promises';
+- `./apps/daemon/tests/media/hyperframes.test.ts` (254 lines, .ts) -- import { execFile } from 'node:child_process';
+- `./apps/daemon/tests/media/image-generation-retry.test.ts` (178 lines, .ts) -- import { describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/media/models.test.ts` (27 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/media/nanobanana.test.ts` (259 lines, .ts) -- import { mkdir, mkdtemp, readFile, rm, writeFile } from 'node:fs/promises';
+- `./apps/daemon/tests/media/openai-compatible-providers.test.ts` (572 lines, .ts) -- import { mkdir, mkdtemp, readFile, rm, writeFile } from 'node:fs/promises';
+- `./apps/daemon/tests/media/openrouter.test.ts` (769 lines, .ts) -- import { mkdir, mkdtemp, readFile, rm, writeFile } from 'node:fs/promises';
+- `./apps/daemon/tests/media/policy-routes.test.ts` (665 lines, .ts) -- import type http from 'node:http';
+- `./apps/daemon/tests/media/policy.test.ts` (74 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/media/senseaudio-image.test.ts` (305 lines, .ts) -- import { mkdir, mkdtemp, readFile, rm, writeFile } from 'node:fs/promises';
+- `./apps/daemon/tests/media/senseaudio.test.ts` (376 lines, .ts) -- import { mkdir, mkdtemp, readFile, rm, writeFile } from 'node:fs/promises';
+- `./apps/daemon/tests/media/task-batches.test.ts` (118 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/media/task-file-witness.test.ts` (126 lines, .ts) -- import http from 'node:http';
+- `./apps/daemon/tests/media/tasks-persistence.test.ts` (394 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/media/tasks-routes-batching.test.ts` (134 lines, .ts) -- import http from 'node:http';
+- `./apps/daemon/tests/media/tasks-routes.test.ts` (597 lines, .ts) -- import http from 'node:http';
+- `./apps/daemon/tests/media/vela-workspace-routes.test.ts` (197 lines, .ts) -- import type http from 'node:http';
+- `./apps/daemon/tests/media/vela.test.ts` (667 lines, .ts) -- import { mkdir, mkdtemp, readFile, rm, stat, writeFile } from 'node:fs/promises';
+- `./apps/daemon/tests/memory-annotations.test.ts` (160 lines, .ts) -- import { promises as fsp } from 'node:fs';
+- `./apps/daemon/tests/memory-auto-extraction-cleanup.test.ts` (247 lines, .ts) -- import { promises as fsp } from 'node:fs';
+- `./apps/daemon/tests/memory-connectors.test.ts` (1173 lines, .ts) -- import { promises as fsp } from 'node:fs';
+- `./apps/daemon/tests/memory-extraction-default-off.test.ts` (70 lines, .ts) -- import { promises as fsp } from 'node:fs';
+- `./apps/daemon/tests/memory-extraction-origin.test.ts` (71 lines, .ts) -- import { mkdtemp, rm } from 'node:fs/promises';
+- `./apps/daemon/tests/memory-google-default.test.ts` (64 lines, .ts) -- import { promises as fsp } from 'node:fs';
+- `./apps/daemon/tests/memory-llm-dedupe.test.ts` (208 lines, .ts) -- import { promises as fsp } from 'node:fs';
+- `./apps/daemon/tests/memory-media-provider-fallback.test.ts` (186 lines, .ts) -- import { mkdir, mkdtemp, rm, writeFile } from 'node:fs/promises';
+- `./apps/daemon/tests/memory-rules.test.ts` (79 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/memory-tree.test.ts` (111 lines, .ts) -- import { promises as fsp } from 'node:fs';
+- `./apps/daemon/tests/memory-verify.test.ts` (154 lines, .ts) -- import { afterEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/message-center-cli.test.ts` (248 lines, .ts) -- import http from 'node:http';
+- `./apps/daemon/tests/message-delimiter-safety.test.ts` (68 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/message-event-payload-heal.test.ts` (254 lines, .ts) -- import { mkdtempSync, rmSync } from 'node:fs';
+- `./apps/daemon/tests/metrics/critique.test.ts` (89 lines, .ts) -- import { afterEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/metrics/workspace-authority.test.ts` (59 lines, .ts) -- import { afterEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/mocks-golden.test.ts` (113 lines, .ts) -- import { describe, it, expect } from 'vitest';
+- `./apps/daemon/tests/native-folder-dialog.test.ts` (79 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/native-session-recovery.test.ts` (190 lines, .ts) -- import { createHash } from 'node:crypto';
+- `./apps/daemon/tests/next-step-marker.test.ts` (356 lines, .ts) -- import assert from 'node:assert/strict';
+- `./apps/daemon/tests/next-step-protocol.test.ts` (153 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/observability/codex-turn-usage.test.ts` (13 lines, .ts) -- import { expect, it } from 'vitest';
+- `./apps/daemon/tests/observability/delivery-state.test.ts` (122 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/observability/eval-context.test.ts` (64 lines, .ts) -- import { createHash } from 'node:crypto';
+- `./apps/daemon/tests/observability/main-run-observation.test.ts` (439 lines, .ts) -- import { createHash } from 'node:crypto';
+- `./apps/daemon/tests/observability/run-exporter.test.ts` (73 lines, .ts) -- import { describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/observability/run-terminal-lifecycle.test.ts` (155 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/observability/task-analytics-operations.test.ts` (424 lines, .ts) -- import {
+- `./apps/daemon/tests/observability/task-observation-aggregation.test.ts` (819 lines, .ts) -- import {
+- `./apps/daemon/tests/observability/task-observation-otlp-exporter.test.ts` (1378 lines, .ts) -- import {
+- `./apps/daemon/tests/observability/task-observation-rollout.test.ts` (2266 lines, .ts) -- import fs from 'node:fs';
+- `./apps/daemon/tests/observability/task-trace-projection.test.ts` (64 lines, .ts) -- import { describe, it, expect } from 'vitest';
+- `./apps/daemon/tests/od-next-advertised-capability-admission.test.ts` (151 lines, .ts) -- import type { Server } from 'node:http';
+- `./apps/daemon/tests/od-next-automatic-simple-server.test.ts` (4176 lines, .ts) -- import type { CollectCodexChildEvidenceInput, CodexChildEvidenceCollection } from '../src/runtimes/codex-child-evidence.
+- `./apps/daemon/tests/od-next-intent-startup-server.test.ts` (357 lines, .ts) -- import fs from 'node:fs';
+- `./apps/daemon/tests/official-system-prompt.test.ts` (43 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/openai-chat-token-params.test.ts` (21 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/opencode-session-resume.test.ts` (451 lines, .ts) -- import type { Server } from 'node:http';
+- `./apps/daemon/tests/opend-2623-form-answer-constraint-carriage.test.ts` (173 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/opend-2627-nonzero-acp-exit.test.ts` (216 lines, .ts) -- import { EventEmitter } from 'node:events';
+- `./apps/daemon/tests/opend-2765-next-step-locale-carriage.test.ts` (128 lines, .ts) -- import type http from 'node:http';
+- `./apps/daemon/tests/orbit-agent-summary.test.ts` (50 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/orbit.test.ts` (592 lines, .ts) -- import path from 'node:path';
+- `./apps/daemon/tests/origin-validation.test.ts` (818 lines, .ts) -- import http from 'node:http';
+- `./apps/daemon/tests/panel-grammar-strip.test.ts` (222 lines, .ts) -- import assert from 'node:assert/strict';
+- `./apps/daemon/tests/parser.test.ts` (632 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/pdf-export.test.ts` (112 lines, .ts) -- import { mkdtempSync, rmSync } from 'node:fs';
+- `./apps/daemon/tests/persisted-agent-reconnect-status.test.ts` (53 lines, .ts) -- import assert from 'node:assert/strict';
+- `./apps/daemon/tests/pi-rpc.test.ts` (1271 lines, .ts) -- import { test } from 'vitest';
+- `./apps/daemon/tests/plain-stream-artifact-event-truncation.test.ts` (497 lines, .ts) -- import type { Server } from 'node:http';
+- `./apps/daemon/tests/plugin-asset-cache.test.ts` (292 lines, .ts) -- import { mkdtemp, readFile, rm } from 'node:fs/promises';
+- `./apps/daemon/tests/plugin-asset-workspace-authority.test.ts` (204 lines, .ts) -- import express from 'express';
+- `./apps/daemon/tests/plugin-events-workspace-scope.test.ts` (176 lines, .ts) -- import type http from 'node:http';
+- `./apps/daemon/tests/plugin-preview-bakes.test.ts` (237 lines, .ts) -- import { existsSync, readFileSync } from 'node:fs';
+- `./apps/daemon/tests/plugin-workspace-cli.test.ts` (150 lines, .ts) -- import { execFile } from 'node:child_process';
+- `./apps/daemon/tests/plugins-apply-workspace-retraction.test.ts` (321 lines, .ts) -- import express from 'express';
+- `./apps/daemon/tests/plugins-apply.test.ts` (151 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/plugins-asset-route.test.ts` (192 lines, .ts) -- import type http from 'node:http';
+- `./apps/daemon/tests/plugins-atom-bodies.test.ts` (124 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/plugins-atom-registry.test.ts` (248 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/plugins-atoms-info.test.ts` (42 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/plugins-auto-surfaces.test.ts` (138 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/plugins-build-test.test.ts` (118 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/plugins-bundled-atom-prompts-default.test.ts` (41 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/plugins-bundled-atoms-roster.test.ts` (69 lines, .ts) -- import path from 'node:path';
+- `./apps/daemon/tests/plugins-bundled-content-craft.test.ts` (24 lines, .ts) -- import { readFile } from 'node:fs/promises';
+- `./apps/daemon/tests/plugins-bundled-scenarios-roster.test.ts` (180 lines, .ts) -- import path from 'node:path';
+- `./apps/daemon/tests/plugins-bundled.test.ts` (378 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/plugins-canon.test.ts` (73 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/plugins-code-import.test.ts` (96 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/plugins-code-migration-e2e.test.ts` (190 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/plugins-connector-gate.test.ts` (150 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/plugins-context-craft.test.ts` (126 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/plugins-core-quality-stages.test.ts` (299 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/plugins-design-extract.test.ts` (125 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/plugins-diff-review-genui-bridge.test.ts` (162 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/plugins-diff-review.test.ts` (141 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/plugins-diff.test.ts` (151 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/plugins-discovery-question-form-contract.test.ts` (43 lines, .ts) -- import { readFile } from 'node:fs/promises';
+- `./apps/daemon/tests/plugins-doctor-route.test.ts` (115 lines, .ts) -- import http from 'node:http';
+- `./apps/daemon/tests/plugins-dod-e2e.test.ts` (380 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/plugins-duplicate-project.test.ts` (548 lines, .ts) -- import express from 'express';
+- `./apps/daemon/tests/plugins-e2e-fixture.test.ts` (125 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/plugins-events-buffer.test.ts` (123 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/plugins-events-producers.test.ts` (148 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/plugins-events-purge.test.ts` (64 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/plugins-events-stats.test.ts` (68 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/plugins-export.test.ts` (122 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/plugins-figma-extract.test.ts` (298 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/plugins-figma-migration-e2e.test.ts` (172 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/plugins-genui-component.test.ts` (139 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/plugins-genui-spec-enrichment.test.ts` (335 lines, .ts) -- import http from 'node:http';
+- `./apps/daemon/tests/plugins-handoff-persist.test.ts` (162 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/plugins-handoff-pipeline.test.ts` (157 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/plugins-handoff.test.ts` (99 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/plugins-headless-run.test.ts` (922 lines, .ts) -- import type http from 'node:http';
+- `./apps/daemon/tests/plugins-installer-archive.test.ts` (389 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/plugins-installer.test.ts` (395 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/plugins-local-skill.test.ts` (243 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/plugins-local-source.test.ts` (174 lines, .ts) -- import { mkdir, mkdtemp, rm, writeFile } from 'node:fs/promises';
+- `./apps/daemon/tests/plugins-lockfile.test.ts` (99 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/plugins-marketplace-doctor.test.ts` (46 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/plugins-marketplaces.test.ts` (433 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/plugins-pack.test.ts` (134 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/plugins-patch-edit-atomic.test.ts` (89 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/plugins-patch-edit.test.ts` (214 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/plugins-pipeline-runner.test.ts` (428 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/plugins-preview-fallback.test.ts` (132 lines, .ts) -- import http from 'node:http';
+- `./apps/daemon/tests/plugins-preview-route.test.ts` (194 lines, .ts) -- import http from 'node:http';
+- `./apps/daemon/tests/plugins-publish.test.ts` (159 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/plugins-rewrite-plan.test.ts` (125 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/plugins-scaffold.test.ts` (84 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/plugins-scenario-binding.test.ts` (112 lines, .ts) -- import Database from 'better-sqlite3';
+- `./apps/daemon/tests/plugins-scenario-fallback.test.ts` (232 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/plugins-search.test.ts` (157 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/plugins-simulate.test.ts` (169 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/plugins-snapshot-diff.test.ts` (170 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/plugins-snapshot-gc.test.ts` (178 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/plugins-snapshot-workspace-scope.test.ts` (205 lines, .ts) -- import type http from 'node:http';
+- `./apps/daemon/tests/plugins-snapshots.test.ts` (337 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/plugins-stats.test.ts` (209 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/plugins-strategy-package.test.ts` (312 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/plugins-strategy-recipe.test.ts` (585 lines, .ts) -- import { cp, mkdtemp, rm, writeFile } from 'node:fs/promises';
+- `./apps/daemon/tests/plugins-team-mutation-target.test.ts` (148 lines, .ts) -- import express from 'express';
+- `./apps/daemon/tests/plugins-token-map.test.ts` (194 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/plugins-tool-token-gate.test.ts` (82 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/plugins-trust.test.ts` (162 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/plugins-uninstall-traversal.test.ts` (117 lines, .ts) -- import type http from 'node:http';
+- `./apps/daemon/tests/plugins-uninstall-workspace-gate.test.ts` (211 lines, .ts) -- import type http from 'node:http';
+- `./apps/daemon/tests/plugins-until.test.ts` (72 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/plugins-upgrade.test.ts` (99 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/plugins-validate.test.ts` (136 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/plugins-verify.test.ts` (180 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/plugins-workspace-scope.test.ts` (409 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/project-archive.test.ts` (257 lines, .ts) -- import { mkdtempSync, rmSync } from 'node:fs';
+- `./apps/daemon/tests/project-classifiers.test.ts` (158 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/project-cli.test.ts` (712 lines, .ts) -- import { execFile } from 'node:child_process';
+- `./apps/daemon/tests/project-command-cli-workspace-scope.test.ts` (551 lines, .ts) -- import { execFile } from 'node:child_process';
+- `./apps/daemon/tests/project-comment-permissions.test.ts` (500 lines, .ts) -- import { afterEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/project-comment-workspace-gate.test.ts` (1182 lines, .ts) -- import http from 'node:http';
+- `./apps/daemon/tests/project-consumer-cli-workspace-scope.test.ts` (435 lines, .ts) -- import { execFile } from 'node:child_process';
+- `./apps/daemon/tests/project-create-web-clone-discovery.test.ts` (80 lines, .ts) -- import type http from 'node:http';
+- `./apps/daemon/tests/project-delete-staging.test.ts` (32 lines, .ts) -- import { existsSync, mkdirSync, rmSync, writeFileSync } from 'node:fs';
+- `./apps/daemon/tests/project-design-system-copy.test.ts` (295 lines, .ts) -- import type { Server } from 'node:http';
+- `./apps/daemon/tests/project-design-system-routes.test.ts` (354 lines, .ts) -- import type http from 'node:http';
+- `./apps/daemon/tests/project-file-range.test.ts` (1607 lines, .ts) -- import type http from 'node:http';
+- `./apps/daemon/tests/project-file-rename.test.ts` (231 lines, .ts) -- import type http from 'node:http';
+- `./apps/daemon/tests/project-file-version-readonly-mirror.test.ts` (221 lines, .ts) -- import type http from 'node:http';
+- `./apps/daemon/tests/project-file-version-routes.test.ts` (579 lines, .ts) -- import type http from 'node:http';
+- `./apps/daemon/tests/project-file-versions.test.ts` (546 lines, .ts) -- import { createHash } from 'node:crypto';
+- `./apps/daemon/tests/project-plugin-manifest.test.ts` (33 lines, .ts) -- import { mkdtemp, rm, writeFile } from 'node:fs/promises';
+- `./apps/daemon/tests/project-preview-containment.test.ts` (734 lines, .ts) -- import type http from 'node:http';
+- `./apps/daemon/tests/project-raw-cache.test.ts` (197 lines, .ts) -- import type http from 'node:http';
+- `./apps/daemon/tests/project-routes-title-sanitize.test.ts` (290 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/project-share-dir.test.ts` (26 lines, .ts) -- import { describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/project-skill-id-validation.test.ts` (225 lines, .ts) -- import type http from 'node:http';
+- `./apps/daemon/tests/project-status-incomplete.test.ts` (118 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/project-status-oversized-run-events.test.ts` (142 lines, .ts) -- import { mkdtempSync, rmSync } from 'node:fs';
+- `./apps/daemon/tests/project-status.test.ts` (508 lines, .ts) -- import assert from 'node:assert/strict';
+- `./apps/daemon/tests/project-tabs-state.test.ts` (93 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/project-upload-filenames.test.ts` (70 lines, .ts) -- import type http from 'node:http';
+- `./apps/daemon/tests/project-upload-subdir-path.test.ts` (34 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/project-watchers.test.ts` (418 lines, .ts) -- import { lstat, mkdir, mkdtemp, readdir, rm, symlink, writeFile } from 'node:fs/promises';
+- `./apps/daemon/tests/projects-list-files.test.ts` (40 lines, .ts) -- import { mkdir, mkdtemp, rm, writeFile } from 'node:fs/promises';
+- `./apps/daemon/tests/projects-stub-guard.test.ts` (427 lines, .ts) -- import type http from 'node:http';
+- `./apps/daemon/tests/prompt-telemetry.test.ts` (532 lines, .ts) -- import { createHash } from 'node:crypto';
+- `./apps/daemon/tests/prompt-templates.test.ts` (189 lines, .ts) -- import { mkdir, mkdtemp, rm, writeFile } from 'node:fs/promises';
+- `./apps/daemon/tests/prompts/api-mode-override.test.ts` (83 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/prompts/core-slim.test.ts` (840 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/daemon/tests/prompts/discovery-form.test.ts` (85 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/prompts/discovery-localization-drift.test.ts` (164 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/daemon/tests/prompts/discovery-plugin-inputs.test.ts` (41 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/prompts/discovery-todo-cap.test.ts` (38 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/prompts/freeform-deck-signal.test.ts` (102 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/prompts/host-failure-narration.test.ts` (585 lines, .ts) -- import { readFileSync, readdirSync, statSync } from 'node:fs';
+- `./apps/daemon/tests/prompts/intent-signal-user-text.test.ts` (293 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/prompts/media-contract-mirror.test.ts` (80 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/daemon/tests/prompts/media-failure-user-copy.test.ts` (106 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/prompts/od-next-strategy-default-quality-witness.test.ts` (209 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/daemon/tests/prompts/plan-tool-note.test.ts` (194 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/daemon/tests/prompts/render-check-user-copy.test.ts` (76 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/prompts/stable-sections.test.ts` (149 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/prompts/system-prompt-matrix.test.ts` (340 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/prompts/system.test.ts` (850 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/daemon/tests/prompts/tone-single-select.test.ts` (93 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/prompts/turn-rendering-mirror.test.ts` (92 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/daemon/tests/prompts/undesigned-cards.test.ts` (45 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/proxy-dispatcher-options.test.ts` (386 lines, .ts) -- import * as platform from '@open-design/platform';
+- `./apps/daemon/tests/proxy-routes.test.ts` (2072 lines, .ts) -- import type http from 'node:http';
+- `./apps/daemon/tests/public-file-failure.test.ts` (32 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/public-file-publication-restart.test.ts` (401 lines, .ts) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/public-file-publication-store.test.ts` (48 lines, .ts) -- import { afterEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/qa-cta-hierarchy.test.ts` (151 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/qa-deck-layout.test.ts` (109 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/qoder-stream-multibyte-chunks.test.ts` (74 lines, .ts) -- import assert from 'node:assert/strict';
+- `./apps/daemon/tests/question-form-detect.test.ts` (182 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/reasoning-egress-policy.test.ts` (397 lines, .ts) -- import type http from 'node:http';
+- `./apps/daemon/tests/redact.test.ts` (206 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/reference-project-ensure-dir.test.ts` (75 lines, .ts) -- import { mkdtempSync, rmSync, existsSync } from 'node:fs';
+- `./apps/daemon/tests/registry-backends.test.ts` (115 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/registry/versioning.test.ts` (248 lines, .ts) -- import type { MarketplacePluginEntry } from '@open-design/contracts';
+- `./apps/daemon/tests/research-cli.test.ts` (20 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/research-contract.test.ts` (51 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/research.test.ts` (96 lines, .ts) -- import { mkdtemp, rm } from 'node:fs/promises';
+- `./apps/daemon/tests/resolve-data-dir.test.ts` (112 lines, .ts) -- import os from 'node:os';
+- `./apps/daemon/tests/resource-cli.test.ts` (65 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/resource-workspace-authority-preflight.test.ts` (85 lines, .ts) -- import type http from 'node:http';
+- `./apps/daemon/tests/resume-continue-prompt-context.test.ts` (403 lines, .ts) -- import type { Server } from 'node:http';
+- `./apps/daemon/tests/retry-generation-terminal-fence.test.ts` (222 lines, .ts) -- import type { Server } from 'node:http';
+- `./apps/daemon/tests/retry-orphan-process-group.test.ts` (253 lines, .ts) -- import type { Server } from 'node:http';
+- `./apps/daemon/tests/retry-stale-turn-completed-flag.test.ts` (197 lines, .ts) -- import type { Server } from 'node:http';
+- `./apps/daemon/tests/role-marker-guard.test.ts` (541 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/route-registration-guard.test.ts` (40 lines, .ts) -- import express from 'express';
+- `./apps/daemon/tests/routes/conversation-fork-artifacts.test.ts` (203 lines, .ts) -- import { randomUUID } from 'node:crypto';
+- `./apps/daemon/tests/routes/conversation-fork-run-verdict.test.ts` (229 lines, .ts) -- import type http from 'node:http';
+- `./apps/daemon/tests/routes/conversation-fork-title-numbering.test.ts` (194 lines, .ts) -- import type http from 'node:http';
+- `./apps/daemon/tests/routes/conversation-oversized-run-events.test.ts` (272 lines, .ts) -- import { once } from 'node:events';
+- `./apps/daemon/tests/routes/conversation-strategy-verdict-history.test.ts` (525 lines, .ts) -- import { once } from 'node:events';
+- `./apps/daemon/tests/routes/deliverable-syntax-tool.test.ts` (215 lines, .ts) -- import fs from 'node:fs/promises';
+- `./apps/daemon/tests/routes/design-system-delete-unshares-team-share.test.ts` (330 lines, .ts) -- import type http from 'node:http';
+- `./apps/daemon/tests/routes/design-system-showcase-assets.test.ts` (113 lines, .ts) -- import type http from 'node:http';
+- `./apps/daemon/tests/routes/design-systems-team-mutation-guard.test.ts` (372 lines, .ts) -- import type http from 'node:http';
+- `./apps/daemon/tests/routes/export-manifest.test.ts` (365 lines, .ts) -- import type http from 'node:http';
+- `./apps/daemon/tests/routes/handoff.test.ts` (365 lines, .ts) -- import fs from 'node:fs';
+- `./apps/daemon/tests/routes/live-artifacts.test.ts` (896 lines, .ts) -- import { mkdir, rm, writeFile } from 'node:fs/promises';
+- `./apps/daemon/tests/routes/memory-config.test.ts` (291 lines, .ts) -- import type http from 'node:http';
+- `./apps/daemon/tests/routes/memory.test.ts` (528 lines, .ts) -- import type http from 'node:http';
+- `./apps/daemon/tests/routes/project-create-preparation-deadline.test.ts` (251 lines, .ts) -- import type http from 'node:http';
+- `./apps/daemon/tests/routes/project-create-rail-scenario-binding.test.ts` (272 lines, .ts) -- import type { Server } from 'node:http';
+- `./apps/daemon/tests/routes/project-delete-unshares-team-share.test.ts` (484 lines, .ts) -- import http from 'node:http';
+- `./apps/daemon/tests/routes/project-example-reference.test.ts` (394 lines, .ts) -- import { createHash } from 'node:crypto';
+- `./apps/daemon/tests/routes/project-move-owner-conflict.test.ts` (420 lines, .ts) -- import express from 'express';
+- `./apps/daemon/tests/routes/project-move-to-personal.test.ts` (1394 lines, .ts) -- import express from 'express';
+- `./apps/daemon/tests/routes/project-resource-scope-validation.test.ts` (501 lines, .ts) -- import type http from 'node:http';
+- `./apps/daemon/tests/routes/projects.test.ts` (2076 lines, .ts) -- import type http from 'node:http';
+- `./apps/daemon/tests/routes/runs-structured-errors.test.ts` (86 lines, .ts) -- import express, { type Response } from 'express';
+- `./apps/daemon/tests/routes/skill-asset-rewrite.test.ts` (41 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/routes/skills-delete.test.ts` (131 lines, .ts) -- import type http from 'node:http';
+- `./apps/daemon/tests/routes/static-spa-fallback.test.ts` (78 lines, .ts) -- import { mkdirSync, mkdtempSync, rmSync, writeFileSync } from 'node:fs';
+- `./apps/daemon/tests/routes/strategy-rollout.test.ts` (104 lines, .ts) -- import type { Server } from 'node:http';
+- `./apps/daemon/tests/routes/workspace-projects.test.ts` (2984 lines, .ts) -- import express from 'express';
+- `./apps/daemon/tests/routine-routes.test.ts` (1232 lines, .ts) -- import express from 'express';
+- `./apps/daemon/tests/routine-schedule-claims.test.ts` (1060 lines, .ts) -- import type http from 'node:http';
+- `./apps/daemon/tests/routines.test.ts` (701 lines, .ts) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/run-analytics-observability.test.ts` (2144 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/run-artifact-fs.test.ts` (549 lines, .ts) -- import assert from 'node:assert/strict';
+- `./apps/daemon/tests/run-atomic-ownership.test.ts` (465 lines, .ts) -- import type { Server } from 'node:http';
+- `./apps/daemon/tests/run-cancel-origin-reconciliation.test.ts` (111 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/run-chat-internal-strategy-authority.test.ts` (150 lines, .ts) -- import fs from 'node:fs';
+- `./apps/daemon/tests/run-clarification-cold-projection.test.ts` (269 lines, .ts) -- import fs from 'node:fs';
+- `./apps/daemon/tests/run-clarification-cold-witness-order.test.ts` (331 lines, .ts) -- import fs from 'node:fs';
+- `./apps/daemon/tests/run-cli.test.ts` (439 lines, .ts) -- import { execFile } from 'node:child_process';
+- `./apps/daemon/tests/run-cold-snapshot-presence.test.ts` (63 lines, .ts) -- import fs from 'node:fs';
+- `./apps/daemon/tests/run-create-workspace-gate.test.ts` (2278 lines, .ts) -- import http from 'node:http';
+- `./apps/daemon/tests/run-cross-project-conversation.test.ts` (382 lines, .ts) -- import type { Server } from 'node:http';
+- `./apps/daemon/tests/run-deliverable-validation.test.ts` (411 lines, .ts) -- import fs from 'node:fs/promises';
+- `./apps/daemon/tests/run-diagnostics.test.ts` (614 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/run-durable-snapshot-id.test.ts` (52 lines, .ts) -- import { describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/run-enrichment-dedupe.test.ts` (199 lines, .ts) -- import type http from 'node:http';
+- `./apps/daemon/tests/run-event-truncation-artifact-verdict.test.ts` (287 lines, .ts) -- import type { Server } from 'node:http';
+- `./apps/daemon/tests/run-failure-account-suspended.test.ts` (90 lines, .ts) -- import { describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/run-failure-action-certificate.test.ts` (45 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/run-failure-admission.test.ts` (174 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/run-failure-classification.test.ts` (2759 lines, .ts) -- import { describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/run-failure-credential-refresh-contention.test.ts` (125 lines, .ts) -- import { describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/run-failure-detail-persisted-message.test.ts` (239 lines, .ts) -- import type { Server } from 'node:http';
+- `./apps/daemon/tests/run-failure-detail-status.test.ts` (198 lines, .ts) -- import type { Server } from 'node:http';
+- `./apps/daemon/tests/run-failure-network-unreachable.test.ts` (118 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/run-failure-stderr-tail-persisted-message.test.ts` (313 lines, .ts) -- import type { Server } from 'node:http';
+- `./apps/daemon/tests/run-failure-verdict-persisted-event.test.ts` (202 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/run-failure-verdict-transport.test.ts` (285 lines, .ts) -- import type { Server } from 'node:http';
+- `./apps/daemon/tests/run-html-version-snapshots.test.ts` (170 lines, .ts) -- import fs from 'node:fs/promises';
+- `./apps/daemon/tests/run-lifecycle-tracer.test.ts` (316 lines, .ts) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/run-request-idempotency.test.ts` (447 lines, .ts) -- import type { Server } from 'node:http';
+- `./apps/daemon/tests/run-result.test.ts` (142 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/run-resume-on-failure.test.ts` (535 lines, .ts) -- import type { Server } from 'node:http';
+- `./apps/daemon/tests/run-retry-duplicate-answer.test.ts` (342 lines, .ts) -- import type { Server } from 'node:http';
+- `./apps/daemon/tests/run-retry-policy.test.ts` (551 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/run-retry-runtime.test.ts` (1149 lines, .ts) -- import type { Server } from 'node:http';
+- `./apps/daemon/tests/run-retry-sse-wire.test.ts` (182 lines, .ts) -- import type { Server } from 'node:http';
+- `./apps/daemon/tests/run-runtime-type-analytics.test.ts` (66 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/run-steer-route.test.ts` (414 lines, .ts) -- import type { Server } from 'node:http';
+- `./apps/daemon/tests/run-steering.test.ts` (166 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/run-strategy-cold-projection-boundaries.test.ts` (231 lines, .ts) -- import fs from 'node:fs';
+- `./apps/daemon/tests/run-strategy-cold-projection.test.ts` (241 lines, .ts) -- import fs from 'node:fs';
+- `./apps/daemon/tests/run-terminal-produced-files-association.test.ts` (294 lines, .ts) -- import type http from 'node:http';
+- `./apps/daemon/tests/run-tool-bundle.test.ts` (231 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/runs-list-awaiting-input.test.ts` (311 lines, .ts) -- import http from 'node:http';
+- `./apps/daemon/tests/runtimes/acp-stall-last-progress-age.test.ts` (669 lines, .ts) -- import type { Server } from 'node:http';
+- `./apps/daemon/tests/runtimes/agent-args.test.ts` (1271 lines, .ts) -- import { existsSync, readFileSync } from 'node:fs';
+- `./apps/daemon/tests/runtimes/agent-process-daemon.fixture.ts` (45 lines, .ts) -- import { spawnAgentProcess } from '../../src/runtimes/agent-process.js';
+- `./apps/daemon/tests/runtimes/agent-process-fixtures.ts` (62 lines, .ts) -- import { createHash } from 'node:crypto';
+- `./apps/daemon/tests/runtimes/agent-process-wiring.test.ts` (168 lines, .ts) -- import fs from 'node:fs';
+- `./apps/daemon/tests/runtimes/agent-process.test.ts` (461 lines, .ts) -- import { spawn, type ChildProcess } from 'node:child_process';
+- `./apps/daemon/tests/runtimes/agent-runtime-env.test.ts` (420 lines, .ts) -- import os from 'node:os';
+- `./apps/daemon/tests/runtimes/agent-tracking-ids.test.ts` (74 lines, .ts) -- import { mkdtempSync, rmSync, writeFileSync } from 'node:fs';
+- `./apps/daemon/tests/runtimes/amr-terminal-report-delivery.test.ts` (521 lines, .ts) -- import fs from 'node:fs';
+- `./apps/daemon/tests/runtimes/amr-terminal-reports.test.ts` (359 lines, .ts) -- import fs from \"node:fs\";
+- `./apps/daemon/tests/runtimes/antigravity-model-lock.test.ts` (263 lines, .ts) -- import { afterEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/runtimes/atomcode.test.ts` (69 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/runtimes/auth-probe-4456.test.ts` (180 lines, .ts) -- import { mkdtemp, rm, writeFile } from 'node:fs/promises';
+- `./apps/daemon/tests/runtimes/balance-vs-rate-limit-snapshot.test.ts` (215 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/runtimes/byok-opencode.test.ts` (452 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/runtimes/chat-run-context.test.ts` (74 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/runtimes/chat-run-inactivity-timeout.test.ts` (301 lines, .ts) -- import { afterEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/runtimes/chat-run-message-event-persistence.test.ts` (323 lines, .ts) -- import Database from 'better-sqlite3';
+- `./apps/daemon/tests/runtimes/claude-child-evidence.test.ts` (911 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/daemon/tests/runtimes/claude-resume-args.test.ts` (36 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/runtimes/claude-stream-per-request-usage.test.ts` (385 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/runtimes/claude-stream-thinking.test.ts` (217 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/runtimes/claude-stream-tool-use-dedupe.test.ts` (238 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/runtimes/claude-thinking-display-args.test.ts` (35 lines, .ts) -- import { afterEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/runtimes/claude-thinking-first-pixel.test.ts` (115 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/runtimes/codebuddy.test.ts` (237 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/runtimes/codex-child-evidence.test.ts` (786 lines, .ts) -- import { createHash } from 'node:crypto';
+- `./apps/daemon/tests/runtimes/codex-model-preflight.test.ts` (471 lines, .ts) -- import {
+- `./apps/daemon/tests/runtimes/codex-reasoning-summary-args.test.ts` (52 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/runtimes/codex-resume-args.test.ts` (135 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/runtimes/cursor-agent-oversized-event-persistence.test.ts` (182 lines, .ts) -- import { mkdtempSync, rmSync } from 'node:fs';
+- `./apps/daemon/tests/runtimes/deepseek-harness-windows.test.ts` (244 lines, .ts) -- import { chmodSync, mkdirSync, mkdtempSync, rmSync, writeFileSync } from 'node:fs';
+- `./apps/daemon/tests/runtimes/detection-diagnostics.test.ts` (206 lines, .ts) -- import { test } from 'vitest';
+- `./apps/daemon/tests/runtimes/detection-resilience.test.ts` (91 lines, .ts) -- import { afterEach, expect, test, vi } from 'vitest';
+- `./apps/daemon/tests/runtimes/env-and-detection.test.ts` (1656 lines, .ts) -- import { symlinkSync } from 'node:fs';
+- `./apps/daemon/tests/runtimes/exec-agent-cwd.test.ts` (59 lines, .ts) -- import fs from 'node:fs';
+- `./apps/daemon/tests/runtimes/executable-fallback.test.ts` (306 lines, .ts) -- import { chmodSync, mkdtempSync, rmSync, writeFileSync } from 'node:fs';
+- `./apps/daemon/tests/runtimes/executables.test.ts` (831 lines, .ts) -- import { test } from 'vitest';
+- `./apps/daemon/tests/runtimes/helpers/test-helpers.ts` (199 lines, .ts) -- import { afterEach } from 'vitest';
+- `./apps/daemon/tests/runtimes/json-event-stream.test.ts` (2379 lines, .ts) -- import { test } from 'vitest';
+- `./apps/daemon/tests/runtimes/launch.test.ts` (286 lines, .ts) -- import { delimiter, join } from 'node:path';
+- `./apps/daemon/tests/runtimes/mcp.test.ts` (178 lines, .ts) -- import { test } from 'vitest';
+- `./apps/daemon/tests/runtimes/mmd-routes.test.ts` (279 lines, .ts) -- import { test } from 'vitest';
+- `./apps/daemon/tests/runtimes/models-and-paths.test.ts` (165 lines, .ts) -- import { homedir } from 'node:os';
+- `./apps/daemon/tests/runtimes/od-next-capability-gate.test.ts` (575 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/daemon/tests/runtimes/od-next-exact-input.test.ts` (478 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/runtimes/open-design-amr-trace-env.test.ts` (165 lines, .ts) -- import assert from 'node:assert/strict';
+- `./apps/daemon/tests/runtimes/opencode-child-evidence.test.ts` (842 lines, .ts) -- import { createHash } from 'node:crypto';
+- `./apps/daemon/tests/runtimes/opencode-event-plugin.test.ts` (199 lines, .ts) -- import { mkdtemp, readFile, readdir, rm, stat, writeFile } from 'node:fs/promises';
+- `./apps/daemon/tests/runtimes/opencode-log-failure.test.ts` (165 lines, .ts) -- import { mkdirSync, mkdtempSync, utimesSync, writeFileSync } from 'node:fs';
+- `./apps/daemon/tests/runtimes/opencode-resume-args.test.ts` (52 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/runtimes/plain-stream.test.ts` (231 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/runtimes/probe-ghost-cli.test.ts` (333 lines, .ts) -- import { beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/runtimes/project-amr-trace-env.test.ts` (181 lines, .ts) -- import fs from 'node:fs';
+- `./apps/daemon/tests/runtimes/project-amr-workspace-proof.test.ts` (285 lines, .ts) -- import fs from 'node:fs';
+- `./apps/daemon/tests/runtimes/prompt-budget.test.ts` (531 lines, .ts) -- import { test } from 'vitest';
+- `./apps/daemon/tests/runtimes/prompt-file.test.ts` (37 lines, .ts) -- import { test } from 'vitest';
+- `./apps/daemon/tests/runtimes/qoder-stream.test.ts` (249 lines, .ts) -- import { test } from 'vitest';
+- `./apps/daemon/tests/runtimes/qwen-settings.test.ts` (137 lines, .ts) -- import { test } from 'vitest';
+- `./apps/daemon/tests/runtimes/raw-line-live-bound.test.ts` (96 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/runtimes/registry-and-args.test.ts` (937 lines, .ts) -- import { test } from 'vitest';
+- `./apps/daemon/tests/runtimes/resolve-model.test.ts` (204 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/runtimes/run-artifacts.test.ts` (557 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/runtimes/run-event-payload-budget.test.ts` (131 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/runtimes/run-failure-telemetry-smoke.test.ts` (939 lines, .ts) -- import { createServer, type Server } from 'node:http';
+- `./apps/daemon/tests/runtimes/run-lifecycle-analytics.test.ts` (233 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/runtimes/run-terminal-reconciliation.test.ts` (1303 lines, .ts) -- import fs from 'node:fs';
+- `./apps/daemon/tests/runtimes/runs-durable-replay.test.ts` (251 lines, .ts) -- import fs from 'node:fs';
+- `./apps/daemon/tests/runtimes/runs.test.ts` (2347 lines, .ts) -- import fs from 'node:fs';
+- `./apps/daemon/tests/runtimes/runtime-version-provenance.test.ts` (132 lines, .ts) -- import { chmodSync, mkdtempSync, readFileSync, rmSync, writeFileSync } from 'node:fs';
+- `./apps/daemon/tests/runtimes/service-failure-classification.test.ts` (141 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/runtimes/structured-streams.test.ts` (1387 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/runtimes/terminal-control.test.ts` (27 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/runtimes/terminal-launch.test.ts` (21 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/runtimes/tool-timing.test.ts` (60 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/runtimes/tool-vs-agent-auth-snapshot.test.ts` (284 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/runtimes/trae-cli.test.ts` (103 lines, .ts) -- import { readFile } from 'node:fs/promises';
+- `./apps/daemon/tests/runtimes/vela-child-evidence.test.ts` (812 lines, .ts) -- import { createHash } from 'node:crypto';
+- `./apps/daemon/tests/runtimes/version-policy.test.ts` (193 lines, .ts) -- import { chmodSync, mkdtempSync, rmSync, writeFileSync } from 'node:fs';
+- `./apps/daemon/tests/runtimes/version-probe-classification.test.ts` (147 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/runtimes/w101-codex-file-change-diff-stat.test.ts` (221 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/runtimes/w107-claude-turn-boundary-real-cli.test.ts` (332 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/daemon/tests/runtimes/w115-tool-input-target-path.test.ts` (275 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/daemon/tests/runtimes/w120-inflight-write-line-count.test.ts` (518 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/daemon/tests/runtimes/w134-thinking-token-count.test.ts` (246 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/daemon/tests/runtimes/w135-codex-web-search-in-flight.test.ts` (124 lines, .ts) -- import { test } from 'vitest';
+- `./apps/daemon/tests/runtimes/w136-early-row-clock-origin.test.ts` (285 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/daemon/tests/sandbox-mode.test.ts` (98 lines, .ts) -- import os from 'node:os';
+- `./apps/daemon/tests/sandbox-runtime-bootstrap.test.ts` (142 lines, .ts) -- import assert from 'node:assert/strict';
+- `./apps/daemon/tests/sanitize-name.test.ts` (72 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/screenshot-export-file-handoff.test.ts` (497 lines, .ts) -- import type http from 'node:http';
+- `./apps/daemon/tests/security-import-folder-dotfiles.test.ts` (287 lines, .ts) -- import type http from 'node:http';
+- `./apps/daemon/tests/server-bootstrap-regression.test.ts` (600 lines, .ts) -- import type http from 'node:http';
+- `./apps/daemon/tests/server-cors.test.ts` (93 lines, .ts) -- import http from 'node:http';
+- `./apps/daemon/tests/server-image-paths.test.ts` (77 lines, .ts) -- import { expect, test } from 'vitest';
+- `./apps/daemon/tests/server-keepalive.test.ts` (37 lines, .ts) -- import type http from 'node:http';
+- `./apps/daemon/tests/server-memory-extraction-origin.test.ts` (166 lines, .ts) -- import type { Server } from 'node:http';
+- `./apps/daemon/tests/server-paths.test.ts` (140 lines, .ts) -- import path from 'node:path';
+- `./apps/daemon/tests/server-persistence-smoke.test.ts` (137 lines, .ts) -- import type { Server } from 'node:http';
+- `./apps/daemon/tests/server-startup-smoke.test.ts` (1125 lines, .ts) -- import type http from 'node:http';
+- `./apps/daemon/tests/services/diagnostics-evidence.test.ts` (196 lines, .ts) -- import { mkdtemp, readFile, rm } from 'node:fs/promises';
+- `./apps/daemon/tests/services/internal-run-service.test.ts` (212 lines, .ts) -- import { describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/services/partitioned-refresh-cache.test.ts` (74 lines, .ts) -- import { describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/services/plugin-installation.test.ts` (61 lines, .ts) -- import { mkdir, mkdtemp, rm } from 'node:fs/promises';
+- `./apps/daemon/tests/services/run-analytics-lifecycle.test.ts` (595 lines, .ts) -- import Database from 'better-sqlite3';
+- `./apps/daemon/tests/setup.ts` (55 lines, .ts) -- import { execFileSync } from 'node:child_process';
+- `./apps/daemon/tests/should-publish.test.ts` (95 lines, .ts) -- import { describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/sidecar-server.test.ts` (53 lines, .ts) -- import { createServer, type Server } from 'node:http';
+- `./apps/daemon/tests/sidecar-startup.test.ts` (185 lines, .ts) -- import { mkdtemp, rm } from 'node:fs/promises';
+- `./apps/daemon/tests/sidecar-status-snapshot.test.ts` (87 lines, .ts) -- import { randomBytes } from 'node:crypto';
+- `./apps/daemon/tests/sidecar/payload-desktop-handoff-6074-regression.test.ts` (231 lines, .ts) -- import { mkdir, mkdtemp, rm, writeFile } from \"node:fs/promises\";
+- `./apps/daemon/tests/sidecar/payload-desktop-handoff.test.ts` (285 lines, .ts) -- import { mkdir, mkdtemp, readFile, rm, symlink, writeFile } from \"node:fs/promises\";
+- `./apps/daemon/tests/skill-id-aliases.test.ts` (118 lines, .ts) -- import { afterAll, beforeAll, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/skill-navigation-workspace-authority.test.ts` (232 lines, .ts) -- import express from 'express';
+- `./apps/daemon/tests/skill-plugin-candidates.test.ts` (369 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/skill-root-external-directory.test.ts` (142 lines, .ts) -- import path from 'node:path';
+- `./apps/daemon/tests/skill-url-install.test.ts` (466 lines, .ts) -- import { Readable } from 'node:stream';
+- `./apps/daemon/tests/skill-write-guidance.test.ts` (212 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/daemon/tests/skills-workspace-scope.test.ts` (618 lines, .ts) -- import type http from 'node:http';
+- `./apps/daemon/tests/skills.test.ts` (854 lines, .ts) -- import { spawnSync } from 'node:child_process';
+- `./apps/daemon/tests/skills/team-resource-list-gate.test.ts` (211 lines, .ts) -- import { mkdir, mkdtemp, rm, writeFile } from 'node:fs/promises';
+- `./apps/daemon/tests/skills/workspace-team-binding.test.ts` (194 lines, .ts) -- import { mkdtempSync, rmSync } from 'node:fs';
+- `./apps/daemon/tests/sse-response.test.ts` (125 lines, .ts) -- import { EventEmitter } from 'node:events';
+- `./apps/daemon/tests/stale-message-snapshot-preserves-daemon-events.test.ts` (1211 lines, .ts) -- import type { Server } from 'node:http';
+- `./apps/daemon/tests/static-resource-routes.test.ts` (367 lines, .ts) -- import express from 'express';
+- `./apps/daemon/tests/storage-db-inspect.test.ts` (88 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/storage-db-verify.test.ts` (73 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/storage.test.ts` (303 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/storage/evidence-delivery.test.ts` (85 lines, .ts) -- import { writeAppConfig } from '../../src/app-config.js';
+- `./apps/daemon/tests/storage/run-storage-analytics.test.ts` (132 lines, .ts) -- import Database from 'better-sqlite3';
+- `./apps/daemon/tests/storage/telemetry-outbox.test.ts` (105 lines, .ts) -- import { mkdtemp, rm } from 'node:fs/promises';
+- `./apps/daemon/tests/strategies/od-next-task-input-snapshot.test.ts` (662 lines, .ts) -- import {
+- `./apps/daemon/tests/strategies/od-next/complex-production.test.ts` (886 lines, .ts) -- import fs from 'node:fs';
+- `./apps/daemon/tests/strategies/od-next/coordinator.test.ts` (2955 lines, .ts) -- import fs from 'node:fs';
+- `./apps/daemon/tests/strategies/od-next/device-frames.test.ts` (308 lines, .ts) -- import { createHash } from 'node:crypto';
+- `./apps/daemon/tests/strategies/od-next/example-card-frozen-skill.test.ts` (421 lines, .ts) -- import { createHash } from 'node:crypto';
+- `./apps/daemon/tests/strategies/od-next/frozen-skill-package.test.ts` (234 lines, .ts) -- import { mkdtemp, readFile, rm, symlink, writeFile, mkdir } from 'node:fs/promises';
+- `./apps/daemon/tests/strategies/od-next/protocol.test.ts` (322 lines, .ts) -- import type { OpenDesignPlanContractV2 } from '@open-design/contracts';
+- `./apps/daemon/tests/strategies/od-next/resolver.test.ts` (163 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/strategies/od-next/rollout.test.ts` (343 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/strategies/od-next/session-skill-package.test.ts` (206 lines, .ts) -- import { mkdir, mkdtemp, rm, writeFile } from 'node:fs/promises';
+- `./apps/daemon/tests/strategies/strategy-task-test-fixtures.ts` (67 lines, .ts) -- import {
+- `./apps/daemon/tests/strategies/task-store.test.ts` (1564 lines, .ts) -- import { createHash } from 'node:crypto';
+- `./apps/daemon/tests/system-prompt-template.test.ts` (577 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/task-feedback-reporting.test.ts` (68 lines, .ts) -- import { mkdtemp, rm } from 'node:fs/promises';
+- `./apps/daemon/tests/task-successor-absorption.test.ts` (387 lines, .ts) -- import type { Server } from 'node:http';
+- `./apps/daemon/tests/team-mirror-read-revocation.test.ts` (151 lines, .ts) -- import { afterAll, beforeAll, describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/team-projects-display-cache.test.ts` (88 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/team-resource-routes.test.ts` (100 lines, .ts) -- import { afterEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/team-resource-share-list-cache.test.ts` (603 lines, .ts) -- import { afterEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/team-resource-share-resync.test.ts` (196 lines, .ts) -- import { afterEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/team-resource-share.test.ts` (417 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/team-resource-version-store.test.ts` (180 lines, .ts) -- import fs from 'node:fs';
+- `./apps/daemon/tests/telemetry-fatal-handler-lifecycle.test.ts` (26 lines, .ts) -- import type http from 'node:http';
+- `./apps/daemon/tests/telemetry-message-finalization.test.ts` (1139 lines, .ts) -- import { describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/telemetry-sidecar-namespace.test.ts` (17 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/terminal-workspace-authority.test.ts` (102 lines, .ts) -- import express from 'express';
+- `./apps/daemon/tests/terminals.spawn-helper.test.ts` (51 lines, .ts) -- import fs from 'node:fs';
+- `./apps/daemon/tests/thinking-stream-panel-grammar.test.ts` (170 lines, .ts) -- import type http from 'node:http';
+- `./apps/daemon/tests/title-marker.test.ts` (82 lines, .ts) -- import assert from 'node:assert/strict';
+- `./apps/daemon/tests/todo-recall.test.ts` (224 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/tool-loop-guard.test.ts` (367 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/tool-loop-persistence.test.ts` (211 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/tool-token-startup-leak.test.ts` (151 lines, .ts) -- import type { Server } from 'node:http';
+- `./apps/daemon/tests/tool-tokens.test.ts` (136 lines, .ts) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/tools-connectors-cli.test.ts` (2823 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/tools-deliverable-syntax-cli.test.ts` (60 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/tools-live-artifacts-cli.test.ts` (276 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/touchpoint-content-cache.test.ts` (308 lines, .ts) -- import { createHash } from 'node:crypto';
+- `./apps/daemon/tests/touchpoint-offline-cache.test.ts` (608 lines, .ts) -- import { createHash } from 'node:crypto';
+- `./apps/daemon/tests/trace-object-manifest.test.ts` (368 lines, .ts) -- import { mkdir, mkdtemp, rm, writeFile } from 'node:fs/promises';
+- `./apps/daemon/tests/transcript-export.test.ts` (771 lines, .ts) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/uncaught-fatal-shutdown.test.ts` (204 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/update-apply-observations.test.ts` (182 lines, .ts) -- import { mkdtemp, mkdir, readFile, rm, writeFile } from 'node:fs/promises';
+- `./apps/daemon/tests/update-lifecycle-observations.test.ts` (82 lines, .ts) -- import { mkdtemp, mkdir, readFile, rm, writeFile } from 'node:fs/promises';
+- `./apps/daemon/tests/user-facing-agent-label.test.ts` (36 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/vela-billing-preflight.test.ts` (120 lines, .ts) -- import { describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/vela-billing.test.ts` (383 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/vela-cli-collab-presence-timeout.test.ts` (42 lines, .ts) -- import { describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/vela-cli-resource-adapter.test.ts` (589 lines, .ts) -- import { describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/vela-cli-resource-pull-batcher.test.ts` (102 lines, .ts) -- import { describe, expect, it, vi } from 'vitest';
+- `./apps/daemon/tests/vela-cli-team-projects.test.ts` (766 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/vela-console-origin.test.ts` (79 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/vela-login-activation-e2e.local.test.ts` (53 lines, .ts) -- import { describe, expect, it, afterAll } from 'vitest';
+- `./apps/daemon/tests/vela-login-activation.test.ts` (66 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/vela-media-safety-error.test.ts` (384 lines, .ts) -- import { writeFile } from 'node:fs/promises';
+- `./apps/daemon/tests/vela-media-safety-process.test.ts` (150 lines, .ts) -- import { chmodSync, mkdtempSync, rmSync, writeFileSync } from 'node:fs';
+- `./apps/daemon/tests/vela-proxy-pipe-error.test.ts` (58 lines, .ts) -- import { PassThrough } from 'node:stream';
+- `./apps/daemon/tests/vela-team-projects.test.ts` (39 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/vela-touchpoint-content-assembly.test.ts` (644 lines, .ts) -- import { createHash } from 'node:crypto';
+- `./apps/daemon/tests/vela-touchpoint-offline.test.ts` (423 lines, .ts) -- import { createHash } from 'node:crypto';
+- `./apps/daemon/tests/vela-workspace-context.test.ts` (1456 lines, .ts) -- import * as diagnosticEvidence from '../src/services/diagnostics-evidence.js';
+- `./apps/daemon/tests/version-route.test.ts` (172 lines, .ts) -- import type http from 'node:http';
+- `./apps/daemon/tests/w102-thinking-empty-delta-heartbeat.test.ts` (303 lines, .ts) -- import type http from 'node:http';
+- `./apps/daemon/tests/w99-todo-recall-completed-context.test.ts` (213 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/web-clone-browser-runtime.test.ts` (178 lines, .ts) -- import { chmodSync, mkdtempSync, readFileSync, rmSync, writeFileSync } from 'node:fs';
+- `./apps/daemon/tests/web-clone-skill-ref.test.ts` (45 lines, .ts) -- import { existsSync, readFileSync } from 'node:fs';
+- `./apps/daemon/tests/whats-new.test.ts` (146 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/workspace-billing-server-wiring.test.ts` (234 lines, .ts) -- import type { Server } from 'node:http';
+- `./apps/daemon/tests/workspace-context-authority-server-wiring.test.ts` (300 lines, .ts) -- import type { Server } from 'node:http';
+- `./apps/daemon/tests/workspace-project-analytics.test.ts` (43 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/daemon/tests/workspace-resource-read-authority.test.ts` (202 lines, .ts) -- import express from 'express';
+- `./apps/daemon/vitest.config.ts` (13 lines, .ts) -- import { defineConfig } from 'vitest/config';
+- `./apps/daemon/vitest.parallel.config.ts` (18 lines, .ts) -- import { defineConfig } from 'vitest/config';
+- `./apps/desktop/src/main/artifact-export.ts` (334 lines, .ts) -- import { mkdtemp, writeFile } from \"node:fs/promises\";
+- `./apps/desktop/src/main/crash-diagnostics.ts` (68 lines, .ts) -- import { mkdirSync } from \"node:fs\";
+- `./apps/desktop/src/main/deck-capture.ts` (3253 lines, .ts) -- import { mkdir, readFile, writeFile } from \"node:fs/promises\";
+- `./apps/desktop/src/main/deeplink-focus.ts` (26 lines, .ts) -- export type DeeplinkFocusTarget = {
+- `./apps/desktop/src/main/diagnostics-fetch.ts` (35 lines, .ts) -- import { DIAGNOSTICS_EXPORT_PATH } from \"@open-design/diagnostics\";
+- `./apps/desktop/src/main/diagnostics.ts` (126 lines, .ts) -- import { writeFile } from \"node:fs/promises\";
+- `./apps/desktop/src/main/external-show.ts` (24 lines, .ts) -- export type DesktopExternalShowOptions = {
+- `./apps/desktop/src/main/frame-capture.ts` (322 lines, .ts) -- import { mkdir, writeFile } from \"node:fs/promises\";
+- `./apps/desktop/src/main/index.ts` (1150 lines, .ts) -- import { recordIncomingUpdateLifecycle, type UpdateLifecycleObservation } from \"./update-lifecycle-observations.js\";
+- `./apps/desktop/src/main/installer-observations.ts` (130 lines, .ts) -- import { randomUUID } from \"node:crypto\";
+- `./apps/desktop/src/main/invite-deeplink-core.ts` (222 lines, .ts) -- export const INVITE_DEEPLINK_SCHEME = \"opendesign\";
+- `./apps/desktop/src/main/invite-deeplink.ts` (97 lines, .ts) -- import { app } from \"electron\";
+- `./apps/desktop/src/main/mailto-open.ts` (316 lines, .ts) -- import { execFile } from \"node:child_process\";
+- `./apps/desktop/src/main/observability.ts` (82 lines, .ts) -- import { clearReportedCrash, type DesktopCrashSummary } from \"./session-lifecycle.js\";
+- `./apps/desktop/src/main/open-path.ts` (70 lines, .ts) -- export interface OpenPathDeps {
+- `./apps/desktop/src/main/pdf-export.ts` (644 lines, .ts) -- import { writeFile } from \"node:fs/promises\";
+- `./apps/desktop/src/main/renderer-crash-loop.ts` (107 lines, .ts) -- export const RENDERER_CRASH_LOOP_LIMIT = 5;
+- `./apps/desktop/src/main/runtime.ts` (3121 lines, .ts) -- import { execFile } from \"node:child_process\";
+- `./apps/desktop/src/main/session-lifecycle.ts` (191 lines, .ts) -- import { mkdirSync, readFileSync, writeFileSync } from \"node:fs\";
+- `./apps/desktop/src/main/splash-pixel-scan.ts` (500 lines, .ts) -- export const SPLASH_LOGO_DATA_URL =
+- `./apps/desktop/src/main/static-capture.ts` (196 lines, .ts) -- import type { BrowserWindow } from \"electron\";
+- `./apps/desktop/src/main/uncaught-exception.ts` (155 lines, .ts) -- export function isHarmlessSocketOptionError(value: unknown): boolean {
+- `./apps/desktop/src/main/update-lifecycle-observations.ts` (75 lines, .ts) -- import { randomUUID } from \"node:crypto\";
+- `./apps/desktop/src/main/update-menu.ts` (82 lines, .ts) -- import type { DesktopUpdateStatusSnapshot } from \"@open-design/sidecar-proto\";
+- `./apps/desktop/src/main/update-preflight.ts` (80 lines, .ts) -- export type UpdateActionRequest = {
+- `./apps/desktop/src/main/updater.ts` (1377 lines, .ts) -- import { recordUpdateLifecycle, type UpdateLifecycleObservation } from \"./update-lifecycle-observations.js\";
+- `./apps/desktop/src/main/updater/config.ts` (250 lines, .ts) -- import { isAbsolute, join, resolve } from \"node:path\";
+- `./apps/desktop/src/main/updater/deferred-launch.ts` (297 lines, .ts) -- import { spawn } from \"node:child_process\";
+- `./apps/desktop/src/main/updater/feed.ts` (444 lines, .ts) -- import { createHash } from \"node:crypto\";
+- `./apps/desktop/src/main/updater/payload.ts` (790 lines, .ts) -- import { execFile } from \"node:child_process\";
+- `./apps/desktop/src/main/updater/release-lifecycle.ts` (535 lines, .ts) -- import { lstat, mkdir, readdir, realpath, rename, rm } from \"node:fs/promises\";
+- `./apps/desktop/src/main/updater/scheduler.ts` (159 lines, .ts) -- import {
+- `./apps/desktop/src/main/updater/store.ts` (372 lines, .ts) -- import { access, lstat, mkdir, readdir, realpath, rm } from \"node:fs/promises\";
+- `./apps/desktop/src/main/updater/support.ts` (68 lines, .ts) -- import { mkdir, readdir, readFile, rename, writeFile } from \"node:fs/promises\";
+- `./apps/desktop/tests/main/amr-environment-profile-menu.test.ts` (191 lines, .ts) -- import { describe, expect, it } from \"vitest\";
+- `./apps/desktop/tests/main/artifact-document-load-bound.test.ts` (147 lines, .ts) -- import { describe, expect, test, vi } from 'vitest';
+- `./apps/desktop/tests/main/artifact-export-image-height.test.ts` (34 lines, .ts) -- import { readFileSync } from \"node:fs\";
+- `./apps/desktop/tests/main/artifact-first-viewport-capture.test.ts` (362 lines, .ts) -- import { runInNewContext } from 'node:vm';
+- `./apps/desktop/tests/main/base-href-precedence.test.ts` (230 lines, .ts) -- import { execFile } from 'node:child_process';
+- `./apps/desktop/tests/main/deeplink-focus.test.ts` (68 lines, .ts) -- import { describe, expect, it, vi } from \"vitest\";
+- `./apps/desktop/tests/main/desktop-pet-dock-policy.test.ts` (68 lines, .ts) -- import { readFileSync } from \"node:fs\";
+- `./apps/desktop/tests/main/diagnostics-chat-scroll-capture.test.ts` (110 lines, .ts) -- import { describe, expect, it, vi } from \"vitest\";
+- `./apps/desktop/tests/main/diagnostics-export-delegates.test.ts` (27 lines, .ts) -- import { describe, expect, it, vi } from \"vitest\";
+- `./apps/desktop/tests/main/diagnostics-save-dialog.test.ts` (47 lines, .ts) -- import { sep } from \"node:path\";
+- `./apps/desktop/tests/main/export-title-replacement-patterns.test.ts` (203 lines, .ts) -- import { mkdtemp, rm } from 'node:fs/promises';
+- `./apps/desktop/tests/main/external-show.test.ts` (51 lines, .ts) -- import { describe, expect, it, vi } from \"vitest\";
+- `./apps/desktop/tests/main/first-viewport-resource-wait.test.ts` (179 lines, .ts) -- import { runInNewContext } from 'node:vm';
+- `./apps/desktop/tests/main/frame-capture.test.ts` (343 lines, .ts) -- import { execFile } from 'node:child_process';
+- `./apps/desktop/tests/main/hide-window-exiting-fullscreen.test.ts` (189 lines, .ts) -- import { describe, expect, test, vi } from 'vitest';
+- `./apps/desktop/tests/main/http-5xx-document-recovery.test.ts` (62 lines, .ts) -- import { readFileSync } from \"node:fs\";
+- `./apps/desktop/tests/main/invite-deeplink-protocol-registration.test.ts` (89 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it, vi } from \"vitest\";
+- `./apps/desktop/tests/main/invite-deeplink.test.ts` (211 lines, .ts) -- import { createServer } from \"node:http\";
+- `./apps/desktop/tests/main/mailto-open.test.ts` (393 lines, .ts) -- import { describe, expect, test } from \"vitest\";
+- `./apps/desktop/tests/main/mint-home-working-dir-token.test.ts` (77 lines, .ts) -- import { describe, expect, it, vi } from \"vitest\";
+- `./apps/desktop/tests/main/observability.test.ts` (82 lines, .ts) -- import { describe, expect, test, vi } from \"vitest\";
+- `./apps/desktop/tests/main/open-path.test.ts` (173 lines, .ts) -- import { describe, expect, it, vi } from \"vitest\";
+- `./apps/desktop/tests/main/pick-and-import-workspace-context.test.ts` (73 lines, .ts) -- import { describe, expect, it, vi } from 'vitest';
+- `./apps/desktop/tests/main/pptx-cjk-typeface.test.ts` (127 lines, .ts) -- import { describe, expect, test } from 'vitest';
+- `./apps/desktop/tests/main/pptx-editable-fidelity.test.ts` (291 lines, .ts) -- import { afterEach, describe, expect, test, vi } from 'vitest';
+- `./apps/desktop/tests/main/pptx-layered-background.test.ts` (3559 lines, .ts) -- import { execFile } from 'node:child_process';
+- `./apps/desktop/tests/main/preload-host-boundary.test.ts` (53 lines, .ts) -- import { readFileSync } from \"node:fs\";
+- `./apps/desktop/tests/main/preview-navigation-failure.test.ts` (66 lines, .ts) -- import { describe, expect, it } from \"vitest\";
+- `./apps/desktop/tests/main/printable-content-budget.test.ts` (34 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/desktop/tests/main/render-process-gone-teardown-guard.test.ts` (43 lines, .ts) -- import { readFileSync } from \"node:fs\";
+- `./apps/desktop/tests/main/renderer-crash-loop.test.ts` (225 lines, .ts) -- import { readFileSync } from \"node:fs\";
+- `./apps/desktop/tests/main/renderer-recovery-poll-loop.test.ts` (42 lines, .ts) -- import { readFileSync } from \"node:fs\";
+- `./apps/desktop/tests/main/save-as-dialog-extensions.test.ts` (47 lines, .ts) -- import { describe, expect, test } from 'vitest';
+- `./apps/desktop/tests/main/save-print-ready-document-as-pdf.test.ts` (525 lines, .ts) -- import { describe, expect, test, vi } from 'vitest';
+- `./apps/desktop/tests/main/scroll-stitch-geometry.test.ts` (686 lines, .ts) -- import { describe, expect, test, vi } from 'vitest';
+- `./apps/desktop/tests/main/session-lifecycle.test.ts` (110 lines, .ts) -- import { describe, expect, test } from \"vitest\";
+- `./apps/desktop/tests/main/shutdown.test.ts` (182 lines, .ts) -- import { readFileSync } from \"node:fs\";
+- `./apps/desktop/tests/main/splash-pixel-scan.test.ts` (66 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/desktop/tests/main/splash-stage-replay.test.ts` (132 lines, .ts) -- import { describe, expect, test } from 'vitest';
+- `./apps/desktop/tests/main/uncaught-exception.test.ts` (194 lines, .ts) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/desktop/tests/main/update-desktop-ready.test.ts` (28 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/desktop/tests/main/update-lifecycle-observations.test.ts` (42 lines, .ts) -- import { mkdtemp, readFile, rm } from \"node:fs/promises\";
+- `./apps/desktop/tests/main/update-menu.test.ts` (139 lines, .ts) -- import { describe, expect, it } from \"vitest\";
+- `./apps/desktop/tests/main/update-preflight.test.ts` (59 lines, .ts) -- import { describe, expect, it } from \"vitest\";
+- `./apps/desktop/tests/main/updater-host-boundary.test.ts` (151 lines, .ts) -- import { readFileSync } from \"node:fs\";
+- `./apps/desktop/tests/main/updater.test.ts` (3929 lines, .ts) -- import { createHash } from \"node:crypto\";
+- `./apps/desktop/tests/main/updater/config.test.ts` (90 lines, .ts) -- import { mkdtempSync, rmSync } from \"node:fs\";
+- `./apps/desktop/tests/main/updater/feed.test.ts` (68 lines, .ts) -- import { mkdir, writeFile } from \"node:fs/promises\";
+- `./apps/desktop/tests/main/updater/payload-running.test.ts` (130 lines, .ts) -- import { mkdtemp, mkdir, readFile, realpath, rm, symlink, writeFile } from \"node:fs/promises\";
+- `./apps/desktop/tests/main/updater/scheduler.test.ts` (322 lines, .ts) -- import { describe, expect, it, vi } from \"vitest\";
+- `./apps/desktop/tests/main/window-chrome.test.ts` (87 lines, .ts) -- import { readFileSync } from \"node:fs\";
+- `./apps/desktop/vendor/dom-to-pptx/README.md` (29 lines, .md) -- `dom-to-pptx.bundle.js.gz` is the checked-in compressed **browser UMD build** of
+- `./apps/desktop/vitest.config.ts` (9 lines, .ts) -- import { defineConfig } from 'vitest/config';
+- `./apps/packaged/AGENTS.md` (23 lines, .md) -- Follow the root `AGENTS.md` and `apps/AGENTS.md` first. This app owns only the packaged Electron runtime assembly entry.
+- `./apps/packaged/README.md` (7 lines, .md) -- Thin packaged Electron runtime entry for Open Design.
+- `./apps/packaged/src/config.ts` (238 lines, .ts) -- import { access, readFile } from \"node:fs/promises\";
+- `./apps/packaged/src/download-attribution.ts` (207 lines, .ts) -- import { execFile } from \"node:child_process\";
+- `./apps/packaged/src/errors.ts` (9 lines, .ts) -- export class PackagedPathAccessError extends Error {
+- `./apps/packaged/src/headless-runtime.ts` (296 lines, .ts) -- import { mkdir } from \"node:fs/promises\";
+- `./apps/packaged/src/headless.ts` (124 lines, .ts) -- import { homedir } from \"node:os\";
+- `./apps/packaged/src/index.ts` (570 lines, .ts) -- import {
+- `./apps/packaged/src/launch.ts` (177 lines, .ts) -- import { access, mkdir, stat } from \"node:fs/promises\";
+- `./apps/packaged/src/launcher-after-quit.ts` (365 lines, .ts) -- import type { UpdateLifecycleObservation } from \"@open-design/desktop/main\";
+- `./apps/packaged/src/launcher-runtime.ts` (676 lines, .ts) -- import { createHash } from \"node:crypto\";
+- `./apps/packaged/src/logging.ts` (295 lines, .ts) -- import { appendFileSync } from \"node:fs\";
+- `./apps/packaged/src/managed-headless.ts` (173 lines, .ts) -- import { SIDECAR_MESSAGES, type DesktopStatusSnapshot } from \"@open-design/sidecar-proto\";
+- `./apps/packaged/src/obsolete-installed-outer.ts` (204 lines, .ts) -- import { lstat } from \"node:fs/promises\";
+- `./apps/packaged/src/paths.ts` (127 lines, .ts) -- import { homedir } from \"node:os\";
+- `./apps/packaged/src/payload-desktop-launch.ts` (95 lines, .ts) -- import { dirname } from \"node:path\";
+- `./apps/packaged/src/prewarm.ts` (295 lines, .ts) -- import { createRequire } from \"node:module\";
+- `./apps/packaged/src/protocol.ts` (545 lines, .ts) -- import { net, protocol } from \"electron\";
+- `./apps/packaged/src/sidecars.ts` (1078 lines, .ts) -- import type { UpdateLifecycleObservation } from \"@open-design/desktop/main\";
+- `./apps/packaged/src/startup-telemetry.ts` (564 lines, .ts) -- import { readFile } from \"node:fs/promises\";
+- `./apps/packaged/src/window-title.ts` (14 lines, .ts) -- import {
+- `./apps/packaged/src/windows-lifecycle.ts` (66 lines, .ts) -- import { execFile } from \"node:child_process\";
+- `./apps/packaged/src/workspace-team.ts` (43 lines, .ts) -- const WORKSPACE_TEAM_AMR_PROFILES: ReadonlySet<string> = new Set([
+- `./apps/packaged/tests/config.test.ts` (47 lines, .ts) -- import { join, resolve } from 'node:path';
+- `./apps/packaged/tests/desktop-pick-and-import.test.ts` (266 lines, .ts) -- import { describe, expect, it, vi } from \"vitest\";
+- `./apps/packaged/tests/desktop-project-root-gate.test.ts` (372 lines, .ts) -- import { mkdtempSync, rmSync, symlinkSync, writeFileSync } from \"node:fs\";
+- `./apps/packaged/tests/desktop-sidecar-boundary.test.ts` (40 lines, .ts) -- import { readFileSync } from \"node:fs\";
+- `./apps/packaged/tests/desktop-url-allowlist.test.ts` (136 lines, .ts) -- import { vi } from 'vitest';
+- `./apps/packaged/tests/download-attribution.test.ts` (62 lines, .ts) -- import { mkdtemp, writeFile } from \"node:fs/promises\";
+- `./apps/packaged/tests/entry-handoff.test.ts` (154 lines, .ts) -- import { readFileSync } from \"node:fs\";
+- `./apps/packaged/tests/headless-runtime.test.ts` (181 lines, .ts) -- import { describe, expect, it, vi } from \"vitest\";
+- `./apps/packaged/tests/launch.test.ts` (178 lines, .ts) -- import { mkdtempSync, mkdirSync, rmSync, writeFileSync } from \"node:fs\";
+- `./apps/packaged/tests/launcher-after-quit.test.ts` (265 lines, .ts) -- import { mkdtemp, readFile, rm } from \"node:fs/promises\";
+- `./apps/packaged/tests/launcher-runtime.test.ts` (736 lines, .ts) -- import { mkdir, mkdtemp, readFile, rm, symlink, writeFile } from \"node:fs/promises\";
+- `./apps/packaged/tests/logging.test.ts` (341 lines, .ts) -- import { mkdtempSync, rmSync } from 'node:fs';
+- `./apps/packaged/tests/managed-headless.test.ts` (180 lines, .ts) -- import { EventEmitter } from \"node:events\";
+- `./apps/packaged/tests/obsolete-installed-outer.test.ts` (413 lines, .ts) -- import { mkdir, mkdtemp, rm, symlink, writeFile } from \"node:fs/promises\";
+- `./apps/packaged/tests/paths.test.ts` (226 lines, .ts) -- import { join } from \"node:path\";
+- `./apps/packaged/tests/payload-desktop-launch.test.ts` (242 lines, .ts) -- import { existsSync } from \"node:fs\";
+- `./apps/packaged/tests/prewarm.test.ts` (275 lines, .ts) -- import { mkdtempSync, mkdirSync, rmSync, symlinkSync, writeFileSync } from 'node:fs';
+- `./apps/packaged/tests/protocol.test.ts` (894 lines, .ts) -- import { vi } from 'vitest';
+- `./apps/packaged/tests/sidecars.test.ts` (1249 lines, .ts) -- import { EventEmitter } from 'node:events';
+- `./apps/packaged/tests/source-origins.test.ts` (64 lines, .ts) -- import { readdir, readFile } from \"node:fs/promises\";
+- `./apps/packaged/tests/startup-telemetry.test.ts` (767 lines, .ts) -- import { mkdtempSync, rmSync, writeFileSync } from 'node:fs';
+- `./apps/packaged/tests/window-title.test.ts` (25 lines, .ts) -- import { describe, expect, it } from \"vitest\";
+- `./apps/packaged/tests/windows-lifecycle.test.ts` (94 lines, .ts) -- import { describe, expect, it } from \"vitest\";
+- `./apps/packaged/tests/workspace-team.test.ts` (41 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/packaged/vitest.config.ts` (8 lines, .ts) -- import { defineConfig } from 'vitest/config';
+- `./apps/web/app/[[...slug]]/client-app.tsx` (58 lines, .tsx) -- 'use client';
+- `./apps/web/app/[[...slug]]/page.tsx` (18 lines, .tsx) -- import { ClientApp } from './client-app';
+- `./apps/web/app/desktop-pet/client.tsx` (12 lines, .tsx) -- 'use client';
+- `./apps/web/app/desktop-pet/page.tsx` (5 lines, .tsx) -- import { DesktopPetClient } from './client';
+- `./apps/web/app/layout.tsx` (57 lines, .tsx) -- import type { Metadata, Viewport } from 'next';
+- `./apps/web/next-env.d.ts` (6 lines, .ts) -- import \"./.next/types/routes.d.ts\";
+- `./apps/web/next.config.ts` (256 lines, .ts) -- import type { NextConfig } from 'next';
+- `./apps/web/public/od-notifications-sw.js` (39 lines, .js) -- self.addEventListener('notificationclick', (event) => {
+- `./apps/web/sidecar/index.ts` (29 lines, .ts) -- import { APP_KEYS } from \"@open-design/sidecar-proto\";
+- `./apps/web/sidecar/server.ts` (1127 lines, .ts) -- import { spawn, type ChildProcess } from \"node:child_process\";
+- `./apps/web/src/App.tsx` (5978 lines, .tsx) -- import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState, type ReactNode } from 'react';
+- `./apps/web/src/analytics/agent-detect.ts` (50 lines, .ts) -- import { agentIdToTracking } from '@open-design/contracts/analytics';
+- `./apps/web/src/analytics/amr-attribution.ts` (403 lines, .ts) -- import type {
+- `./apps/web/src/analytics/amr-auth.ts` (381 lines, .ts) -- import type {
+- `./apps/web/src/analytics/app-version.ts` (24 lines, .ts) -- export const APP_VERSION_PLACEHOLDER = '0.0.0';
+- `./apps/web/src/analytics/byok-error-code.ts` (74 lines, .ts) -- const APPENDED_CAUSE_CODE = /\(([A-Z][A-Z0-9_]{2,})\)\s*$/;
+- `./apps/web/src/analytics/byok-run.ts` (162 lines, .ts) -- import {
+- `./apps/web/src/analytics/client.ts` (593 lines, .ts) -- import type { PostHog } from 'posthog-js';
+- `./apps/web/src/analytics/deploy-error-code.ts` (58 lines, .ts) -- export const GENERIC_DEPLOY_ENVELOPE_CODES = new Set(['BAD_REQUEST', 'FILE_NOT_FOUND', 'INTERNAL', 'INTERNAL_ERROR', 'UN
+- `./apps/web/src/analytics/ds-create-entry.ts` (29 lines, .ts) -- import type { TrackingDesignSystemCreateEntryFrom } from '@open-design/contracts/analytics';
+- `./apps/web/src/analytics/error-tracking.ts` (592 lines, .ts) -- import { reportExperienceEvent } from '../observability/experience-diagnostics';
+- `./apps/web/src/analytics/events.ts` (1566 lines, .ts) -- import { reportExperienceEvent } from '../observability/experience-diagnostics';
+- `./apps/web/src/analytics/experience-survey-contract.ts` (68 lines, .ts) -- export const EXPERIENCE_SURVEY_ID = '01a00fd1-ed7e-0000-d38e-63bce21fb816';
+- `./apps/web/src/analytics/export-error-code.ts` (77 lines, .ts) -- const GENERIC_EXPORT_ENVELOPE_CODES = new Set([
+- `./apps/web/src/analytics/failure-detail.ts` (60 lines, .ts) -- import {
+- `./apps/web/src/analytics/identity.ts` (180 lines, .ts) -- import type { AnalyticsClientType } from '@open-design/contracts/analytics';
+- `./apps/web/src/analytics/onboarding-session.ts` (56 lines, .ts) -- import { randomUUID } from '../utils/uuid';
+- `./apps/web/src/analytics/provider.tsx` (420 lines, .tsx) -- 'use client';
+- `./apps/web/src/analytics/publish-error-code.ts` (24 lines, .ts) -- import type { TrackingPublishErrorCode } from '@open-design/contracts/analytics';
+- `./apps/web/src/analytics/run-task.ts` (72 lines, .ts) -- import type {
+- `./apps/web/src/analytics/scrub.ts` (167 lines, .ts) -- import type { CaptureResult } from 'posthog-js';
+- `./apps/web/src/analytics/source-attribution.ts` (191 lines, .ts) -- import type { AmrEntryAttribution } from '@open-design/contracts/analytics';
+- `./apps/web/src/analytics/upload-tracking.ts` (48 lines, .ts) -- import type {
+- `./apps/web/src/analytics/workspace.ts` (112 lines, .ts) -- import {
+- `./apps/web/src/api-attachment-context.ts` (257 lines, .ts) -- import type { WorkspaceCollabContext } from '@open-design/contracts';
+- `./apps/web/src/artifacts/chat-protocol-context.ts` (3 lines, .ts) -- export { chatProtocolSkipRanges, maskChatProtocolPayloads } from '@open-design/contracts';
+- `./apps/web/src/artifacts/internal-markers.ts` (80 lines, .ts) -- const INTERNAL_MARKER_TAGS = [
+- `./apps/web/src/artifacts/manifest.ts` (188 lines, .ts) -- import type {
+- `./apps/web/src/artifacts/markdown-context.ts` (121 lines, .ts) -- import {
+- `./apps/web/src/artifacts/markdown.ts` (116 lines, .ts) -- import { micromark } from 'micromark';
+- `./apps/web/src/artifacts/parser.ts` (251 lines, .ts) -- export type ArtifactEvent =
+- `./apps/web/src/artifacts/pointer.ts` (80 lines, .ts) -- interface HtmlPointerArtifactTargetInput {
+- `./apps/web/src/artifacts/question-form.ts` (1244 lines, .ts) -- import { parsePartialJson } from '../runtime/partial-json';
+- `./apps/web/src/artifacts/recover.ts` (106 lines, .ts) -- import { validateHtmlArtifact } from './validate';
+- `./apps/web/src/artifacts/renderer-registry.ts` (108 lines, .ts) -- import { inferLegacyManifest } from './manifest';
+- `./apps/web/src/artifacts/strip.ts` (397 lines, .ts) -- import { computeSkipRanges, isRealArtifactOpenAt, rangeContains, type Range } from './markdown-context';
+- `./apps/web/src/artifacts/types.ts` (59 lines, .ts) -- export type ArtifactKind =
+- `./apps/web/src/artifacts/validate.ts` (203 lines, .ts) -- const MIN_HTML_LENGTH = 64;
+- `./apps/web/src/artifacts/version-origin.ts` (109 lines, .ts) -- import type { ArtifactOrigin, ProjectFileVersion } from '@open-design/contracts';
+- `./apps/web/src/campaigns/deepseek-v4-flash.ts` (123 lines, .ts) -- export const DEEPSEEK_V4_FLASH_CAMPAIGN = {
+- `./apps/web/src/campaigns/go-plan-content.ts` (311 lines, .ts) -- import type { Locale } from '../i18n';
+- `./apps/web/src/campaigns/go-plan.ts` (67 lines, .ts) -- import type { Locale } from '../i18n/types';
+- `./apps/web/src/campaigns/use-deepseek-v4-flash-campaign.ts` (29 lines, .ts) -- import { useEffect, useState } from 'react';
+- `./apps/web/src/campaigns/use-go-plan-campaign.ts` (21 lines, .ts) -- import { useEffect, useState } from 'react';
+- `./apps/web/src/collab/CollabDemoView.tsx` (195 lines, .tsx) -- import { useEffect, useMemo, useRef, useState } from 'react';
+- `./apps/web/src/collab/CommentDriftDemo.tsx` (155 lines, .tsx) -- import { useMemo, useState } from 'react';
+- `./apps/web/src/collab/FileSyncBadge.tsx` (147 lines, .tsx) -- import { useId } from 'react';
+- `./apps/web/src/collab/PresenceBar.tsx` (221 lines, .tsx) -- import { useEffect, useId, useRef, useState } from 'react';
+- `./apps/web/src/collab/WorkspaceMemberDirectoryPreloader.tsx` (15 lines, .tsx) -- import { useTeamMembers } from './useTeamMembers';
+- `./apps/web/src/collab/all-projects-list.ts` (259 lines, .ts) -- import type { TeamProject, WorkspaceCollabContext } from '@open-design/contracts';
+- `./apps/web/src/collab/collab-client.ts` (930 lines, .ts) -- import type {
+- `./apps/web/src/collab/collab-context.tsx` (57 lines, .tsx) -- import { createContext, useContext, type ReactNode } from 'react';
+- `./apps/web/src/collab/collab-session.ts` (52 lines, .ts) -- import type {
+- `./apps/web/src/collab/comment-anchor-client.ts` (68 lines, .ts) -- import type { AnchorWriteBack } from '../comments';
+- `./apps/web/src/collab/invite-continuation.ts` (294 lines, .ts) -- import type {
+- `./apps/web/src/collab/invite-error-copy.ts` (43 lines, .ts) -- import { normalizeWorkspaceInviteCreateErrorCode } from '@open-design/contracts';
+- `./apps/web/src/collab/optimistic-project-ownership.ts` (115 lines, .ts) -- import type {
+- `./apps/web/src/collab/project-shared-status.ts` (37 lines, .ts) -- import type { WorkspaceCollabContext } from '@open-design/contracts';
+- `./apps/web/src/collab/public-file-publish.ts` (94 lines, .ts) -- import {
+- `./apps/web/src/collab/settings-access.ts` (84 lines, .ts) -- import type { WorkspaceCollabContext } from '@open-design/contracts';
+- `./apps/web/src/collab/tab-scope.ts` (172 lines, .ts) -- import type { WorkspaceCollabContext } from '@open-design/contracts';
+- `./apps/web/src/collab/team-members-store.ts` (285 lines, .ts) -- import type {
+- `./apps/web/src/collab/team-plan.ts` (194 lines, .ts) -- import type { WorkspaceBillingSummary, WorkspaceCollabContext } from '@open-design/contracts';
+- `./apps/web/src/collab/team-projects-catalog.ts` (296 lines, .ts) -- import {
+- `./apps/web/src/collab/useCollab.ts` (273 lines, .ts) -- import { useCallback, useEffect, useRef, useState } from 'react';
+- `./apps/web/src/collab/useProjectCollab.ts` (658 lines, .ts) -- import { useEffect, useRef, useState } from 'react';
+- `./apps/web/src/collab/useProjectRouteWorkspaceContext.ts` (264 lines, .ts) -- import { useCallback, useEffect, useRef, useState } from 'react';
+- `./apps/web/src/collab/useProjectWorkspaceScope.ts` (783 lines, .ts) -- import { useCallback, useEffect, useRef, useState } from 'react';
+- `./apps/web/src/collab/useTeamMembers.ts` (198 lines, .ts) -- import {
+- `./apps/web/src/collab/useWorkspaceContext.ts` (2383 lines, .ts) -- import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+- `./apps/web/src/collab/workspace-billing-interests.ts` (295 lines, .ts) -- import type {
+- `./apps/web/src/collab/workspace-events.ts` (61 lines, .ts) -- import type {
+- `./apps/web/src/collab/workspace-identity.ts` (206 lines, .ts) -- import type { WorkspaceCollabContext } from '@open-design/contracts';
+- `./apps/web/src/collab/workspace-snapshot-activation.ts` (53 lines, .ts) -- import { useCallback, useEffect, useRef } from 'react';
+- `./apps/web/src/comments.ts` (784 lines, .ts) -- import type {
+- `./apps/web/src/components/AgentDiagnosticRow.tsx` (133 lines, .tsx) -- import { useT } from '../i18n';
+- `./apps/web/src/components/AgentIcon.tsx` (114 lines, .tsx) -- import type { CSSProperties } from 'react';
+- `./apps/web/src/components/AmrActivationHintText.tsx` (21 lines, .tsx) -- import { useT } from '../i18n';
+- `./apps/web/src/components/AmrArtifactUpgradeDialog.tsx` (270 lines, .tsx) -- import { useEffect, useId, useState } from 'react';
+- `./apps/web/src/components/AmrArtifactUpgradeGate.tsx` (289 lines, .tsx) -- import { useEffect, useRef, useState } from 'react';
+- `./apps/web/src/components/AmrArtifactUpgradeHomeCard.tsx` (108 lines, .tsx) -- import { useId } from 'react';
+- `./apps/web/src/components/AmrBalanceDialog.tsx` (349 lines, .tsx) -- import { useEffect, useRef, useState } from 'react';
+- `./apps/web/src/components/AmrLoginPill.tsx` (851 lines, .tsx) -- import { useCallback, useEffect, useRef, useState, type MouseEvent } from 'react';
+- `./apps/web/src/components/AppChromeHeader.tsx` (79 lines, .tsx) -- import type { ReactNode } from 'react';
+- `./apps/web/src/components/AppWashKineticGrid.tsx` (244 lines, .tsx) -- import { useEffect, useRef } from 'react';
+- `./apps/web/src/components/AssistantMessage.tsx` (4250 lines, .tsx) -- import { Fragment, memo, type ReactNode, useCallback, useEffect, useMemo, useRef, useState } from \"react\";
+- `./apps/web/src/components/AvatarMenu.tsx` (911 lines, .tsx) -- import { useEffect, useMemo, useRef, useState, type CSSProperties } from 'react';
+- `./apps/web/src/components/BoardComposerPopover.tsx` (931 lines, .tsx) -- import type { ChangeEvent, ClipboardEvent, CSSProperties, PointerEvent as ReactPointerEvent } from 'react';
+- `./apps/web/src/components/BrandEnrichmentBanner.tsx` (45 lines, .tsx) -- import { useI18n } from '../i18n';
+- `./apps/web/src/components/BrandPickerModal.tsx` (103 lines, .tsx) -- import { useCallback, useEffect, useRef } from 'react';
+- `./apps/web/src/components/BrandPreviewCard.tsx` (240 lines, .tsx) -- import { useCallback, useEffect, useState } from 'react';
+- `./apps/web/src/components/BrandReadyPrompt.tsx` (109 lines, .tsx) -- import { useEffect, type CSSProperties } from 'react';
+- `./apps/web/src/components/BrandReferencePicker.tsx` (409 lines, .tsx) -- import { useCallback, useEffect, useMemo, useRef, useState, type RefObject } from 'react';
+- `./apps/web/src/components/BrandsTab.tsx` (348 lines, .tsx) -- import { useCallback, useEffect, useMemo, useState } from 'react';
+- `./apps/web/src/components/ChatComposer.tsx` (6734 lines, .tsx) -- 'use client';
+- `./apps/web/src/components/ChatPane.tsx` (7220 lines, .tsx) -- import { reportExperienceEvent } from '../observability/experience-diagnostics';
+- `./apps/web/src/components/CloudSignInTip.tsx` (293 lines, .tsx) -- import { useEffect, useRef, useState } from 'react';
+- `./apps/web/src/components/CodingPlanUsage.tsx` (217 lines, .tsx) -- import type {
+- `./apps/web/src/components/CommunityTemplatePreview.tsx` (417 lines, .tsx) -- import type {
+- `./apps/web/src/components/CommunityView.tsx` (546 lines, .tsx) -- import { Icon, type IconName } from './Icon';
+- `./apps/web/src/components/ComposerModePicker.tsx` (296 lines, .tsx) -- import {
+- `./apps/web/src/components/ComposerPluginPreview.tsx` (123 lines, .tsx) -- import { useMemo } from 'react';
+- `./apps/web/src/components/ComposerPlusMenu.tsx` (1019 lines, .tsx) -- import {
+- `./apps/web/src/components/ConnectorLogo.tsx` (158 lines, .tsx) -- import {
+- `./apps/web/src/components/ConnectorsBrowser.tsx` (1573 lines, .tsx) -- import {
+- `./apps/web/src/components/ContextChipHoverCard.tsx` (46 lines, .tsx) -- import { useState, type ReactNode } from 'react';
+- `./apps/web/src/components/ContextChipStrip.tsx` (130 lines, .tsx) -- import type { ContextItem, ContextItemKind } from '@open-design/contracts';
+- `./apps/web/src/components/ContinueInCliButton.tsx` (86 lines, .tsx) -- import type { DesignMdState, DesignMdStaleReason } from '../hooks/useDesignMdState';
+- `./apps/web/src/components/CustomSelect.tsx` (329 lines, .tsx) -- import { useCallback, useEffect, useId, useMemo, useRef, useState } from 'react';
+- `./apps/web/src/components/DeckSlideThumbnail.tsx` (213 lines, .tsx) -- import { memo, useEffect, useLayoutEffect, useRef } from 'react';
+- `./apps/web/src/components/DeckThumbnailRail.tsx` (351 lines, .tsx) -- import {
+- `./apps/web/src/components/DeepSeekHarnessSetupDialog.tsx` (67 lines, .tsx) -- import { useId } from 'react';
+- `./apps/web/src/components/DeepSeekV4FlashCampaign.tsx` (341 lines, .tsx) -- import { useEffect, useId, useState } from 'react';
+- `./apps/web/src/components/DesignBrowserPanel.tsx` (3907 lines, .tsx) -- import {
+- `./apps/web/src/components/DesignFilesPanel.tsx` (2405 lines, .tsx) -- import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react';
+- `./apps/web/src/components/DesignKitView.tsx` (2245 lines, .tsx) -- import {
+- `./apps/web/src/components/DesignSpecView.tsx` (94 lines, .tsx) -- import { useMemo } from 'react';
+- `./apps/web/src/components/DesignSystemAssetDropzone.tsx` (564 lines, .tsx) -- import {
+- `./apps/web/src/components/DesignSystemCreateHero.tsx` (104 lines, .tsx) -- import { Icon } from './Icon';
+- `./apps/web/src/components/DesignSystemFlow.tsx` (5851 lines, .tsx) -- import { useCallback, useEffect, useMemo, useRef, useState, type CSSProperties, type ChangeEvent, type KeyboardEvent, ty
+- `./apps/web/src/components/DesignSystemKitPreview.tsx` (198 lines, .tsx) -- import { useEffect, useRef, useState } from 'react';
+- `./apps/web/src/components/DesignSystemPicker.tsx` (639 lines, .tsx) -- import { useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react';
+- `./apps/web/src/components/DesignSystemPreviewModal.tsx` (236 lines, .tsx) -- import { useCallback, useEffect, useRef, useState } from 'react';
+- `./apps/web/src/components/DesignSystemSwitchPicker.tsx` (222 lines, .tsx) -- import { useEffect, useMemo, useState } from 'react';
+- `./apps/web/src/components/DesignSystemsSection.tsx` (665 lines, .tsx) -- import { Dialog, DialogFooter, DialogTitle } from '@open-design/components';
+- `./apps/web/src/components/DesignSystemsTab.tsx` (1896 lines, .tsx) -- import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+- `./apps/web/src/components/DesignsTab.tsx` (1534 lines, .tsx) -- import type { CSSProperties } from \"react\";
+- `./apps/web/src/components/EditorIcon.tsx` (124 lines, .tsx) -- import type { HostEditorId } from '@open-design/contracts';
+- `./apps/web/src/components/EntryBlankState.tsx` (92 lines, .tsx) -- import { useId } from 'react';
+- `./apps/web/src/components/EntryNavRail.tsx` (2879 lines, .tsx) -- import { CodingPlanUsage } from './CodingPlanUsage';
+- `./apps/web/src/components/EntrySettingsMenu.tsx` (521 lines, .tsx) -- import {
+- `./apps/web/src/components/EntryShell.tsx` (4710 lines, .tsx) -- import {
+- `./apps/web/src/components/EntryView.tsx` (510 lines, .tsx) -- import {
+- `./apps/web/src/components/ExamplesTab.tsx` (754 lines, .tsx) -- import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+- `./apps/web/src/components/ExperienceSurvey.tsx` (455 lines, .tsx) -- import { useCallback, useEffect, useRef, useState } from 'react';
+- `./apps/web/src/components/ExportDiagnosticsButton.tsx` (171 lines, .tsx) -- import { useEffect, useRef, useState } from 'react';
+- `./apps/web/src/components/FigmaHelpModal.tsx` (50 lines, .tsx) -- import { useEffect } from 'react';
+- `./apps/web/src/components/FigmaImportModal.tsx` (304 lines, .tsx) -- import { useCallback, useEffect, useRef, useState } from 'react';
+- `./apps/web/src/components/FileOpsSummary.tsx` (773 lines, .tsx) -- import { useId, useState } from 'react';
+- `./apps/web/src/components/FileTypeIcon.tsx` (279 lines, .tsx) -- import { useId } from 'react';
+- `./apps/web/src/components/FileViewer.tsx` (20094 lines, .tsx) -- import { useExperienceError } from '../observability/use-experience-error';
+- `./apps/web/src/components/FileWorkspace.tsx` (8795 lines, .tsx) -- import { useExperienceError } from '../observability/use-experience-error';
+- `./apps/web/src/components/FinalizeDesignButton.tsx` (68 lines, .tsx) -- import type { DesignMdState } from '../hooks/useDesignMdState';
+- `./apps/web/src/components/FirstArtifactHint.tsx` (150 lines, .tsx) -- import { useEffect, useRef, useState } from 'react';
+- `./apps/web/src/components/GenUIInbox.tsx` (150 lines, .tsx) -- import { useCallback, useEffect, useState } from 'react';
+- `./apps/web/src/components/GenUISurfaceRenderer.tsx` (972 lines, .tsx) -- import { useEffect, useRef, useState } from 'react';
+- `./apps/web/src/components/GithubStarBadge.tsx` (44 lines, .tsx) -- import { Icon } from './Icon';
+- `./apps/web/src/components/GoPlanSunsetDialog.tsx` (241 lines, .tsx) -- import { useCallback, useEffect, useId, useRef, useState } from 'react';
+- `./apps/web/src/components/HandoffButton.tsx` (927 lines, .tsx) -- import { useEffect, useMemo, useRef, useState } from 'react';
+- `./apps/web/src/components/HomeAmrBalanceGateDialogs.tsx` (70 lines, .tsx) -- import type { AmrBalanceGateScope } from '../runtime/amr-balance-gate';
+- `./apps/web/src/components/HomeHero.tsx` (5419 lines, .tsx) -- import {
+- `./apps/web/src/components/HomeView.tsx` (3869 lines, .tsx) -- import { useCallback, useEffect, useMemo, useRef, useState, type ReactNode } from 'react';
+- `./apps/web/src/components/HoverTouchpointOverlay.tsx` (428 lines, .tsx) -- import {
+- `./apps/web/src/components/Icon.tsx` (1218 lines, .tsx) -- import type { SVGProps } from 'react';
+- `./apps/web/src/components/IframeKeepAlivePool.tsx` (450 lines, .tsx) -- import {
+- `./apps/web/src/components/InlineModelSwitcher.tsx` (1798 lines, .tsx) -- import {
+- `./apps/web/src/components/InlinePluginsRail.tsx` (255 lines, .tsx) -- import { useCallback, useEffect, useRef, useState } from 'react';
+- `./apps/web/src/components/IntegrationsView.tsx` (231 lines, .tsx) -- import { useCallback, useEffect, useRef, useState } from 'react';
+- `./apps/web/src/components/InviteDialog.tsx` (543 lines, .tsx) -- import { useEffect, useId, useLayoutEffect, useRef, useState, type CSSProperties } from 'react';
+- `./apps/web/src/components/KitErrorBoundary.tsx` (61 lines, .tsx) -- import { Component, type ReactNode } from 'react';
+- `./apps/web/src/components/LabsSection.tsx` (483 lines, .tsx) -- import { useCallback, useEffect, useId, useRef, useState } from 'react';
+- `./apps/web/src/components/LanguageMenu.tsx` (112 lines, .tsx) -- import { useEffect, useRef, useState } from 'react';
+- `./apps/web/src/components/LibraryAssetMeta.tsx` (256 lines, .tsx) -- import type {
+- `./apps/web/src/components/LibraryPicker.tsx` (361 lines, .tsx) -- import { memo, useCallback, useEffect, useMemo, useRef, useState } from 'react';
+- `./apps/web/src/components/LibraryPreviewModal.tsx` (422 lines, .tsx) -- import { type CSSProperties, useCallback, useEffect, useState } from 'react';
+- `./apps/web/src/components/LibrarySection.tsx` (1439 lines, .tsx) -- import { memo, useCallback, useEffect, useId, useMemo, useRef, useState } from 'react';
+- `./apps/web/src/components/LibraryUploadModal.tsx` (273 lines, .tsx) -- import { useCallback, useEffect, useRef, useState } from 'react';
+- `./apps/web/src/components/LiveArtifactBadges.tsx` (43 lines, .tsx) -- import { useT } from '../i18n';
+- `./apps/web/src/components/Loading.tsx` (45 lines, .tsx) -- import { Icon } from './Icon';
+- `./apps/web/src/components/ManualEditPanel.tsx` (1261 lines, .tsx) -- import { useEffect, useRef, useState, type CSSProperties, type PointerEvent as ReactPointerEvent, type ReactNode } from 
+- `./apps/web/src/components/MarketplaceView.tsx` (136 lines, .tsx) -- import { useEffect, useState } from 'react';
+- `./apps/web/src/components/MarqueeLabel.tsx` (74 lines, .tsx) -- import { useLayoutEffect, useRef } from 'react';
+- `./apps/web/src/components/MatrixLoader.tsx` (73 lines, .tsx) -- import styles from './MatrixLoader.module.css';
+- `./apps/web/src/components/McpClientSection.tsx` (1477 lines, .tsx) -- import {
+- `./apps/web/src/components/MemoryHooksPanel.tsx` (119 lines, .tsx) -- import { Icon, type IconName } from './Icon';
+- `./apps/web/src/components/MemoryModelInline.tsx` (529 lines, .tsx) -- import {
+- `./apps/web/src/components/MemoryProfilePanel.tsx` (175 lines, .tsx) -- import { useCallback, useEffect, useState } from 'react';
+- `./apps/web/src/components/MemorySection.tsx` (2759 lines, .tsx) -- import {
+- `./apps/web/src/components/MemoryToast.tsx` (262 lines, .tsx) -- import { useEffect, useRef, useState } from 'react';
+- `./apps/web/src/components/MessageCenter.tsx` (445 lines, .tsx) -- import { Button } from '@open-design/components';
+- `./apps/web/src/components/MissingBrandFontsBanner.tsx` (84 lines, .tsx) -- import { useEffect, useState } from 'react';
+- `./apps/web/src/components/MoveToTeamConfirmDialog.tsx` (98 lines, .tsx) -- import { useId, useState } from 'react';
+- `./apps/web/src/components/NewAutomationModal.tsx` (1185 lines, .tsx) -- import { useEffect, useMemo, useRef, useState } from 'react';
+- `./apps/web/src/components/NewBrandModal.tsx` (156 lines, .tsx) -- import { useCallback, useEffect, useRef, useState } from 'react';
+- `./apps/web/src/components/NewProjectModal.tsx` (206 lines, .tsx) -- import { useEffect, useRef, useState } from 'react';
+- `./apps/web/src/components/NewProjectPanel.tsx` (3318 lines, .tsx) -- import { useEffect, useId, useLayoutEffect, useMemo, useRef, useState } from 'react';
+- `./apps/web/src/components/NextStepActions.tsx` (1142 lines, .tsx) -- import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+- `./apps/web/src/components/OdCard.tsx` (111 lines, .tsx) -- import { Fragment } from 'react';
+- `./apps/web/src/components/PixelLiquid.tsx` (118 lines, .tsx) -- import { useEffect, useRef, type ReactElement } from 'react';
+- `./apps/web/src/components/PlanBadge.tsx` (36 lines, .tsx) -- export type PlanBadgeSize = 'sm' | 'md';
+- `./apps/web/src/components/PlanWordmark.tsx` (168 lines, .tsx) -- import { isTeamPlanTier } from '../collab/team-plan';
+- `./apps/web/src/components/PluginDetailView.tsx` (509 lines, .tsx) -- import { useEffect, useState, type ReactNode } from 'react';
+- `./apps/web/src/components/PluginDetailsModal.tsx` (119 lines, .tsx) -- import type {
+- `./apps/web/src/components/PluginInputsForm.tsx` (237 lines, .tsx) -- import { useEffect, useMemo, useRef, useState } from 'react';
+- `./apps/web/src/components/PluginLoopHome.tsx` (451 lines, .tsx) -- import { useEffect, useMemo, useRef, useState } from 'react';
+- `./apps/web/src/components/PluginsHomeSection.tsx` (590 lines, .tsx) -- import { Button, Input } from '@open-design/components';
+- `./apps/web/src/components/PluginsSection.tsx` (259 lines, .tsx) -- import {
+- `./apps/web/src/components/PluginsView.tsx` (4456 lines, .tsx) -- import {
+- `./apps/web/src/components/PreviewDrawOverlay.tsx` (2008 lines, .tsx) -- import { useCallback, useEffect, useLayoutEffect, useRef, useState, type ChangeEvent, type ClipboardEvent, type CSSPrope
+- `./apps/web/src/components/PreviewModal.tsx` (1095 lines, .tsx) -- import { useEffect, useMemo, useRef, useState, type ReactNode } from 'react';
+- `./apps/web/src/components/PrivacyConsentModal.tsx` (96 lines, .tsx) -- import { useAnalytics } from '../analytics/provider';
+- `./apps/web/src/components/PrivacySection.tsx` (237 lines, .tsx) -- import type { Dispatch, SetStateAction } from 'react';
+- `./apps/web/src/components/ProductionCampaignBadge.tsx` (242 lines, .tsx) -- import { useI18n } from \"../i18n\";
+- `./apps/web/src/components/ProductionCampaignHover.tsx` (317 lines, .tsx) -- import {
+- `./apps/web/src/components/ProductionCampaignModal.tsx` (630 lines, .tsx) -- import { useCallback, useEffect, useRef, useState } from \"react\";
+- `./apps/web/src/components/ProjectActionsToolbar.tsx` (49 lines, .tsx) -- import { ContinueInCliButton } from './ContinueInCliButton';
+- `./apps/web/src/components/ProjectCreationPendingView.tsx` (389 lines, .tsx) -- import { useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react';
+- `./apps/web/src/components/ProjectLocationsSection.tsx` (256 lines, .tsx) -- import { useEffect, useMemo, useRef, useState } from 'react';
+- `./apps/web/src/components/ProjectReferenceModal.tsx` (275 lines, .tsx) -- import { useEffect, useMemo, useState } from 'react';
+- `./apps/web/src/components/ProjectRunStatusIcon.tsx` (212 lines, .tsx) -- import type { ProjectDisplayStatus } from '@open-design/contracts';
+- `./apps/web/src/components/ProjectSearchModal.tsx` (197 lines, .tsx) -- import {
+- `./apps/web/src/components/ProjectView.tsx` (16002 lines, .tsx) -- import { readRetriedErrorSurface, retriedErrorSurfaceKey, writeRetriedErrorSurface } from '../runtime/chat/retried-error
+- `./apps/web/src/components/ProjectWorkspaceRecoveryTip.tsx` (15 lines, .tsx) -- import { RailAccountRecoveryTip } from './CloudSignInTip';
+- `./apps/web/src/components/QuestionForm.tsx` (3221 lines, .tsx) -- import { Fragment,
+- `./apps/web/src/components/QuickSwitcher.tsx` (329 lines, .tsx) -- import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+- `./apps/web/src/components/RecentProjectsStrip.tsx` (2502 lines, .tsx) -- import { reportProjectFailure } from '../observability/experience-diagnostics';
+- `./apps/web/src/components/RecommendedStartRegion.tsx` (202 lines, .tsx) -- import { useEffect, useRef, useState } from 'react';
+- `./apps/web/src/components/RemixIcon.tsx` (37 lines, .tsx) -- import type { CSSProperties } from 'react';
+- `./apps/web/src/components/RoutinesSection.tsx` (964 lines, .tsx) -- import { useEffect, useMemo, useRef, useState } from 'react';
+- `./apps/web/src/components/SessionModeToggle.tsx` (394 lines, .tsx) -- import { useCallback, useEffect, useId, useLayoutEffect, useRef, useState } from 'react';
+- `./apps/web/src/components/SettingsDialog.tsx` (9287 lines, .tsx) -- import { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react';
+- `./apps/web/src/components/SettingsWorkspaceSection.tsx` (72 lines, .tsx) -- import type { WorkspaceCollabContext } from '@open-design/contracts';
+- `./apps/web/src/components/SignOutConfirmDialog.tsx` (65 lines, .tsx) -- import { useId } from 'react';
+- `./apps/web/src/components/SiriOrb.tsx` (110 lines, .tsx) -- import type { CSSProperties } from 'react';
+- `./apps/web/src/components/SketchEditor.tsx` (1088 lines, .tsx) -- import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+- `./apps/web/src/components/SketchEnginePrewarm.tsx` (85 lines, .tsx) -- import { useEffect, useState } from 'react';
+- `./apps/web/src/components/SketchPreview.tsx` (423 lines, .tsx) -- import { Fragment, useEffect, useMemo, useState } from 'react';
+- `./apps/web/src/components/SkillDetailView.tsx` (209 lines, .tsx) -- import {
+- `./apps/web/src/components/SkillDetailsModal.tsx` (207 lines, .tsx) -- import { useEffect, useRef, useState } from 'react';
+- `./apps/web/src/components/SkillsSection.tsx` (1215 lines, .tsx) -- import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+- `./apps/web/src/components/SocialShareGrid.tsx` (137 lines, .tsx) -- import { useEffect, useRef, useState } from 'react';
+- `./apps/web/src/components/TasksView.tsx` (1203 lines, .tsx) -- import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+- `./apps/web/src/components/TeamSlotPlaceholder.tsx` (34 lines, .tsx) -- import type { ReactNode } from 'react';
+- `./apps/web/src/components/TestCampaignModal.tsx` (804 lines, .tsx) -- import {
+- `./apps/web/src/components/Theater/AGENTS.md` (92 lines, .md) -- Module map agents enter when they need to change the visual surface of
+- `./apps/web/src/components/Theater/CritiqueTheaterMount.tsx` (272 lines, .tsx) -- import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+- `./apps/web/src/components/Theater/InterruptButton.tsx` (88 lines, .tsx) -- import { useEffect } from 'react';
+- `./apps/web/src/components/Theater/PanelistLane.tsx` (106 lines, .tsx) -- import { useT } from '../../i18n';
+- `./apps/web/src/components/Theater/RoundDivider.tsx` (44 lines, .tsx) -- import { useT } from '../../i18n';
+- `./apps/web/src/components/Theater/ScoreTicker.tsx` (59 lines, .tsx) -- import { useT } from '../../i18n';
+- `./apps/web/src/components/Theater/TheaterCollapsed.tsx` (81 lines, .tsx) -- import { useT } from '../../i18n';
+- `./apps/web/src/components/Theater/TheaterDegraded.tsx` (47 lines, .tsx) -- import { useId } from 'react';
+- `./apps/web/src/components/Theater/TheaterStage.tsx` (79 lines, .tsx) -- import { useT } from '../../i18n';
+- `./apps/web/src/components/Theater/TheaterTranscript.tsx` (119 lines, .tsx) -- import { useT } from '../../i18n';
+- `./apps/web/src/components/Theater/hooks/useCritiqueReplay.ts` (281 lines, .ts) -- import { useEffect, useReducer, useRef, useState } from 'react';
+- `./apps/web/src/components/Theater/hooks/useCritiqueStream.ts` (98 lines, .ts) -- import { useEffect, useReducer, useRef } from 'react';
+- `./apps/web/src/components/Theater/hooks/useCritiqueTheaterEnabled.ts` (266 lines, .ts) -- import { useEffect, useState } from 'react';
+- `./apps/web/src/components/Theater/index.ts` (32 lines, .ts) -- export { CritiqueTheaterMount } from './CritiqueTheaterMount';
+- `./apps/web/src/components/Theater/state/reducer.ts` (353 lines, .ts) -- import type {
+- `./apps/web/src/components/Theater/state/sse.ts` (210 lines, .ts) -- import {
+- `./apps/web/src/components/Toast.tsx` (187 lines, .tsx) -- import { useEffect, useRef, useState } from 'react';
+- `./apps/web/src/components/ToolCard.tsx` (712 lines, .tsx) -- import { useState } from 'react';
+- `./apps/web/src/components/TooltipLayer.tsx` (405 lines, .tsx) -- import { useCallback, useEffect, useLayoutEffect, useRef, useState } from 'react';
+- `./apps/web/src/components/TrustBadge.tsx` (67 lines, .tsx) -- import type {
+- `./apps/web/src/components/UpdateDialog.tsx` (497 lines, .tsx) -- import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+- `./apps/web/src/components/UpdaterPopup.tsx` (572 lines, .tsx) -- import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+- `./apps/web/src/components/UseEverywhereModal.tsx` (471 lines, .tsx) -- import { useEffect, useMemo, useRef, useState } from 'react';
+- `./apps/web/src/components/UserActionCard.tsx` (126 lines, .tsx) -- import { useEffect, useRef, useState, type ReactNode } from 'react';
+- `./apps/web/src/components/WhatsNewPopup.tsx` (207 lines, .tsx) -- import { createPortal } from 'react-dom';
+- `./apps/web/src/components/WorkbenchCampaignBadge.tsx` (111 lines, .tsx) -- import { useCallback, useEffect } from 'react';
+- `./apps/web/src/components/WorkingDirPicker.tsx` (242 lines, .tsx) -- import { useEffect, useRef, useState } from 'react';
+- `./apps/web/src/components/WorkspaceTabsBar.tsx` (2845 lines, .tsx) -- import { reportProjectFailure } from '../observability/experience-diagnostics';
+- `./apps/web/src/components/XaiOAuthControl.tsx` (454 lines, .tsx) -- 'use client';
+- `./apps/web/src/components/agentModelSelection.ts` (94 lines, .ts) -- import type { AgentInfo, AgentModelChoice } from '../types';
+- `./apps/web/src/components/agentOrdering.ts` (14 lines, .ts) -- export function orderAgentsWithOpenDesignFirst<T extends { id: string }>(
+- `./apps/web/src/components/amrLoginPolling.ts` (58 lines, .ts) -- import type { VelaLoginStatus } from '../providers/daemon';
+- `./apps/web/src/components/auto-open-file.ts` (553 lines, .ts) -- interface CandidateFile {
+- `./apps/web/src/components/byok/ByokConnectionTestControl.tsx` (108 lines, .tsx) -- import type { ConnectionTestResponse } from '../../types';
+- `./apps/web/src/components/byok/ByokKeyField.tsx` (123 lines, .tsx) -- import { useState, type Ref } from 'react';
+- `./apps/web/src/components/byok/ByokModelField.tsx` (154 lines, .tsx) -- import type { Ref } from 'react';
+- `./apps/web/src/components/byok/ByokProviderBaseUrl.tsx` (103 lines, .tsx) -- import type { Ref } from 'react';
+- `./apps/web/src/components/byok/ByokProviderPicker.tsx` (54 lines, .tsx) -- import type { KnownProvider } from '../../state/config';
+- `./apps/web/src/components/byok/preflight.ts` (67 lines, .ts) -- import type { TrackingByokPreflightBlockReason } from '@open-design/contracts/analytics';
+- `./apps/web/src/components/byok/validation.ts` (366 lines, .ts) -- import { validateBaseUrl } from '@open-design/contracts/api/connectionTest';
+- `./apps/web/src/components/chat/AGENTS.md` (120 lines, .md) -- 本目录是 chat 面板的组件所有者。技术设计与决策依据见 `specs/current/chat-panel-next.md`;
+- `./apps/web/src/components/chat/AmrOwnerTopUpDialog.tsx` (187 lines, .tsx) -- import { useEffect, useId, type ReactElement } from 'react';
+- `./apps/web/src/components/chat/AnchoredMenuShell.tsx` (327 lines, .tsx) -- import { useCallback, useEffect, useRef, useState, type CSSProperties, type ReactNode } from 'react';
+- `./apps/web/src/components/chat/AudioArtifact.tsx` (140 lines, .tsx) -- import { useCallback, useEffect, useMemo, useRef, useState, type ReactElement } from 'react';
+- `./apps/web/src/components/chat/ChatRoot.tsx` (56 lines, .tsx) -- import type { ReactNode } from 'react';
+- `./apps/web/src/components/chat/ChatScrollEdge.tsx` (29 lines, .tsx) -- import { useEffect, useState, type RefObject } from 'react';
+- `./apps/web/src/components/chat/CountingNumber.tsx` (146 lines, .tsx) -- import { useEffect, useRef, useState, type ReactElement } from 'react';
+- `./apps/web/src/components/chat/ExecutionShell.tsx` (958 lines, .tsx) -- import { useCallback, useEffect, useRef, useState, type ReactElement } from 'react';
+- `./apps/web/src/components/chat/ExportLogsAction.tsx` (48 lines, .tsx) -- import type { ReactElement } from 'react';
+- `./apps/web/src/components/chat/PauseLine.tsx` (46 lines, .tsx) -- import type { ReactElement } from 'react';
+- `./apps/web/src/components/chat/PlanPill.tsx` (134 lines, .tsx) -- import { useLayoutEffect, useRef, type ReactElement } from 'react';
+- `./apps/web/src/components/chat/QueuedSendStack.tsx` (234 lines, .tsx) -- import {
+- `./apps/web/src/components/chat/QuoteBar.tsx` (472 lines, .tsx) -- import { forwardRef, useCallback, useEffect, useLayoutEffect, useRef, useState, type CSSProperties, type ReactElement } 
+- `./apps/web/src/components/chat/QuotedRefs.tsx` (129 lines, .tsx) -- import {
+- `./apps/web/src/components/chat/Reconnect.tsx` (195 lines, .tsx) -- import type { ReactElement } from 'react';
+- `./apps/web/src/components/chat/RunErrorCard.tsx` (131 lines, .tsx) -- import { Button } from '@open-design/components';
+- `./apps/web/src/components/chat/SayBlock.tsx` (56 lines, .tsx) -- import { Fragment, type ReactElement } from 'react';
+- `./apps/web/src/components/chat/SupportDialog.tsx` (100 lines, .tsx) -- import { useEffect, type ReactElement } from 'react';
+- `./apps/web/src/components/chat/ThinkingMarkdown.tsx` (172 lines, .tsx) -- import {
+- `./apps/web/src/components/chat/UpgradeCard.tsx` (138 lines, .tsx) -- import type { ReactElement } from 'react';
+- `./apps/web/src/components/chat/UserStatusCard.tsx` (47 lines, .tsx) -- import type { ReactElement } from 'react';
+- `./apps/web/src/components/chat/primitives/FileButton.tsx` (58 lines, .tsx) -- import type { ReactElement } from 'react';
+- `./apps/web/src/components/chat/primitives/Foldable.tsx` (154 lines, .tsx) -- import {
+- `./apps/web/src/components/chat/primitives/ImageRow.tsx` (272 lines, .tsx) -- import type { ReactElement } from 'react';
+- `./apps/web/src/components/chat/primitives/Orb.tsx` (190 lines, .tsx) -- import { useEffect, useRef, type ReactElement } from 'react';
+- `./apps/web/src/components/chat/primitives/SayText.tsx` (68 lines, .tsx) -- import { useMemo, useRef, type ReactElement } from 'react';
+- `./apps/web/src/components/chat/primitives/StatusMark.tsx` (92 lines, .tsx) -- import type { ReactElement } from 'react';
+- `./apps/web/src/components/chat/primitives/TerminalOutput.tsx` (76 lines, .tsx) -- import { useMemo, useRef, type ReactElement } from 'react';
+- `./apps/web/src/components/chat/primitives/ToolRow.tsx` (470 lines, .tsx) -- import { memo, type ReactElement, type ReactNode } from 'react';
+- `./apps/web/src/components/chat/primitives/contract.ts` (147 lines, .ts) -- import type { ReactNode } from 'react';
+- `./apps/web/src/components/chat/primitives/icons.tsx` (481 lines, .tsx) -- import type { ReactElement } from 'react';
+- `./apps/web/src/components/chat/primitives/useThinkingFollow.ts` (143 lines, .ts) -- import { useEffect, type RefObject } from 'react';
+- `./apps/web/src/components/chat/support-brand-icons.tsx` (20 lines, .tsx) -- import type { ReactElement } from 'react';
+- `./apps/web/src/components/chat/support-channels.tsx` (38 lines, .tsx) -- import type { SupportChannel } from './SupportDialog';
+- `./apps/web/src/components/chat/useCharReveal.ts` (450 lines, .ts) -- import { useLayoutEffect, type RefObject } from 'react';
+- `./apps/web/src/components/coding-plan-usage-model.ts` (99 lines, .ts) -- import type { WorkspaceBillingPreflight } from '@open-design/contracts';
+- `./apps/web/src/components/comment-send-result.ts` (14 lines, .ts) -- export type CommentSendResult =
+- `./apps/web/src/components/composer-detail-position.ts` (55 lines, .ts) -- export interface DetailAnchorRect {
+- `./apps/web/src/components/composer-flyout-placement.ts` (36 lines, .ts) -- export type FlyoutSide = 'right' | 'left' | 'contained';
+- `./apps/web/src/components/composer/CaretFloatingLayer.tsx` (160 lines, .tsx) -- 'use client';
+- `./apps/web/src/components/composer/LexicalComposerInput.tsx` (892 lines, .tsx) -- 'use client';
+- `./apps/web/src/components/composer/MentionNode.ts` (237 lines, .ts) -- import {
+- `./apps/web/src/components/composer/ThinkingOrb.tsx` (371 lines, .tsx) -- import { useEffect, useRef, type CanvasHTMLAttributes } from 'react';
+- `./apps/web/src/components/composer/deserialize.ts` (61 lines, .ts) -- import {
+- `./apps/web/src/components/composer/serialize.ts` (50 lines, .ts) -- import {
+- `./apps/web/src/components/connectors-events.ts` (31 lines, .ts) -- export const CONNECTOR_CALLBACK_MESSAGE_TYPE = 'open-design:connector-connected';
+- `./apps/web/src/components/connectors-state.ts` (75 lines, .ts) -- import type { ConnectorDetail, ConnectorStatusResponse } from '@open-design/contracts';
+- `./apps/web/src/components/design-browser-storage.ts` (93 lines, .ts) -- import type { BrowserViewportId } from './design-browser-tools';
+- `./apps/web/src/components/design-browser-tools.ts` (658 lines, .ts) -- import type { PreviewAnnotationStyle } from '../types';
+- `./apps/web/src/components/design-files/BuildPreviewToggle.tsx` (38 lines, .tsx) -- import { useT } from '../../i18n';
+- `./apps/web/src/components/design-files/DesignFilesBuildingState.tsx` (249 lines, .tsx) -- import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+- `./apps/web/src/components/design-files/RunStepFeed.tsx` (91 lines, .tsx) -- import { useLayoutEffect, useMemo, useRef } from 'react';
+- `./apps/web/src/components/design-files/designArtifacts.ts` (59 lines, .ts) -- import type { ProjectFile } from '../../types';
+- `./apps/web/src/components/design-files/pluginFolderActions.ts` (99 lines, .ts) -- export type PluginFolderAgentAction = 'install' | 'publish' | 'contribute';
+- `./apps/web/src/components/design-files/pluginFolders.ts` (39 lines, .ts) -- import type { ProjectFile } from '../../types';
+- `./apps/web/src/components/design-files/run-step-label.ts` (32 lines, .ts) -- import type { useT } from '../../i18n';
+- `./apps/web/src/components/design-system-github-evidence.ts` (144 lines, .ts) -- import type { Dict } from '../i18n/types';
+- `./apps/web/src/components/design-system-group-order.ts` (49 lines, .ts) -- import type { DesignSystemSummary } from '@open-design/contracts';
+- `./apps/web/src/components/design-system-metadata.ts` (114 lines, .ts) -- import type { DesignSystemSummary } from '../types';
+- `./apps/web/src/components/design-system-project.ts` (47 lines, .ts) -- import type { DesignSystemSummary, Project } from '../types';
+- `./apps/web/src/components/enterpriseUrl.ts` (31 lines, .ts) -- const ENTERPRISE_BASE = 'https://open-design.ai';
+- `./apps/web/src/components/entry-nav-rail/ProjectHoverPreview.tsx` (280 lines, .tsx) -- import { useCallback, useEffect, useRef, useState } from 'react';
+- `./apps/web/src/components/entry-nav-rail/RailRecentRow.tsx` (506 lines, .tsx) -- import { reportProjectFailure } from '../../observability/experience-diagnostics';
+- `./apps/web/src/components/entry-rail-account-state.ts` (52 lines, .ts) -- import type { WorkspaceContextState } from '../collab/useWorkspaceContext';
+- `./apps/web/src/components/entry-strategy-routing.ts` (61 lines, .ts) -- import {
+- `./apps/web/src/components/entryRailBridge.ts` (32 lines, .ts) -- export const RAIL_OPEN_STORAGE_KEY = 'od.entry.railOpen';
+- `./apps/web/src/components/experience-survey-trigger.ts` (126 lines, .ts) -- const RETIRED_KEY = 'open-design:experience-survey:v1:retired';
+- `./apps/web/src/components/export-failure-toast.ts` (45 lines, .ts) -- import type { Dict } from '../i18n/types';
+- `./apps/web/src/components/file-viewer-preview-assets.ts` (430 lines, .ts) -- const ASSET_ATTR = /(\s)(src|poster|data-src)(\s*=\s*)([\"'])([^\"']*)\4/gi;
+- `./apps/web/src/components/file-viewer-render-mode.ts` (308 lines, .ts) -- export interface UrlLoadDecision {
+- `./apps/web/src/components/home-hero/EdgeAutoScroll.tsx` (144 lines, .tsx) -- import { useCallback, useEffect, useRef, useState } from 'react';
+- `./apps/web/src/components/home-hero/PixelScanLogo.tsx` (69 lines, .tsx) -- import { useEffect, useRef } from 'react';
+- `./apps/web/src/components/home-hero/PlaceholderCarousel.tsx` (119 lines, .tsx) -- 'use client';
+- `./apps/web/src/components/home-hero/RotatingTitleWord.tsx` (96 lines, .tsx) -- import { useEffect, useState, type CSSProperties } from 'react';
+- `./apps/web/src/components/home-hero/ScenarioArt.tsx` (231 lines, .tsx) -- import type { ReactElement, ReactNode } from 'react';
+- `./apps/web/src/components/home-hero/TemplatePicker.tsx` (95 lines, .tsx) -- import { useEffect, useId, useRef, useState } from 'react';
+- `./apps/web/src/components/home-hero/TypePillRow.tsx` (186 lines, .tsx) -- import { useEffect, useLayoutEffect, useRef, useState } from 'react';
+- `./apps/web/src/components/home-hero/chip-labels.ts` (35 lines, .ts) -- import type { Dict } from '../../i18n/types';
+- `./apps/web/src/components/home-hero/chips.ts` (452 lines, .ts) -- import type { ProjectKind, ProjectMetadata } from '@open-design/contracts';
+- `./apps/web/src/components/home-hero/firstRunGuide.ts` (38 lines, .ts) -- export type HomeGuideStage = 'chip' | 'card' | 'done';
+- `./apps/web/src/components/home-hero/media-surfaces.ts` (481 lines, .ts) -- import type { InputFieldSpec, ProjectKind } from '@open-design/contracts';
+- `./apps/web/src/components/home-hero/pixel-scan/engine.ts` (557 lines, .ts) -- const SHADER = `
+- `./apps/web/src/components/home-hero/placeholderScenarios.ts` (228 lines, .ts) -- import type { Dict } from '../../i18n/types';
+- `./apps/web/src/components/home-hero/plugin-authoring.ts` (166 lines, .ts) -- import type { ProjectKind, SkillSummary } from '@open-design/contracts';
+- `./apps/web/src/components/home-hero/sub-chips.ts` (201 lines, .ts) -- import type { InstalledPluginRecord, ProjectMetadata } from '@open-design/contracts';
+- `./apps/web/src/components/html-source-snapshot-cache.ts` (177 lines, .ts) -- type HtmlSourceSnapshot = Readonly<{
+- `./apps/web/src/components/html-thumbnail-source-cache.ts` (90 lines, .ts) -- type HtmlThumbnailSourceIdentity = Readonly<{
+- `./apps/web/src/components/markdown-scroll-sync.ts` (233 lines, .ts) -- import { parse, postprocess, preprocess } from 'micromark';
+- `./apps/web/src/components/memory-switch-state.ts` (71 lines, .ts) -- import type { MemoryHookKey } from './MemoryHooksPanel';
+- `./apps/web/src/components/modelCapabilityTags.ts` (67 lines, .ts) -- import type { Dict } from '../i18n/types';
+- `./apps/web/src/components/modelOptions.tsx` (778 lines, .tsx) -- import { createPortal } from 'react-dom';
+- `./apps/web/src/components/modelProviderIcon.ts` (45 lines, .ts) -- export function modelProviderIconSrc(
+- `./apps/web/src/components/pet/DesktopPetSurface.tsx` (82 lines, .tsx) -- 'use client';
+- `./apps/web/src/components/pet/PetOverlay.tsx` (644 lines, .tsx) -- import { useCallback, useEffect, useMemo, useRef, useState, type ReactNode } from 'react';
+- `./apps/web/src/components/pet/PetSettings.tsx` (1122 lines, .tsx) -- import { useCallback, useEffect, useId, useMemo, useRef, useState } from 'react';
+- `./apps/web/src/components/pet/PetSpriteFace.tsx` (158 lines, .tsx) -- import { useEffect, useState, type CSSProperties } from 'react';
+- `./apps/web/src/components/pet/codexAtlas.ts` (327 lines, .ts) -- import type { PetAtlasLayout, PetAtlasRowDef } from '../../types';
+- `./apps/web/src/components/pet/image.ts` (139 lines, .ts) -- export interface PetImageResult {
+- `./apps/web/src/components/pet/pets.ts` (358 lines, .ts) -- import type { AppConfig, CodexPetSummary, PetAtlasLayout, PetAtlasRowDef, PetCustom, PetConfig } from '../../types';
+- `./apps/web/src/components/pet/taskCenter.ts` (78 lines, .ts) -- import type { ChatRunStatusResponse } from '@open-design/contracts';
+- `./apps/web/src/components/pickerSelectionAnchor.ts` (33 lines, .ts) -- export function anchorSelectionInView(
+- `./apps/web/src/components/plugin-details/PluginDesignSystemDetail.tsx` (208 lines, .tsx) -- import { useCallback, useEffect, useState } from 'react';
+- `./apps/web/src/components/plugin-details/PluginExampleDetail.tsx` (171 lines, .tsx) -- import { useCallback, useEffect, useRef, useState } from 'react';
+- `./apps/web/src/components/plugin-details/PluginMediaDetail.tsx` (262 lines, .tsx) -- import { useEffect, useMemo, useState } from 'react';
+- `./apps/web/src/components/plugin-details/PluginMetaSections.tsx` (756 lines, .tsx) -- import { useMemo, useState, type ReactNode } from 'react';
+- `./apps/web/src/components/plugin-details/PluginPreviewHero.tsx` (151 lines, .tsx) -- import { useMemo, useState } from 'react';
+- `./apps/web/src/components/plugin-details/PluginScenarioDetail.tsx` (229 lines, .tsx) -- import { useEffect, useMemo, useRef, useState } from 'react';
+- `./apps/web/src/components/plugin-details/PluginShareMenu.tsx` (285 lines, .tsx) -- import { useEffect, useRef, useState } from 'react';
+- `./apps/web/src/components/plugin-details/pluginUseMenu.ts` (78 lines, .ts) -- import type { InstalledPluginRecord } from '@open-design/contracts';
+- `./apps/web/src/components/plugins-home/PluginCard.tsx` (450 lines, .tsx) -- import { useMemo, useRef, useState } from 'react';
+- `./apps/web/src/components/plugins-home/cards/DesignSystemSurface.tsx` (91 lines, .tsx) -- import { useEffect, useState } from 'react';
+- `./apps/web/src/components/plugins-home/cards/HtmlSurface.tsx` (247 lines, .tsx) -- import { useEffect, useState } from 'react';
+- `./apps/web/src/components/plugins-home/cards/MediaSurface.tsx` (291 lines, .tsx) -- import { useEffect, useRef, useState } from 'react';
+- `./apps/web/src/components/plugins-home/cards/PreviewSurface.tsx` (99 lines, .tsx) -- import { useCallback } from 'react';
+- `./apps/web/src/components/plugins-home/cards/TextSurface.tsx` (23 lines, .tsx) -- interface Props {
+- `./apps/web/src/components/plugins-home/categoryLabel.ts` (114 lines, .ts) -- import type { InstalledPluginRecord } from '@open-design/contracts';
+- `./apps/web/src/components/plugins-home/curatedPriority.ts` (168 lines, .ts) -- import type { InstalledPluginRecord } from '@open-design/contracts';
+- `./apps/web/src/components/plugins-home/duplicate.ts` (50 lines, .ts) -- import type { InstalledPluginRecord } from '@open-design/contracts';
+- `./apps/web/src/components/plugins-home/facets.ts` (709 lines, .ts) -- import { resolveLocalizedText, type InstalledPluginRecord } from '@open-design/contracts';
+- `./apps/web/src/components/plugins-home/homePresetCopy.ts` (1577 lines, .ts) -- import type { Locale } from '../../i18n/types';
+- `./apps/web/src/components/plugins-home/localization.ts` (29 lines, .ts) -- import {
+- `./apps/web/src/components/plugins-home/pluginPopularity.RUNBOOK.md` (125 lines, .md) -- The plugin/example grid and the Home rail used to order every category with
+- `./apps/web/src/components/plugins-home/pluginPopularity.generated.ts` (185 lines, .ts) -- export interface PluginPopularityMeta {
+- `./apps/web/src/components/plugins-home/pluginPopularity.ts` (90 lines, .ts) -- import { PLUGIN_POPULARITY, PLUGIN_NO_PREVIEW } from './pluginPopularity.generated';
+- `./apps/web/src/components/plugins-home/presetSeedPrompt.ts` (209 lines, .ts) -- import type { InstalledPluginRecord } from '@open-design/contracts';
+- `./apps/web/src/components/plugins-home/preview.ts` (300 lines, .ts) -- import type {
+- `./apps/web/src/components/plugins-home/savedPlugins.ts` (93 lines, .ts) -- import { useCallback, useEffect, useState } from 'react';
+- `./apps/web/src/components/plugins-home/sortOrder.ts` (112 lines, .ts) -- import type { InstalledPluginRecord } from '@open-design/contracts';
+- `./apps/web/src/components/plugins-home/subfacetLabel.ts` (47 lines, .ts) -- import type { useT } from '../../i18n';
+- `./apps/web/src/components/plugins-home/useActions.ts` (1 lines, .ts) -- export type PluginUseAction = 'use' | 'use-with-query';
+- `./apps/web/src/components/plugins-home/useInView.ts` (66 lines, .ts) -- import { useEffect, useRef, useState } from 'react';
+- `./apps/web/src/components/plugins-home/usePluginFacets.ts` (224 lines, .ts) -- import { useEffect, useMemo, useState } from 'react';
+- `./apps/web/src/components/plugins-home/visualScore.ts` (182 lines, .ts) -- import type { InstalledPluginRecord } from '@open-design/contracts';
+- `./apps/web/src/components/production-touchpoint-loader.ts` (160 lines, .ts) -- import {
+- `./apps/web/src/components/project-actions/ProjectDeleteConfirmDialog.tsx` (72 lines, .tsx) -- import { useId } from 'react';
+- `./apps/web/src/components/project-actions/ownership.ts` (22 lines, .ts) -- import type { SharedProjectPredicate } from '../../collab/all-projects-list';
+- `./apps/web/src/components/project-actions/useProjectDeleteFlow.ts` (106 lines, .ts) -- import { useCallback, useState } from 'react';
+- `./apps/web/src/components/project-actions/useProjectDuplicateFlow.ts` (66 lines, .ts) -- import { useCallback } from 'react';
+- `./apps/web/src/components/project-actions/useWorkspaceProjectMove.ts` (174 lines, .ts) -- import { useCallback, useState } from 'react';
+- `./apps/web/src/components/project-cover.tsx` (353 lines, .tsx) -- import { useEffect, useState, type ReactNode } from 'react';
+- `./apps/web/src/components/project-readonly-claim.ts` (27 lines, .ts) -- export function projectReadOnlyClaim(input: {
+- `./apps/web/src/components/project-split-layout.ts` (203 lines, .ts) -- import type { CSSProperties } from 'react';
+- `./apps/web/src/components/providerModelsCache.ts` (43 lines, .ts) -- import type { ApiProtocol, ProviderModelOption } from '../types';
+- `./apps/web/src/components/remix-icon-paths.ts` (353 lines, .ts) -- export const REMIX_ICON_PATHS: Record<string, string> = {
+- `./apps/web/src/components/routineScheduleLabels.ts` (115 lines, .ts) -- import type { RoutineSchedule } from '@open-design/contracts';
+- `./apps/web/src/components/share-to-community/shareToCommunityPrompt.ts` (36 lines, .ts) -- export const SHARE_TO_COMMUNITY_PROMPT = [
+- `./apps/web/src/components/sketch-colors.ts` (18 lines, .ts) -- export const DEFAULT_SKETCH_LIGHT_TOOL_COLOR = '#1c1b1a';
+- `./apps/web/src/components/sketch-model.ts` (436 lines, .ts) -- export interface SketchPoint {
+- `./apps/web/src/components/test-deployment-selection.ts` (253 lines, .ts) -- import { useCallback, useEffect, useState } from \"react\";
+- `./apps/web/src/components/touchpoint-component.ts` (733 lines, .ts) -- import {
+- `./apps/web/src/components/touchpoint-lifecycle.ts` (1041 lines, .ts) -- import type { TouchpointStaticAction } from \"./touchpoint-static-actions\";
+- `./apps/web/src/components/touchpoint-navigation.ts` (63 lines, .ts) -- import { openExternalUrl } from \"../providers/registry\";
+- `./apps/web/src/components/touchpoint-static-actions.ts` (33 lines, .ts) -- import type { TouchpointComponentV2Manifest } from \"@open-design/contracts\";
+- `./apps/web/src/components/use-everywhere/agent-guide.ts` (252 lines, .ts) -- import { GUIDE_SECTIONS, type CodeSnippet, type GuideSection } from './sections';
+- `./apps/web/src/components/use-everywhere/sections.ts` (365 lines, .ts) -- export interface CodeSnippet {
+- `./apps/web/src/components/useDiscordPresence.ts` (124 lines, .ts) -- import { useEffect, useState } from 'react';
+- `./apps/web/src/components/useGithubStars.ts` (158 lines, .ts) -- import { useEffect, useState } from 'react';
+- `./apps/web/src/components/useOpenFolderImport.ts` (85 lines, .ts) -- import { useCallback, useState } from 'react';
+- `./apps/web/src/components/workspace-context.ts` (46 lines, .ts) -- import type { WorkspaceContextItem } from '@open-design/contracts';
+- `./apps/web/src/components/workspace/SideChatTab.tsx` (211 lines, .tsx) -- import type { RecoveryActionBlockReason } from '../../runtime/chat/recovery-gating';
+- `./apps/web/src/components/workspace/TabLauncherMenu.tsx` (419 lines, .tsx) -- import { useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react';
+- `./apps/web/src/components/workspace/TerminalViewer.tsx` (467 lines, .tsx) -- import { useCallback, useEffect, useRef, useState } from 'react';
+- `./apps/web/src/components/workspace/tab-launcher.ts` (164 lines, .ts) -- import type { IconName } from '../Icon';
+- `./apps/web/src/components/workspace/useConversationChat.ts` (454 lines, .ts) -- import { useCallback, useEffect, useRef, useState } from 'react';
+- `./apps/web/src/components/workspaceChromeActions.ts` (6 lines, .ts) -- export const WORKSPACE_CHROME_ACCOUNT_ACTIONS_ID = 'workspace-chrome-account-actions';
+- `./apps/web/src/components/workspaceTabsDock.ts` (62 lines, .ts) -- import { useCallback, useRef } from 'react';
+- `./apps/web/src/design-system-auto-prompt.ts` (6 lines, .ts) -- export const DESIGN_SYSTEM_WORKSPACE_PROMPT_PREFIX =
+- `./apps/web/src/edit-mode/bridge.ts` (1368 lines, .ts) -- export const MANUAL_EDIT_DISCOVERY_SELECTOR =
+- `./apps/web/src/edit-mode/source-patches.ts` (734 lines, .ts) -- import { emptyManualEditStyles, MANUAL_EDIT_STYLE_PROPS, type ManualEditFields, type ManualEditPatch, type ManualEditSty
+- `./apps/web/src/edit-mode/types.ts` (221 lines, .ts) -- export type ManualEditKind = 'text' | 'link' | 'image' | 'container' | 'token';
+- `./apps/web/src/features/libraryUi.ts` (3 lines, .ts) -- export const LIBRARY_UI_VISIBLE = false;
+- `./apps/web/src/first-party-external-link.ts` (12 lines, .ts) -- const FIRST_PARTY_HOSTS = new Set(['open-design.ai', 'www.open-design.ai', 'staging.open-design.ai']);
+- `./apps/web/src/hooks/useAnchoredPopover.ts` (372 lines, .ts) -- import { useCallback, useLayoutEffect, useRef, useState, type MutableRefObject, type RefObject } from 'react';
+- `./apps/web/src/hooks/useCoalescedCallback.ts` (83 lines, .ts) -- import { useCallback, useEffect, useRef } from 'react';
+- `./apps/web/src/hooks/useDesignMdState.ts` (257 lines, .ts) -- import { useCallback, useEffect, useRef, useState } from 'react';
+- `./apps/web/src/hooks/useDismissOnOutsideInteraction.ts` (49 lines, .ts) -- import { useEffect, useRef, type RefObject } from 'react';
+- `./apps/web/src/hooks/useEventStream.ts` (355 lines, .ts) -- import { useEffect, useRef, useState } from 'react';
+- `./apps/web/src/hooks/useFinalizeProject.ts` (212 lines, .ts) -- import { useCallback, useRef, useState } from 'react';
+- `./apps/web/src/hooks/useGlideIndicator.ts` (179 lines, .ts) -- import { useLayoutEffect, useRef, type RefObject } from 'react';
+- `./apps/web/src/hooks/useLiquidGlass.ts` (78 lines, .ts) -- import { useCallback, useEffect, useRef } from 'react';
+- `./apps/web/src/hooks/useModalWindowDragGuard.ts` (47 lines, .ts) -- import { useEffect } from 'react';
+- `./apps/web/src/hooks/useProjectDetail.ts` (129 lines, .ts) -- import { useCallback, useEffect, useRef, useState } from 'react';
+- `./apps/web/src/hooks/useProjectRunStatuses.ts` (285 lines, .ts) -- import { useEffect, useMemo, useRef, useSyncExternalStore } from 'react';
+- `./apps/web/src/hooks/useTerminalLaunch.ts` (46 lines, .ts) -- import { useMemo } from 'react';
+- `./apps/web/src/i18n/content.ar.ts` (1771 lines, .ts) -- import type { PromptTemplateSummary } from '../types';
+- `./apps/web/src/i18n/content.es-ES.ts` (1771 lines, .ts) -- import type { PromptTemplateSummary } from '../types';
+- `./apps/web/src/i18n/content.fa.ts` (1771 lines, .ts) -- import type { PromptTemplateSummary } from '../types';
+- `./apps/web/src/i18n/content.fr.ts` (920 lines, .ts) -- import type { PromptTemplateSummary } from '../types';
+- `./apps/web/src/i18n/content.hu.ts` (1771 lines, .ts) -- import type { PromptTemplateSummary } from '../types';
+- `./apps/web/src/i18n/content.id.ts` (1771 lines, .ts) -- import type { PromptTemplateSummary } from '../types';
+- `./apps/web/src/i18n/content.it.ts` (1771 lines, .ts) -- import type { PromptTemplateSummary } from '../types';
+- `./apps/web/src/i18n/content.ja.ts` (1771 lines, .ts) -- import type { PromptTemplateSummary } from '../types';
+- `./apps/web/src/i18n/content.ko.ts` (1771 lines, .ts) -- import type { PromptTemplateSummary } from '../types';
+- `./apps/web/src/i18n/content.pl.ts` (1771 lines, .ts) -- import type { PromptTemplateSummary } from '../types';
+- `./apps/web/src/i18n/content.pt-BR.ts` (1771 lines, .ts) -- import type { PromptTemplateSummary } from '../types';
+- `./apps/web/src/i18n/content.ru.ts` (988 lines, .ts) -- import type { PromptTemplateSummary } from '../types';
+- `./apps/web/src/i18n/content.th.ts` (1771 lines, .ts) -- import type { PromptTemplateSummary } from '../types';
+- `./apps/web/src/i18n/content.tr.ts` (1771 lines, .ts) -- import type { PromptTemplateSummary } from '../types';
+- `./apps/web/src/i18n/content.ts` (1327 lines, .ts) -- import type {
+- `./apps/web/src/i18n/content.uk.ts` (1771 lines, .ts) -- import type { PromptTemplateSummary } from '../types';
+- `./apps/web/src/i18n/content.zh-CN.ts` (1771 lines, .ts) -- import type { PromptTemplateSummary } from '../types';
+- `./apps/web/src/i18n/index.tsx` (268 lines, .tsx) -- 'use client';
+- `./apps/web/src/i18n/locales/ar.ts` (5426 lines, .ts) -- import type { Dict } from '../types';
+- `./apps/web/src/i18n/locales/de.ts` (5426 lines, .ts) -- import type { Dict } from '../types';
+- `./apps/web/src/i18n/locales/en.ts` (5441 lines, .ts) -- import type { Dict } from '../types';
+- `./apps/web/src/i18n/locales/es-ES.ts` (5426 lines, .ts) -- import type { Dict } from '../types';
+- `./apps/web/src/i18n/locales/fa.ts` (5421 lines, .ts) -- import type { Dict } from '../types';
+- `./apps/web/src/i18n/locales/fr.ts` (5426 lines, .ts) -- import type { Dict } from '../types';
+- `./apps/web/src/i18n/locales/hu.ts` (5426 lines, .ts) -- import type { Dict } from '../types';
+- `./apps/web/src/i18n/locales/id.ts` (5426 lines, .ts) -- import type { Dict } from '../types';
+- `./apps/web/src/i18n/locales/it.ts` (5426 lines, .ts) -- import type { Dict } from '../types';
+- `./apps/web/src/i18n/locales/ja.ts` (5426 lines, .ts) -- import type { Dict } from '../types';
+- `./apps/web/src/i18n/locales/ko.ts` (5426 lines, .ts) -- import type { Dict } from '../types';
+- `./apps/web/src/i18n/locales/pl.ts` (5426 lines, .ts) -- import type { Dict } from '../types';
+- `./apps/web/src/i18n/locales/pt-BR.ts` (5426 lines, .ts) -- import type { Dict } from '../types';
+- `./apps/web/src/i18n/locales/ru.ts` (5426 lines, .ts) -- import type { Dict } from '../types';
+- `./apps/web/src/i18n/locales/th.ts` (5426 lines, .ts) -- import type { Dict } from '../types';
+- `./apps/web/src/i18n/locales/tr.ts` (5426 lines, .ts) -- import type { Dict } from '../types';
+- `./apps/web/src/i18n/locales/uk.ts` (5426 lines, .ts) -- import type { Dict } from '../types';
+- `./apps/web/src/i18n/locales/zh-CN.ts` (5870 lines, .ts) -- import type { Dict } from \"../types\";
+- `./apps/web/src/i18n/locales/zh-TW.ts` (5877 lines, .ts) -- import type { Dict } from \"../types\";
+- `./apps/web/src/i18n/plugin-content.ts` (330 lines, .ts) -- import type { InputFieldSpec } from '@open-design/contracts';
+- `./apps/web/src/i18n/runErrors.ts` (20 lines, .ts) -- import type { Dict } from './types';
+- `./apps/web/src/i18n/types.ts` (5718 lines, .ts) -- export type Locale = 'en' | 'id' | 'de' | 'zh-CN' | 'zh-TW' | 'pt-BR' | 'es-ES' | 'ru' | 'fa' | 'ar' | 'ja' | 'ko' | 'pl
+- `./apps/web/src/lib/backoff.ts` (84 lines, .ts) -- export interface BackoffOptions {
+- `./apps/web/src/lib/bounded-concurrency.ts` (120 lines, .ts) -- export interface BoundedConcurrency {
+- `./apps/web/src/lib/build-clipboard-prompt.ts` (78 lines, .ts) -- import type { Project } from '@open-design/contracts';
+- `./apps/web/src/lib/build-continue-in-cli-toast.ts` (32 lines, .ts) -- import type { TerminalLaunchResult } from '../hooks/useTerminalLaunch';
+- `./apps/web/src/lib/coalesced-get.ts` (146 lines, .ts) -- type Entry<T> = { value: Promise<T>; settledAt: number | null };
+- `./apps/web/src/lib/copy-to-clipboard.ts` (39 lines, .ts) -- export async function copyToClipboard(text: string): Promise<boolean> {
+- `./apps/web/src/lib/liquid-glass.ts` (173 lines, .ts) -- export interface LiquidGlassOptions {
+- `./apps/web/src/lib/parse-provenance.ts` (94 lines, .ts) -- export interface ProvenanceFields {
+- `./apps/web/src/lib/pod-members.ts` (117 lines, .ts) -- import type { PreviewCommentMember } from '@open-design/contracts';
+- `./apps/web/src/lib/project-cover-cache.ts` (78 lines, .ts) -- import type { ProjectCoverOverride } from '../components/project-cover';
+- `./apps/web/src/lib/project-cover-pipeline.ts` (404 lines, .ts) -- import type { WorkspaceCollabContext } from '@open-design/contracts';
+- `./apps/web/src/lib/resolve-finalize-request.ts` (81 lines, .ts) -- import type {
+- `./apps/web/src/lib/scroll-moves-anchor.ts` (21 lines, .ts) -- export function scrollMovesAnchor(event: Event, anchor: Element | null | undefined): boolean {
+- `./apps/web/src/lib/shared-cancellable-get.ts` (166 lines, .ts) -- const DEFAULT_TTL_MS = 1000;
+- `./apps/web/src/lib/stream-visibility.ts` (110 lines, .ts) -- export const STREAM_HIDDEN_GRACE_MS = 30_000;
+- `./apps/web/src/lib/thumbnail-load-gate.ts` (429 lines, .ts) -- import { useCallback, useEffect, useReducer, useRef } from 'react';
+- `./apps/web/src/lib/updater.ts` (261 lines, .ts) -- import {
+- `./apps/web/src/lib/use-deck-preview-scale.ts` (44 lines, .ts) -- import { useEffect } from 'react';
+- `./apps/web/src/lib/use-stable-handler.ts` (19 lines, .ts) -- import { useCallback, useEffect, useRef } from 'react';
+- `./apps/web/src/lib/whats-new.ts` (79 lines, .ts) -- import type { WhatsNewContent, WhatsNewResponse } from '../types';
+- `./apps/web/src/media/aihubmix-image-models.ts` (220 lines, .ts) -- import { useEffect, useMemo, useState } from 'react';
+- `./apps/web/src/media/execution-policy.ts` (31 lines, .ts) -- import type { MediaExecutionPolicy } from '@open-design/contracts';
+- `./apps/web/src/media/models.ts` (783 lines, .ts) -- import type { AudioKind, MediaAspect } from '../types';
+- `./apps/web/src/media/provider-readiness.ts` (38 lines, .ts) -- import { isStoredMediaProviderEntryPresent } from '../state/config';
+- `./apps/web/src/message-center-client.ts` (176 lines, .ts) -- export type MessageCenterFilter = 'all' | 'unread' | 'read';
+- `./apps/web/src/motion.ts` (93 lines, .ts) -- import type { Transition, Variants } from 'motion/react';
+- `./apps/web/src/observability/boot-timing.ts` (130 lines, .ts) -- import { reportSafetyEvent } from '../analytics/error-tracking';
+- `./apps/web/src/observability/chat-context.ts` (277 lines, .ts) -- export type ChatMeasurementDoubt =
+- `./apps/web/src/observability/chat-health.ts` (578 lines, .ts) -- import type {
+- `./apps/web/src/observability/chat-interaction.ts` (201 lines, .ts) -- import type { ChatInteractionLatencyProps } from '@open-design/contracts/analytics';
+- `./apps/web/src/observability/chat-protocol.ts` (110 lines, .ts) -- import type {
+- `./apps/web/src/observability/chat-scroll-forensics.ts` (1141 lines, .ts) -- import {
+- `./apps/web/src/observability/chat-scroll-freeze-blockers.ts` (321 lines, .ts) -- import {
+- `./apps/web/src/observability/chat-scroll-freeze-detector.ts` (1106 lines, .ts) -- export interface ScrollGeometry {
+- `./apps/web/src/observability/chat-scroll-freeze.ts` (2394 lines, .ts) -- import type { ChatScrollFreezeProps } from '@open-design/contracts/analytics';
+- `./apps/web/src/observability/chat-scroll-write-trace.ts` (360 lines, .ts) -- export const SCROLL_WRITE_TRACE_STORAGE_KEY = 'open-design:chat-scroll-write-trace';
+- `./apps/web/src/observability/experience-diagnostics.ts` (82 lines, .ts) -- import {
+- `./apps/web/src/observability/iframe-error.ts` (424 lines, .ts) -- import {
+- `./apps/web/src/observability/install.ts` (66 lines, .ts) -- import { installLongTaskObserver } from './long-task';
+- `./apps/web/src/observability/long-task.ts` (78 lines, .ts) -- import { reportSafetyEvent } from '../analytics/error-tracking';
+- `./apps/web/src/observability/resource-error.ts` (422 lines, .ts) -- import { reportSafetyEvent } from '../analytics/error-tracking';
+- `./apps/web/src/observability/stuck-run.ts` (108 lines, .ts) -- import { reportSafetyEvent } from '../analytics/error-tracking';
+- `./apps/web/src/observability/use-experience-error.ts` (11 lines, .ts) -- import { useEffect } from 'react';
+- `./apps/web/src/observability/visibility.ts` (83 lines, .ts) -- import { reportSafetyEvent } from '../analytics/error-tracking';
+- `./apps/web/src/observability/white-screen.ts` (137 lines, .ts) -- import { reportSafetyEvent } from '../analytics/error-tracking';
+- `./apps/web/src/onboarding/first-artifact-hint.ts` (31 lines, .ts) -- const STORAGE_KEY = 'open-design:seen-first-artifact-hint';
+- `./apps/web/src/onboarding/first-generation.ts` (25 lines, .ts) -- export interface ProducedFileLike {
+- `./apps/web/src/onboarding/first-loop.ts` (113 lines, .ts) -- import type {
+- `./apps/web/src/onboarding/first-prompt.ts` (18 lines, .ts) -- export function sentPrefilledPrompt(seedPrompt: string, submittedPrompt: string): boolean {
+- `./apps/web/src/onboarding/onboarding-entry.ts` (148 lines, .ts) -- import type { ProductType } from './recommendation';
+- `./apps/web/src/onboarding/recommendation.ts` (233 lines, .ts) -- export type ProductType = 'product_ui' | 'marketing' | 'internal_tool' | 'general';
+- `./apps/web/src/onboarding/starter-copy.ts` (62 lines, .ts) -- import type { Dict } from '../i18n/types';
+- `./apps/web/src/produced-files.ts` (13 lines, .ts) -- import type { ProjectFile } from './types';
+- `./apps/web/src/providers/agent-companion.ts` (20 lines, .ts) -- import type { AgentCompanionSetupResponse } from '@open-design/contracts';
+- `./apps/web/src/providers/aihubmix-compatible.ts` (35 lines, .ts) -- import type { AppConfig, ChatMessage } from '../types';
+- `./apps/web/src/providers/anthropic-compatible.ts` (23 lines, .ts) -- import type { AppConfig, ChatMessage } from '../types';
+- `./apps/web/src/providers/anthropic.ts` (114 lines, .ts) -- import Anthropic from '@anthropic-ai/sdk';
+- `./apps/web/src/providers/api-proxy.ts` (303 lines, .ts) -- import { effectiveMaxTokens } from '../state/maxTokens';
+- `./apps/web/src/providers/azure-compatible.ts` (13 lines, .ts) -- import type { AppConfig, ChatMessage } from '../types';
+- `./apps/web/src/providers/connection-test.ts` (76 lines, .ts) -- import type {
+- `./apps/web/src/providers/daemon.ts` (2857 lines, .ts) -- import type { AgentEvent, ChatCommentAttachment, ChatMessage } from '../types';
+- `./apps/web/src/providers/elevenlabs-voices.ts` (86 lines, .ts) -- import type { AudioVoiceOption } from '@open-design/contracts';
+- `./apps/web/src/providers/google-compatible.ts` (13 lines, .ts) -- import type { AppConfig, ChatMessage } from '../types';
+- `./apps/web/src/providers/ollama-compatible.ts` (13 lines, .ts) -- import type { AppConfig, ChatMessage } from '../types';
+- `./apps/web/src/providers/openai-compatible.ts` (63 lines, .ts) -- import type { AppConfig, ChatMessage } from '../types';
+- `./apps/web/src/providers/project-events.ts` (372 lines, .ts) -- import { useEffect, useRef } from 'react';
+- `./apps/web/src/providers/provider-models.ts` (55 lines, .ts) -- import type {
+- `./apps/web/src/providers/registry.ts` (4066 lines, .ts) -- import {
+- `./apps/web/src/providers/senseaudio-compatible.ts` (33 lines, .ts) -- import type { AppConfig, ChatMessage } from '../types';
+- `./apps/web/src/providers/sse.ts` (38 lines, .ts) -- export type ParsedSseFrame =
+- `./apps/web/src/quickSwitcherRecents.ts` (32 lines, .ts) -- const PREFIX = 'od:qs-recents:';
+- `./apps/web/src/router.ts` (495 lines, .ts) -- import { useSyncExternalStore } from 'react';
+- `./apps/web/src/runtime/action-request.ts` (41 lines, .ts) -- const consumedActionNonces = new Map<string, number>();
+- `./apps/web/src/runtime/amr-artifact-upgrade.ts` (90 lines, .ts) -- export const AMR_ARTIFACT_UPGRADE_REQUEST_EVENT =
+- `./apps/web/src/runtime/amr-auth-retry-continuation.ts` (124 lines, .ts) -- import {
+- `./apps/web/src/runtime/amr-balance-branch.ts` (163 lines, .ts) -- import {
+- `./apps/web/src/runtime/amr-balance-gate.ts` (292 lines, .ts) -- import type {
+- `./apps/web/src/runtime/amr-guidance.ts` (1897 lines, .ts) -- import {
+- `./apps/web/src/runtime/amr-low-balance-plan.ts` (46 lines, .ts) -- import type { AmrWalletSnapshot } from '@open-design/contracts';
+- `./apps/web/src/runtime/amr-unlimited-models.ts` (24 lines, .ts) -- function normalize(value: string | null | undefined): string {
+- `./apps/web/src/runtime/blocked-strategy-result.ts` (31 lines, .ts) -- import type { ChatRunStatus, StrategyTaskProjectionV2 } from '@open-design/contracts';
+- `./apps/web/src/runtime/brand-browser-bridge.ts` (70 lines, .ts) -- export const BRAND_BROWSER_TAB_ID = '__browser__:1';
+- `./apps/web/src/runtime/brand-enrichment.ts` (162 lines, .ts) -- import type { ProjectFile, ProjectMetadata } from '@open-design/contracts';
+- `./apps/web/src/runtime/brand-intent.ts` (36 lines, .ts) -- export const NEW_BRAND_KIT_INTENT_EVENT = 'od:new-brand-kit-intent';
+- `./apps/web/src/runtime/brand-references.ts` (103 lines, .ts) -- import data from './brand-references.json';
+- `./apps/web/src/runtime/brands.ts` (239 lines, .ts) -- import { useEffect, useState } from 'react';
+- `./apps/web/src/runtime/chat-events.ts` (130 lines, .ts) -- import type { ChatMessage } from '../types';
+- `./apps/web/src/runtime/chat-scroll-experiments.ts` (158 lines, .ts) -- export const CHAT_LOG_SELF_RESIZE_OBSERVE_DISABLED_KEY =
+- `./apps/web/src/runtime/chat-scroll-takeover.ts` (413 lines, .ts) -- import {
+- `./apps/web/src/runtime/chat/anchor-to-top.ts` (246 lines, .ts) -- export const ANCHOR_TOP_PADDING = 12;
+- `./apps/web/src/runtime/chat/artifact-card-order.ts` (38 lines, .ts) -- import {
+- `./apps/web/src/runtime/chat/artifact-export.ts` (57 lines, .ts) -- export type ArtifactExportFormat = 'pdf' | 'image' | 'zip' | 'html';
+- `./apps/web/src/runtime/chat/artifact-refs.ts` (137 lines, .ts) -- export interface ArtifactRefTargets {
+- `./apps/web/src/runtime/chat/attachment-nav.ts` (77 lines, .ts) -- export interface AttachmentScrollMetrics {
+- `./apps/web/src/runtime/chat/attachment.ts` (104 lines, .ts) -- export function formatAttachmentSize(bytes: number | null | undefined): string | null {
+- `./apps/web/src/runtime/chat/audio-wave.ts` (42 lines, .ts) -- const MIN_H = 3;
+- `./apps/web/src/runtime/chat/build-turn-blocks.ts` (2238 lines, .ts) -- import type { MediaSurface, PersistedAgentEvent, ProjectMediaTask } from '@open-design/contracts';
+- `./apps/web/src/runtime/chat/composer-draft.ts` (263 lines, .ts) -- import type { ChatAttachment, ChatCommentAttachment, WorkspaceContextItem } from '@open-design/contracts';
+- `./apps/web/src/runtime/chat/contract.ts` (338 lines, .ts) -- import type { MediaSurface, PersistedAgentEvent, ProjectMediaTask } from '@open-design/contracts';
+- `./apps/web/src/runtime/chat/conversation-time.ts` (24 lines, .ts) -- import type { Dict } from '../../i18n/types';
+- `./apps/web/src/runtime/chat/copyable-turn.ts` (49 lines, .ts) -- import type { ExecutionShell, ShellItem } from './contract';
+- `./apps/web/src/runtime/chat/element-scroll-anchor.ts` (75 lines, .ts) -- export interface ElementScrollAnchor {
+- `./apps/web/src/runtime/chat/fork-boundary.ts` (38 lines, .ts) -- import type { ChatMessage } from '../../types';
+- `./apps/web/src/runtime/chat/format.ts` (146 lines, .ts) -- export const UNKNOWN_ELAPSED_BELOW_MS = 100;
+- `./apps/web/src/runtime/chat/group-thinking.ts` (124 lines, .ts) -- import type { ShellItem, ShellText, ThinkingTokens } from './contract';
+- `./apps/web/src/runtime/chat/host-authored-message.ts` (101 lines, .ts) -- import type { ChatMessage } from '../../types';
+- `./apps/web/src/runtime/chat/jump-to-latest.ts` (82 lines, .ts) -- const SHOW_RATIO = 0.75;
+- `./apps/web/src/runtime/chat/plan-pill.ts` (97 lines, .ts) -- import { todoStatusIsUnfinished } from '@open-design/contracts';
+- `./apps/web/src/runtime/chat/quote-popover.ts` (18 lines, .ts) -- export const QUOTE_POPOVER_GAP_PX = 7;
+- `./apps/web/src/runtime/chat/quote-selection.ts` (303 lines, .ts) -- export interface ChatQuote {
+- `./apps/web/src/runtime/chat/rail-wheel.ts` (115 lines, .ts) -- import { wheelDeltaToPx } from '../../observability/chat-scroll-freeze-detector';
+- `./apps/web/src/runtime/chat/reconnect-state.ts` (374 lines, .ts) -- import type { ChatRunStatus } from '@open-design/contracts';
+- `./apps/web/src/runtime/chat/record-file-open.ts` (91 lines, .ts) -- import { resolveChatFileLink } from '../in-project-link';
+- `./apps/web/src/runtime/chat/recovery-gating.ts` (87 lines, .ts) -- export type RecoveryActionBlockReason =
+- `./apps/web/src/runtime/chat/retried-error-surface.ts` (25 lines, .ts) -- export function retriedErrorSurfaceKey(projectId: string, conversationId: string): string {
+- `./apps/web/src/runtime/chat/split-shell-cards.ts` (128 lines, .ts) -- import { splitOnOdCards, type OdCardSegment } from '@open-design/contracts';
+- `./apps/web/src/runtime/chat/staged-attachment.ts` (139 lines, .ts) -- const IMAGE_EXT = /\.(png|jpe?g|gif|webp|svg|avif|bmp)$/i;
+- `./apps/web/src/runtime/chat/stick-to-bottom.ts` (378 lines, .ts) -- export interface ScrollSample {
+- `./apps/web/src/runtime/chat/thinking-slot.ts` (151 lines, .ts) -- export const THINKING_TOKENS_STALL_ENTER_MS = 20_000;
+- `./apps/web/src/runtime/chat/tool-kind.ts` (561 lines, .ts) -- import { isTodoWriteToolName } from '@open-design/contracts';
+- `./apps/web/src/runtime/chat/upstream-activity.ts` (65 lines, .ts) -- const MAX_TRACKED_RUNS = 64;
+- `./apps/web/src/runtime/chat/virtual-scroll-anchor.ts` (43 lines, .ts) -- export interface VirtualScrollAnchor {
+- `./apps/web/src/runtime/daemon-proxy-failure.ts` (29 lines, .ts) -- const PROXY_CONNECTION_ERRNO =
+- `./apps/web/src/runtime/deck-slide-structure.ts` (107 lines, .ts) -- import {
+- `./apps/web/src/runtime/deck-thumbnail-parser.ts` (633 lines, .ts) -- import DOMPurify from 'dompurify';
+- `./apps/web/src/runtime/design-delivery.ts` (173 lines, .ts) -- import type { ChatSessionMode } from '@open-design/contracts';
+- `./apps/web/src/runtime/design-kit.ts` (812 lines, .ts) -- import { useEffect, useState } from 'react';
+- `./apps/web/src/runtime/design-md-parse.ts` (421 lines, .ts) -- export interface ParsedColor {
+- `./apps/web/src/runtime/design-system-package-audit.ts` (108 lines, .ts) -- import type {
+- `./apps/web/src/runtime/design-toolbox.ts` (243 lines, .ts) -- import type { Dict } from '../i18n/types';
+- `./apps/web/src/runtime/exports.ts` (1965 lines, .ts) -- import {
+- `./apps/web/src/runtime/file-ops.ts` (388 lines, .ts) -- import type { AgentEvent } from '../types';
+- `./apps/web/src/runtime/font-recovery.ts` (87 lines, .ts) -- type RecoverableFont = {
+- `./apps/web/src/runtime/home-intent.ts` (57 lines, .ts) -- export const HOME_CHIP_INTENT_EVENT = 'od:home-chip-intent';
+- `./apps/web/src/runtime/in-project-link.ts` (388 lines, .ts) -- import { parseRoute } from '../router';
+- `./apps/web/src/runtime/jsx-module-refs.ts` (149 lines, .ts) -- function basenameOf(path: string): string {
+- `./apps/web/src/runtime/kit-edit.ts` (198 lines, .ts) -- import type { Brand, BrandColorRole, WorkspaceCollabContext } from '@open-design/contracts';
+- `./apps/web/src/runtime/kit-upload.ts` (240 lines, .ts) -- import { useCallback, useState } from 'react';
+- `./apps/web/src/runtime/markdown.tsx` (782 lines, .tsx) -- import { Fragment, useEffect, useRef, useState, type MouseEvent, type ReactNode } from 'react';
+- `./apps/web/src/runtime/partial-json.ts` (93 lines, .ts) -- export function repairJsonPrefix(buf: string): string {
+- `./apps/web/src/runtime/pixel-liquid-scheduler.ts` (150 lines, .ts) -- import { FPS } from './pixel-liquid';
+- `./apps/web/src/runtime/pixel-liquid.ts` (223 lines, .ts) -- export const DESIGN_CELL_PX = 84;
+- `./apps/web/src/runtime/plugin-skill-descriptions.ts` (245 lines, .ts) -- export interface PluginSkillDescriptionSource {
+- `./apps/web/src/runtime/plugin-source.ts` (240 lines, .ts) -- import type { InstalledPluginRecord } from '@open-design/contracts';
+- `./apps/web/src/runtime/powered-preview.ts` (115 lines, .ts) -- import { buildProjectPoweredFileUrl, type ProjectPreviewIsolationResponse } from '@open-design/contracts';
+- `./apps/web/src/runtime/react-component.ts` (231 lines, .ts) -- interface ReactComponentSrcdocOptions {
+- `./apps/web/src/runtime/resume.ts` (13 lines, .ts) -- export const RESUME_CONTINUE_PROMPT =
+- `./apps/web/src/runtime/run-progress.ts` (204 lines, .ts) -- import type { AgentEvent, ChatMessage } from '../types';
+- `./apps/web/src/runtime/shiki.ts` (56 lines, .ts) -- import type { HighlighterGeneric } from 'shiki';
+- `./apps/web/src/runtime/slide-nav.ts` (65 lines, .ts) -- const consumedSlideNavNonces = new Map<string, number>();
+- `./apps/web/src/runtime/speaker-notes.ts` (690 lines, .ts) -- import { findRealTagOffset, HTML_TAG_PATTERNS } from '@open-design/contracts/runtime/html-injection-points';
+- `./apps/web/src/runtime/srcdoc.ts` (4449 lines, .ts) -- import {
+- `./apps/web/src/runtime/strategy-question-continuation.ts` (121 lines, .ts) -- import type {
+- `./apps/web/src/runtime/strategy-turn-chrome.ts` (32 lines, .ts) -- import type { AppliedPluginSnapshot, ChatSessionMode } from '@open-design/contracts';
+- `./apps/web/src/runtime/todos.ts` (300 lines, .ts) -- import { isTodoWriteToolName } from '@open-design/contracts';
+- `./apps/web/src/runtime/tool-events.ts` (139 lines, .ts) -- import type { AgentEvent } from '../types';
+- `./apps/web/src/runtime/tool-renderers.ts` (124 lines, .ts) -- import type { ReactNode } from 'react';
+- `./apps/web/src/runtime/useBrandExtract.ts` (159 lines, .ts) -- import { useCallback, useRef, useState } from 'react';
+- `./apps/web/src/runtime/useBrandReadyPrompt.ts` (217 lines, .ts) -- import { useCallback, useEffect, useState } from 'react';
+- `./apps/web/src/runtime/useMemoryWrittenCard.ts` (285 lines, .ts) -- import { useCallback, useEffect, useRef, useState } from 'react';
+- `./apps/web/src/runtime/useSingleFlightCallback.ts` (44 lines, .ts) -- import { useCallback, useRef } from 'react';
+- `./apps/web/src/runtime/visual-style-catalog.ts` (853 lines, .ts) -- export type VisualStyleContext = 'deck' | 'prototype' | 'document' | 'image' | 'video';
+- `./apps/web/src/runtime/visual-style-deck.ts` (193 lines, .ts) -- export const VISUAL_STYLE_BATCH_SIZE = 4;
+- `./apps/web/src/runtime/workspace-chrome-projects.ts` (34 lines, .ts) -- import type { Project } from '../types';
+- `./apps/web/src/runtime/zip.ts` (130 lines, .ts) -- export interface ZipEntry {
+- `./apps/web/src/state/apiProtocols.ts` (252 lines, .ts) -- import type { ApiProtocol } from '../types';
+- `./apps/web/src/state/appearance.ts` (92 lines, .ts) -- import { getOpenDesignHost } from '@open-design/host';
+- `./apps/web/src/state/config.ts` (1327 lines, .ts) -- import type { AppConfigPrefs } from '@open-design/contracts';
+- `./apps/web/src/state/home-attachment-handoff.ts` (170 lines, .ts) -- import { looksLikeImageName, type PendingUpload } from '../runtime/chat/staged-attachment';
+- `./apps/web/src/state/home-composer-stash.ts` (42 lines, .ts) -- export const HOME_COMPOSER_ATTACHMENTS_EVENT = 'open-design:home-composer:attachments';
+- `./apps/web/src/state/libraryHandoff.ts` (81 lines, .ts) -- import type { ChatAttachment } from '@open-design/contracts';
+- `./apps/web/src/state/load-conversation-transcript.ts` (85 lines, .ts) -- import type { WorkspaceCollabContext } from '@open-design/contracts';
+- `./apps/web/src/state/maxTokens.ts` (102 lines, .ts) -- import type { AppConfig } from '../types';
+- `./apps/web/src/state/mcp.ts` (181 lines, .ts) -- import type {
+- `./apps/web/src/state/onboarding-profile.ts` (93 lines, .ts) -- const STORAGE_KEY = 'open-design:onboarding-profile:v1';
+- `./apps/web/src/state/project-display-cache.ts` (150 lines, .ts) -- import {
+- `./apps/web/src/state/project-locations.ts` (55 lines, .ts) -- import type {
+- `./apps/web/src/state/projectRunStatus.ts` (231 lines, .ts) -- import type { ChatRunStatusResponse, ProjectDisplayStatus } from '@open-design/contracts';
+- `./apps/web/src/state/projects.ts` (2912 lines, .ts) -- import { coalescedGet, evictCoalescedGet } from '../lib/coalesced-get';
+- `./apps/web/src/state/silent-update-preference.ts` (49 lines, .ts) -- export type SilentUpdatePreferenceWriterDeps<TBase extends { allowSilentUpdates?: boolean }> = {
+- `./apps/web/src/types.ts` (658 lines, .ts) -- import type {
+- `./apps/web/src/utils/agentLabels.ts` (139 lines, .ts) -- const AGENT_LABELS: Record<string, string> = {
+- `./apps/web/src/utils/apiProtocol.ts` (54 lines, .ts) -- import { isOpenAICompatible } from '../providers/openai-compatible';
+- `./apps/web/src/utils/byokProvider.ts` (77 lines, .ts) -- import type { KnownProvider } from '../state/config';
+- `./apps/web/src/utils/chatTime.ts` (51 lines, .ts) -- import type { ChatMessage } from '../types';
+- `./apps/web/src/utils/connectorBrandColor.ts` (120 lines, .ts) -- const CURATED: Record<string, string> = {
+- `./apps/web/src/utils/fileSystemErrors.ts` (26 lines, .ts) -- function errorSummary(error: unknown): string {
+- `./apps/web/src/utils/imeComposing.ts` (20 lines, .ts) -- import type { KeyboardEvent as ReactKeyboardEvent } from 'react';
+- `./apps/web/src/utils/inlineMentions.ts` (277 lines, .ts) -- export type InlineMentionKind =
+- `./apps/web/src/utils/notifications.ts` (312 lines, .ts) -- import type { Dict } from '../i18n/types';
+- `./apps/web/src/utils/pickAndImportError.ts` (46 lines, .ts) -- import type { OpenDesignHostProjectImportResult } from '@open-design/host';
+- `./apps/web/src/utils/platform.ts` (3 lines, .ts) -- export function isMacPlatform(): boolean {
+- `./apps/web/src/utils/pluginInsertionTracking.ts` (224 lines, .ts) -- import {
+- `./apps/web/src/utils/pluginRequiredInputs.ts` (90 lines, .ts) -- import type { InputFieldSpec } from '@open-design/contracts';
+- `./apps/web/src/utils/projectName.ts` (96 lines, .ts) -- import type { Project } from '../types';
+- `./apps/web/src/utils/promptTemplateDsCategories.ts` (68 lines, .ts) -- import type { DesignSystemSummary } from '../types';
+- `./apps/web/src/utils/smoothScrollToTop.ts` (115 lines, .ts) -- function unitBezier(
+- `./apps/web/src/utils/uuid.ts` (56 lines, .ts) -- export function randomUUID(): string {
+- `./apps/web/src/utils/visibleAgents.ts` (32 lines, .ts) -- import type { AgentInfo } from '../types';
+- `./apps/web/src/utils/visualStability.ts` (10 lines, .ts) -- export const VISUAL_STABILITY_STORAGE_KEY = 'open-design:visual-stability';
+- `./apps/web/tests/App.test.ts` (538 lines, .ts) -- import { describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/all-projects-list.test.ts` (479 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/analytics-amr-auth.test.ts` (414 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/analytics-app-version.test.tsx` (99 lines, .tsx) -- import { act, renderHook, waitFor } from '@testing-library/react';
+- `./apps/web/tests/analytics-configure-globals.test.ts` (376 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+- `./apps/web/tests/analytics-first-session-consent.test.ts` (169 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/analytics-first-session.test.ts` (90 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+- `./apps/web/tests/analytics-identity.test.ts` (25 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/analytics-scrub.test.ts` (142 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/analytics-session-replay.test.ts` (158 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/analytics/agent-detect.test.ts` (109 lines, .ts) -- import { beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/analytics/amr-attribution.test.ts` (495 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/analytics/byok-error-code.test.ts` (180 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/analytics/deploy-error-code.test.ts` (81 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/analytics/error-tracking.test.ts` (605 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/analytics/export-error-code.test.ts` (124 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/analytics/run-task-analytics.test.ts` (78 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/analytics/source-attribution.test.ts` (275 lines, .ts) -- import { beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/analytics/turn-index.test.ts` (58 lines, .ts) -- import { beforeEach, describe, expect, it } from 'vitest';
+- `./apps/web/tests/analytics/upload-tracking.test.ts` (94 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/analytics/w82-analytics-config-reads.test.ts` (213 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/analytics/workspace.test.ts` (80 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/api-attachment-context.test.ts` (292 lines, .ts) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/artifacts/chat-protocol-context.test.ts` (42 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/artifacts/internal-markers.test.ts` (60 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/artifacts/manifest.test.ts` (135 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/artifacts/markdown.test.ts` (179 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/artifacts/parser.test.ts` (194 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/artifacts/pointer.test.ts` (62 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/artifacts/question-form-payload-context.test.ts` (27 lines, .ts) -- import { expect, it } from 'vitest';
+- `./apps/web/tests/artifacts/question-form.test.ts` (640 lines, .ts) -- import { describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/artifacts/recover.test.ts` (142 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/artifacts/renderer-registry.test.ts` (168 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/artifacts/strip-unterminated.test.ts` (43 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/artifacts/strip.test.ts` (261 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/artifacts/validate.test.ts` (170 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/artifacts/version-origin.test.ts` (109 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/byok-run-analytics.test.ts` (133 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/campaigns/deepseek-v4-flash-i18n-matrix.test.ts` (76 lines, .ts) -- import { readdirSync, readFileSync } from 'node:fs';
+- `./apps/web/tests/campaigns/deepseek-v4-flash-modal.test.tsx` (318 lines, .tsx) -- import { cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/campaigns/deepseek-v4-flash-ui-contract.test.ts` (206 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/campaigns/deepseek-v4-flash.test.ts` (189 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/campaigns/go-plan.test.ts` (106 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/campaigns/workbench-campaign-badge-signed-in-only.test.tsx` (104 lines, .tsx) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/campaigns/workbench-campaign-badge.test.tsx` (68 lines, .tsx) -- import { cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/collab-client.heartbeat-backoff.test.ts` (116 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/collab-client.test.ts` (1675 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/collab-demo-view.test.tsx` (121 lines, .tsx) -- import { act, cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/collab-presence-bar.test.tsx` (192 lines, .tsx) -- import { cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/collab-session.test.ts` (72 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/collab/opend-2624-personal-project-readonly.test.tsx` (238 lines, .tsx) -- import { cleanup, renderHook, waitFor } from '@testing-library/react';
+- `./apps/web/tests/collab/optimistic-project-ownership.test.ts` (190 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/collab/workspace-identity-key-is-total.test.ts` (66 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/collab/workspace-principal-identity.test.ts` (129 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/collab/workspace-snapshot-activation.test.tsx` (94 lines, .tsx) -- import { act, cleanup, render } from '@testing-library/react';
+- `./apps/web/tests/comment-anchor-writeback.test.ts` (112 lines, .ts) -- import { describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/comment-drift-demo.test.tsx` (38 lines, .tsx) -- import { cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/comments.test.ts` (625 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/community-view.test.tsx` (678 lines, .tsx) -- import { cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/AgentDiagnosticRow.test.tsx` (52 lines, .tsx) -- import { cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/AgentIcon.test.tsx` (117 lines, .tsx) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/components/AmrArtifactUpgradeDialog.test.tsx` (164 lines, .tsx) -- import { act, cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/AmrArtifactUpgradeGate.test.tsx` (389 lines, .tsx) -- import { act, cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/AmrArtifactUpgradeHomeCard.test.tsx` (76 lines, .tsx) -- import { cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/AmrBalanceDialog.test.tsx` (462 lines, .tsx) -- import { act, cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/AmrLoginPill.test.tsx` (1359 lines, .tsx) -- import { act, cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/AmrOwnerTopUpDialog.copy.test.tsx` (115 lines, .tsx) -- import { cleanup, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/App.amr-plan-tier.test.tsx` (425 lines, .tsx) -- import { cleanup, render, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/App.amr-polling.test.tsx` (815 lines, .tsx) -- import { act, cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/App.connectors.test.tsx` (702 lines, .tsx) -- import { cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/App.design-system-create-back.test.tsx` (282 lines, .tsx) -- import { act, cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/App.design-systems-loading-race.test.tsx` (585 lines, .tsx) -- import { act, cleanup, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/App.mediaProviders.test.tsx` (292 lines, .tsx) -- import { cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/App.onboarding-agent-autoselect.test.tsx` (253 lines, .tsx) -- import { cleanup, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/App.onboarding-amr-e2e.test.tsx` (394 lines, .tsx) -- import { act, cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/App.onboarding-completion-persistence.test.tsx` (616 lines, .tsx) -- import { cleanup, act, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/App.previewKeepAlive.test.tsx` (424 lines, .tsx) -- import { act, cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/App.project-account-cluster.test.tsx` (417 lines, .tsx) -- import { cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/App.project-create-race.test.tsx` (4198 lines, .tsx) -- import { act, cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/App.skills-workspace-scope.test.tsx` (627 lines, .tsx) -- import { act, cleanup, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/App.switch-cloud-persistence.test.tsx` (408 lines, .tsx) -- import { act, cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/App.update-dialog.test.tsx` (294 lines, .tsx) -- import type { ReactNode } from 'react';
+- `./apps/web/tests/components/App.workspace-switch-project-list.test.tsx` (1132 lines, .tsx) -- import { act, cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/AppWashKineticGrid.intro-sweep.test.tsx` (112 lines, .tsx) -- import { act, cleanup, render } from '@testing-library/react';
+- `./apps/web/tests/components/AssistantMessage.amr-model-status.test.tsx` (161 lines, .tsx) -- import { cleanup, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/AssistantMessage.artifact-card-registration.test.tsx` (161 lines, .tsx) -- import { cleanup, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/AssistantMessage.artifact-focus-cards.test.tsx` (474 lines, .tsx) -- import { cleanup, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/AssistantMessage.artifact-refs.test.tsx` (216 lines, .tsx) -- import { cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/AssistantMessage.completion-row-last-only.test.tsx` (89 lines, .tsx) -- import { cleanup, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/AssistantMessage.critique-grammar.test.tsx` (136 lines, .tsx) -- import { cleanup, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/AssistantMessage.error-pill.test.tsx` (71 lines, .tsx) -- import { cleanup, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/AssistantMessage.feedback-analytics.test.tsx` (101 lines, .tsx) -- import { cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/AssistantMessage.fork-continued-line.test.tsx` (167 lines, .tsx) -- import { cleanup, render } from '@testing-library/react';
+- `./apps/web/tests/components/AssistantMessage.fork-divider-placement.test.tsx` (103 lines, .tsx) -- import { cleanup, render } from '@testing-library/react';
+- `./apps/web/tests/components/AssistantMessage.fork-run-verdict.test.tsx` (104 lines, .tsx) -- import { cleanup, render } from '@testing-library/react';
+- `./apps/web/tests/components/AssistantMessage.hidden-extra-ui-review.test.tsx` (92 lines, .tsx) -- import { cleanup, render, within } from '@testing-library/react';
+- `./apps/web/tests/components/AssistantMessage.hidden-extra-ui.test.tsx` (191 lines, .tsx) -- import { cleanup, fireEvent, render, within } from '@testing-library/react';
+- `./apps/web/tests/components/AssistantMessage.linkClick.test.tsx` (564 lines, .tsx) -- import { cleanup, fireEvent, render } from '@testing-library/react';
+- `./apps/web/tests/components/AssistantMessage.media-produced-cards.test.tsx` (218 lines, .tsx) -- import { cleanup, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/AssistantMessage.nextStep.test.tsx` (585 lines, .tsx) -- import { cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/AssistantMessage.no-error-pill.test.tsx` (73 lines, .tsx) -- import { cleanup, render } from '@testing-library/react';
+- `./apps/web/tests/components/AssistantMessage.pluginInstall.test.tsx` (93 lines, .tsx) -- import { cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/AssistantMessage.produced-card-turn-scope.test.tsx` (177 lines, .tsx) -- import { cleanup, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/AssistantMessage.question-form-answered-status.test.tsx` (158 lines, .tsx) -- import { cleanup, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/AssistantMessage.question-form-resubmit.test.tsx` (264 lines, .tsx) -- import { cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/AssistantMessage.strategy-blocked.test.tsx` (151 lines, .tsx) -- import { cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/AssistantMessage.system-copy-i18n.test.tsx` (138 lines, .tsx) -- import { cleanup, render as rtlRender, screen } from '@testing-library/react';
+- `./apps/web/tests/components/AssistantMessage.test.ts` (77 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/AssistantMessage.test.tsx` (2109 lines, .tsx) -- import { act, cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/AvatarMenu.open-signal.test.tsx` (91 lines, .tsx) -- import { cleanup, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/AvatarMenu.test.tsx` (1136 lines, .tsx) -- import { act, cleanup, fireEvent, render, screen, waitFor, within } from '@testing-library/react';
+- `./apps/web/tests/components/BoardComposerPopover.actions-visible.test.tsx` (85 lines, .tsx) -- import { cleanup, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/BoardComposerPopover.keyboard-submit.test.tsx` (184 lines, .tsx) -- import { cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/BoardComposerPopover.pod-chip-hover.test.tsx` (127 lines, .tsx) -- import { cleanup, fireEvent, render, screen, within } from '@testing-library/react';
+- `./apps/web/tests/components/BoardComposerPopover.pod-remove.test.tsx` (196 lines, .tsx) -- import { cleanup, fireEvent, render, screen, within } from '@testing-library/react';
+- `./apps/web/tests/components/BoardComposerPopover.queue-on-busy.test.tsx` (91 lines, .tsx) -- import { cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/BrandEnrichmentBanner.test.tsx` (43 lines, .tsx) -- import { cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/BrandLogo.workspace-scope.test.tsx` (81 lines, .tsx) -- import { cleanup, fireEvent, render } from '@testing-library/react';
+- `./apps/web/tests/components/BrandPreviewCard.test.tsx` (209 lines, .tsx) -- import { cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/BrandReadyPrompt.test.tsx` (65 lines, .tsx) -- import { cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/BrandReferencePicker.test.tsx` (54 lines, .tsx) -- import { cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/BrandsTab.refresh.test.tsx` (257 lines, .tsx) -- import { act, cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/ByokModelField.test.tsx` (61 lines, .tsx) -- import { cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/ChatComposer.context-pickers.test.tsx` (1501 lines, .tsx) -- import { act, cleanup, fireEvent, render, screen, waitFor, within } from '@testing-library/react';
+- `./apps/web/tests/components/ChatComposer.default-router-hidden.test.tsx` (118 lines, .tsx) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/ChatComposer.design-toolbox.test.tsx` (337 lines, .tsx) -- import { act, cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/ChatComposer.empty-send-guard.test.tsx` (153 lines, .tsx) -- import { act, cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/ChatComposer.home-upload-tray.test.tsx` (97 lines, .tsx) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/ChatComposer.infinite-render.test.tsx` (203 lines, .tsx) -- import { act, cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/ChatComposer.mode-picker-removal.test.tsx` (31 lines, .tsx) -- import { cleanup, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/ChatComposer.search.test.tsx` (852 lines, .tsx) -- import { act, cleanup, fireEvent, render, screen, waitFor, within } from '@testing-library/react';
+- `./apps/web/tests/components/ChatComposer.slash-popover-layout.test.tsx` (215 lines, .tsx) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/components/ChatPane.amr-auth-inline.test.tsx` (279 lines, .tsx) -- import { act, cleanup, fireEvent, render, screen, waitFor, within } from '@testing-library/react';
+- `./apps/web/tests/components/ChatPane.chat-health-surface.test.tsx` (270 lines, .tsx) -- import { cleanup, render } from '@testing-library/react';
+- `./apps/web/tests/components/ChatPane.cli-session-refused.test.tsx` (203 lines, .tsx) -- import { cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/ChatPane.client-environment-card.test.tsx` (137 lines, .tsx) -- import { cleanup, fireEvent, render, screen, within } from '@testing-library/react';
+- `./apps/web/tests/components/ChatPane.connect-repo.test.tsx` (292 lines, .tsx) -- import { cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/ChatPane.continue-owner.test.tsx` (218 lines, .tsx) -- import { cleanup, fireEvent, render, within } from '@testing-library/react';
+- `./apps/web/tests/components/ChatPane.conversation-title.test.tsx` (383 lines, .tsx) -- import { cleanup, fireEvent, render, screen, waitFor, within } from '@testing-library/react';
+- `./apps/web/tests/components/ChatPane.error-card-invalid-api-key.test.tsx` (367 lines, .tsx) -- import { cleanup, fireEvent, render, within } from '@testing-library/react';
+- `./apps/web/tests/components/ChatPane.error-card-ladder.test.tsx` (307 lines, .tsx) -- import { cleanup, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/ChatPane.error-card-no-details.test.tsx` (194 lines, .tsx) -- import { cleanup, render, screen, within } from '@testing-library/react';
+- `./apps/web/tests/components/ChatPane.error-card-raw-leak.test.tsx` (208 lines, .tsx) -- import { cleanup, render } from '@testing-library/react';
+- `./apps/web/tests/components/ChatPane.error-card-raw-text-never-rendered.test.tsx` (326 lines, .tsx) -- import { cleanup, render } from '@testing-library/react';
+- `./apps/web/tests/components/ChatPane.error-card-stage-timeout.test.tsx` (138 lines, .tsx) -- import { cleanup, render } from '@testing-library/react';
+- `./apps/web/tests/components/ChatPane.error-card-terminal-failure-fallback.test.tsx` (298 lines, .tsx) -- import { cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/ChatPane.error-card-upstream-overloaded.test.tsx` (196 lines, .tsx) -- import { cleanup, render } from '@testing-library/react';
+- `./apps/web/tests/components/ChatPane.follow-bottom-write.test.tsx` (207 lines, .tsx) -- if (typeof HTMLElement.prototype.scrollTo !== 'function') {
+- `./apps/web/tests/components/ChatPane.git-bash-no-card.test.tsx` (178 lines, .tsx) -- import { cleanup, fireEvent, render, screen, within } from '@testing-library/react';
+- `./apps/web/tests/components/ChatPane.imported-folder-artifacts.test.tsx` (176 lines, .tsx) -- import { cleanup, fireEvent, render, screen, within } from '@testing-library/react';
+- `./apps/web/tests/components/ChatPane.jump-button-question-form.test.tsx` (272 lines, .tsx) -- if (typeof HTMLElement.prototype.scrollTo !== 'function') {
+- `./apps/web/tests/components/ChatPane.media-next-step.test.tsx` (125 lines, .tsx) -- import { cleanup, fireEvent, render, screen, waitFor, within } from '@testing-library/react';
+- `./apps/web/tests/components/ChatPane.media-task-polling.test.tsx` (447 lines, .tsx) -- import { act, cleanup, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/ChatPane.next-step-suggestion.test.tsx` (169 lines, .tsx) -- import { cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/ChatPane.no-project-header.test.tsx` (90 lines, .tsx) -- import { cleanup, render, screen, within } from '@testing-library/react';
+- `./apps/web/tests/components/ChatPane.opend-2807-action-exposure.test.tsx` (67 lines, .tsx) -- import { cleanup, render, screen, within } from '@testing-library/react';
+- `./apps/web/tests/components/ChatPane.opend-2807-fixed-actions.test.tsx` (101 lines, .tsx) -- import {cleanup,fireEvent,render,screen,within} from '@testing-library/react';
+- `./apps/web/tests/components/ChatPane.pending-question-continue.test.tsx` (174 lines, .tsx) -- import { cleanup, fireEvent, render, within } from '@testing-library/react';
+- `./apps/web/tests/components/ChatPane.question-form-send-failed.test.tsx` (157 lines, .tsx) -- if (typeof HTMLElement.prototype.scrollTo !== 'function') {
+- `./apps/web/tests/components/ChatPane.queued-action-order.test.tsx` (169 lines, .tsx) -- import { cleanup, render } from '@testing-library/react';
+- `./apps/web/tests/components/ChatPane.quick-pill-popup-contract.test.tsx` (56 lines, .tsx) -- if (typeof HTMLElement.prototype.scrollTo !== 'function') {
+- `./apps/web/tests/components/ChatPane.recovered-run-error.test.tsx` (282 lines, .tsx) -- import { cleanup, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/ChatPane.resume-failed.test.tsx` (172 lines, .tsx) -- import { cleanup, fireEvent, render, screen, within } from '@testing-library/react';
+- `./apps/web/tests/components/ChatPane.retry-gating.test.tsx` (188 lines, .tsx) -- import { cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/ChatPane.run-error-copy-from-spec.test.tsx` (270 lines, .tsx) -- import { cleanup, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/ChatPane.run-failed-toast-message-key.test.tsx` (173 lines, .tsx) -- import { cleanup, render } from '@testing-library/react';
+- `./apps/web/tests/components/ChatPane.send-failed.test.tsx` (45 lines, .tsx) -- import { cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/ChatPane.strategy-blocked-refresh-race.test.tsx` (474 lines, .tsx) -- import { cleanup, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/ChatPane.strategy-turn-fold.test.tsx` (160 lines, .tsx) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/ChatPane.streaming.test.tsx` (1657 lines, .tsx) -- import { cleanup, fireEvent, render, screen, waitFor, within } from '@testing-library/react';
+- `./apps/web/tests/components/ChatPane.successor-boundary.test.tsx` (49 lines, .tsx) -- import { afterEach, describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/ChatPane.switch-model.test.tsx` (102 lines, .tsx) -- import { cleanup, fireEvent, render, screen, within } from '@testing-library/react';
+- `./apps/web/tests/components/ChatPane.unanswered-question-history.test.tsx` (226 lines, .tsx) -- import { cleanup, fireEvent, render, within } from '@testing-library/react';
+- `./apps/web/tests/components/CloudSignInTip.test.tsx` (255 lines, .tsx) -- import { act, cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/CodingPlanUsage.test.tsx` (189 lines, .tsx) -- import { cleanup, fireEvent, render, screen, within } from '@testing-library/react';
+- `./apps/web/tests/components/CommentTargetOverlay.hover-class.test.tsx` (77 lines, .tsx) -- import { cleanup, render } from '@testing-library/react';
+- `./apps/web/tests/components/CommunityView.more-types.test.tsx` (196 lines, .tsx) -- import { cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/ComposerModePicker.test.tsx` (142 lines, .tsx) -- import { cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/ComposerPlusMenu.add-menu.test.tsx` (205 lines, .tsx) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/components/ComposerPlusMenu.caret.test.tsx` (129 lines, .tsx) -- import { cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/ComposerPlusMenu.test.tsx` (648 lines, .tsx) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/components/ConnectorsBrowser.test.tsx` (939 lines, .tsx) -- import { cleanup, fireEvent, render, screen, waitFor, within } from '@testing-library/react';
+- `./apps/web/tests/components/ContextChipHoverCard.test.tsx` (81 lines, .tsx) -- import { cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/ContinueInCliButton.test.tsx` (89 lines, .tsx) -- import { cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/CustomSelect.test.tsx` (102 lines, .tsx) -- import { cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/DesignBrowserPanel.test.tsx` (593 lines, .tsx) -- import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/DesignBrowserPanel.viewport-switcher.test.tsx` (107 lines, .tsx) -- import { cleanup, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/DesignBrowserPanel.webview.test.tsx` (976 lines, .tsx) -- import { cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/DesignFilesBuildingState.test.tsx` (207 lines, .tsx) -- import { act, cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/DesignFilesPanel.long-name-truncate.test.tsx` (125 lines, .tsx) -- import { cleanup, render } from '@testing-library/react';
+- `./apps/web/tests/components/DesignFilesPanel.test.tsx` (1228 lines, .tsx) -- import {
+- `./apps/web/tests/components/DesignKitView.test.tsx` (523 lines, .tsx) -- import { cleanup, fireEvent, render, renderHook, screen, waitFor, within } from '@testing-library/react';
+- `./apps/web/tests/components/DesignSystemFlow.test.tsx` (3791 lines, .tsx) -- import { act, cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/DesignSystemPicker.brand-preview.test.tsx` (187 lines, .tsx) -- import { cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/DesignSystemPicker.test.tsx` (292 lines, .tsx) -- import { cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/DesignSystemPreviewModal.layering.test.tsx` (205 lines, .tsx) -- import { cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/DesignSystemReadIdentity.test.tsx` (355 lines, .tsx) -- import React from 'react';
+- `./apps/web/tests/components/DesignSystemsSection.test.tsx` (201 lines, .tsx) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/components/DesignSystemsTab.sync-to-team.test.tsx` (609 lines, .tsx) -- import React from 'react';
+- `./apps/web/tests/components/DesignSystemsTab.team-permissions.test.tsx` (163 lines, .tsx) -- import { cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/DesignSystemsTab.team-scope.test.tsx` (149 lines, .tsx) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/DesignSystemsTab.test.tsx` (480 lines, .tsx) -- import { cleanup, fireEvent, render, screen, waitFor, within } from '@testing-library/react';
+- `./apps/web/tests/components/DesignsTab.empty.test.tsx` (361 lines, .tsx) -- import { act, cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/DesignsTab.select-mode.test.tsx` (508 lines, .tsx) -- import { act, cleanup, fireEvent, render, screen, waitFor, within } from '@testing-library/react';
+- `./apps/web/tests/components/DesignsTab.test.ts` (25 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/DesktopPetSurface.scope-polling.test.tsx` (64 lines, .tsx) -- import { act, cleanup, render } from '@testing-library/react';
+- `./apps/web/tests/components/EntryNavRail.account-billing.test.tsx` (105 lines, .tsx) -- import { cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/EntryNavRail.account-menu-interaction.test.tsx` (190 lines, .tsx) -- import { act, cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/EntryNavRail.all-projects-team-only.test.tsx` (88 lines, .tsx) -- import { cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/EntryNavRail.analytics.test.tsx` (71 lines, .tsx) -- import { cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/EntryNavRail.billing-card.test.tsx` (366 lines, .tsx) -- import { act, cleanup, fireEvent, render, screen, within } from '@testing-library/react';
+- `./apps/web/tests/components/EntryNavRail.credits-zero-balance.test.tsx` (175 lines, .tsx) -- import { cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/EntryNavRail.directory-account-scope.test.tsx` (271 lines, .tsx) -- import { act, cleanup, fireEvent, render, screen, waitFor, within } from '@testing-library/react';
+- `./apps/web/tests/components/EntryNavRail.invite-seat-gate.test.tsx` (294 lines, .tsx) -- import { cleanup, fireEvent, render, screen, within } from '@testing-library/react';
+- `./apps/web/tests/components/EntryNavRail.local-shell.test.tsx` (199 lines, .tsx) -- import { cleanup, fireEvent, render, screen, waitFor, within } from '@testing-library/react';
+- `./apps/web/tests/components/EntryNavRail.message-center-entry.test.tsx` (129 lines, .tsx) -- import { cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/EntryNavRail.no-duplicate-settings.test.tsx` (88 lines, .tsx) -- import { cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/EntryNavRail.personal-tier-label.test.tsx` (121 lines, .tsx) -- import { cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/EntryNavRail.recent-section.test.tsx` (519 lines, .tsx) -- import { act, cleanup, fireEvent, render, screen, waitFor, within } from '@testing-library/react';
+- `./apps/web/tests/components/EntryNavRail.sign-out-confirm.test.tsx` (160 lines, .tsx) -- import { cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/EntryNavRail.signout-restores-cloud-tip.test.tsx` (111 lines, .tsx) -- import { cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/EntryNavRail.social-icons-only.test.tsx` (135 lines, .tsx) -- import { act, cleanup, render, screen, within } from '@testing-library/react';
+- `./apps/web/tests/components/EntryNavRail.switch-seeds-context.test.tsx` (245 lines, .tsx) -- import { act, cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/EntryNavRail.team-plan-badge.test.tsx` (258 lines, .tsx) -- import { cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/EntryNavRail.top-tier-upgrade.test.tsx` (237 lines, .tsx) -- import { cleanup, fireEvent, render, screen, within } from '@testing-library/react';
+- `./apps/web/tests/components/EntryNavRail.updater-after-avatar.test.tsx` (309 lines, .tsx) -- import { act, cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/EntryNavRail.workspace-directory.test.tsx` (269 lines, .tsx) -- import { cleanup, fireEvent, render, screen, waitFor, within } from '@testing-library/react';
+- `./apps/web/tests/components/EntryNavRail.workspace-name-marquee.test.tsx` (97 lines, .tsx) -- import { cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/EntryNavRail.workspace-name.test.tsx` (128 lines, .tsx) -- import { cleanup, fireEvent, render, screen, waitFor, within } from '@testing-library/react';
+- `./apps/web/tests/components/EntrySettingsMenu.language.test.tsx` (99 lines, .tsx) -- import { cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/EntryShell.amr-balance-branches.test.tsx` (347 lines, .tsx) -- import { cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/EntryShell.amr-pending-handoff.test.tsx` (482 lines, .tsx) -- import { cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/EntryShell.amr-workspace-race.test.tsx` (928 lines, .tsx) -- import { act, cleanup, fireEvent, render, screen, waitFor, within } from '@testing-library/react';
+- `./apps/web/tests/components/EntryShell.blank-project-naming.test.tsx` (903 lines, .tsx) -- import { act, cleanup, fireEvent, render, screen, waitFor, within } from '@testing-library/react';
+- `./apps/web/tests/components/EntryShell.onboarding-dropdown.test.tsx` (208 lines, .tsx) -- import { cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/EntryShell.onboarding.test.tsx` (2547 lines, .tsx) -- import { useState } from 'react';
+- `./apps/web/tests/components/EntryShell.project-card-duplicate.test.tsx` (223 lines, .tsx) -- import { cleanup, fireEvent, render, screen, within } from '@testing-library/react';
+- `./apps/web/tests/components/EntryShell.strategy-routing.test.ts` (111 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/EntryShell.workspace-plan-badge-scope.test.tsx` (397 lines, .tsx) -- import { act, cleanup, fireEvent, render, screen, waitFor, within } from '@testing-library/react';
+- `./apps/web/tests/components/EntryView.connectors.test.tsx` (144 lines, .tsx) -- import { cleanup, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/EntryView.test.ts` (344 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/ExamplesTab.test.tsx` (357 lines, .tsx) -- import { cleanup, fireEvent, render, screen, waitFor, within } from '@testing-library/react';
+- `./apps/web/tests/components/ExtensionsMarketplace.card-actions.test.tsx` (503 lines, .tsx) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/ExtensionsMarketplace.create-dialog-layout.test.tsx` (107 lines, .tsx) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/ExtensionsMarketplace.plugin-detail-entry.test.tsx` (223 lines, .tsx) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/ExtensionsMarketplace.skill-card-i18n.test.tsx` (121 lines, .tsx) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/ExtensionsMarketplace.sync-to-team.test.tsx` (244 lines, .tsx) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/ExtensionsMarketplace.team-scope.test.tsx` (706 lines, .tsx) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/ExtensionsMarketplace.workspace-mutation-scope.test.tsx` (217 lines, .tsx) -- import { cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/FigmaImportModal.workspace-scope.test.tsx` (70 lines, .tsx) -- import { cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/FileOpsSummary.audio.test.tsx` (60 lines, .tsx) -- import { cleanup, render } from '@testing-library/react';
+- `./apps/web/tests/components/FileOpsSummary.test.tsx` (398 lines, .tsx) -- import { cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/FileTypeIcon.test.tsx` (87 lines, .tsx) -- import { renderToStaticMarkup } from 'react-dom/server';
+- `./apps/web/tests/components/FileViewer.action-menu-toggle.test.tsx` (203 lines, .tsx) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/FileViewer.board-mode-content-update.test.tsx` (187 lines, .tsx) -- import { act, cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/FileViewer.deck-preview-blank-on-return.test.tsx` (306 lines, .tsx) -- import { cleanup, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/FileViewer.deck-preview-hidden-tab-mount.test.tsx` (392 lines, .tsx) -- import { act, cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/FileViewer.deploy-failure-tracking.test.tsx` (147 lines, .tsx) -- import { cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/FileViewer.deploy-target.test.tsx` (182 lines, .tsx) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/FileViewer.manual-edit-history.test.tsx` (473 lines, .tsx) -- import { act, cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/FileViewer.manual-edit.test.tsx` (776 lines, .tsx) -- import { act, cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/FileViewer.present-exit-affordance.test.tsx` (242 lines, .tsx) -- import { cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/FileViewer.preview-base-scope-expiry.test.tsx` (385 lines, .tsx) -- import { act, cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/FileViewer.publish-tracking.test.tsx` (537 lines, .tsx) -- import { act, cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/FileViewer.readonly-publish-probe.test.tsx` (163 lines, .tsx) -- import { cleanup, render, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/FileViewer.share-request-replay.test.tsx` (240 lines, .tsx) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/FileViewer.srcdoc-refresh-recovery.test.tsx` (487 lines, .tsx) -- import { act, cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/FileViewer.srcdoc-reload-races.test.tsx` (1348 lines, .tsx) -- import type { ComponentProps } from 'react';
+- `./apps/web/tests/components/FileViewer.srcdoc-reload.test.tsx` (198 lines, .tsx) -- import { act, cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/FileViewer.test.tsx` (14715 lines, .tsx) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/components/FileViewer.version-open-affordance.test.tsx` (72 lines, .tsx) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/FileViewer.viewport-menu-iframe-dismiss.test.tsx` (168 lines, .tsx) -- import { act, cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/FileWorkspace.design-system.test.tsx` (1258 lines, .tsx) -- import { act } from 'react';
+- `./apps/web/tests/components/FileWorkspace.openBatch.test.tsx` (133 lines, .tsx) -- import { cleanup, render, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/FileWorkspace.opend-2807-cloud-handoff.test.tsx` (62 lines, .tsx) -- import { cleanup, fireEvent, render, screen, within } from '@testing-library/react';
+- `./apps/web/tests/components/FileWorkspace.sideChatLinkRouting.test.tsx` (161 lines, .tsx) -- import { cleanup, render } from '@testing-library/react';
+- `./apps/web/tests/components/FileWorkspace.test.tsx` (4745 lines, .tsx) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/components/FirstArtifactHint.impression.test.tsx` (113 lines, .tsx) -- import { act, cleanup, render } from '@testing-library/react';
+- `./apps/web/tests/components/GenUIInbox.test.tsx` (67 lines, .tsx) -- import { cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/GenUISurfaceRenderer.diff-review.test.tsx` (179 lines, .tsx) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/GenUISurfaceRenderer.schema-form.test.tsx` (168 lines, .tsx) -- import { cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/GenUISurfaceRenderer.test.tsx` (99 lines, .tsx) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/GithubStarBadge.test.tsx` (115 lines, .tsx) -- import { cleanup, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/GoPlanSunsetDialog.test.tsx` (178 lines, .tsx) -- import { cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/HandoffButton.fallback-reveal.test.tsx` (182 lines, .tsx) -- import { cleanup, fireEvent, render, screen, waitFor, within } from '@testing-library/react';
+- `./apps/web/tests/components/HandoffButton.loading.test.tsx` (108 lines, .tsx) -- import { cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/HandoffButton.malformed-editors.test.tsx` (129 lines, .tsx) -- import { cleanup, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/HandoffButton.test.tsx` (101 lines, .tsx) -- import { cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/HomeHero.dock-collapse.test.tsx` (175 lines, .tsx) -- import { cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/HomeHero.example-card-overlay.test.tsx` (59 lines, .tsx) -- import { cleanup, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/HomeHero.example-chip-filter.test.ts` (109 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/HomeHero.plugin-picker.test.tsx` (825 lines, .tsx) -- import { act, cleanup, fireEvent, render, screen, waitFor, within } from '@testing-library/react';
+- `./apps/web/tests/components/HomeHero.prompt-examples.test.ts` (34 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/HomeHero.rail.test.tsx` (595 lines, .tsx) -- import { homeTemplateTrigger } from '../helpers/home-template-picker';
+- `./apps/web/tests/components/HomeHero.scenario-cards.test.tsx` (167 lines, .tsx) -- import { homeTemplateTrigger } from '../helpers/home-template-picker';
+- `./apps/web/tests/components/HomeView.activePluginChip.test.tsx` (93 lines, .tsx) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/HomeView.attachment-stash.test.tsx` (140 lines, .tsx) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/HomeView.carousel-scenario.test.tsx` (201 lines, .tsx) -- import { act, cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/HomeView.chip-restore.test.tsx` (285 lines, .tsx) -- import { pickHomeTemplate, homeTemplateTrigger } from '../helpers/home-template-picker';
+- `./apps/web/tests/components/HomeView.community-filter-decouple.test.tsx` (143 lines, .tsx) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/HomeView.composer-sending-state.test.tsx` (282 lines, .tsx) -- import { pickHomeTemplate } from '../helpers/home-template-picker';
+- `./apps/web/tests/components/HomeView.context-picker.test.tsx` (1021 lines, .tsx) -- import { useEffect } from 'react';
+- `./apps/web/tests/components/HomeView.example-dismiss.test.tsx` (413 lines, .tsx) -- import { pickHomeTemplate } from '../helpers/home-template-picker';
+- `./apps/web/tests/components/HomeView.first-run-guide.test.tsx` (196 lines, .tsx) -- import { pickHomeTemplate } from '../helpers/home-template-picker';
+- `./apps/web/tests/components/HomeView.local-no-grid.test.tsx` (56 lines, .tsx) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/HomeView.media-options.test.tsx` (861 lines, .tsx) -- import { pickHomeTemplate, homeTemplateTrigger } from '../helpers/home-template-picker';
+- `./apps/web/tests/components/HomeView.mention-files-cap.test.tsx` (152 lines, .tsx) -- import { act, cleanup, fireEvent, render, screen, waitFor, within } from '@testing-library/react';
+- `./apps/web/tests/components/HomeView.missing-bundled-scenario-i18n.test.tsx` (73 lines, .tsx) -- import { pickHomeTemplate } from '../helpers/home-template-picker';
+- `./apps/web/tests/components/HomeView.mode-picker-removed.test.tsx` (118 lines, .tsx) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/HomeView.model-window-limit.test.tsx` (123 lines, .tsx) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/HomeView.opend-2849-round4-copy.test.tsx` (81 lines, .tsx) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/HomeView.plugin-i18n.test.tsx` (149 lines, .tsx) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/HomeView.plugin-workspace-scope.test.tsx` (697 lines, .tsx) -- import React from 'react';
+- `./apps/web/tests/components/HomeView.prefill.test.tsx` (2641 lines, .tsx) -- import { pickHomeTemplate, homeTemplateTrigger } from '../helpers/home-template-picker';
+- `./apps/web/tests/components/HomeView.prompt-example-send-pulse.test.tsx` (146 lines, .tsx) -- import { pickHomeTemplate } from '../helpers/home-template-picker';
+- `./apps/web/tests/components/HomeView.recommendation-strip-removed.test.tsx` (94 lines, .tsx) -- import { homeTemplateTrigger } from '../helpers/home-template-picker';
+- `./apps/web/tests/components/HomeView.seed-while-mounted.test.tsx` (59 lines, .tsx) -- import { act } from 'react';
+- `./apps/web/tests/components/HomeView.skill-with-chip.test.tsx` (281 lines, .tsx) -- import { pickHomeTemplate } from '../helpers/home-template-picker';
+- `./apps/web/tests/components/HomeView.template-picker-ready.test.tsx` (90 lines, .tsx) -- import { cleanup, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/HomeView.template-use-send-enabled.test.tsx` (555 lines, .tsx) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/HomeView.web-clone-seed-scope.test.tsx` (268 lines, .tsx) -- import { pickHomeTemplate as pickTypePill } from '../helpers/home-template-picker';
+- `./apps/web/tests/components/HomeView.web-clone-tracking.test.tsx` (201 lines, .tsx) -- import { pickHomeTemplate } from '../helpers/home-template-picker';
+- `./apps/web/tests/components/HomeView.working-dir.test.tsx` (114 lines, .tsx) -- import { cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/HoverTouchpointOverlay.test.ts` (333 lines, .ts) -- import { act, cleanup, fireEvent, render, waitFor } from \"@testing-library/react\";
+- `./apps/web/tests/components/HoverTouchpointOverlay.top-right-host.test.ts` (41 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/components/InlineModelSwitcher.byok-chip-label.test.tsx` (99 lines, .tsx) -- import { cleanup, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/InlineModelSwitcher.compact-model-click.test.tsx` (397 lines, .tsx) -- import { useRef, useState } from 'react';
+- `./apps/web/tests/components/InlineModelSwitcher.test.tsx` (1633 lines, .tsx) -- import { act, cleanup, fireEvent, render, screen, waitFor, within } from '@testing-library/react';
+- `./apps/web/tests/components/InlinePluginsRail.test.tsx` (186 lines, .tsx) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/InlinePluginsRail.workspace-scope.test.tsx` (261 lines, .tsx) -- import React from 'react';
+- `./apps/web/tests/components/IntegrationsView.config-reconciliation.test.tsx` (100 lines, .tsx) -- import { cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/InviteDialog.analytics.test.tsx` (83 lines, .tsx) -- import { cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/InviteDialog.role-menu.test.tsx` (84 lines, .tsx) -- import { afterEach, describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/InviteDialog.seat-gate.test.tsx` (146 lines, .tsx) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/LabsSection.test.tsx` (663 lines, .tsx) -- import { cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/LibrarySection.a11y.test.tsx` (67 lines, .tsx) -- import { cleanup, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/ManualEditPanel.test.tsx` (945 lines, .tsx) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/MarketplaceView.test.tsx` (69 lines, .tsx) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/MarqueeLabel.test.tsx` (88 lines, .tsx) -- import { cleanup, render } from '@testing-library/react';
+- `./apps/web/tests/components/McpClientSection.oauth.test.tsx` (82 lines, .tsx) -- import { cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/McpJsonHelper.test.tsx` (58 lines, .tsx) -- import { fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/MemorySection.extraction-state-honesty.test.tsx` (122 lines, .tsx) -- import { cleanup, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/MemorySection.test.tsx` (2312 lines, .tsx) -- import { cleanup, fireEvent, render, screen, waitFor, within } from '@testing-library/react';
+- `./apps/web/tests/components/MemoryToast.connection-budget.test.tsx` (135 lines, .tsx) -- import { act, cleanup, render } from '@testing-library/react';
+- `./apps/web/tests/components/MessageCenter.archive.test.tsx` (112 lines, .tsx) -- import { cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/MessageCenter.test.tsx` (625 lines, .tsx) -- import { cleanup, fireEvent, render, screen, waitFor, within } from '@testing-library/react';
+- `./apps/web/tests/components/MissingBrandFontsBanner.test.tsx` (75 lines, .tsx) -- import { cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/ModelPickerSelectionAnchor.test.tsx` (312 lines, .tsx) -- import { useRef, useState } from 'react';
+- `./apps/web/tests/components/MoveToTeamConfirmDialog.test.tsx` (28 lines, .tsx) -- import { render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/NewAutomationModal.context-picker.test.tsx` (209 lines, .tsx) -- import { cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/NewAutomationModal.project-picker.test.tsx` (80 lines, .tsx) -- import { cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/NewAutomationModal.workspace-scope.test.tsx` (94 lines, .tsx) -- import { cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/NewProjectModal.test.tsx` (265 lines, .tsx) -- import { cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/NewProjectPanel.brand-preview.test.tsx` (186 lines, .tsx) -- import { cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/NewProjectPanel.media.test.tsx` (293 lines, .tsx) -- import { cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/NewProjectPanel.test.ts` (39 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/NewProjectPanel.test.tsx` (1120 lines, .tsx) -- import { cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/NextStepActions.test.tsx` (586 lines, .tsx) -- import { cleanup, fireEvent, render, screen, within } from '@testing-library/react';
+- `./apps/web/tests/components/OdCard.test.tsx` (145 lines, .tsx) -- import { cleanup, render } from '@testing-library/react';
+- `./apps/web/tests/components/PetOverlay.test.tsx` (89 lines, .tsx) -- import { cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/PlaceholderCarousel.test.tsx` (48 lines, .tsx) -- import { act, cleanup, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/PlanWordmark.go.test.tsx` (54 lines, .tsx) -- import { cleanup, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/PluginDetailView.curated-layout.test.tsx` (456 lines, .tsx) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/components/PluginDetailView.use-handoff.test.tsx` (144 lines, .tsx) -- import { cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/PluginDetailsModal.dispatch.test.tsx` (446 lines, .tsx) -- import { renderToStaticMarkup } from 'react-dom/server';
+- `./apps/web/tests/components/PluginDetailsModal.layering.test.tsx` (87 lines, .tsx) -- import { cleanup, render } from '@testing-library/react';
+- `./apps/web/tests/components/PluginExampleDetail.unavailable-noun.test.tsx` (97 lines, .tsx) -- import { cleanup, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/PluginInputsForm.test.tsx` (181 lines, .tsx) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/PluginPreviewHero.workspace-scope.test.tsx` (47 lines, .tsx) -- import { cleanup, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/PluginShareMenu.test.tsx` (393 lines, .tsx) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/PluginsSection.test.tsx` (166 lines, .tsx) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/PluginsView.sharedResourceIsMine.test.ts` (29 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/PluginsView.team-workspace-scope.test.tsx` (446 lines, .tsx) -- import { act, cleanup, fireEvent, render, screen, waitFor, within } from '@testing-library/react';
+- `./apps/web/tests/components/PluginsView.test.tsx` (845 lines, .tsx) -- import { cleanup, fireEvent, render, screen, waitFor, within } from '@testing-library/react';
+- `./apps/web/tests/components/PreviewDrawOverlay.capture-fallback.test.tsx` (133 lines, .tsx) -- import { cleanup, fireEvent, render, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/PreviewDrawOverlay.send-disabled.test.tsx` (37 lines, .tsx) -- import { cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/PreviewDrawOverlay.test.tsx` (1064 lines, .tsx) -- import { cleanup, fireEvent, render, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/PreviewModal.test.tsx` (89 lines, .tsx) -- import { renderToStaticMarkup } from 'react-dom/server';
+- `./apps/web/tests/components/PrivacyConsentModal.test.tsx` (83 lines, .tsx) -- import { cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/PrivacySection.test.tsx` (264 lines, .tsx) -- import { cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/ProductionCampaign.offline.test.tsx` (347 lines, .tsx) -- import { act, cleanup, render, screen, waitFor } from \"@testing-library/react\";
+- `./apps/web/tests/components/ProductionCampaignBadge.test.tsx` (267 lines, .tsx) -- import { createHash } from \"node:crypto\";
+- `./apps/web/tests/components/ProductionCampaignHover.test.tsx` (749 lines, .tsx) -- import { act, cleanup, fireEvent, render, screen, waitFor } from \"@testing-library/react\";
+- `./apps/web/tests/components/ProductionCampaignModal.test.tsx` (2218 lines, .tsx) -- import { createHash } from \"node:crypto\";
+- `./apps/web/tests/components/ProjectCreationPendingView.test.tsx` (149 lines, .tsx) -- import { cleanup, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/ProjectGlyphs.test.tsx` (272 lines, .tsx) -- import { cleanup, fireEvent, render, screen, waitFor, within } from '@testing-library/react';
+- `./apps/web/tests/components/ProjectHoverPreview.html-cover.test.tsx` (194 lines, .tsx) -- import { act, cleanup, fireEvent, render } from '@testing-library/react';
+- `./apps/web/tests/components/ProjectReferenceModal.test.tsx` (299 lines, .tsx) -- import { cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/ProjectRunStatusIcon.test.tsx` (173 lines, .tsx) -- import { cleanup, render } from '@testing-library/react';
+- `./apps/web/tests/components/ProjectSearchModal.keyboard.test.tsx` (179 lines, .tsx) -- import { cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/ProjectView.amr-balance-branches.test.tsx` (828 lines, .tsx) -- import { cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/ProjectView.amr-balance-card.test.tsx` (582 lines, .tsx) -- import { cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/ProjectView.amr-retry-authority.test.tsx` (392 lines, .tsx) -- import { act, cleanup, fireEvent, render, waitFor, within } from '@testing-library/react';
+- `./apps/web/tests/components/ProjectView.api-empty-response.test.tsx` (1068 lines, .tsx) -- import { cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/ProjectView.approved-access-errors.test.tsx` (383 lines, .tsx) -- import { act, cleanup, fireEvent, render, screen, within } from '@testing-library/react';
+- `./apps/web/tests/components/ProjectView.artifact-cover-late-arrival.test.tsx` (427 lines, .tsx) -- import { act, cleanup, render, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/ProjectView.artifact-recovery-host-message.test.tsx` (567 lines, .tsx) -- import { useEffect } from 'react';
+- `./apps/web/tests/components/ProjectView.artifact-recovery-lifetime.test.tsx` (755 lines, .tsx) -- import { useEffect } from 'react';
+- `./apps/web/tests/components/ProjectView.artifact-recovery-verdict.test.tsx` (183 lines, .tsx) -- import { act, cleanup, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/ProjectView.auto-open-turn-artifacts.test.tsx` (537 lines, .tsx) -- import { act, cleanup, render, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/ProjectView.blocked-history-hydration.test.tsx` (465 lines, .tsx) -- import { act, cleanup, render, screen, waitFor, within } from '@testing-library/react';
+- `./apps/web/tests/components/ProjectView.clarification-turn-reattach.test.tsx` (653 lines, .tsx) -- import { act, cleanup, render, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/ProjectView.deleteConversation.test.tsx` (695 lines, .tsx) -- import { act, cleanup, render, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/ProjectView.fileSyncBadgeStatusCheck.test.tsx` (339 lines, .tsx) -- import { cleanup, render, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/ProjectView.fork-folded-turn.test.tsx` (319 lines, .tsx) -- import { act, cleanup, render, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/ProjectView.home-artifact-recovery-owner.test.tsx` (388 lines, .tsx) -- import { act, cleanup, fireEvent, render, screen, waitFor, within } from '@testing-library/react';
+- `./apps/web/tests/components/ProjectView.home-artifact-recovery-release-order.test.tsx` (445 lines, .tsx) -- import { act, cleanup, fireEvent, render, screen, waitFor, within } from '@testing-library/react';
+- `./apps/web/tests/components/ProjectView.manual-reconnect.test.tsx` (345 lines, .tsx) -- import { act, cleanup, render, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/ProjectView.manual-save-reattach-owner.test.tsx` (423 lines, .tsx) -- import { act, cleanup, fireEvent, render, screen, waitFor, within } from '@testing-library/react';
+- `./apps/web/tests/components/ProjectView.manual-write-provider-reconnect-owner.test.tsx` (393 lines, .tsx) -- import { act, cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/ProjectView.manual-write-reconnect-owner.test.tsx` (368 lines, .tsx) -- import { act, cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/ProjectView.memory-attribution.test.tsx` (644 lines, .tsx) -- import type { DaemonStreamOptions } from '../../src/providers/daemon';
+- `./apps/web/tests/components/ProjectView.offline-reconnect.test.tsx` (299 lines, .tsx) -- import { act, cleanup, render, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/ProjectView.opend2720-billing-authority.test.tsx` (686 lines, .tsx) -- import { cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/ProjectView.pendingPrompt.test.tsx` (1782 lines, .tsx) -- import { act, cleanup, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/ProjectView.preview-comment-save-boundaries.test.tsx` (339 lines, .tsx) -- import type { ComponentProps } from 'react';
+- `./apps/web/tests/components/ProjectView.preview-comment-save.test.tsx` (202 lines, .tsx) -- import type { ComponentProps } from 'react';
+- `./apps/web/tests/components/ProjectView.previewKeepAlive.test.tsx` (337 lines, .tsx) -- import { cleanup, render, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/ProjectView.produced-file-owner.test.tsx` (378 lines, .tsx) -- import { act, cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/ProjectView.question-task-live-fold.test.tsx` (464 lines, .tsx) -- import { act, cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/ProjectView.question-task-reattach-fold.test.tsx` (476 lines, .tsx) -- import { act, cleanup, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/ProjectView.questionFormKey.test.ts` (413 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/ProjectView.reattach-concurrency.test.tsx` (364 lines, .tsx) -- import { cleanup, render, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/ProjectView.reattach-replayed-start.test.tsx` (326 lines, .tsx) -- import { cleanup, render, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/ProjectView.reattach-restore.test.tsx` (2482 lines, .tsx) -- import { act, cleanup, render, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/ProjectView.reattach-retry-storm.test.tsx` (314 lines, .tsx) -- import { cleanup, render, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/ProjectView.retry-gating.test.tsx` (1305 lines, .tsx) -- import { act, cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/ProjectView.run-cleanup.test.tsx` (5235 lines, .tsx) -- import type { ComponentProps } from 'react';
+- `./apps/web/tests/components/ProjectView.run-isolation.test.tsx` (4096 lines, .tsx) -- import { act, cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/ProjectView.run-workspace-identity.test.tsx` (2387 lines, .tsx) -- import { act, cleanup, fireEvent, render, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/ProjectView.shared-non-owner-chat-default.test.ts` (32 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/ProjectView.sharedTitleRefresh.test.tsx` (1132 lines, .tsx) -- import { act, cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/ProjectView.steerBlockedReason.test.ts` (49 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/ProjectView.strategy-retry.test.tsx` (500 lines, .tsx) -- import { act, cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/ProjectView.switch-cloud-current-failure.test.tsx` (511 lines, .tsx) -- import { act, cleanup, fireEvent, render, waitFor, within } from '@testing-library/react';
+- `./apps/web/tests/components/ProjectView.switch-cloud-in-place.test.tsx` (421 lines, .tsx) -- import { act, cleanup, fireEvent, render, waitFor, within } from '@testing-library/react';
+- `./apps/web/tests/components/ProjectView.tabs-navigation.test.tsx` (474 lines, .tsx) -- import { cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/ProjectView.terminal-artifact-late-manual-save.test.tsx` (484 lines, .tsx) -- import { act, cleanup, fireEvent, render, screen, waitFor, within } from '@testing-library/react';
+- `./apps/web/tests/components/ProjectView.terminal-artifact-manual-receipt.test.tsx` (461 lines, .tsx) -- import { act, cleanup, fireEvent, render, screen, waitFor, within } from '@testing-library/react';
+- `./apps/web/tests/components/ProjectView.thinking-full-replay-host.test.tsx` (243 lines, .tsx) -- import { act, cleanup, render, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/ProjectView.thinking-history-retention.test.tsx` (147 lines, .tsx) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/ProjectView.touched-path-containment.test.ts` (168 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/ProjectView.transcript-authority-refresh.test.tsx` (443 lines, .tsx) -- import { act, cleanup, fireEvent, render, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/QuestionForm.content-locale.test.tsx` (145 lines, .tsx) -- import { cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/QuestionForm.deck-batch.test.tsx` (357 lines, .tsx) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/QuestionForm.direction-cards-catalog.test.tsx` (113 lines, .tsx) -- import { cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/QuestionForm.host-controls-locale.test.tsx` (136 lines, .tsx) -- import { act, cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/QuestionForm.no-question-subtitle.test.tsx` (107 lines, .tsx) -- import { cleanup, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/QuestionForm.preview-loading.test.tsx` (65 lines, .tsx) -- import { cleanup, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/QuestionForm.test.tsx` (1696 lines, .tsx) -- import { act, cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/QuestionForm.title-access.test.tsx` (51 lines, .tsx) -- import { act, cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/QuickSwitcher.test.tsx` (176 lines, .tsx) -- import { cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/RecentProjectsStrip.collection-tabs.test.tsx` (244 lines, .tsx) -- import { cleanup, fireEvent, render, screen, within } from '@testing-library/react';
+- `./apps/web/tests/components/RecentProjectsStrip.invite-target.test.tsx` (212 lines, .tsx) -- import { cleanup, fireEvent, render, screen, within } from '@testing-library/react';
+- `./apps/web/tests/components/RecentProjectsStrip.move-owner-conflict.test.tsx` (145 lines, .tsx) -- import { cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/RecentProjectsStrip.test.tsx` (1446 lines, .tsx) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/components/RecentProjectsStrip.toolbar.test.tsx` (219 lines, .tsx) -- import { cleanup, fireEvent, render, screen, within } from '@testing-library/react';
+- `./apps/web/tests/components/RecentProjectsStrip.type-filter-bulk.test.tsx` (520 lines, .tsx) -- import { cleanup, fireEvent, render, screen, waitFor, within } from '@testing-library/react';
+- `./apps/web/tests/components/RecommendedStartRegion.handoff.test.tsx` (88 lines, .tsx) -- import { cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/RoutinesSection.test.tsx` (884 lines, .tsx) -- import { cleanup, fireEvent, render, screen, waitFor, within } from '@testing-library/react';
+- `./apps/web/tests/components/RoutinesSection.workspace-scope.test.tsx` (217 lines, .tsx) -- import { cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/SessionModeToggle.test.tsx` (91 lines, .tsx) -- import { cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/SettingsDialog.execution.test.tsx` (6561 lines, .tsx) -- import { act, cleanup, fireEvent, render, screen, waitFor, within } from '@testing-library/react';
+- `./apps/web/tests/components/SettingsDialog.media.test.tsx` (562 lines, .tsx) -- import { act, cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/SettingsDialog.orbit.test.tsx` (867 lines, .tsx) -- import { StrictMode } from 'react';
+- `./apps/web/tests/components/SettingsDialog.search-removed.test.tsx` (57 lines, .tsx) -- import { cleanup, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/SettingsDialog.team-plan-badge.test.tsx` (256 lines, .tsx) -- import { cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/SettingsDialog.test.ts` (1721 lines, .ts) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/SettingsDialog.top-tier-upgrade.test.tsx` (291 lines, .tsx) -- import { cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/SketchEditor.default-color.test.tsx` (84 lines, .tsx) -- import { cleanup, render } from '@testing-library/react';
+- `./apps/web/tests/components/SketchEditor.save.test.tsx` (802 lines, .tsx) -- import { act, cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/SketchPreview.test.tsx` (180 lines, .tsx) -- import { cleanup, render, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/SkillDetailsModal.test.tsx` (66 lines, .tsx) -- import { cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/SkillsSection.test.tsx` (616 lines, .tsx) -- import { cleanup, fireEvent, render, screen, waitFor, within } from '@testing-library/react';
+- `./apps/web/tests/components/SkillsSection.workspace-scope.test.tsx` (368 lines, .tsx) -- import React from 'react';
+- `./apps/web/tests/components/SocialShareGrid.test.tsx` (36 lines, .tsx) -- import { render } from '@testing-library/react';
+- `./apps/web/tests/components/TasksView.analytics.test.tsx` (205 lines, .tsx) -- import { cleanup, fireEvent, render, screen, within } from '@testing-library/react';
+- `./apps/web/tests/components/TasksView.history.test.tsx` (126 lines, .tsx) -- import { cleanup, fireEvent, render, screen, waitFor, within } from '@testing-library/react';
+- `./apps/web/tests/components/TasksView.inactive-view.test.tsx` (88 lines, .tsx) -- import { cleanup, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/TasksView.page.test.tsx` (709 lines, .tsx) -- import { cleanup, fireEvent, render, screen, waitFor, within } from '@testing-library/react';
+- `./apps/web/tests/components/TasksView.routines.test.tsx` (208 lines, .tsx) -- import { cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/TasksView.templates.test.tsx` (506 lines, .tsx) -- import { cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/TasksView.workspace-scope.test.tsx` (162 lines, .tsx) -- import { cleanup, fireEvent, render, screen, waitFor, within } from '@testing-library/react';
+- `./apps/web/tests/components/TerminalViewer.test.tsx` (86 lines, .tsx) -- import { cleanup, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/TestCampaignHosts.test.tsx` (823 lines, .tsx) -- import {
+- `./apps/web/tests/components/TestCampaignModal.test.tsx` (1125 lines, .tsx) -- import { createHash } from \"node:crypto\";
+- `./apps/web/tests/components/Theater/CritiqueTheaterMount.test.tsx` (489 lines, .tsx) -- import { act, cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/Theater/InterruptButton.test.tsx` (151 lines, .tsx) -- import { cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/Theater/PanelistLane.test.tsx` (86 lines, .tsx) -- import { cleanup, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/Theater/RoundDivider.test.tsx` (46 lines, .tsx) -- import { cleanup, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/Theater/ScoreTicker.test.tsx` (48 lines, .tsx) -- import { cleanup, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/Theater/TheaterCollapsed.test.tsx` (101 lines, .tsx) -- import { cleanup, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/Theater/TheaterDegraded.test.tsx` (63 lines, .tsx) -- import { cleanup, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/Theater/TheaterStage.test.tsx` (90 lines, .tsx) -- import { cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/Theater/TheaterTranscript.test.tsx` (101 lines, .tsx) -- import { cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/Theater/critique-i18n-keys.test.ts` (50 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/Theater/hooks/useCritiqueReplay.test.tsx` (442 lines, .tsx) -- import { act, cleanup, render, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/Theater/hooks/useCritiqueStream.test.tsx` (271 lines, .tsx) -- import { act, cleanup, render } from '@testing-library/react';
+- `./apps/web/tests/components/Theater/hooks/useCritiqueTheaterEnabled.test.tsx` (462 lines, .tsx) -- import { act, cleanup, render } from '@testing-library/react';
+- `./apps/web/tests/components/Theater/state/reducer-bench.test.ts` (164 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/Theater/state/reducer.test.ts` (372 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/Theater/state/sse.test.ts` (515 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/Theater/styles.test.ts` (15 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/Toast.autodismiss.test.tsx` (59 lines, .tsx) -- import { act, cleanup, render } from '@testing-library/react';
+- `./apps/web/tests/components/Toast.test.tsx` (159 lines, .tsx) -- import { act, cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/ToolCard.disclosure.test.tsx` (206 lines, .tsx) -- import { cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/ToolCard.todo.test.tsx` (83 lines, .tsx) -- import { cleanup, fireEvent, render } from '@testing-library/react';
+- `./apps/web/tests/components/TooltipLayer.test.tsx` (109 lines, .tsx) -- import { useState } from 'react';
+- `./apps/web/tests/components/TrustBadge.test.tsx` (44 lines, .tsx) -- import { renderToStaticMarkup } from 'react-dom/server';
+- `./apps/web/tests/components/UpdateDialog.test.tsx` (391 lines, .tsx) -- import { act, cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/UpdaterPopup.rocket-indicator.test.tsx` (148 lines, .tsx) -- import { act, cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/UpdaterPopup.test.tsx` (594 lines, .tsx) -- import { act, cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/UserActionCard.test.tsx` (77 lines, .tsx) -- import { cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/WhatsNewPopup.test.tsx` (380 lines, .tsx) -- import { StrictMode } from 'react';
+- `./apps/web/tests/components/WorkingDirPicker.test.tsx` (62 lines, .tsx) -- import { cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/WorkspaceTabsBar.test.tsx` (2219 lines, .tsx) -- import { StrictMode } from 'react';
+- `./apps/web/tests/components/agentModelSelection.test.ts` (189 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/amrLoginPolling.test.ts` (25 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/artifact-card-parity.test.tsx` (696 lines, .tsx) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/components/artifact-card-preview-fit.test.tsx` (252 lines, .tsx) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/components/artifact-card-refresh.test.tsx` (116 lines, .tsx) -- import { cleanup, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/artifact-card-version-semantics.test.tsx` (477 lines, .tsx) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/components/assistant-message-tool-status.test.tsx` (863 lines, .tsx) -- import { cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/assistant-message-unfinished-todos.test.tsx` (285 lines, .tsx) -- import { cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/auto-open-file.agent-focus.test.ts` (158 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/auto-open-file.test.ts` (617 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/auto-open-file.turn-artifacts.test.ts` (112 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/buffered-text-pending.test.tsx` (129 lines, .tsx) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/byok-validation.test.ts` (346 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat-agent-retry-row.test.tsx` (74 lines, .tsx) -- import { afterEach, describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat-anchor-to-top.test.tsx` (1000 lines, .tsx) -- import { act, cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/chat-code-style.test.ts` (17 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat-entry-lands-at-bottom.test.tsx` (487 lines, .tsx) -- import { act, cleanup, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/chat-feedback.test.tsx` (522 lines, .tsx) -- if (typeof HTMLElement.prototype.scrollTo !== 'function') {
+- `./apps/web/tests/components/chat-log-self-resize-observe-flag.test.tsx` (362 lines, .tsx) -- if (typeof HTMLElement.prototype.scrollTo !== 'function') {
+- `./apps/web/tests/components/chat-pause-line.test.tsx` (37 lines, .tsx) -- import { afterEach, describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat-programmatic-scroll.test.tsx` (725 lines, .tsx) -- if (typeof HTMLElement.prototype.scrollTo !== 'function') {
+- `./apps/web/tests/components/chat-reconnect-s29-copy.test.tsx` (84 lines, .tsx) -- import { cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/chat-reconnect-tail.test.tsx` (240 lines, .tsx) -- import { cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/chat-reconnect.test.tsx` (116 lines, .tsx) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/chat-scroll-following.test.tsx` (1629 lines, .tsx) -- if (typeof HTMLElement.prototype.scrollTo !== 'function') {
+- `./apps/web/tests/components/chat-scroll-preservation.test.tsx` (272 lines, .tsx) -- if (typeof HTMLElement.prototype.scrollTo !== 'function') {
+- `./apps/web/tests/components/chat-scroll-zero-displacement.test.tsx` (414 lines, .tsx) -- if (typeof HTMLElement.prototype.scrollTo !== 'function') {
+- `./apps/web/tests/components/chat-todo-autoscroll.test.tsx` (317 lines, .tsx) -- if (typeof HTMLElement.prototype.scrollTo !== 'function') {
+- `./apps/web/tests/components/chat/ChatPane.opend-2849-round4-wiring.test.tsx` (121 lines, .tsx) -- import { cleanup, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/chat/ChatPane.pause-line.test.tsx` (132 lines, .tsx) -- import { cleanup, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/chat/ChatPane.wired-cards.test.tsx` (278 lines, .tsx) -- import { cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/chat/amr-owner-top-up-dialog-design.test.tsx` (325 lines, .tsx) -- import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat/amr-owner-top-up-dialog-seam.test.tsx` (253 lines, .tsx) -- import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat/amr-thinking-slot-blank.test.tsx` (225 lines, .tsx) -- import { afterEach, describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat/anchored-menu-boundary.test.tsx` (474 lines, .tsx) -- import { cleanup, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/chat/anchored-menu-flip-stability.test.tsx` (269 lines, .tsx) -- import { cleanup, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/chat/anchored-menu-real-geometry.test.tsx` (193 lines, .tsx) -- import { cleanup, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/chat/anchored-menu-shell.test.tsx` (259 lines, .tsx) -- import { cleanup, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/chat/answered-label.test.tsx` (75 lines, .tsx) -- import { afterEach, describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat/answered-summary.test.tsx` (69 lines, .tsx) -- import { afterEach, describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat/artifact-card-cover.test.tsx` (53 lines, .tsx) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/chat/attachment-placeholder-mark.test.ts` (296 lines, .ts) -- import { afterEach, beforeAll, describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat/attachment-row-nav.test.tsx` (154 lines, .tsx) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/chat/audio-wave-pulse.test.tsx` (258 lines, .tsx) -- import { cleanup, render } from '@testing-library/react';
+- `./apps/web/tests/components/chat/blur-stream-reveal.test.tsx` (338 lines, .tsx) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/chat/canceled-turn-row.test.tsx` (337 lines, .tsx) -- import { cleanup, render } from '@testing-library/react';
+- `./apps/web/tests/components/chat/char-reveal.test.tsx` (83 lines, .tsx) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/chat/chat-log-ancestor-rounded-clip.test.ts` (205 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/components/chat/chat-log-scroll-state-classes.test.tsx` (241 lines, .tsx) -- if (typeof HTMLElement.prototype.scrollTo !== 'function') {
+- `./apps/web/tests/components/chat/chat-message-rail-update-loop.test.tsx` (272 lines, .tsx) -- import { act, cleanup, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/chat/chat-overlay-layer.test.ts` (355 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat/chat-rail-transcript-parity.test.tsx` (195 lines, .tsx) -- import { act, cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/chat/chat-rail-wheel-forwards-to-log.test.tsx` (424 lines, .tsx) -- import { act, cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/chat/chat-scroll-edge.test.tsx` (103 lines, .tsx) -- import { act, cleanup, render } from '@testing-library/react';
+- `./apps/web/tests/components/chat/chat-seam-radius-tokens.test.ts` (172 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat/chat-seam-resolves.test.tsx` (254 lines, .tsx) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/chat/chat-skin-parity.test.ts` (194 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/components/chat/cloud-cta-handoff-presence.test.tsx` (257 lines, .tsx) -- import { cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/chat/composer-portal-seam.test.tsx` (79 lines, .tsx) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat/composer-quote-send.test.tsx` (108 lines, .tsx) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/chat/composer-send-truth.test.tsx` (196 lines, .tsx) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/chat/cross-run-form-placement.test.tsx` (152 lines, .tsx) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/chat/error-card-radius.test.ts` (62 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat/execution-hierarchy-type.test.tsx` (231 lines, .tsx) -- import { afterEach, describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat/execution-shell-card-boundaries.test.tsx` (196 lines, .tsx) -- import { cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/chat/execution-shell.test.tsx` (291 lines, .tsx) -- import { afterEach, describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat/failed-file-row-expand.test.tsx` (242 lines, .tsx) -- import { afterEach, describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat/failed-turn-row.test.tsx` (172 lines, .tsx) -- import { cleanup, render } from '@testing-library/react';
+- `./apps/web/tests/components/chat/feedback-muted-ink.test.tsx` (439 lines, .tsx) -- import { cleanup, render } from '@testing-library/react';
+- `./apps/web/tests/components/chat/first-thoughts-no-elapsed.test.tsx` (282 lines, .tsx) -- import { afterEach, describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat/foldable-lifecycle-follow.test.tsx` (256 lines, .tsx) -- import { afterEach, describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat/footer-mark.test.tsx` (26 lines, .tsx) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat/footer-time.test.tsx` (33 lines, .tsx) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat/fork-divider-enter.test.tsx` (248 lines, .tsx) -- import { afterEach, beforeAll, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/chat/hidden-brand-browser-assist.test.tsx` (123 lines, .tsx) -- import { cleanup, fireEvent, render, waitFor, within } from '@testing-library/react';
+- `./apps/web/tests/components/chat/hidden-card-question-form-ownership.test.tsx` (199 lines, .tsx) -- import { cleanup, fireEvent, render, waitFor, within } from '@testing-library/react';
+- `./apps/web/tests/components/chat/hidden-card-replay-boundary.test.tsx` (120 lines, .tsx) -- import { cleanup, fireEvent, render, waitFor, within } from '@testing-library/react';
+- `./apps/web/tests/components/chat/hidden-verify-scorecard.test.tsx` (126 lines, .tsx) -- import { cleanup, fireEvent, render, waitFor, within } from '@testing-library/react';
+- `./apps/web/tests/components/chat/history-dock.test.tsx` (59 lines, .tsx) -- import { cleanup, fireEvent, render, screen, within } from '@testing-library/react';
+- `./apps/web/tests/components/chat/history-replay-not-restreamed.test.tsx` (193 lines, .tsx) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/chat/host-card-tail-keeps-api-placeholder-streaming.test.tsx` (201 lines, .tsx) -- if (typeof HTMLElement.prototype.scrollTo !== 'function') {
+- `./apps/web/tests/components/chat/host-card-tail-keeps-retry-entry.test.tsx` (261 lines, .tsx) -- import { cleanup, render } from '@testing-library/react';
+- `./apps/web/tests/components/chat/icon-stroke-weight.test.tsx` (322 lines, .tsx) -- import { cleanup, render } from '@testing-library/react';
+- `./apps/web/tests/components/chat/image-fail-cell-two-states.test.tsx` (266 lines, .tsx) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/chat/image-retry.test.tsx` (83 lines, .tsx) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/chat/image-row-running.test.tsx` (105 lines, .tsx) -- import { afterEach, describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat/image-strip-preview-actions.test.tsx` (62 lines, .tsx) -- import { cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/chat/live-row-elapsed.test.tsx` (326 lines, .tsx) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/chat/live-timer.test.tsx` (67 lines, .tsx) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/chat/media-row-surface.test.tsx` (126 lines, .tsx) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/chat/memory-card-summary-hover.test.tsx` (166 lines, .tsx) -- import { afterEach, describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat/memory-card.test.tsx` (79 lines, .tsx) -- import { afterEach, describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat/message-muted-ink.test.tsx` (131 lines, .tsx) -- import { afterEach, beforeAll, describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat/message-rail.test.tsx` (73 lines, .tsx) -- import { cleanup, fireEvent, render, screen, within } from '@testing-library/react';
+- `./apps/web/tests/components/chat/mirror-gallery.test.tsx` (3462 lines, .tsx) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat/next-record-integration.test.tsx` (97 lines, .tsx) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/chat/next-step-cascade.test.ts` (244 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat/od-card-inside-execution-shell.test.tsx` (139 lines, .tsx) -- import { cleanup, render } from '@testing-library/react';
+- `./apps/web/tests/components/chat/odnext-reload-run-boundaries.test.tsx` (201 lines, .tsx) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/chat/opend-2626-stopped-turn-history.test.tsx` (184 lines, .tsx) -- import { cleanup, render } from '@testing-library/react';
+- `./apps/web/tests/components/chat/opend-2641-step-progress-follows-question.test.tsx` (253 lines, .tsx) -- import { afterEach, beforeAll, describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat/opend-2642-answered-color-swatch-replay.test.tsx` (122 lines, .tsx) -- import { afterEach, describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat/opend-2643-thinking-scrollbar-gutter.test.tsx` (227 lines, .tsx) -- import { cleanup, render } from '@testing-library/react';
+- `./apps/web/tests/components/chat/opend-2644-form-survives-later-assistant-card.test.tsx` (227 lines, .tsx) -- if (typeof HTMLElement.prototype.scrollTo !== 'function') {
+- `./apps/web/tests/components/chat/opend-2644-unanswered-form-not-marked-answered.test.tsx` (185 lines, .tsx) -- import { afterEach, describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat/opend-2745-host-card-not-a-run.test.tsx` (278 lines, .tsx) -- if (typeof HTMLElement.prototype.scrollTo !== 'function') {
+- `./apps/web/tests/components/chat/opend-2745-raw-od-card-leak.test.tsx` (348 lines, .tsx) -- import { act, cleanup, render } from '@testing-library/react';
+- `./apps/web/tests/components/chat/opend-2764-next-steps-survive-host-card.test.tsx` (270 lines, .tsx) -- if (typeof HTMLElement.prototype.scrollTo !== 'function') {
+- `./apps/web/tests/components/chat/opend-2772-one-card-one-cta.test.tsx` (296 lines, .tsx) -- import { cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/chat/opend-2791-read-range-title.test.tsx` (112 lines, .tsx) -- import { cleanup, fireEvent, render } from '@testing-library/react';
+- `./apps/web/tests/components/chat/orb.test.tsx` (180 lines, .tsx) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/chat/own-answer.test.tsx` (80 lines, .tsx) -- import { afterEach, describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat/pixel-liquid-loading.test.tsx` (225 lines, .tsx) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/chat/plan-pill-centering.test.tsx` (274 lines, .tsx) -- import { cleanup, render, screen, within } from '@testing-library/react';
+- `./apps/web/tests/components/chat/plan-pill.test.tsx` (190 lines, .tsx) -- import { cleanup, render, screen, within } from '@testing-library/react';
+- `./apps/web/tests/components/chat/plan-step-ink.test.tsx` (117 lines, .tsx) -- import { afterEach, describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat/plan-step-weight.test.tsx` (175 lines, .tsx) -- import { cleanup, render } from '@testing-library/react';
+- `./apps/web/tests/components/chat/primitives.test.tsx` (483 lines, .tsx) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/chat/question-form-amount-default-clamp.test.tsx` (164 lines, .tsx) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/chat/question-form-amount-slider.test.tsx` (195 lines, .tsx) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/chat/question-form-answered-surface.test.tsx` (164 lines, .tsx) -- import { afterEach, beforeAll, describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat/question-form-before-explicit-done.test.tsx` (67 lines, .tsx) -- import { cleanup, fireEvent, render, waitFor, within } from '@testing-library/react';
+- `./apps/web/tests/components/chat/question-form-card-density.test.tsx` (257 lines, .tsx) -- import { afterEach, beforeAll, describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat/question-form-carousel-nav-inset.test.tsx` (111 lines, .tsx) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat/question-form-color-picker.test.tsx` (307 lines, .tsx) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/chat/question-form-input-inset.test.tsx` (221 lines, .tsx) -- import { describe, expect, it, beforeAll } from 'vitest';
+- `./apps/web/tests/components/chat/question-form-latest-spec-drift.test.tsx` (580 lines, .tsx) -- import { afterEach, beforeAll, describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat/question-form-maxed-option-hover.test.tsx` (284 lines, .tsx) -- import { afterEach, describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat/question-form-next-button-size.test.tsx` (260 lines, .tsx) -- import { afterEach, describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat/question-form-option-cascade-leak.test.tsx` (241 lines, .tsx) -- import { afterEach, describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat/question-form-option-desc-wrap.test.tsx` (148 lines, .tsx) -- import { afterEach, describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat/question-form-payload-sibling-ownership.test.tsx` (104 lines, .tsx) -- import { cleanup, fireEvent, render, waitFor, within } from '@testing-library/react';
+- `./apps/web/tests/components/chat/question-form-picked-counter.test.tsx` (102 lines, .tsx) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat/question-form-select-lookup.test.tsx` (481 lines, .tsx) -- import { afterEach, beforeAll, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/chat/question-form-selected-option-fidelity.test.tsx` (313 lines, .tsx) -- import { afterEach, describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat/question-form-skip-parity.test.tsx` (446 lines, .tsx) -- import { afterEach, describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat/question-form-skipped-answer-row.test.tsx` (184 lines, .tsx) -- import { afterEach, describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat/queue-action-icon-size.test.tsx` (112 lines, .tsx) -- import { afterEach, beforeAll, describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat/queue-draft-alignment.test.tsx` (481 lines, .tsx) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/chat/queue-layout.test.tsx` (66 lines, .tsx) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat/queue-steer-affordance.test.tsx` (144 lines, .tsx) -- import { afterEach, beforeAll, describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat/queue-steer-single-button.test.tsx` (134 lines, .tsx) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/chat/queued-edit-dequeue.test.tsx` (157 lines, .tsx) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/chat/queued-edit-quotes.test.tsx` (194 lines, .tsx) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/chat/queued-row-plain-text.test.ts` (70 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat/queued-send-stack.test.tsx` (116 lines, .tsx) -- import { cleanup, fireEvent, render, screen, within, act } from '@testing-library/react';
+- `./apps/web/tests/components/chat/queued-send-viewport.test.tsx` (65 lines, .tsx) -- import { cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/chat/quote-bar-anchor-truth.test.tsx` (252 lines, .tsx) -- import { useRef } from 'react';
+- `./apps/web/tests/components/chat/quote-bar-anchor.test.tsx` (239 lines, .tsx) -- import { useRef } from 'react';
+- `./apps/web/tests/components/chat/quote-bar-follows-scroll.test.tsx` (292 lines, .tsx) -- import { useRef } from 'react';
+- `./apps/web/tests/components/chat/quote-bar-scroll-lifecycle.test.tsx` (159 lines, .tsx) -- import { useRef } from 'react';
+- `./apps/web/tests/components/chat/quote-chip-design.test.tsx` (212 lines, .tsx) -- import { cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/chat/quote-chip-hover-delete.test.tsx` (184 lines, .tsx) -- import { cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/chat/quote-duplicate-notice.test.tsx` (216 lines, .tsx) -- import { StrictMode } from 'react';
+- `./apps/web/tests/components/chat/rebound-run-clock.test.tsx` (108 lines, .tsx) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/chat/reconnect-count-weight.test.ts` (66 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat/record-cascade.test.ts` (55 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat/record-chain-scope.test.tsx` (872 lines, .tsx) -- import { cleanup, render } from '@testing-library/react';
+- `./apps/web/tests/components/chat/record-columns-probe.test.tsx` (131 lines, .tsx) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat/record-ink-layers.test.tsx` (851 lines, .tsx) -- import { cleanup, render } from '@testing-library/react';
+- `./apps/web/tests/components/chat/record-label-rail.test.ts` (39 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/components/chat/record-progress-ink-latest-spec.test.tsx` (577 lines, .tsx) -- import { cleanup, render } from '@testing-library/react';
+- `./apps/web/tests/components/chat/record-read-not-clickable.test.tsx` (156 lines, .tsx) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/chat/record-surface-and-terminal-ink.test.tsx` (458 lines, .tsx) -- import { cleanup, render } from '@testing-library/react';
+- `./apps/web/tests/components/chat/release023-question-prose-hydration.test.tsx` (109 lines, .tsx) -- import { cleanup, fireEvent, render, within } from '@testing-library/react';
+- `./apps/web/tests/components/chat/removed-undesigned-cards.test.tsx` (128 lines, .tsx) -- import { cleanup, fireEvent, render, waitFor, within } from '@testing-library/react';
+- `./apps/web/tests/components/chat/reveal-mount-settled.test.tsx` (219 lines, .tsx) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/chat/run-error-actions-parity.test.tsx` (134 lines, .tsx) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/chat/running-command-open.test.tsx` (241 lines, .tsx) -- import { afterEach, describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat/s01-s02-s04-error-card-titles.test.tsx` (216 lines, .tsx) -- import { cleanup, fireEvent, render, screen, within } from '@testing-library/react';
+- `./apps/web/tests/components/chat/s12-copy-revert.test.tsx` (147 lines, .tsx) -- import { afterEach, describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat/s12-upstream-alive.test.tsx` (396 lines, .tsx) -- import { afterEach, beforeAll, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/chat/sandwiched-prose-rail.test.tsx` (199 lines, .tsx) -- import { afterEach, describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat/say-text-markdown.test.tsx` (162 lines, .tsx) -- import { afterEach, describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat/shell-collapse-on-done.test.tsx` (212 lines, .tsx) -- import { afterEach, describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat/shell-collapse-on-finish.test.tsx` (102 lines, .tsx) -- import { afterEach, describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat/shot-radius.test.ts` (46 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat/staged-attachment-nav-center.test.ts` (93 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat/staged-attachment-tray.test.tsx` (324 lines, .tsx) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/chat/status-mark-no-drift.test.tsx` (113 lines, .tsx) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat/stopped-run-row-collapse.test.tsx` (227 lines, .tsx) -- import { afterEach, describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat/stopped-turn-copy.test.tsx` (106 lines, .tsx) -- import { afterEach, beforeAll, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/chat/stream-cursor-removed.test.tsx` (98 lines, .tsx) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/components/chat/summary-slots-no-wrap.test.tsx` (97 lines, .tsx) -- import { afterEach, describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat/support-dialog-radius.test.ts` (98 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat/support-dialog-seam.test.tsx` (60 lines, .tsx) -- import { afterEach, describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat/t61-balance-card-turn-archive.test.tsx` (324 lines, .tsx) -- import { cleanup, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/chat/terminal-follow.test.tsx` (298 lines, .tsx) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/chat/terminal-render-cost.test.tsx` (234 lines, .tsx) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/chat/theme-seam.test.tsx` (97 lines, .tsx) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/chat/thinking-embedded.test.tsx` (481 lines, .tsx) -- import { afterEach, describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat/thinking-fold.test.tsx` (160 lines, .tsx) -- import { afterEach, describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat/thinking-follow.test.tsx` (271 lines, .tsx) -- import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat/thinking-markdown.test.tsx` (128 lines, .tsx) -- import { act, cleanup, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/chat/thinking-stream-window.test.tsx` (212 lines, .tsx) -- import { afterEach, describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat/thinking-token-count-up.test.tsx` (300 lines, .tsx) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/chat/thinking-token-count.test.tsx` (358 lines, .tsx) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/chat/thoughts-elapsed-row.test.tsx` (115 lines, .tsx) -- import { afterEach, describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat/thoughts-row-icon.test.tsx` (173 lines, .tsx) -- import { afterEach, describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat/thoughts-scroll-cap.test.tsx` (116 lines, .tsx) -- import { afterEach, describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat/todo-recall.test.tsx` (310 lines, .tsx) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/chat/todo-row-lifecycle-collapse.test.tsx` (111 lines, .tsx) -- import { afterEach, describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat/tool-icon.test.tsx` (188 lines, .tsx) -- import { afterEach, describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat/tool-input-delta-dead-wiring.test.tsx` (348 lines, .tsx) -- import { afterEach, beforeAll, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/chat/tool-row-running.test.tsx` (122 lines, .tsx) -- import { afterEach, describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat/top-level-vs-step-columns.test.tsx` (209 lines, .tsx) -- import { afterEach, describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat/turn-boundary-spacing.test.tsx` (431 lines, .tsx) -- import { readFileSync, writeFileSync, mkdtempSync, existsSync } from 'node:fs';
+- `./apps/web/tests/components/chat/typography-baseline.test.ts` (383 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/components/chat/upgrade-card-layout.test.tsx` (120 lines, .tsx) -- import { afterEach, describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat/upgrade-cta-ink.test.ts` (128 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat/user-message-clamp.test.tsx` (198 lines, .tsx) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/chat/user-retry-always-visible.test.tsx` (196 lines, .tsx) -- import { cleanup, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/chat/visual-at-limit-affordance.test.ts` (215 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat/visual-card-aspect.test.ts` (186 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat/visual-card-spacing.test.ts` (30 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/components/chat/visual-option-stack-opacity.test.ts` (280 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat/w115-inflight-write-file-name.test.tsx` (322 lines, .tsx) -- import { afterEach, beforeAll, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/chat/w117-queue-steer-interrupt.test.tsx` (124 lines, .tsx) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/chat/w118-feedback-row-icons-and-tips.test.tsx` (237 lines, .tsx) -- import { cleanup, render } from '@testing-library/react';
+- `./apps/web/tests/components/chat/w120-inflight-write-line-count.test.tsx` (425 lines, .tsx) -- import { afterEach, beforeAll, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/chat/w123-acp-inflight-tool-row.test.tsx` (354 lines, .tsx) -- import { afterEach, beforeAll, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/chat/w124-chat-tooltips-and-panel-head.test.tsx` (349 lines, .tsx) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/chat/w126-chat-stroke-icons.test.tsx` (281 lines, .tsx) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/components/chat/w129-new-session-single-entry.test.tsx` (287 lines, .tsx) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/chat/w132-raw-command-fold.test.tsx` (357 lines, .tsx) -- import { afterEach, describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat/w134-composer-send-geometry.test.tsx` (167 lines, .tsx) -- import { afterEach, beforeAll, describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat/w136-early-row-clock-origin.test.tsx` (335 lines, .tsx) -- import { afterEach, beforeAll, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/chat/w62-mid-run-balance-card.test.tsx` (231 lines, .tsx) -- import { cleanup, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/chat/w66-tool-ref-underline.test.tsx` (255 lines, .tsx) -- import { cleanup, render } from '@testing-library/react';
+- `./apps/web/tests/components/chat/w67-text-axes.test.tsx` (447 lines, .tsx) -- import { afterEach, beforeAll, describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat/w71-thoughts-row-matches-tool-row.test.tsx` (408 lines, .tsx) -- import { cleanup, render } from '@testing-library/react';
+- `./apps/web/tests/components/chat/w72-create-icon-glyph.test.tsx` (103 lines, .tsx) -- import { cleanup, render } from '@testing-library/react';
+- `./apps/web/tests/components/chat/w73-composer-and-plan-ink.test.tsx` (543 lines, .tsx) -- import { afterEach, describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat/w74-dead-css-rules.test.ts` (111 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat/w75-visual-direction-card.test.tsx` (416 lines, .tsx) -- import { afterEach, describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat/w76-icon-slot.test.tsx` (374 lines, .tsx) -- import { afterEach, describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat/w77-bare-button-weight.test.ts` (191 lines, .ts) -- import { beforeAll, describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat/w79-shell-head-type-scale.test.tsx` (397 lines, .tsx) -- import { afterEach, describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat/w83-turn-footer-time-and-mark.test.tsx` (277 lines, .tsx) -- import { cleanup, render } from '@testing-library/react';
+- `./apps/web/tests/components/chat/w85-orb-mark-say-term.test.tsx` (285 lines, .tsx) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/chat/w86-question-card-ink.test.tsx` (361 lines, .tsx) -- import { beforeAll, describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat/w88-design-system-status-card.test.tsx` (552 lines, .tsx) -- import { afterEach, beforeAll, describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat/w91-artifact-card-load-budget.test.tsx` (235 lines, .tsx) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/chat/w92-artifact-card-subdirectory-open.test.tsx` (296 lines, .tsx) -- import { act, cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/chat/w93-2590-history-replay.test.tsx` (144 lines, .tsx) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/chat/w93-2592-turn-boundary.test.tsx` (180 lines, .tsx) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/chat/w94-artifact-card-iframe-recycle.test.tsx` (460 lines, .tsx) -- import type { ReactElement } from 'react';
+- `./apps/web/tests/components/chat/w95-plan-pill-bottom-reserve.test.tsx` (248 lines, .tsx) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/components/chat/w95-reserve-vs-anchor-spacer.test.ts` (101 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat/w96-chat-log-rows-never-shrink.test.tsx` (340 lines, .tsx) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/components/chat/w98-tool-failure-reason.test.tsx` (144 lines, .tsx) -- import { afterEach, describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/chat/w99-plan-pill-current-turn.test.tsx` (253 lines, .tsx) -- import { cleanup, render, screen, within } from '@testing-library/react';
+- `./apps/web/tests/components/chat/waiting-first-output.test.tsx` (346 lines, .tsx) -- import { afterEach, beforeAll, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/chat/write-live-preview.test.tsx` (198 lines, .tsx) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/components/chips.automatic-default.test.ts` (63 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/coding-plan-usage-model.test.ts` (139 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/community-remix-workspace-binding.test.tsx` (481 lines, .tsx) -- import { cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/composer/LexicalComposerInput.test.tsx` (507 lines, .tsx) -- import type { ComponentProps } from 'react';
+- `./apps/web/tests/components/composer/MentionNode.test.ts` (236 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/composer/draft-persistence.test.tsx` (413 lines, .tsx) -- import { act, cleanup, render, screen, waitFor, within } from '@testing-library/react';
+- `./apps/web/tests/components/composer/serialize.test.ts` (133 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/conversation-timestamps.test.tsx` (219 lines, .tsx) -- if (typeof HTMLElement.prototype.scrollTo !== 'function') {
+- `./apps/web/tests/components/deck-slide-thumbnail.test.tsx` (95 lines, .tsx) -- import { cleanup, render } from '@testing-library/react';
+- `./apps/web/tests/components/deck-thumbnail-rail.test.tsx` (194 lines, .tsx) -- import { cleanup, fireEvent, render } from '@testing-library/react';
+- `./apps/web/tests/components/design-system-github-evidence.test.ts` (160 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/design-system-group-order.test.ts` (74 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/design-system-project.test.ts` (96 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/enterprise-url.test.ts` (22 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/entry-rail-account-state.test.ts` (84 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/examples-tab-filter-counts.test.tsx` (104 lines, .tsx) -- import {
+- `./apps/web/tests/components/examples-tab-preview-dispatch.test.tsx` (145 lines, .tsx) -- import {
+- `./apps/web/tests/components/examples-tab-retry.test.tsx` (87 lines, .tsx) -- import {
+- `./apps/web/tests/components/export-diagnostics-chat-scroll.test.tsx` (139 lines, .tsx) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/export-failure-toast.test.ts` (45 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/file-viewer-export-failed-copy.test.tsx` (116 lines, .tsx) -- import { cleanup, fireEvent, render, screen, waitFor, within } from '@testing-library/react';
+- `./apps/web/tests/components/file-viewer-export-raw-error-copy.test.tsx` (181 lines, .tsx) -- import { cleanup, fireEvent, render, screen, waitFor, within } from '@testing-library/react';
+- `./apps/web/tests/components/file-viewer-image-export.test.tsx` (485 lines, .tsx) -- import { cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/file-viewer-markdown-copy.test.tsx` (426 lines, .tsx) -- import { act, cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/file-viewer-preview-assets.test.ts` (327 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/file-viewer-readonly-save.test.tsx` (110 lines, .tsx) -- import { cleanup, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/file-viewer-render-mode.test.ts` (454 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/file-viewer-screenshot-tooltip.test.tsx` (130 lines, .tsx) -- import { cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/file-viewer-version-download.test.tsx` (405 lines, .tsx) -- import { cleanup, fireEvent, render, screen, waitFor, within } from '@testing-library/react';
+- `./apps/web/tests/components/home-hero/PlaceholderCarousel.paused.test.tsx` (122 lines, .tsx) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/home-hero/TemplatePicker.test.tsx` (204 lines, .tsx) -- import { cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/home-hero/TypePillRow.more-order.test.tsx` (84 lines, .tsx) -- import { cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/home-hero/plugin-authoring-prompt.test.ts` (136 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/home-logo-assets.test.ts` (65 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/components/html-source-snapshot-cache.test.ts` (83 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/library-picker-perf.test.tsx` (129 lines, .tsx) -- import { cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/library-section-perf.test.tsx` (222 lines, .tsx) -- import { cleanup, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/manual-edit-kind.test.ts` (57 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/markdown-scroll-sync.test.ts` (129 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/modelCapabilityTags.test.ts` (74 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/modelOptions.test.tsx` (404 lines, .tsx) -- import { cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/modelProviderIcon.test.ts` (44 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/next-step-suggestion-weight.test.tsx` (113 lines, .tsx) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/components/next-step-suggestion-wrap.test.tsx` (100 lines, .tsx) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/components/opend-2587-send-delay-audit.test.tsx` (394 lines, .tsx) -- import { act, cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/opend-2614-send-paints-before-preflight.test.tsx` (508 lines, .tsx) -- import { act, cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/opend-2849-round4-surfaces.test.tsx` (311 lines, .tsx) -- import { act, cleanup, render, screen, waitFor, within } from '@testing-library/react';
+- `./apps/web/tests/components/pet-task-center.test.ts` (91 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/pluginFolderActions.test.ts` (127 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/plugins-home-facets.test.ts` (399 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/plugins-home-html-surface.test.tsx` (94 lines, .tsx) -- import { describe, expect, it, afterEach, beforeEach, vi } from 'vitest';
+- `./apps/web/tests/components/plugins-home-media-surface.test.tsx` (223 lines, .tsx) -- import { describe, expect, it, afterEach } from 'vitest';
+- `./apps/web/tests/components/plugins-home-preview-surface.test.tsx` (133 lines, .tsx) -- import { cleanup, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/plugins-home-preview.test.ts` (228 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/plugins-home-section.test.tsx` (497 lines, .tsx) -- import { describe, expect, it, afterEach, vi } from 'vitest';
+- `./apps/web/tests/components/plugins-home-sort-order.test.ts` (243 lines, .ts) -- import { beforeEach, describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/plugins-home-visualScore.test.ts` (189 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/preset-seed-prompt.test.ts` (134 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/preview-modal-error-state.test.tsx` (118 lines, .tsx) -- import { cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/preview-modal-fullscreen.test.tsx` (111 lines, .tsx) -- import { act, cleanup, fireEvent, render } from '@testing-library/react';
+- `./apps/web/tests/components/preview-modal-image-export.test.tsx` (190 lines, .tsx) -- import { cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/preview-modal-unavailable-state.test.tsx` (417 lines, .tsx) -- import { cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/production-touchpoint-loader.offline.test.ts` (150 lines, .ts) -- import { describe, expect, it, vi, afterEach } from \"vitest\";
+- `./apps/web/tests/components/production-touchpoint-loader.test.ts` (72 lines, .ts) -- import { afterEach, describe, expect, it, vi } from \"vitest\";
+- `./apps/web/tests/components/project-cover.lazy.test.tsx` (119 lines, .tsx) -- import { act, cleanup, render } from '@testing-library/react';
+- `./apps/web/tests/components/project-readonly-claim.test.ts` (36 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/project-split-layout.test.ts` (73 lines, .ts) -- import { afterEach, describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/prompt-injection-chip.test.tsx` (92 lines, .tsx) -- import { cleanup, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/qf-next-gate.test.tsx` (109 lines, .tsx) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/question-form-direction-cards-dead-end.test.tsx` (102 lines, .tsx) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/recent-projects-strip.thumbnail-budget.test.tsx` (301 lines, .tsx) -- import { act, cleanup, fireEvent, render } from '@testing-library/react';
+- `./apps/web/tests/components/reduced-motion.test.tsx` (159 lines, .tsx) -- import { cleanup, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/registry.latest-release.test.ts` (41 lines, .ts) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/silent-updates-currentTarget.race.test.tsx` (121 lines, .tsx) -- import React, { useEffect, useState } from 'react';
+- `./apps/web/tests/components/sketch-colors.test.ts` (24 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/sketch-model.test.ts` (144 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/t66-low-balance-tier-retired.test.tsx` (500 lines, .tsx) -- import { cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/team-console-url.test.ts` (201 lines, .ts) -- import { afterEach, describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/template-modal-mapping.test.tsx` (282 lines, .tsx) -- import { cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/template-preview-escape.test.tsx` (74 lines, .tsx) -- import { cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/test-deployment-selection.test.tsx` (244 lines, .tsx) -- import { act, cleanup, renderHook } from \"@testing-library/react\";
+- `./apps/web/tests/components/theme-settings-removed.test.tsx` (178 lines, .tsx) -- import { cleanup, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/touchpoint-component.test.ts` (268 lines, .ts) -- import { createHash } from \"node:crypto\";
+- `./apps/web/tests/components/touchpoint-lifecycle.test.ts` (1019 lines, .ts) -- import { act, cleanup, renderHook } from \"@testing-library/react\";
+- `./apps/web/tests/components/touchpoint-navigation.test.ts` (32 lines, .ts) -- import { describe, expect, it, vi } from \"vitest\";
+- `./apps/web/tests/components/touchpoint-offline-fallback.test.ts` (679 lines, .ts) -- import { act, cleanup, renderHook } from \"@testing-library/react\";
+- `./apps/web/tests/components/touchpointVisibility.test.ts` (172 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it, vi } from \"vitest\";
+- `./apps/web/tests/components/use-everywhere-agent-guide.test.ts` (124 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/use-everywhere-copy-guide.test.tsx` (170 lines, .tsx) -- import { cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/useOpenFolderImport.test.tsx` (43 lines, .tsx) -- import { act, cleanup, renderHook } from '@testing-library/react';
+- `./apps/web/tests/components/w102-empty-thinking-reaches-events.test.tsx` (110 lines, .tsx) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/w116-entry-shell-low-balance-tiers.test.tsx` (314 lines, .tsx) -- import { cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/w117-queue-steer-interrupts-run.test.tsx` (431 lines, .tsx) -- import { cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/w129-tooltip-fade.test.tsx` (160 lines, .tsx) -- import { cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/components/w62-mid-run-balance-wiring.test.tsx` (873 lines, .tsx) -- import { cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/w62-mid-run-balance-workspace-wallet.test.tsx` (541 lines, .tsx) -- import { cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/w80-artifact-card-blank-cover.test.tsx` (269 lines, .tsx) -- import { act, cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/components/w93-2585-pending-surface-attachments.test.tsx` (69 lines, .tsx) -- import { afterEach, describe, expect, it } from 'vitest';
+- `./apps/web/tests/components/w93-2585-upload-blocks-project-view.test.tsx` (387 lines, .tsx) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/components/workspace/SideChatTab.chat-correlation.test.tsx` (177 lines, .tsx) -- import { cleanup, render } from '@testing-library/react';
+- `./apps/web/tests/components/workspace/SideChatTab.opend-2807-fixed-actions.test.tsx` (86 lines, .tsx) -- import { cleanup, fireEvent, render, screen, within } from '@testing-library/react';
+- `./apps/web/tests/components/workspace/SideChatTab.test.tsx` (125 lines, .tsx) -- import { cleanup, render } from '@testing-library/react';
+- `./apps/web/tests/components/workspace/useConversationChat.test.tsx` (351 lines, .tsx) -- import { act, cleanup, renderHook, waitFor } from '@testing-library/react';
+- `./apps/web/tests/composer-detail-position.test.ts` (74 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/composer-flyout-placement.test.ts` (71 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/design-files-lazy-render.test.tsx` (369 lines, .tsx) -- import { act, cleanup, render, screen, waitFor } from \"@testing-library/react\";
+- `./apps/web/tests/design-kit-merge.test.ts` (102 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/design-system-asset-dropzone.test.tsx` (89 lines, .tsx) -- import { StrictMode } from 'react';
+- `./apps/web/tests/design-system-auto-prompt.test.ts` (25 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/edit-mode/bridge.test.ts` (1298 lines, .ts) -- import { describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/edit-mode/source-patches.test.ts` (358 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+- `./apps/web/tests/experience-survey-card-arming.test.tsx` (97 lines, .tsx) -- import { act, cleanup, render, screen } from '@testing-library/react';
+- `./apps/web/tests/experience-survey-response.test.ts` (150 lines, .ts) -- import { describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/experience-survey-trigger.test.ts` (136 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/first-party-external-link.test.ts` (30 lines, .ts) -- import { describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/helpers/chat-mirror-cascade.matching.test.ts` (141 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/helpers/chat-mirror-cascade.specificity.test.ts` (236 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/helpers/chat-mirror-cascade.ts` (536 lines, .ts) -- export interface Rule {
+- `./apps/web/tests/helpers/entry-shell-gate-host.tsx` (44 lines, .tsx) -- import { useState, type ComponentProps } from 'react';
+- `./apps/web/tests/helpers/excalidraw-mock.tsx` (105 lines, .tsx) -- import { useEffect, type ButtonHTMLAttributes, type ReactNode } from 'react';
+- `./apps/web/tests/helpers/home-hero-lexical.ts` (85 lines, .ts) -- import { act } from 'react';
+- `./apps/web/tests/helpers/home-template-picker.ts` (28 lines, .ts) -- import { act } from 'react';
+- `./apps/web/tests/helpers/lexical-composer.ts` (148 lines, .ts) -- import { act } from 'react';
+- `./apps/web/tests/helpers/motion-mock.tsx` (63 lines, .tsx) -- import { forwardRef, type ComponentProps, type ElementType } from 'react';
+- `./apps/web/tests/helpers/read-expanded-css.ts` (65 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/helpers/style-sheet-fixture.ts` (71 lines, .ts) -- export interface StyleSheetFixture {
+- `./apps/web/tests/helpers/workspace-context.ts` (80 lines, .ts) -- import type {
+- `./apps/web/tests/home-hero-creation-i18n.test.ts` (61 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/home-hero-placeholder-scenarios.test.ts` (236 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/home-hero-sub-chips.test.ts` (185 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/home-media-surfaces.test.ts` (26 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/hooks/useBrandReadyPrompt.test.tsx` (233 lines, .tsx) -- import { act, renderHook, waitFor } from '@testing-library/react';
+- `./apps/web/tests/hooks/useCoalescedCallback.test.tsx` (93 lines, .tsx) -- import { act, renderHook } from '@testing-library/react';
+- `./apps/web/tests/hooks/useDesignMdState.test.tsx` (308 lines, .tsx) -- import { renderHook, waitFor } from '@testing-library/react';
+- `./apps/web/tests/hooks/useDismissOnOutsideInteraction.test.tsx` (92 lines, .tsx) -- import { useRef, useState } from 'react';
+- `./apps/web/tests/hooks/useEventStream.test.tsx` (196 lines, .tsx) -- import { act, cleanup, renderHook } from '@testing-library/react';
+- `./apps/web/tests/hooks/useFinalizeProject.test.tsx` (324 lines, .tsx) -- import { act, renderHook, waitFor } from '@testing-library/react';
+- `./apps/web/tests/hooks/useModalWindowDragGuard.test.tsx` (78 lines, .tsx) -- import { cleanup, fireEvent, render, screen } from '@testing-library/react';
+- `./apps/web/tests/hooks/useProjectDetail.test.tsx` (171 lines, .tsx) -- import { renderHook, waitFor } from '@testing-library/react';
+- `./apps/web/tests/hooks/useProjectRunStatuses.test.tsx` (228 lines, .tsx) -- import { act, renderHook } from '@testing-library/react';
+- `./apps/web/tests/hooks/w82-design-md-files-single-flight.test.tsx` (142 lines, .tsx) -- import { renderHook, waitFor } from '@testing-library/react';
+- `./apps/web/tests/host-boundary.test.ts` (40 lines, .ts) -- import { readdirSync, readFileSync, statSync } from 'node:fs';
+- `./apps/web/tests/i18n/content.test.ts` (135 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/i18n/design-files-agent-copy.test.ts` (35 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/i18n/design-files-dropzone-copy.test.ts` (35 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/i18n/detect-initial-locale.test.ts` (122 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+- `./apps/web/tests/i18n/locales.test.ts` (517 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/i18n/opend-2807-contact-us-cta.test.ts` (117 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/i18n/opend-2841-2843-home-visible-strings.test.ts` (121 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/i18n/opend-2849-round4-copy.test.ts` (83 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/i18n/opend-2849-s26-s31-copy.test.ts` (146 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/i18n/opend-3108-all-projects-naming.test.ts` (75 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/i18n/queue-steer-terminology.test.ts` (95 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/i18n/run-error-fallback-copy.test.ts` (109 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/i18n/runErrors.test.ts` (33 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/invite-continuation.test.ts` (208 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/invite-deeplink.test.ts` (116 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/invite-error-copy.test.ts` (69 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/lib/backoff.test.ts` (89 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/lib/bounded-concurrency.test.ts` (108 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/lib/build-clipboard-prompt.test.ts` (50 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/lib/build-continue-in-cli-toast.test.ts` (31 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/lib/coalesced-get.test.ts` (151 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/lib/copy-to-clipboard.test.ts` (50 lines, .ts) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/lib/parse-provenance.test.ts` (205 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/lib/pod-members.test.ts` (216 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/lib/resolve-finalize-request.test.ts` (79 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/lib/updater.test.ts` (315 lines, .ts) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/lib/whats-new.test.ts` (92 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/media/execution-policy.test.ts` (23 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/media/model-provider.test.ts` (52 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/message-center-client.test.ts` (127 lines, .ts) -- import { beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/observability/chat-context.test.ts` (266 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/observability/chat-correlation-boot.test.ts` (115 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/observability/chat-correlation-wiring.test.ts` (351 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/observability/chat-health-wiring.test.ts` (252 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/observability/chat-health.test.ts` (392 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/observability/chat-protocol.test.ts` (260 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/observability/chat-scroll-forensics.test.ts` (768 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/observability/chat-scroll-freeze-handle.test.ts` (1366 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/observability/chat-scroll-freeze.test.ts` (2097 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/observability/experience-diagnostics.test.ts` (75 lines, .ts) -- import { afterEach, beforeEach, expect, it, vi } from 'vitest';
+- `./apps/web/tests/observability/iframe-error.test.ts` (349 lines, .ts) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/observability/preview-deck-stage-probe.test.ts` (257 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/observability/resource-error.test.ts` (330 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/observability/white-screen.test.ts` (128 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/onboarding-entry.test.ts` (205 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+- `./apps/web/tests/onboarding-first-artifact-hint.test.ts` (54 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+- `./apps/web/tests/onboarding-first-generation.test.ts` (46 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/onboarding-first-loop.test.ts` (120 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/onboarding-first-prompt.test.ts` (30 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/onboarding-recommendation.test.ts` (123 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/plugins-home/pluginPopularity.test.ts` (66 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/project-route-bootstrap.test.ts` (494 lines, .ts) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/providers/api-proxy.test.ts` (353 lines, .ts) -- import {
+- `./apps/web/tests/providers/connection-test.test.ts` (144 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/providers/daemon-amr-models.test.ts` (109 lines, .ts) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/providers/daemon-sse-agent-retry.test.ts` (197 lines, .ts) -- import { describe, expect, it, vi, beforeEach, afterEach } from 'vitest';
+- `./apps/web/tests/providers/daemon-sse-dead-daemon.test.ts` (282 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/providers/daemon-sse-nonterminal-recovery.test.ts` (111 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/providers/daemon-sse-reconnect-backoff.test.ts` (118 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/providers/daemon-sse-reconnect.test.ts` (271 lines, .ts) -- import { describe, expect, it, vi, beforeEach, afterEach } from 'vitest';
+- `./apps/web/tests/providers/daemon-sse-run-failure-verdict.test.ts` (176 lines, .ts) -- import { describe, expect, it, afterEach, beforeEach, vi } from 'vitest';
+- `./apps/web/tests/providers/daemon-sse-tab-offline.test.ts` (117 lines, .ts) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/providers/elevenlabs-voices.test.ts` (33 lines, .ts) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/providers/openai-compatible.test.ts` (32 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/providers/project-events-visibility.test.ts` (167 lines, .ts) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/providers/project-events.test.ts` (461 lines, .ts) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/providers/project-workspace-transport-scope.test.ts` (500 lines, .ts) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/providers/registry-inflight-share.test.ts` (168 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/providers/registry.test.ts` (2384 lines, .ts) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/providers/sse.test.ts` (3102 lines, .ts) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/providers/strategy-blocked-verdict.test.ts` (210 lines, .ts) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/providers/w82-team-catalog-precondition.test.ts` (170 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/providers/w82-vela-status-shared-read.test.ts` (231 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/public-file-publish.test.ts` (82 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/quickSwitcherRecents.test.ts` (106 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/router-marketplace.test.ts` (101 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/router.navigate.test.tsx` (345 lines, .tsx) -- import { act, cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/router.test.ts` (124 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/run-workspace-identity.test.ts` (250 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/amr-artifact-upgrade.test.ts` (31 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/amr-auth-retry-continuation.test.ts` (255 lines, .ts) -- import { workspaceIdentityCacheKey } from '../../src/collab/workspace-identity';
+- `./apps/web/tests/runtime/amr-balance-branch.test.ts` (266 lines, .ts) -- import {
+- `./apps/web/tests/runtime/amr-balance-gate-personal-tiers.test.ts` (116 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/runtime/amr-balance-gate.test.ts` (516 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/runtime/amr-card-gaps.test.ts` (281 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/amr-guidance.test.ts` (698 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/runtime/amr-low-balance-optout-removed.test.ts` (131 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/runtime/amr-low-balance-plan.test.ts` (58 lines, .ts) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/runtime/amr-plans-console-deeplink.test.ts` (100 lines, .ts) -- import { afterEach, describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/amr-unlimited-models.plan-tier.test.ts` (27 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/app-route-export.test.ts` (45 lines, .ts) -- import { dirname, resolve } from 'node:path';
+- `./apps/web/tests/runtime/brand-enrichment.test.ts` (88 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/brands-focus.test.ts` (35 lines, .ts) -- import { describe, expect, it, beforeEach } from 'vitest';
+- `./apps/web/tests/runtime/chat-events.test.ts` (148 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/chat-scroll-experiments.test.ts` (127 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/runtime/chat-scroll-takeover.test.ts` (527 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/runtime/chat/agent-retry-row.test.ts` (219 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/chat/anchor-to-top.test.ts` (176 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/chat/artifact-export.test.ts` (80 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/chat/artifact-refs.test.ts` (155 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/chat/attachment-nav.test.ts` (91 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/chat/attachment.test.ts` (134 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/chat/audio-wave.test.ts` (43 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/chat/authenticated-done.test.ts` (46 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/chat/block-attribution-ruling.test.ts` (167 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/chat/build-turn-blocks.real-traces.test.ts` (156 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/chat/build-turn-blocks.test.ts` (877 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/chat/command-title.test.ts` (34 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/chat/composer-draft.test.ts` (186 lines, .ts) -- import { afterEach, describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/chat/conversation-time.test.ts` (75 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/chat/critique-grammar-record-lane.test.ts` (106 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/chat/done-marker-key.test.ts` (304 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/chat/done-marker-spoofing.test.ts` (59 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/chat/element-scroll-anchor.test.ts` (109 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/chat/elide-file-name.test.ts` (55 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/chat/empty-shell.test.ts` (90 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/chat/first-visible-done-marker.test.ts` (30 lines, .ts) -- import { expect, it } from 'vitest';
+- `./apps/web/tests/runtime/chat/fork-boundary.test.ts` (96 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/chat/historical-turn-fixtures.ts` (133 lines, .ts) -- import type { PersistedAgentEvent } from '@open-design/contracts';
+- `./apps/web/tests/runtime/chat/implicit-done-validity.test.ts` (103 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/chat/jump-to-latest-threshold.test.ts` (122 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/chat/live-row-elapsed.test.ts` (368 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/chat/media-batch-row.test.ts` (171 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/chat/media-surface-dispatch.test.ts` (174 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/chat/opend-2823-2824-folded-run-timing.test.ts` (378 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/chat/pending-todo-rows.test.ts` (78 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/chat/pending-tool-row.test.ts` (110 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/chat/plan-pill.test.ts` (99 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/chat/quiet-counts-any-event.test.ts` (84 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/chat/quote-bar-in-view.test.ts` (322 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/chat/quote-popover.test.ts` (17 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/chat/quote-selection.test.ts` (311 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/chat/rail-wheel.test.ts` (130 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/chat/reconnect-state.test.ts` (413 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/chat/record-file-open.test.ts` (134 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/chat/recovery-gating.test.ts` (112 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/chat/shell-elapsed-includes-thinking.test.ts` (174 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/chat/shell-elapsed-turn-span.test.ts` (149 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/chat/shell-elapsed.test.ts` (62 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/chat/shell-head-terminal-run.test.ts` (145 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/chat/shell-quiet.test.ts` (67 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/chat/shell-split.test.ts` (80 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/chat/split-shell-cards.test.ts` (119 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/chat/staged-attachment.test.ts` (127 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/chat/stick-to-bottom.test.ts` (371 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/chat/thinking-slot.test.ts` (193 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/chat/thinking-token-count.test.ts` (181 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/chat/thoughts-elapsed-inflation.test.ts` (263 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/chat/thoughts-elapsed-top-level.test.ts` (160 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/chat/thoughts-elapsed.test.ts` (277 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/chat/todo-elapsed.test.ts` (57 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/chat/todo-recall-never-started.test.ts` (133 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/chat/tool-kind.test.ts` (264 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/chat/virtual-scroll-anchor.test.ts` (43 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/chat/w101-diff-stat-codex.test.ts` (100 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/chat/w102-empty-thinking-no-paragraph.test.ts` (85 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/chat/w105-tail-spacer-collapse.test.ts` (198 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/chat/w135-codex-search-in-flight-row.test.ts` (112 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/chat/w93-2594-todo-snapshot-replace.test.ts` (124 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/chat/w98-strike-only-what-is-dead.test.ts` (217 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/cms-host-release-fingerprint.test.ts` (37 lines, .ts) -- import { readFileSync } from \"node:fs\";
+- `./apps/web/tests/runtime/daemon-proxy-failure.test.ts` (47 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/deck-protocol-v1.test.ts` (107 lines, .ts) -- import { JSDOM } from 'jsdom';
+- `./apps/web/tests/runtime/deck-thumbnail-parser.test.ts` (587 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/design-delivery.test.ts` (426 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/design-kit.test.ts` (76 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/design-md-parse.test.ts` (150 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/design-system-package-audit.test.ts` (83 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/design-template-deck-nav.test.ts` (170 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/runtime/export-injection-points.test.ts` (64 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/exports.test.ts` (1724 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/runtime/file-ops.test.ts` (269 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/font-recovery.test.ts` (111 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/runtime/home-intent.test.ts` (45 lines, .ts) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/runtime/html-injection-points.oracle.test.ts` (162 lines, .ts) -- import { JSDOM } from 'jsdom';
+- `./apps/web/tests/runtime/in-project-link.test.ts` (685 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/jsx-module-refs.test.ts` (155 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/kit-edit.test.ts` (160 lines, .ts) -- import { beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/runtime/kit-upload.test.tsx` (165 lines, .tsx) -- import { act, cleanup, render } from '@testing-library/react';
+- `./apps/web/tests/runtime/markdown.linkClick.test.tsx` (88 lines, .tsx) -- import { cleanup, fireEvent, render } from '@testing-library/react';
+- `./apps/web/tests/runtime/markdown.test.tsx` (350 lines, .tsx) -- import { cleanup, fireEvent, render, screen, waitFor } from '@testing-library/react';
+- `./apps/web/tests/runtime/memory-pending-windows.test.tsx` (171 lines, .tsx) -- import { act, cleanup, renderHook } from '@testing-library/react';
+- `./apps/web/tests/runtime/memory-written-card.test.tsx` (265 lines, .tsx) -- import { act, cleanup, render, renderHook, waitFor } from '@testing-library/react';
+- `./apps/web/tests/runtime/model-unavailable-detail-card.test.ts` (236 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/pixel-liquid.test.ts` (229 lines, .ts) -- import { describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/runtime/plugin-skill-descriptions.client-boundary.test.ts` (18 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/runtime/plugin-source.test.ts` (242 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/powered-preview.test.ts` (96 lines, .ts) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/runtime/preview-observability-bridge.test.ts` (225 lines, .ts) -- import { JSDOM } from 'jsdom';
+- `./apps/web/tests/runtime/product-error-copy-supplement.test.ts` (182 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/react-component.test.ts` (61 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/run-error-ladder.test.ts` (239 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/run-failure-action-certificate.test.ts` (218 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/run-failure-agent-reply-incomplete.test.ts` (127 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/run-failure-clarification-repeated.test.ts` (153 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/run-failure-verdict-carried-to-card.test.ts` (159 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/run-progress.test.ts` (168 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/sign-in-title-split.test.ts` (65 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/runtime/slide-nav.test.ts` (62 lines, .ts) -- import { beforeEach, describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/speaker-notes.test.ts` (522 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/srcdoc-bridge-empty-targets.test.ts` (679 lines, .ts) -- import { describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/runtime/srcdoc-deck-bridge-deck-stage-api.test.ts` (231 lines, .ts) -- import { describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/runtime/srcdoc-deck-bridge-framework-deck.test.ts` (167 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/srcdoc-deck-bridge-keyboard-page-sync.test.ts` (525 lines, .ts) -- import { describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/runtime/srcdoc-deck-bridge-nested-slides.test.ts` (427 lines, .ts) -- import { describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/runtime/srcdoc-deck-bridge-scroll-container.test.ts` (328 lines, .ts) -- import { describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/runtime/srcdoc-deck-bridge-slide-message-text.test.ts` (280 lines, .ts) -- import { describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/runtime/srcdoc-deck-bridge-transform-driven.test.ts` (143 lines, .ts) -- import { describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/runtime/srcdoc-deck-bridge-visible-reveal.test.ts` (70 lines, .ts) -- import { describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/runtime/srcdoc-fragment-parity.test.ts` (53 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/srcdoc-injection-points.test.ts` (102 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/srcdoc-palette-css-vars.test.ts` (93 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/srcdoc-preview-title-sanitize.test.ts` (276 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/srcdoc-redirect-guard.test.ts` (311 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/srcdoc-sandbox-shim.test.ts` (333 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/srcdoc-transport.test.ts` (397 lines, .ts) -- import vm from 'node:vm';
+- `./apps/web/tests/runtime/srcdoc.test.ts` (785 lines, .ts) -- import { describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/runtime/strategy-question-continuation.test.ts` (206 lines, .ts) -- import { describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/runtime/strategy-turn-chrome.test.ts` (51 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/todo-snapshot-dedupe.test.ts` (64 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/todos.test.ts` (420 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/tool-renderers.test.tsx` (279 lines, .tsx) -- import { useState } from 'react';
+- `./apps/web/tests/runtime/useSingleFlightCallback.test.tsx` (64 lines, .tsx) -- import { act, cleanup, renderHook } from '@testing-library/react';
+- `./apps/web/tests/runtime/visual-style-deck.test.ts` (180 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/w116-amr-low-balance-all-tiers.test.ts` (69 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/runtime/workspace-chrome-projects.test.ts` (83 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/runtime/zip.test.ts` (130 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/settings-access.test.ts` (88 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/setup/coalesced-get-reset.ts` (37 lines, .ts) -- import { beforeEach } from 'vitest';
+- `./apps/web/tests/setup/jsdom-lexical.ts` (79 lines, .ts) -- import { afterEach } from 'vitest';
+- `./apps/web/tests/sidecar-proxy-daemon-unavailable.test.ts` (112 lines, .ts) -- import { createServer as createHttpServer, type IncomingMessage, type Server as HttpServer, type ServerResponse } from '
+- `./apps/web/tests/sidecar-proxy-keepalive.test.ts` (167 lines, .ts) -- import { createServer as createNetServer, type Server as NetServer, type Socket } from 'node:net';
+- `./apps/web/tests/sidecar-proxy.test.ts` (385 lines, .ts) -- import { mkdir, mkdtemp, rm, writeFile } from 'node:fs/promises';
+- `./apps/web/tests/sidecar-shutdown.test.ts` (90 lines, .ts) -- import { createServer as createHttpServer } from 'node:http';
+- `./apps/web/tests/single-flight-project-reads.test.tsx` (216 lines, .tsx) -- import { cleanup, renderHook, waitFor } from '@testing-library/react';
+- `./apps/web/tests/state/api-protocols.test.ts` (46 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/state/appearance.test.ts` (95 lines, .ts) -- import { afterEach, describe, expect, it } from 'vitest';
+- `./apps/web/tests/state/config.test.ts` (1612 lines, .ts) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/state/force-light-theme.test.ts` (166 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/state/home-attachment-handoff.test.ts` (149 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/state/load-conversation-transcript.test.ts` (100 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/state/maxTokens.test.ts` (96 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/state/project-display-cache.test.ts` (212 lines, .ts) -- import {
+- `./apps/web/tests/state/projectRunStatus.test.ts` (164 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/state/projects.test.ts` (2573 lines, .ts) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/state/silent-update-preference.test.ts` (146 lines, .ts) -- import { describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/styles/acceptance-visual-fixes.test.ts` (171 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/styles/amr-account-control.test.ts` (29 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/styles/app-scrim-layer.test.ts` (533 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/styles/app-wash-platform.test.ts` (46 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/styles/artifact-card-desktop-viewport.test.ts` (131 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/styles/artifact-card-single-width.test.ts` (27 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/styles/avatar-menu-pinned-footer.test.ts` (78 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/styles/button-hover-default.test.ts` (54 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/styles/chat-disclosure-accessibility.test.ts` (86 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/styles/chat-message-rail-preview.test.ts` (22 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/styles/chat-project-header-edge.test.ts` (71 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/styles/chat-transparent-pane-materials.test.ts` (246 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/styles/chatpane-grid-transition.test.ts` (54 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/styles/cloud-signin-tip-selectable-text.test.ts` (40 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/styles/community-template-card.test.ts` (172 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/styles/community-template-preview-chrome.test.ts` (87 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/styles/composer-add-menu-alignment.test.ts` (81 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/styles/default-background.test.ts` (37 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/styles/design-browser-styles.test.ts` (115 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/styles/design-files-building.test.ts` (131 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/styles/design-files-preview-list.test.ts` (101 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/styles/design-kit-section-spacing.test.ts` (31 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/styles/design-system-modal-layer.test.ts` (45 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/styles/design-system-review-density.test.ts` (49 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/styles/entry-materials.test.ts` (275 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/styles/entry-rail-account-workspace-polish.test.ts` (96 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/styles/entry-rail-recent.test.ts` (155 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/styles/entry-rail-social-icons.test.ts` (63 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/styles/figma-import-modal.test.ts` (61 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/styles/filter-pill.test.ts` (93 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/styles/floating-layer-ladder.test.ts` (116 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/styles/font-weight-normalization.test.ts` (152 lines, .ts) -- import { readdirSync, readFileSync } from 'node:fs';
+- `./apps/web/tests/styles/go-plan-sunset-dialog.test.ts` (67 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/styles/home-hero-attachment-band.test.ts` (51 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/styles/home-hero-compact-controls.test.ts` (80 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/styles/home-hero-deck-preview.test.ts` (66 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/styles/home-hero-preset-rows.test.ts` (100 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/styles/home-hero-select-theme.test.ts` (49 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/styles/home-hero-type-pills.test.ts` (106 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/styles/image-preview-border.test.ts` (28 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/styles/inline-model-switcher.test.ts` (50 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/styles/markdown-links.test.ts` (31 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/styles/mention-popover.test.ts` (77 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/styles/modal-window-drag.test.ts` (15 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/styles/model-option-lock-layout.test.ts` (38 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/styles/msg-enter-animation-flag.test.ts` (83 lines, .ts) -- import { beforeAll, afterEach, describe, expect, it } from 'vitest';
+- `./apps/web/tests/styles/onboarding-cli-chip-alignment.test.tsx` (199 lines, .tsx) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/styles/onboarding-layout.test.ts` (61 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/styles/plugin-detail-scroll.test.ts` (23 lines, .ts) -- import postcss, { type Declaration, type Rule } from 'postcss';
+- `./apps/web/tests/styles/plugin-info-pane.test.ts` (25 lines, .ts) -- import postcss, { type Rule } from 'postcss';
+- `./apps/web/tests/styles/plugin-share-confirm.test.ts` (11 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/styles/plugin-share-menu-layout.test.ts` (35 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/styles/plugin-use-menu.test.ts` (95 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/styles/plus-menu-typography.test.ts` (40 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/styles/present-exit-theme-tokens.test.ts` (33 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/styles/project-chat-pane-material.test.ts` (190 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/styles/project-design-system-picker.test.ts` (38 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/styles/project-page-head.test.ts` (118 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/styles/project-reference-modal-rows.test.ts` (86 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/styles/project-unread-dot.test.ts` (40 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/styles/recent-projects-page-title-spacing.test.ts` (63 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/styles/recent-projects-selected-card.test.ts` (51 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/styles/run-error-card-responsive.test.ts` (22 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/styles/settings-polish.test.ts` (92 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/styles/sketch-help-modal.test.ts` (14 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/styles/tab-launcher-menu-opaque.test.ts` (34 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/styles/top-chrome-height.test.ts` (68 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/styles/type-pills-popover-centred.test.ts` (85 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/styles/w126-tooltip-design-parity.test.ts` (185 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/styles/workspace-switcher-overflow.test.ts` (38 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/styles/workspace-tabs-chrome.test.ts` (460 lines, .ts) -- import { readFileSync } from 'node:fs';
+- `./apps/web/tests/tab-scope.test.ts` (234 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/team-members-store.test.ts` (145 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/team-plan.test.ts` (239 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/team-projects-cache-key-collision.test.tsx` (146 lines, .tsx) -- import { cleanup, renderHook, waitFor } from '@testing-library/react';
+- `./apps/web/tests/team-projects-workspace-scope.test.ts` (72 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/update-surface-real-data.test.ts` (63 lines, .ts) -- import { existsSync, readFileSync } from 'node:fs';
+- `./apps/web/tests/use-brand-extract.workspace-headers.test.tsx` (108 lines, .tsx) -- import { act, cleanup, renderHook } from '@testing-library/react';
+- `./apps/web/tests/use-collab.test.tsx` (359 lines, .tsx) -- import { act, cleanup, renderHook } from '@testing-library/react';
+- `./apps/web/tests/use-project-collab.auto-pull-retry.test.tsx` (479 lines, .tsx) -- import { act, cleanup, renderHook } from '@testing-library/react';
+- `./apps/web/tests/use-project-collab.context-seed.test.tsx` (318 lines, .tsx) -- import { cleanup, renderHook, waitFor } from '@testing-library/react';
+- `./apps/web/tests/use-project-collab.created-by-viewer.test.tsx` (460 lines, .tsx) -- import { act, cleanup, renderHook, waitFor } from '@testing-library/react';
+- `./apps/web/tests/use-project-collab.first-open-materializing.test.tsx` (191 lines, .tsx) -- import { act, cleanup, renderHook } from '@testing-library/react';
+- `./apps/web/tests/use-project-collab.status-poll-parallel.test.tsx` (307 lines, .tsx) -- import { act, cleanup, renderHook } from '@testing-library/react';
+- `./apps/web/tests/use-project-collab.test.tsx` (353 lines, .tsx) -- import { act, cleanup, renderHook } from '@testing-library/react';
+- `./apps/web/tests/useProjectRouteWorkspaceContext.test.tsx` (611 lines, .tsx) -- import { useEffect } from 'react';
+- `./apps/web/tests/useProjectWorkspaceScope.test.tsx` (774 lines, .tsx) -- import { act, cleanup, renderHook, waitFor } from '@testing-library/react';
+- `./apps/web/tests/useProjectWorkspaceScope.workspace-identity.test.tsx` (315 lines, .tsx) -- import { act, cleanup, renderHook, waitFor } from '@testing-library/react';
+- `./apps/web/tests/useTeamMembers.shared-scheduler.test.tsx` (425 lines, .tsx) -- import { act, cleanup, renderHook } from '@testing-library/react';
+- `./apps/web/tests/useTeamMembers.workspace-identity.test.tsx` (267 lines, .tsx) -- import { act, cleanup, renderHook, waitFor } from '@testing-library/react';
+- `./apps/web/tests/useTeamProjects.empty-catalog.test.tsx` (48 lines, .tsx) -- import { act, cleanup, renderHook } from '@testing-library/react';
+- `./apps/web/tests/useTeamProjects.metadata-refresh.test.tsx` (352 lines, .tsx) -- import { act, cleanup, renderHook, waitFor } from '@testing-library/react';
+- `./apps/web/tests/useTeamProjects.workspace-switch-race.test.tsx` (632 lines, .tsx) -- import { act, cleanup, renderHook, waitFor } from '@testing-library/react';
+- `./apps/web/tests/useWorkspaceBilling.scope.test.tsx` (2112 lines, .tsx) -- import { act, cleanup, renderHook, waitFor } from '@testing-library/react';
+- `./apps/web/tests/useWorkspaceContext.cache.test.tsx` (177 lines, .tsx) -- import { cleanup, renderHook, waitFor } from '@testing-library/react';
+- `./apps/web/tests/useWorkspaceContext.identity-generation.test.tsx` (156 lines, .tsx) -- import { act, cleanup, renderHook, waitFor } from '@testing-library/react';
+- `./apps/web/tests/useWorkspaceContext.invalidation.test.tsx` (286 lines, .tsx) -- import { act, cleanup, renderHook, waitFor } from '@testing-library/react';
+- `./apps/web/tests/useWorkspaceContext.multi-consumer-dedupe.test.tsx` (146 lines, .tsx) -- import { act, cleanup, renderHook, waitFor } from '@testing-library/react';
+- `./apps/web/tests/useWorkspaceContext.retry.test.tsx` (139 lines, .tsx) -- import { act, cleanup, renderHook } from '@testing-library/react';
+- `./apps/web/tests/useWorkspaceContext.sign-in-refresh.test.tsx` (170 lines, .tsx) -- import { act, cleanup, renderHook, waitFor } from '@testing-library/react';
+- `./apps/web/tests/utils/agentLabels.test.ts` (82 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/utils/apiProtocol.test.ts` (46 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/utils/chatTime.test.ts` (31 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/utils/completion-feedback-activation.test.ts` (71 lines, .ts) -- import { fireEvent } from '@testing-library/react';
+- `./apps/web/tests/utils/connectorBrandColor.test.ts` (70 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/utils/fileSystemErrors.test.ts` (27 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/utils/inlineMentions.test.ts` (111 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/utils/notifications.test.ts` (97 lines, .ts) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/utils/pickAndImportError.test.ts` (35 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/utils/pluginInsertionTracking.test.ts` (310 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/utils/pluginRequiredInputs.test.ts` (49 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/utils/projectName.test.ts` (77 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/utils/promptTemplateDsCategories.test.ts` (42 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/utils/smoothScrollToTop.test.ts` (139 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/utils/uuid.test.ts` (116 lines, .ts) -- import { afterEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/utils/visibleAgents.test.ts` (82 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/workspace-billing-interests.test.ts` (236 lines, .ts) -- import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
+- `./apps/web/tests/workspace-events-scope.test.ts` (43 lines, .ts) -- import { describe, expect, it } from 'vitest';
+- `./apps/web/tests/workspace-member-directory-preloader.test.tsx` (155 lines, .tsx) -- import { act, cleanup, render } from '@testing-library/react';
+- `./apps/web/vitest.config.ts` (19 lines, .ts) -- import { resolve } from 'node:path';
+- `./assets/frames/README.md` (77 lines, .md) -- Reusable, pixel-accurate device chrome that any skill can compose into a
+- `./charts/open-design/README.md` (169 lines, .md) -- <!--- app-name: OpenDesign -->
+- `./clipper/README.md` (148 lines, .md) -- The **OpenDesign Web Clipper**: a browser extension that captures images,
+- `./clipper/background.js` (668 lines, .js) -- try {
+- `./clipper/brand-capture.js` (1803 lines, .js) -- (function () {
+- `./clipper/capture.js` (565 lines, .js) -- (function () {
+- `./clipper/content.js` (1661 lines, .js) -- (function () {
+- `./clipper/i18n.js` (651 lines, .js) -- (function () {
+- `./clipper/popup.js` (369 lines, .js) -- const $ = (id) => document.getElementById(id);
+- `./clipper/store/LISTING.md` (273 lines, .md) -- Single source of truth for the extension's store submissions. Copy fields
+- `./clipper/store/PRIVACY.md` (51 lines, .md) -- _Last updated: 2026-06-16_
+- `./craft/FUTURE_SECTIONS.md` (9 lines, .md) -- These slugs are intentionally referenced by skills before their matching
+- `./craft/README.md` (106 lines, .md) -- Brand-agnostic craft knowledge. Each file is a small, dense rulebook on one
+- `./craft/accessibility-baseline.md` (201 lines, .md) -- Universal rules for the legal floor of accessibility plus the craft
+- `./craft/animation-discipline.md` (154 lines, .md) -- Universal rules for when motion earns its place in a UI and what numbers
+- `./craft/anti-ai-slop.md` (84 lines, .md) -- Concrete, checkable rules that distinguish \"designed by a human who has
+- `./craft/color.md` (88 lines, .md) -- Universal color rules applied on top of the active `DESIGN.md`. The
+- `./craft/form-validation.md` (221 lines, .md) -- Universal rules for form validation lifecycle, error wiring beyond the
+- `./craft/laws-of-ux.md` (296 lines, .md) -- Universal cognitive, perceptual, and behavioral heuristics that decide
+- `./craft/rtl-and-bidi.md` (186 lines, .md) -- Universal rules for right-to-left layout and bidirectional text. The
+- `./craft/state-coverage.md` (134 lines, .md) -- Universal rules for what every interactive surface must render. The active
+- `./craft/typography-hierarchy-editorial.md` (182 lines, .md) -- Extends `typography.md` + `typography-hierarchy.md`. Defines hierarchy
+- `./craft/typography-hierarchy.md` (165 lines, .md) -- Shared hierarchy contracts that layer on top of `typography.md`. This file does
+- `./craft/typography.md` (122 lines, .md) -- Universal typography rules that apply on top of any `DESIGN.md`. The
+- `./deploy/README.md` (283 lines, .md) -- This deployment ships OpenDesign as a single Alpine-based runtime image. The
+- `./deploy/aws/README.md` (89 lines, .md) -- This directory contains an AWS CloudFormation template (`template.yaml`) to deploy OpenDesign into your AWS environment 
+- `./deploy/azure/README.md` (140 lines, .md) -- Deploy OpenDesign to Microsoft Azure from the published runtime image — the
+- `./deploy/azure/deploy-azure.sh` (106 lines, .sh) -- set -euo pipefail
+- `./deploy/scripts/install.sh` (538 lines, .sh) -- set -euo pipefail
+- `./deploy/scripts/prepare-colima-build-swap.sh` (199 lines, .sh) -- set -euo pipefail
+- `./deploy/scripts/publish-images.sh` (658 lines, .sh) -- set -euo pipefail
+- `./deploy/scripts/uninstall.sh` (233 lines, .sh) -- set -euo pipefail
+- `./deploy/scripts/update.sh` (163 lines, .sh) -- set -euo pipefail
+- `./deploy/scripts/verify-image-manifest.sh` (30 lines, .sh) -- set -euo pipefail
+- `./deploy/scripts/verify-image.sh` (94 lines, .sh) -- set -euo pipefail
+- `./deploy/tests/azure-bicep.test.ts` (121 lines, .ts) -- import { readFile } from 'node:fs/promises';
+- `./deploy/tests/install.test.ts` (222 lines, .ts) -- import { mkdtemp, readFile, rm, writeFile } from 'node:fs/promises';
+- `./deploy/tests/prepare-colima-build-swap.test.ts` (381 lines, .ts) -- import { mkdir, mkdtemp, readFile, writeFile } from \"node:fs/promises\";
+- `./design-browser-task-handoff.md` (196 lines, .md) -- Generated from this chat session on 2026-05-30.
+- `./design-systems/README.md` (144 lines, .md) -- Each subfolder is a portable design-system package. Selecting one from the
+- `./design-systems/_schema/AGENTS.md` (219 lines, .md) -- This directory codifies the structural contracts for design systems.
+- `./design-systems/_schema/manifest.schema.ts` (443 lines, .ts) -- export const DESIGN_SYSTEM_PROJECT_SCHEMA_VERSION = \"od-design-system-project/v1\" as const;
+- `./design-systems/_schema/tokens.schema.ts` (1 lines, .ts) -- export * from \"../../packages/contracts/src/design-systems/token-schema.ts\";
+- `./design-systems/agentic/DESIGN.md` (71 lines, .md) -- > Category: Themed & Unique
+- `./design-systems/agentic/USAGE.md` (32 lines, .md) -- Design System 2.0 package guide for OpenDesign agents and reviewers.
+- `./design-systems/agentic/source/evidence.md` (17 lines, .md) -- This Design System 2.0 backfill is derived from the curated OpenDesign bundled fixture.
+- `./design-systems/airbnb/DESIGN-ar.md` (393 lines, .md) -- > Category: التجارة الإلكترونية والتجزئة
+- `./design-systems/airbnb/DESIGN-de.md` (393 lines, .md) -- > Category: E-Commerce & Einzelhandel
+- `./design-systems/airbnb/DESIGN-es.md` (393 lines, .md) -- > Category: Comercio electrónico y venta minorista
+- `./design-systems/airbnb/DESIGN-fr.md` (393 lines, .md) -- > Category: E-Commerce et vente au détail
+- `./design-systems/airbnb/DESIGN-id.md` (393 lines, .md) -- > Category: E-Commerce & Ritel
+- `./design-systems/airbnb/DESIGN-it.md` (393 lines, .md) -- > Category: E-Commerce & Vendita al dettaglio
+- `./design-systems/airbnb/DESIGN-ja.md` (393 lines, .md) -- > Category: Eコマース＆小売
+- `./design-systems/airbnb/DESIGN-ko.md` (393 lines, .md) -- > Category: 이커머스 및 리테일
+- `./design-systems/airbnb/DESIGN-nl.md` (393 lines, .md) -- > Category: E-Commerce & Detailhandel
+- `./design-systems/airbnb/DESIGN-pl.md` (393 lines, .md) -- > Category: E-commerce i handel detaliczny
+- `./design-systems/airbnb/DESIGN-pt-br.md` (393 lines, .md) -- > Category: E-commerce e varejo
+- `./design-systems/airbnb/DESIGN-ru.md` (393 lines, .md) -- > Category: Электронная коммерция и розничная торговля
+- `./design-systems/airbnb/DESIGN-tr.md` (393 lines, .md) -- > Category: E-Ticaret & Perakende
+- `./design-systems/airbnb/DESIGN-uk.md` (393 lines, .md) -- > Category: Електронна комерція та роздрібна торгівля
+- `./design-systems/airbnb/DESIGN-vi.md` (393 lines, .md) -- > Category: Thương mại điện tử & Bán lẻ
+- `./design-systems/airbnb/DESIGN-zh-tw.md` (393 lines, .md) -- > Category: 電商與零售
+- `./design-systems/airbnb/DESIGN-zh.md` (393 lines, .md) -- > Category: 电商与零售
+- `./design-systems/airbnb/DESIGN.md` (393 lines, .md) -- > Category: E-Commerce & Retail
+- `./design-systems/airbnb/USAGE.md` (32 lines, .md) -- Design System 2.0 package guide for OpenDesign agents and reviewers.
+- `./design-systems/airbnb/source/evidence.md` (17 lines, .md) -- This Design System 2.0 backfill is derived from the curated OpenDesign bundled fixture.
+- `./design-systems/airtable/DESIGN-ar.md` (92 lines, .md) -- > Category: التصميم والإبداع
+- `./design-systems/airtable/DESIGN-de.md` (92 lines, .md) -- > Category: Design & Kreatives
+- `./design-systems/airtable/DESIGN-es.md` (92 lines, .md) -- > Category: Diseño y Creatividad
+- `./design-systems/airtable/DESIGN-fr.md` (92 lines, .md) -- > Category: Design & Créatif
+- `./design-systems/airtable/DESIGN-id.md` (92 lines, .md) -- > Category: Desain & Kreatif
+- `./design-systems/airtable/DESIGN-it.md` (92 lines, .md) -- > Category: Design e Creatività
+- `./design-systems/airtable/DESIGN-ja.md` (92 lines, .md) -- > Category: デザイン＆クリエイティブ
+- `./design-systems/airtable/DESIGN-ko.md` (92 lines, .md) -- > Category: 디자인 & 크리에이티브
+- `./design-systems/airtable/DESIGN-nl.md` (92 lines, .md) -- > Category: Design & Creatief
+- `./design-systems/airtable/DESIGN-pl.md` (92 lines, .md) -- > Category: Design i Kreatywność
+- `./design-systems/airtable/DESIGN-pt-br.md` (92 lines, .md) -- > Category: Design & Criativo
+- `./design-systems/airtable/DESIGN-ru.md` (92 lines, .md) -- > Category: Дизайн и творчество
+- `./design-systems/airtable/DESIGN-tr.md` (92 lines, .md) -- > Category: Tasarım ve Yaratıcılık
+- `./design-systems/airtable/DESIGN-uk.md` (92 lines, .md) -- > Category: Дизайн і творчість
+- `./design-systems/airtable/DESIGN-vi.md` (92 lines, .md) -- > Category: Thiết kế & Sáng tạo
+- `./design-systems/airtable/DESIGN-zh-tw.md` (92 lines, .md) -- > Category: 設計與創意
+- `./design-systems/airtable/DESIGN-zh.md` (92 lines, .md) -- > Category: 设计与创意
+- `./design-systems/airtable/DESIGN.md` (92 lines, .md) -- > Category: Design & Creative
+- `./design-systems/airtable/USAGE.md` (32 lines, .md) -- Design System 2.0 package guide for OpenDesign agents and reviewers.
+- `./design-systems/airtable/source/evidence.md` (17 lines, .md) -- This Design System 2.0 backfill is derived from the curated OpenDesign bundled fixture.
+- `./design-systems/ant/DESIGN.md` (71 lines, .md) -- > Category: Professional & Corporate
+- `./design-systems/ant/USAGE.md` (32 lines, .md) -- Design System 2.0 package guide for OpenDesign agents and reviewers.
+- `./design-systems/ant/source/evidence.md` (17 lines, .md) -- This Design System 2.0 backfill is derived from the curated OpenDesign bundled fixture.
+- `./design-systems/apple/DESIGN-ar.md` (250 lines, .md) -- > Category: الوسائط والمستهلك
+- `./design-systems/apple/DESIGN-de.md` (250 lines, .md) -- > Category: Medien & Konsumgüter
+- `./design-systems/apple/DESIGN-es.md` (250 lines, .md) -- > Category: Medios y consumo
+- `./design-systems/apple/DESIGN-fr.md` (250 lines, .md) -- > Category: Médias & Grand public
+- `./design-systems/apple/DESIGN-id.md` (250 lines, .md) -- > Category: Media & Consumer
+- `./design-systems/apple/DESIGN-it.md` (250 lines, .md) -- > Category: Media e consumo
+- `./design-systems/apple/DESIGN-ja.md` (250 lines, .md) -- > Category: メディア＆コンシューマー
+- `./design-systems/apple/DESIGN-ko.md` (250 lines, .md) -- > Category: 미디어 & 컨슈머
+- `./design-systems/apple/DESIGN-nl.md` (250 lines, .md) -- > Category: Media & Consumer
+- `./design-systems/apple/DESIGN-pl.md` (250 lines, .md) -- > Category: Media i konsument
+- `./design-systems/apple/DESIGN-pt-br.md` (250 lines, .md) -- > Category: Mídia & Consumo
+- `./design-systems/apple/DESIGN-ru.md` (250 lines, .md) -- > Category: Медиа и потребительские товары
+- `./design-systems/apple/DESIGN-tr.md` (250 lines, .md) -- > Category: Medya ve Tüketici
+- `./design-systems/apple/DESIGN-uk.md` (250 lines, .md) -- > Category: Медіа та споживчі продукти
+- `./design-systems/apple/DESIGN-vi.md` (250 lines, .md) -- > Category: Truyền thông & Người tiêu dùng
+- `./design-systems/apple/DESIGN-zh-tw.md` (250 lines, .md) -- > Category: 媒體與消費電子
+- `./design-systems/apple/DESIGN-zh.md` (250 lines, .md) -- > Category: 媒体与消费电子
+- `./design-systems/apple/DESIGN.md` (250 lines, .md) -- > Category: Media & Consumer
+- `./design-systems/apple/USAGE.md` (32 lines, .md) -- Design System 2.0 package guide for OpenDesign agents and reviewers.
+- `./design-systems/apple/source/evidence.md` (17 lines, .md) -- This Design System 2.0 backfill is derived from the curated OpenDesign bundled fixture.
+- `./design-systems/application/DESIGN.md` (71 lines, .md) -- > Category: Professional & Corporate
+- `./design-systems/application/USAGE.md` (32 lines, .md) -- Design System 2.0 package guide for OpenDesign agents and reviewers.
+- `./design-systems/application/source/evidence.md` (17 lines, .md) -- This Design System 2.0 backfill is derived from the curated OpenDesign bundled fixture.
+- `./design-systems/arc/DESIGN.md` (159 lines, .md) -- > Category: Productivity & SaaS
+- `./design-systems/arc/USAGE.md` (32 lines, .md) -- Design System 2.0 package guide for OpenDesign agents and reviewers.
+- `./design-systems/arc/source/evidence.md` (17 lines, .md) -- This Design System 2.0 backfill is derived from the curated OpenDesign bundled fixture.
+- `./design-systems/artistic/DESIGN.md` (71 lines, .md) -- > Category: Creative & Artistic
+- `./design-systems/artistic/USAGE.md` (32 lines, .md) -- Design System 2.0 package guide for OpenDesign agents and reviewers.
+- `./design-systems/artistic/source/evidence.md` (17 lines, .md) -- This Design System 2.0 backfill is derived from the curated OpenDesign bundled fixture.
+- `./design-systems/atelier-zero/DESIGN.md` (316 lines, .md) -- > Category: Editorial · Studio
+- `./design-systems/atelier-zero/USAGE.md` (32 lines, .md) -- Design System 2.0 package guide for OpenDesign agents and reviewers.
+- `./design-systems/atelier-zero/source/evidence.md` (17 lines, .md) -- This Design System 2.0 backfill is derived from the curated OpenDesign bundled fixture.
+- `./design-systems/bento/DESIGN.md` (71 lines, .md) -- > Category: Layout & Structure
+- `./design-systems/bento/USAGE.md` (32 lines, .md) -- Design System 2.0 package guide for OpenDesign agents and reviewers.
+- `./design-systems/bento/source/evidence.md` (17 lines, .md) -- This Design System 2.0 backfill is derived from the curated OpenDesign bundled fixture.
+- `./design-systems/binance/DESIGN.md` (348 lines, .md) -- > Category: Fintech & Crypto
+- `./design-systems/binance/USAGE.md` (32 lines, .md) -- Design System 2.0 package guide for OpenDesign agents and reviewers.
+- `./design-systems/binance/source/evidence.md` (17 lines, .md) -- This Design System 2.0 backfill is derived from the curated OpenDesign bundled fixture.
+- `./design-systems/bmw-m/DESIGN.md` (246 lines, .md) -- > Category: Automotive
+- `./design-systems/bmw-m/USAGE.md` (32 lines, .md) -- Design System 2.0 package guide for OpenDesign agents and reviewers.
+- `./design-systems/bmw-m/source/evidence.md` (17 lines, .md) -- This Design System 2.0 backfill is derived from the curated OpenDesign bundled fixture.
+- `./design-systems/bmw/DESIGN.md` (183 lines, .md) -- > Category: Automotive
+- `./design-systems/bmw/USAGE.md` (32 lines, .md) -- Design System 2.0 package guide for OpenDesign agents and reviewers.
+- `./design-systems/bmw/source/evidence.md` (17 lines, .md) -- This Design System 2.0 backfill is derived from the curated OpenDesign bundled fixture.
+- `./design-systems/bold/DESIGN.md` (71 lines, .md) -- > Category: Bold & Expressive
+- `./design-systems/bold/USAGE.md` (32 lines, .md) -- Design System 2.0 package guide for OpenDesign agents and reviewers.
+- `./design-systems/bold/source/evidence.md` (17 lines, .md) -- This Design System 2.0 backfill is derived from the curated OpenDesign bundled fixture.
+- `./design-systems/brutalism/DESIGN.md` (71 lines, .md) -- > Category: Bold & Expressive
+- `./design-systems/brutalism/USAGE.md` (32 lines, .md) -- Design System 2.0 package guide for OpenDesign agents and reviewers.
+- `./design-systems/brutalism/source/evidence.md` (17 lines, .md) -- This Design System 2.0 backfill is derived from the curated OpenDesign bundled fixture.
+- `./design-systems/bugatti/DESIGN.md` (271 lines, .md) -- > Category: Automotive
+- `./design-systems/bugatti/USAGE.md` (32 lines, .md) -- Design System 2.0 package guide for OpenDesign agents and reviewers.
+- `./design-systems/bugatti/source/evidence.md` (17 lines, .md) -- This Design System 2.0 backfill is derived from the curated OpenDesign bundled fixture.
+- `./design-systems/cafe/DESIGN.md` (71 lines, .md) -- > Category: Creative & Artistic
+- `./design-systems/cafe/USAGE.md` (32 lines, .md) -- Design System 2.0 package guide for OpenDesign agents and reviewers.
+- `./design-systems/cafe/source/evidence.md` (17 lines, .md) -- This Design System 2.0 backfill is derived from the curated OpenDesign bundled fixture.
+- `./design-systems/cal/DESIGN.md` (262 lines, .md) -- > Category: Productivity & SaaS
+- `./design-systems/cal/USAGE.md` (32 lines, .md) -- Design System 2.0 package guide for OpenDesign agents and reviewers.
+- `./design-systems/cal/source/evidence.md` (17 lines, .md) -- This Design System 2.0 backfill is derived from the curated OpenDesign bundled fixture.
+- `./design-systems/canva/DESIGN.md` (164 lines, .md) -- > Category: Design & Creative
+- `./design-systems/canva/USAGE.md` (32 lines, .md) -- Design System 2.0 package guide for OpenDesign agents and reviewers.
+- `./design-systems/canva/source/evidence.md` (17 lines, .md) -- This Design System 2.0 backfill is derived from the curated OpenDesign bundled fixture.
+- `./design-systems/cisco/DESIGN.md` (201 lines, .md) -- > Category: Backend & Data
+- `./design-systems/cisco/USAGE.md` (32 lines, .md) -- Design System 2.0 package guide for OpenDesign agents and reviewers.
+- `./design-systems/cisco/source/evidence.md` (17 lines, .md) -- This Design System 2.0 backfill is derived from the curated OpenDesign bundled fixture.
+- `./design-systems/claude/DESIGN.md` (315 lines, .md) -- > Category: AI & LLM
+- `./design-systems/claude/USAGE.md` (32 lines, .md) -- Design System 2.0 package guide for OpenDesign agents and reviewers.
+- `./design-systems/claude/source/evidence.md` (17 lines, .md) -- This Design System 2.0 backfill is derived from the curated OpenDesign bundled fixture.
+- `./design-systems/clay/DESIGN.md` (307 lines, .md) -- > Category: Design & Creative
+- `./design-systems/clay/USAGE.md` (32 lines, .md) -- Design System 2.0 package guide for OpenDesign agents and reviewers.
+- `./design-systems/clay/source/evidence.md` (17 lines, .md) -- This Design System 2.0 backfill is derived from the curated OpenDesign bundled fixture.
+- `./design-systems/claymorphism/DESIGN.md` (71 lines, .md) -- > Category: Morphism & Effects
+- `./design-systems/claymorphism/USAGE.md` (32 lines, .md) -- Design System 2.0 package guide for OpenDesign agents and reviewers.
+- `./design-systems/claymorphism/source/evidence.md` (17 lines, .md) -- This Design System 2.0 backfill is derived from the curated OpenDesign bundled fixture.
+- `./design-systems/clean/DESIGN.md` (71 lines, .md) -- > Category: Modern & Minimal
+- `./design-systems/clean/USAGE.md` (32 lines, .md) -- Design System 2.0 package guide for OpenDesign agents and reviewers.
+- `./design-systems/clean/source/evidence.md` (17 lines, .md) -- This Design System 2.0 backfill is derived from the curated OpenDesign bundled fixture.
+- `./design-systems/clickhouse/DESIGN.md` (284 lines, .md) -- > Category: Backend & Data
+- `./design-systems/clickhouse/USAGE.md` (32 lines, .md) -- Design System 2.0 package guide for OpenDesign agents and reviewers.
+- `./design-systems/clickhouse/source/evidence.md` (17 lines, .md) -- This Design System 2.0 backfill is derived from the curated OpenDesign bundled fixture.
+- `./design-systems/cloudflare-kumo/DESIGN.md` (136 lines, .md) -- > Category: Developer Tools
+- `./design-systems/cloudflare-kumo/USAGE.md` (38 lines, .md) -- Agent-facing guidance for the OpenDesign curated integration of Cloudflare Kumo UI.
+- `./design-systems/cloudflare-kumo/source/evidence.md` (29 lines, .md) -- This package is an OpenDesign curated integration based only on public, official Cloudflare sources. It does not vendor 
+- `./design-systems/cohere/DESIGN-ar.md` (269 lines, .md) -- > Category: ذكاء اصطناعي ونماذج لغوية كبيرة
+- `./design-systems/cohere/DESIGN-de.md` (269 lines, .md) -- > Kategorie: KI & LLM
+- `./design-systems/cohere/DESIGN-es.md` (269 lines, .md) -- > Categoría: IA y LLM
+- `./design-systems/cohere/DESIGN-fr.md` (269 lines, .md) -- > Catégorie : IA & LLM
+- `./design-systems/cohere/DESIGN-id.md` (269 lines, .md) -- > Kategori: AI & LLM
+- `./design-systems/cohere/DESIGN-it.md` (269 lines, .md) -- > Category: AI & LLM
+- `./design-systems/cohere/DESIGN-ja.md` (269 lines, .md) -- > Category: AI・LLM
+- `./design-systems/cohere/DESIGN-ko.md` (269 lines, .md) -- > Category: AI & LLM
+- `./design-systems/cohere/DESIGN-nl.md` (269 lines, .md) -- > Category: AI & LLM
+- `./design-systems/cohere/DESIGN-pl.md` (269 lines, .md) -- > Kategoria: AI i LLM
+- `./design-systems/cohere/DESIGN-pt-br.md` (269 lines, .md) -- > Categoria: IA e LLM
+- `./design-systems/cohere/DESIGN-ru.md` (269 lines, .md) -- > Category: ИИ и языковые модели
+- `./design-systems/cohere/DESIGN-tr.md` (269 lines, .md) -- > Kategori: Yapay Zeka & LLM
+- `./design-systems/cohere/DESIGN-uk.md` (269 lines, .md) -- > Category: Штучний інтелект і великі мовні моделі
+- `./design-systems/cohere/DESIGN-vi.md` (269 lines, .md) -- > Danh mục: AI & LLM
+- `./design-systems/cohere/DESIGN-zh-tw.md` (269 lines, .md) -- > Category: AI 與大型語言模型
+- `./design-systems/cohere/DESIGN-zh.md` (269 lines, .md) -- > Category: AI 与大语言模型
+- `./design-systems/cohere/DESIGN.md` (269 lines, .md) -- > Category: AI & LLM
+- `./design-systems/cohere/USAGE.md` (32 lines, .md) -- Design System 2.0 package guide for OpenDesign agents and reviewers.
+- `./design-systems/cohere/source/evidence.md` (17 lines, .md) -- This Design System 2.0 backfill is derived from the curated OpenDesign bundled fixture.
+- `./design-systems/coinbase/DESIGN.md` (132 lines, .md) -- > Category: Fintech & Crypto
+- `./design-systems/coinbase/USAGE.md` (32 lines, .md) -- Design System 2.0 package guide for OpenDesign agents and reviewers.
+- `./design-systems/coinbase/source/evidence.md` (17 lines, .md) -- This Design System 2.0 backfill is derived from the curated OpenDesign bundled fixture.
+- `./design-systems/colorful/DESIGN.md` (71 lines, .md) -- > Category: Bold & Expressive
+- `./design-systems/colorful/USAGE.md` (32 lines, .md) -- Design System 2.0 package guide for OpenDesign agents and reviewers.
+- `./design-systems/colorful/source/evidence.md` (17 lines, .md) -- This Design System 2.0 backfill is derived from the curated OpenDesign bundled fixture.
+- `./design-systems/composio/DESIGN.md` (310 lines, .md) -- > Category: Backend & Data
+- `./design-systems/composio/USAGE.md` (32 lines, .md) -- Design System 2.0 package guide for OpenDesign agents and reviewers.
+- `./design-systems/composio/source/evidence.md` (17 lines, .md) -- This Design System 2.0 backfill is derived from the curated OpenDesign bundled fixture.
+- `./design-systems/contemporary/DESIGN.md` (71 lines, .md) -- > Category: Modern & Minimal
+- `./design-systems/contemporary/USAGE.md` (32 lines, .md) -- Design System 2.0 package guide for OpenDesign agents and reviewers.
+- `./design-systems/contemporary/source/evidence.md` (17 lines, .md) -- This Design System 2.0 backfill is derived from the curated OpenDesign bundled fixture.
+- `./design-systems/corporate/DESIGN.md` (71 lines, .md) -- > Category: Professional & Corporate
+- `./design-systems/corporate/USAGE.md` (32 lines, .md) -- Design System 2.0 package guide for OpenDesign agents and reviewers.
+- `./design-systems/corporate/source/evidence.md` (17 lines, .md) -- This Design System 2.0 backfill is derived from the curated OpenDesign bundled fixture.
+- `./design-systems/cosmic/DESIGN.md` (71 lines, .md) -- > Category: Creative & Artistic
+- `./design-systems/cosmic/USAGE.md` (32 lines, .md) -- Design System 2.0 package guide for OpenDesign agents and reviewers.
+- `./design-systems/cosmic/source/evidence.md` (17 lines, .md) -- This Design System 2.0 backfill is derived from the curated OpenDesign bundled fixture.
+- `./design-systems/creative/DESIGN.md` (71 lines, .md) -- > Category: Creative & Artistic
+- `./design-systems/creative/USAGE.md` (32 lines, .md) -- Design System 2.0 package guide for OpenDesign agents and reviewers.
+- `./design-systems/creative/source/evidence.md` (17 lines, .md) -- This Design System 2.0 backfill is derived from the curated OpenDesign bundled fixture.
+- `./design-systems/cursor/DESIGN.md` (312 lines, .md) -- > Category: Developer Tools
+- `./design-systems/cursor/USAGE.md` (32 lines, .md) -- Design System 2.0 package guide for OpenDesign agents and reviewers.
+- `./design-systems/cursor/source/evidence.md` (17 lines, .md) -- This Design System 2.0 backfill is derived from the curated OpenDesign bundled fixture.
+- `./design-systems/dashboard/DESIGN.md` (71 lines, .md) -- > Category: Professional & Corporate
+- `./design-systems/dashboard/USAGE.md` (32 lines, .md) -- Design System 2.0 package guide for OpenDesign agents and reviewers.
+- `./design-systems/dashboard/source/evidence.md` (17 lines, .md) -- This Design System 2.0 backfill is derived from the curated OpenDesign bundled fixture.
+- `./design-systems/default/DESIGN.md` (62 lines, .md) -- > Category: Starter
+- `./design-systems/default/USAGE.md` (32 lines, .md) -- Design System 2.0 package guide for OpenDesign agents and reviewers.
+- `./design-systems/default/source/evidence.md` (17 lines, .md) -- This Design System 2.0 backfill is derived from the curated OpenDesign bundled fixture.
+- `./design-systems/discord/DESIGN-ar.md` (168 lines, .md) -- > Category: إنتاجية وبرمجيات كخدمة
+- `./design-systems/discord/DESIGN-de.md` (168 lines, .md) -- > Category: Produktivität & SaaS
+- `./design-systems/discord/DESIGN-es.md` (168 lines, .md) -- > Categoría: Productividad y SaaS
+- `./design-systems/discord/DESIGN-fr.md` (168 lines, .md) -- > Category: Productivité & SaaS
+- `./design-systems/discord/DESIGN-id.md` (168 lines, .md) -- > Category: Produktivitas & SaaS
+- `./design-systems/discord/DESIGN-it.md` (168 lines, .md) -- > Category: Produttività e SaaS
+- `./design-systems/discord/DESIGN-ja.md` (168 lines, .md) -- > Category: 生産性・SaaS
+- `./design-systems/discord/DESIGN-ko.md` (168 lines, .md) -- > Category: 생산성 및 SaaS
+- `./design-systems/discord/DESIGN-nl.md` (168 lines, .md) -- > Category: Productiviteit & SaaS
+- `./design-systems/discord/DESIGN-pl.md` (168 lines, .md) -- > Category: Produktywność i SaaS
+- `./design-systems/discord/DESIGN-pt-br.md` (168 lines, .md) -- > Categoria: Produtividade & SaaS
+- `./design-systems/discord/DESIGN-ru.md` (168 lines, .md) -- > Category: Продуктивность и SaaS
+- `./design-systems/discord/DESIGN-tr.md` (168 lines, .md) -- > Kategori: Üretkenlik & SaaS
+- `./design-systems/discord/DESIGN-uk.md` (168 lines, .md) -- > Category: Продуктивність і SaaS
+- `./design-systems/discord/DESIGN-vi.md` (168 lines, .md) -- > Category: Năng suất & SaaS
+- `./design-systems/discord/DESIGN-zh-tw.md` (168 lines, .md) -- > Category: 生產力與 SaaS
+- `./design-systems/discord/DESIGN-zh.md` (168 lines, .md) -- > Category: 效率与 SaaS
+- `./design-systems/discord/DESIGN.md` (168 lines, .md) -- > Category: Productivity & SaaS
+- `./design-systems/discord/USAGE.md` (32 lines, .md) -- Design System 2.0 package guide for OpenDesign agents and reviewers.
+- `./design-systems/discord/source/evidence.md` (17 lines, .md) -- This Design System 2.0 backfill is derived from the curated OpenDesign bundled fixture.
+- `./design-systems/dithered/DESIGN.md` (71 lines, .md) -- > Category: Retro & Nostalgic
+- `./design-systems/dithered/USAGE.md` (32 lines, .md) -- Design System 2.0 package guide for OpenDesign agents and reviewers.
+- `./design-systems/dithered/source/evidence.md` (17 lines, .md) -- This Design System 2.0 backfill is derived from the curated OpenDesign bundled fixture.
+- `./design-systems/doodle/DESIGN.md` (71 lines, .md) -- > Category: Creative & Artistic
+- `./design-systems/doodle/USAGE.md` (32 lines, .md) -- Design System 2.0 package guide for OpenDesign agents and reviewers.
+- `./design-systems/doodle/source/evidence.md` (17 lines, .md) -- This Design System 2.0 backfill is derived from the curated OpenDesign bundled fixture.
+- `./design-systems/dramatic/DESIGN.md` (71 lines, .md) -- > Category: Bold & Expressive
+- `./design-systems/dramatic/USAGE.md` (32 lines, .md) -- Design System 2.0 package guide for OpenDesign agents and reviewers.
+- `./design-systems/dramatic/source/evidence.md` (17 lines, .md) -- This Design System 2.0 backfill is derived from the curated OpenDesign bundled fixture.
+- `./design-systems/duolingo/DESIGN-ar.md` (160 lines, .md) -- > Category: الإنتاجية والبرمجيات كخدمة
+- `./design-systems/duolingo/DESIGN-de.md` (160 lines, .md) -- > Category: Produktivität & SaaS
+- `./design-systems/duolingo/DESIGN-es.md` (160 lines, .md) -- > Category: Productividad y SaaS
+- `./design-systems/duolingo/DESIGN-fr.md` (160 lines, .md) -- > Category: Productivité & SaaS
+- `./design-systems/duolingo/DESIGN-id.md` (160 lines, .md) -- > Category: Produktivitas & SaaS
+- `./design-systems/duolingo/DESIGN-it.md` (160 lines, .md) -- > Category: Produttività e SaaS
+- `./design-systems/duolingo/DESIGN-ja.md` (160 lines, .md) -- > Category: 生産性 & SaaS
+- `./design-systems/duolingo/DESIGN-ko.md` (160 lines, .md) -- > Category: 생산성 & SaaS
+- `./design-systems/duolingo/DESIGN-nl.md` (160 lines, .md) -- > Category: Productiviteit & SaaS
+- `./design-systems/duolingo/DESIGN-pl.md` (160 lines, .md) -- > Category: Produktywność i SaaS
+- `./design-systems/duolingo/DESIGN-pt-br.md` (160 lines, .md) -- > Category: Produtividade & SaaS
+- `./design-systems/duolingo/DESIGN-ru.md` (160 lines, .md) -- > Category: Продуктивность и SaaS
+- `./design-systems/duolingo/DESIGN-tr.md` (160 lines, .md) -- > Category: Üretkenlik ve SaaS
+- `./design-systems/duolingo/DESIGN-uk.md` (160 lines, .md) -- > Category: Продуктивність і SaaS
+- `./design-systems/duolingo/DESIGN-vi.md` (160 lines, .md) -- > Category: Năng suất & SaaS
+- `./design-systems/duolingo/DESIGN-zh-tw.md` (160 lines, .md) -- > Category: 效率與 SaaS
+- `./design-systems/duolingo/DESIGN-zh.md` (160 lines, .md) -- > Category: 效率与 SaaS
+- `./design-systems/duolingo/DESIGN.md` (160 lines, .md) -- > Category: Productivity & SaaS
+- `./design-systems/duolingo/USAGE.md` (32 lines, .md) -- Design System 2.0 package guide for OpenDesign agents and reviewers.
+- `./design-systems/duolingo/source/evidence.md` (17 lines, .md) -- This Design System 2.0 backfill is derived from the curated OpenDesign bundled fixture.
+- `./design-systems/editorial/DESIGN.md` (71 lines, .md) -- > Category: Creative & Artistic
+- `./design-systems/editorial/USAGE.md` (32 lines, .md) -- Design System 2.0 package guide for OpenDesign agents and reviewers.
+- `./design-systems/editorial/source/evidence.md` (17 lines, .md) -- This Design System 2.0 backfill is derived from the curated OpenDesign bundled fixture.
+- `./design-systems/elegant/DESIGN.md` (71 lines, .md) -- > Category: Professional & Corporate
+- `./design-systems/elegant/USAGE.md` (32 lines, .md) -- Design System 2.0 package guide for OpenDesign agents and reviewers.
+- `./design-systems/elegant/source/evidence.md` (17 lines, .md) -- This Design System 2.0 backfill is derived from the curated OpenDesign bundled fixture.
+- `./design-systems/elevenlabs/DESIGN.md` (268 lines, .md) -- > Category: AI & LLM
+- `./design-systems/elevenlabs/USAGE.md` (32 lines, .md) -- Design System 2.0 package guide for OpenDesign agents and reviewers.
+- `./design-systems/elevenlabs/source/evidence.md` (17 lines, .md) -- This Design System 2.0 backfill is derived from the curated OpenDesign bundled fixture.
+- `./design-systems/energetic/DESIGN.md` (72 lines, .md) -- > Category: Bold & Expressive
+- `./design-systems/energetic/USAGE.md` (32 lines, .md) -- Design System 2.0 package guide for OpenDesign agents and reviewers.
+- `./design-systems/energetic/source/evidence.md` (17 lines, .md) -- This Design System 2.0 backfill is derived from the curated OpenDesign bundled fixture.
+- `./design-systems/enterprise/DESIGN.md` (71 lines, .md) -- > Category: Professional & Corporate
+- `./design-systems/enterprise/USAGE.md` (32 lines, .md) -- Design System 2.0 package guide for OpenDesign agents and reviewers.
+- `./design-systems/enterprise/source/evidence.md` (17 lines, .md) -- This Design System 2.0 backfill is derived from the curated OpenDesign bundled fixture.
+- `./design-systems/expo/DESIGN.md` (284 lines, .md) -- > Category: Developer Tools
+- `./design-systems/expo/USAGE.md` (32 lines, .md) -- Design System 2.0 package guide for OpenDesign agents and reviewers.
+- `./design-systems/expo/source/evidence.md` (17 lines, .md) -- This Design System 2.0 backfill is derived from the curated OpenDesign bundled fixture.
+- `./design-systems/expressive/DESIGN.md` (71 lines, .md) -- > Category: Bold & Expressive
+- `./design-systems/expressive/USAGE.md` (32 lines, .md) -- Design System 2.0 package guide for OpenDesign agents and reviewers.
+- `./design-systems/expressive/source/evidence.md` (17 lines, .md) -- This Design System 2.0 backfill is derived from the curated OpenDesign bundled fixture.
+- `./design-systems/fantasy/DESIGN.md` (71 lines, .md) -- > Category: Creative & Artistic
+- `./design-systems/fantasy/USAGE.md` (32 lines, .md) -- Design System 2.0 package guide for OpenDesign agents and reviewers.
+- `./design-systems/fantasy/source/evidence.md` (17 lines, .md) -- This Design System 2.0 backfill is derived from the curated OpenDesign bundled fixture.
+- `./design-systems/ferrari/DESIGN.md` (317 lines, .md) -- > Category: Automotive
+- `./design-systems/ferrari/USAGE.md` (32 lines, .md) -- Design System 2.0 package guide for OpenDesign agents and reviewers.
+- `./design-systems/ferrari/source/evidence.md` (17 lines, .md) -- This Design System 2.0 backfill is derived from the curated OpenDesign bundled fixture.
+- `./design-systems/figma/DESIGN-ar.md` (223 lines, .md) -- > Category: التصميم والإبداع
+- `./design-systems/figma/DESIGN-de.md` (223 lines, .md) -- > Category: Design & Kreativität
+- `./design-systems/figma/DESIGN-es.md` (223 lines, .md) -- > Category: Diseño y Creatividad
+- `./design-systems/figma/DESIGN-fr.md` (223 lines, .md) -- > Category: Design & Créatif
+- `./design-systems/figma/DESIGN-id.md` (223 lines, .md) -- > Category: Desain & Kreatif
+- `./design-systems/figma/DESIGN-it.md` (223 lines, .md) -- > Category: Design e Creatività
+- `./design-systems/figma/DESIGN-ja.md` (223 lines, .md) -- > Category: デザイン・クリエイティブ
+- `./design-systems/figma/DESIGN-ko.md` (223 lines, .md) -- > Category: 디자인 & 크리에이티브
+- `./design-systems/figma/DESIGN-nl.md` (223 lines, .md) -- > Category: Design & Creatief
+- `./design-systems/figma/DESIGN-pl.md` (223 lines, .md) -- > Kategoria: Projektowanie i Twórczość
+- `./design-systems/figma/DESIGN-pt-br.md` (223 lines, .md) -- > Category: Design & Criatividade
+- `./design-systems/figma/DESIGN-ru.md` (223 lines, .md) -- > Категория: Дизайн и творчество
+- `./design-systems/figma/DESIGN-tr.md` (223 lines, .md) -- > Kategori: Tasarım ve Yaratıcılık
+- `./design-systems/figma/DESIGN-uk.md` (223 lines, .md) -- > Категорія: Дизайн і творчість
+- `./design-systems/figma/DESIGN-vi.md` (223 lines, .md) -- > Category: Thiết kế & Sáng tạo
+- `./design-systems/figma/DESIGN-zh-tw.md` (223 lines, .md) -- > Category: 設計與創意
+- `./design-systems/figma/DESIGN-zh.md` (223 lines, .md) -- > Category: 设计与创意
+- `./design-systems/figma/DESIGN.md` (223 lines, .md) -- > Category: Design & Creative
+- `./design-systems/figma/USAGE.md` (32 lines, .md) -- Design System 2.0 package guide for OpenDesign agents and reviewers.
+- `./design-systems/figma/source/evidence.md` (17 lines, .md) -- This Design System 2.0 backfill is derived from the curated OpenDesign bundled fixture.
+- `./design-systems/flat/DESIGN.md` (71 lines, .md) -- > Category: Modern & Minimal
+- `./design-systems/flat/USAGE.md` (32 lines, .md) -- Design System 2.0 package guide for OpenDesign agents and reviewers.
+- `./design-systems/flat/source/evidence.md` (17 lines, .md) -- This Design System 2.0 backfill is derived from the curated OpenDesign bundled fixture.
+- `./design-systems/framer/DESIGN.md` (249 lines, .md) -- > Category: Design & Creative
+- `./design-systems/framer/USAGE.md` (32 lines, .md) -- Design System 2.0 package guide for OpenDesign agents and reviewers.
+- `./design-systems/framer/source/evidence.md` (17 lines, .md) -- This Design System 2.0 backfill is derived from the curated OpenDesign bundled fixture.
+- `./design-systems/friendly/DESIGN.md` (71 lines, .md) -- > Category: Creative & Artistic
+- `./design-systems/friendly/USAGE.md` (32 lines, .md) -- Design System 2.0 package guide for OpenDesign agents and reviewers.
+- `./design-systems/friendly/source/evidence.md` (17 lines, .md) -- This Design System 2.0 backfill is derived from the curated OpenDesign bundled fixture.
+- `./design-systems/futuristic/DESIGN.md` (71 lines, .md) -- > Category: Themed & Unique
+- `./design-systems/futuristic/USAGE.md` (32 lines, .md) -- Design System 2.0 package guide for OpenDesign agents and reviewers.
+- `./design-systems/futuristic/source/evidence.md` (17 lines, .md) -- This Design System 2.0 backfill is derived from the curated OpenDesign bundled fixture.
+- `./design-systems/github/DESIGN-ar.md` (161 lines, .md) -- > Category: أدوات المطورين
+- `./design-systems/github/DESIGN-de.md` (161 lines, .md) -- > Category: Entwicklerwerkzeuge
+- `./design-systems/github/DESIGN-es.md` (161 lines, .md) -- > Category: Herramientas para Desarrolladores
+- `./design-systems/github/DESIGN-fr.md` (161 lines, .md) -- > Category: Outils de Développement
+- `./design-systems/github/DESIGN-id.md` (161 lines, .md) -- > Category: Alat Pengembang
+- `./design-systems/github/DESIGN-it.md` (161 lines, .md) -- > Category: Strumenti per sviluppatori
+- `./design-systems/github/DESIGN-ja.md` (161 lines, .md) -- > Category: 開発者ツール
+- `./design-systems/github/DESIGN-ko.md` (161 lines, .md) -- > Category: 개발자 도구
+- `./design-systems/github/DESIGN-nl.md` (161 lines, .md) -- > Category: Ontwikkelaarstools
+- `./design-systems/github/DESIGN-pl.md` (161 lines, .md) -- > Category: Narzędzia deweloperskie
+- `./design-systems/github/DESIGN-pt-br.md` (161 lines, .md) -- > Category: Ferramentas para Desenvolvedores
+- `./design-systems/github/DESIGN-ru.md` (161 lines, .md) -- > Category: Инструменты разработчика
+- `./design-systems/github/DESIGN-tr.md` (161 lines, .md) -- > Category: Geliştirici Araçları
+- `./design-systems/github/DESIGN-uk.md` (161 lines, .md) -- > Category: Інструменти для розробників
+- `./design-systems/github/DESIGN-vi.md` (161 lines, .md) -- > Category: Công Cụ Dành Cho Nhà Phát Triển
+- `./design-systems/github/DESIGN-zh-tw.md` (161 lines, .md) -- > Category: 開發者工具
+- `./design-systems/github/DESIGN-zh.md` (161 lines, .md) -- > Category: 开发者工具
+- `./design-systems/github/DESIGN.md` (161 lines, .md) -- > Category: Developer Tools
+- `./design-systems/github/USAGE.md` (32 lines, .md) -- Design System 2.0 package guide for OpenDesign agents and reviewers.
+- `./design-systems/github/source/evidence.md` (17 lines, .md) -- This Design System 2.0 backfill is derived from the curated OpenDesign bundled fixture.
+- `./design-systems/glassmorphism/DESIGN.md` (71 lines, .md) -- > Category: Morphism & Effects
+- `./design-systems/glassmorphism/USAGE.md` (32 lines, .md) -- Design System 2.0 package guide for OpenDesign agents and reviewers.
+- `./design-systems/glassmorphism/source/evidence.md` (17 lines, .md) -- This Design System 2.0 backfill is derived from the curated OpenDesign bundled fixture.
+- `./design-systems/gradient/DESIGN.md` (71 lines, .md) -- > Category: Morphism & Effects
+- `./design-systems/gradient/USAGE.md` (32 lines, .md) -- Design System 2.0 package guide for OpenDesign agents and reviewers.
+- `./design-systems/gradient/source/evidence.md` (17 lines, .md) -- This Design System 2.0 backfill is derived from the curated OpenDesign bundled fixture.
+- `./design-systems/hashicorp/DESIGN.md` (281 lines, .md) -- > Category: Backend & Data
+- `./design-systems/hashicorp/USAGE.md` (32 lines, .md) -- Design System 2.0 package guide for OpenDesign agents and reviewers.
+- `./design-systems/hashicorp/source/evidence.md` (17 lines, .md) -- This Design System 2.0 backfill is derived from the curated OpenDesign bundled fixture.
+- `./design-systems/hud/DESIGN.md` (173 lines, .md) -- > Category: Themed & Unique
+- `./design-systems/hud/USAGE.md` (32 lines, .md) -- Design System 2.0 package guide for OpenDesign agents and reviewers.
+- `./design-systems/hud/source/evidence.md` (17 lines, .md) -- This Design System 2.0 backfill is derived from the curated OpenDesign bundled fixture.
+- `./design-systems/huggingface/DESIGN.md` (155 lines, .md) -- > Category: AI & LLM
+- `./design-systems/huggingface/USAGE.md` (32 lines, .md) -- Design System 2.0 package guide for OpenDesign agents and reviewers.
+- `./design-systems/huggingface/source/evidence.md` (17 lines, .md) -- This Design System 2.0 backfill is derived from the curated OpenDesign bundled fixture.
+- `./design-systems/ibm/DESIGN-ar.md` (335 lines, .md) -- > Category: وسائل الإعلام والمستهلكين
+- `./design-systems/ibm/DESIGN-de.md` (335 lines, .md) -- > Category: Medien & Verbraucher
+- `./design-systems/ibm/DESIGN-es.md` (335 lines, .md) -- > Category: Media & Consumer
+- `./design-systems/ibm/DESIGN-fr.md` (335 lines, .md) -- > Category: Médias et grand public
+- `./design-systems/ibm/DESIGN-id.md` (335 lines, .md) -- > Category: Media & Consumer
+- `./design-systems/ibm/DESIGN-it.md` (335 lines, .md) -- > Category: Media & Consumer
+- `./design-systems/ibm/DESIGN-ja.md` (335 lines, .md) -- > Category: メディア＆コンシューマー
+- `./design-systems/ibm/DESIGN-ko.md` (335 lines, .md) -- > Category: 미디어 & 소비자
+- `./design-systems/ibm/DESIGN-nl.md` (335 lines, .md) -- > Category: Media & Consumer
+- `./design-systems/ibm/DESIGN-pl.md` (335 lines, .md) -- > Category: Media & Consumer
+- `./design-systems/ibm/DESIGN-pt-br.md` (335 lines, .md) -- > Category: Media & Consumer
+- `./design-systems/ibm/DESIGN-ru.md` (335 lines, .md) -- > Category: Медиа и потребительский сектор
+- `./design-systems/ibm/DESIGN-tr.md` (335 lines, .md) -- > Category: Media & Consumer
+- `./design-systems/ibm/DESIGN-uk.md` (335 lines, .md) -- > Category: Медіа та споживачі
+- `./design-systems/ibm/DESIGN-vi.md` (335 lines, .md) -- > Category: Media & Consumer
+- `./design-systems/ibm/DESIGN-zh-tw.md` (335 lines, .md) -- > Category: 媒體與消費
+- `./design-systems/ibm/DESIGN-zh.md` (335 lines, .md) -- > Category: 媒体与消费
+- `./design-systems/ibm/DESIGN.md` (335 lines, .md) -- > Category: Media & Consumer
+- `./design-systems/ibm/USAGE.md` (32 lines, .md) -- Design System 2.0 package guide for OpenDesign agents and reviewers.
+- `./design-systems/ibm/source/evidence.md` (17 lines, .md) -- This Design System 2.0 backfill is derived from the curated OpenDesign bundled fixture.
+- `./design-systems/intercom/DESIGN.md` (149 lines, .md) -- > Category: Productivity & SaaS
+- `./design-systems/intercom/USAGE.md` (32 lines, .md) -- Design System 2.0 package guide for OpenDesign agents and reviewers.
+- `./design-systems/intercom/source/evidence.md` (17 lines, .md) -- This Design System 2.0 backfill is derived from the curated OpenDesign bundled fixture.
+- `./design-systems/kami/DESIGN.md` (410 lines, .md) -- > Category: Editorial & Print
+- `./design-systems/kami/USAGE.md` (32 lines, .md) -- Design System 2.0 package guide for OpenDesign agents and reviewers.
+- `./design-systems/kami/source/evidence.md` (17 lines, .md) -- This Design System 2.0 backfill is derived from the curated OpenDesign bundled fixture.
+- `./design-systems/kraken/DESIGN.md` (128 lines, .md) -- > Category: Fintech & Crypto
+- `./design-systems/kraken/USAGE.md` (32 lines, .md) -- Design System 2.0 package guide for OpenDesign agents and reviewers.
+- `./design-systems/kraken/source/evidence.md` (17 lines, .md) -- This Design System 2.0 backfill is derived from the curated OpenDesign bundled fixture.
+- `./design-systems/lamborghini/DESIGN.md` (291 lines, .md) -- > Category: Automotive
+- `./design-systems/lamborghini/USAGE.md` (32 lines, .md) -- Design System 2.0 package guide for OpenDesign agents and reviewers.
+- `./design-systems/lamborghini/source/evidence.md` (17 lines, .md) -- This Design System 2.0 backfill is derived from the curated OpenDesign bundled fixture.
+- `./design-systems/levels/DESIGN.md` (71 lines, .md) -- > Category: Layout & Structure
+- `./design-systems/levels/USAGE.md` (32 lines, .md) -- Design System 2.0 package guide for OpenDesign agents and reviewers.
+- `./design-systems/levels/source/evidence.md` (17 lines, .md) -- This Design System 2.0 backfill is derived from the curated OpenDesign bundled fixture.
+- `./design-systems/linear-app/DESIGN.md` (370 lines, .md) -- > Category: Productivity & SaaS
+- `./design-systems/linear-app/USAGE.md` (32 lines, .md) -- Design System 2.0 package guide for OpenDesign agents and reviewers.
+- `./design-systems/linear-app/source/evidence.md` (17 lines, .md) -- This Design System 2.0 backfill is derived from the curated OpenDesign bundled fixture.
+- `./design-systems/lingo/DESIGN.md` (71 lines, .md) -- > Category: Creative & Artistic
+- `./design-systems/lingo/USAGE.md` (32 lines, .md) -- Design System 2.0 package guide for OpenDesign agents and reviewers.
+- `./design-systems/lingo/source/evidence.md` (17 lines, .md) -- This Design System 2.0 backfill is derived from the curated OpenDesign bundled fixture.
+- `./design-systems/loom/DESIGN.md` (201 lines, .md) -- > Category: Themed & Unique
+- `./design-systems/loom/USAGE.md` (32 lines, .md) -- Design System 2.0 package guide for OpenDesign agents and reviewers.
+- `./design-systems/loom/source/evidence.md` (17 lines, .md) -- This Design System 2.0 backfill is derived from the curated OpenDesign bundled fixture.
+- `./design-systems/lovable/DESIGN.md` (301 lines, .md) -- > Category: Developer Tools
+- `./design-systems/lovable/USAGE.md` (32 lines, .md) -- Design System 2.0 package guide for OpenDesign agents and reviewers.
+- `./design-systems/lovable/source/evidence.md` (17 lines, .md) -- This Design System 2.0 backfill is derived from the curated OpenDesign bundled fixture.
+- `./design-systems/luxury/DESIGN.md` (71 lines, .md) -- > Category: Professional & Corporate
+- `./design-systems/luxury/USAGE.md` (32 lines, .md) -- Design System 2.0 package guide for OpenDesign agents and reviewers.
+- `./design-systems/luxury/source/evidence.md` (17 lines, .md) -- This Design System 2.0 backfill is derived from the curated OpenDesign bundled fixture.
+- `./design-systems/mastercard/DESIGN.md` (368 lines, .md) -- > Category: Fintech & Crypto
+- `./design-systems/mastercard/USAGE.md` (32 lines, .md) -- Design System 2.0 package guide for OpenDesign agents and reviewers.
+- `./design-systems/mastercard/source/evidence.md` (17 lines, .md) -- This Design System 2.0 backfill is derived from the curated OpenDesign bundled fixture.
+- `./design-systems/material/DESIGN.md` (71 lines, .md) -- > Category: Professional & Corporate
+- `./design-systems/material/USAGE.md` (32 lines, .md) -- Design System 2.0 package guide for OpenDesign agents and reviewers.
+- `./design-systems/material/source/evidence.md` (17 lines, .md) -- This Design System 2.0 backfill is derived from the curated OpenDesign bundled fixture.
+- `./design-systems/meta/DESIGN.md` (369 lines, .md) -- > Category: E-Commerce & Retail
+- `./design-systems/meta/USAGE.md` (32 lines, .md) -- Design System 2.0 package guide for OpenDesign agents and reviewers.
+- `./design-systems/meta/source/evidence.md` (17 lines, .md) -- This Design System 2.0 backfill is derived from the curated OpenDesign bundled fixture.
+- `./design-systems/minimal/DESIGN.md` (71 lines, .md) -- > Category: Modern & Minimal
+- `./design-systems/minimal/USAGE.md` (32 lines, .md) -- Design System 2.0 package guide for OpenDesign agents and reviewers.
+- `./design-systems/minimal/source/evidence.md` (17 lines, .md) -- This Design System 2.0 backfill is derived from the curated OpenDesign bundled fixture.
+- `./design-systems/minimax/DESIGN.md` (260 lines, .md) -- > Category: AI & LLM
+- `./design-systems/minimax/USAGE.md` (32 lines, .md) -- Design System 2.0 package guide for OpenDesign agents and reviewers.
+- `./design-systems/minimax/source/evidence.md` (17 lines, .md) -- This Design System 2.0 backfill is derived from the curated OpenDesign bundled fixture.
+- `./design-systems/mintlify/DESIGN.md` (329 lines, .md) -- > Category: Productivity & SaaS
+- `./design-systems/mintlify/USAGE.md` (32 lines, .md) -- Design System 2.0 package guide for OpenDesign agents and reviewers.
+- `./design-systems/mintlify/source/evidence.md` (17 lines, .md) -- This Design System 2.0 backfill is derived from the curated OpenDesign bundled fixture.
+- `./design-systems/miro/DESIGN.md` (111 lines, .md) -- > Category: Design & Creative
+- `./design-systems/miro/USAGE.md` (32 lines, .md) -- Design System 2.0 package guide for OpenDesign agents and reviewers.
+- `./design-systems/miro/source/evidence.md` (17 lines, .md) -- This Design System 2.0 backfill is derived from the curated OpenDesign bundled fixture.
+- `./design-systems/mission-control/DESIGN.md` (476 lines, .md) -- > Category: Developer Tools
+- `./design-systems/mission-control/USAGE.md` (32 lines, .md) -- Design System 2.0 package guide for OpenDesign agents and reviewers.
+- `./design-systems/mission-control/source/evidence.md` (17 lines, .md) -- This Design System 2.0 backfill is derived from the curated OpenDesign bundled fixture.
+- `./design-systems/mistral-ai/DESIGN.md` (264 lines, .md) -- > Category: AI & LLM
+- `./design-systems/mistral-ai/USAGE.md` (32 lines, .md) -- Design System 2.0 package guide for OpenDesign agents and reviewers.
+- `./design-systems/mistral-ai/source/evidence.md` (17 lines, .md) -- This Design System 2.0 backfill is derived from the curated OpenDesign bundled fixture.
+- `./design-systems/modern/DESIGN.md` (71 lines, .md) -- > Category: Modern & Minimal
+- `./design-systems/modern/USAGE.md` (32 lines, .md) -- Design System 2.0 package guide for OpenDesign agents and reviewers.
+- `./design-systems/modern/source/evidence.md` (17 lines, .md) -- This Design System 2.0 backfill is derived from the curated OpenDesign bundled fixture.
+- `./design-systems/mongodb/DESIGN.md` (269 lines, .md) -- > Category: Backend & Data
+- `./design-systems/mongodb/USAGE.md` (32 lines, .md) -- Design System 2.0 package guide for OpenDesign agents and reviewers.
+- `./design-systems/mongodb/source/evidence.md` (17 lines, .md) -- This Design System 2.0 backfill is derived from the curated OpenDesign bundled fixture.
+- `./design-systems/mono/DESIGN.md` (71 lines, .md) -- > Category: Modern & Minimal
+- `./design-systems/mono/USAGE.md` (32 lines, .md) -- Design System 2.0 package guide for OpenDesign agents and reviewers.
+- `./design-systems/mono/source/evidence.md` (17 lines, .md) -- This Design System 2.0 backfill is derived from the curated OpenDesign bundled fixture.
+- `./design-systems/neobrutalism/DESIGN.md` (71 lines, .md) -- > Category: Bold & Expressive
+- `./design-systems/neobrutalism/USAGE.md` (32 lines, .md) -- Design System 2.0 package guide for OpenDesign agents and reviewers.
+- `./design-systems/neobrutalism/source/evidence.md` (17 lines, .md) -- This Design System 2.0 backfill is derived from the curated OpenDesign bundled fixture.
+- `./design-systems/neon/DESIGN.md` (71 lines, .md) -- > Category: Morphism & Effects
+- `./design-systems/neon/USAGE.md` (32 lines, .md) -- Design System 2.0 package guide for OpenDesign agents and reviewers.
+- `./design-systems/neon/source/evidence.md` (17 lines, .md) -- This Design System 2.0 backfill is derived from the curated OpenDesign bundled fixture.
+- `./design-systems/neumorphism/DESIGN.md` (71 lines, .md) -- > Category: Morphism & Effects
+- `./design-systems/neumorphism/USAGE.md` (32 lines, .md) -- Design System 2.0 package guide for OpenDesign agents and reviewers.
+- `./design-systems/neumorphism/source/evidence.md` (17 lines, .md) -- This Design System 2.0 backfill is derived from the curated OpenDesign bundled fixture.
+- `./design-systems/nike/DESIGN-ar.md` (366 lines, .md) -- > Category: التجارة الإلكترونية والبيع بالتجزئة
+- `./design-systems/nike/DESIGN-de.md` (366 lines, .md) -- > Category: E-Commerce & Einzelhandel
+- `./design-systems/nike/DESIGN-es.md` (366 lines, .md) -- > Category: E-Commerce & Retail
+- `./design-systems/nike/DESIGN-fr.md` (366 lines, .md) -- > Category: E-Commerce et Commerce de Détail
+- `./design-systems/nike/DESIGN-id.md` (366 lines, .md) -- > Category: E-Commerce & Retail
+- `./design-systems/nike/DESIGN-it.md` (366 lines, .md) -- > Category: E-Commerce & Retail
+- `./design-systems/nike/DESIGN-ja.md` (366 lines, .md) -- > Category: Eコマース・小売
+- `./design-systems/nike/DESIGN-ko.md` (366 lines, .md) -- > Category: 이커머스 & 리테일
+- `./design-systems/nike/DESIGN-nl.md` (366 lines, .md) -- > Category: E-Commerce & Retail
+- `./design-systems/nike/DESIGN-pl.md` (366 lines, .md) -- > Category: E-Commerce & Retail
+- `./design-systems/nike/DESIGN-pt-br.md` (366 lines, .md) -- > Category: E-Commerce & Varejo
+- `./design-systems/nike/DESIGN-ru.md` (366 lines, .md) -- > Category: E-Commerce и ритейл
+- `./design-systems/nike/DESIGN-tr.md` (366 lines, .md) -- > Category: E-Ticaret & Perakende
+- `./design-systems/nike/DESIGN-uk.md` (366 lines, .md) -- > Category: Електронна комерція та роздрібна торгівля
+- `./design-systems/nike/DESIGN-vi.md` (366 lines, .md) -- > Category: Thương Mại Điện Tử & Bán Lẻ
+- `./design-systems/nike/DESIGN-zh-tw.md` (366 lines, .md) -- > Category: 電子商務與零售
+- `./design-systems/nike/DESIGN-zh.md` (366 lines, .md) -- > Category: 电子商务与零售
+
+## By language
+- .ts: 2720
+- .md: 1125
+- .tsx: 1059
+- .sh: 44
+- .py: 44
+- .js: 8
+
+NOTE: index truncated to 5000 of 7835 files (IJFW_INDEX_MAX=5000)

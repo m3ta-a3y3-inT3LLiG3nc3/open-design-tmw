@@ -1,0 +1,246 @@
+{
+  "type": "software",
+  "primary_type": "software",
+  "secondary_types": [
+    "design"
+  ],
+  "confidence": 0.906,
+  "scan_incomplete": false,
+  "detected_at": "2026-10-09T13:04:56.462Z",
+  "signals": [
+    {
+      "kind": "manifest",
+      "weight": 0.9,
+      "manifests": [
+        "package.json",
+        "package.json",
+        "package.json",
+        "package.json",
+        "package.json",
+        "package.json"
+      ]
+    },
+    {
+      "kind": "dir_design",
+      "weight": 0.4,
+      "name": "assets"
+    },
+    {
+      "kind": "dir_design",
+      "weight": 0.4,
+      "name": "assets"
+    },
+    {
+      "kind": "dir_design",
+      "weight": 0.4,
+      "name": "assets"
+    },
+    {
+      "kind": "dir_design",
+      "weight": 0.4,
+      "name": "assets"
+    },
+    {
+      "kind": "dir_design",
+      "weight": 0.4,
+      "name": "assets"
+    },
+    {
+      "kind": "dir_design",
+      "weight": 0.4,
+      "name": "assets"
+    },
+    {
+      "kind": "dir_design",
+      "weight": 0.4,
+      "name": "assets"
+    },
+    {
+      "kind": "dir_design",
+      "weight": 0.4,
+      "name": "assets"
+    },
+    {
+      "kind": "dir_design",
+      "weight": 0.4,
+      "name": "assets"
+    },
+    {
+      "kind": "dir_design",
+      "weight": 0.4,
+      "name": "assets"
+    },
+    {
+      "kind": "dir_design",
+      "weight": 0.4,
+      "name": "assets"
+    },
+    {
+      "kind": "dir_design",
+      "weight": 0.4,
+      "name": "assets"
+    },
+    {
+      "kind": "dir_design",
+      "weight": 0.4,
+      "name": "assets"
+    },
+    {
+      "kind": "dir_design",
+      "weight": 0.4,
+      "name": "design"
+    },
+    {
+      "kind": "dir_design",
+      "weight": 0.4,
+      "name": "assets"
+    },
+    {
+      "kind": "dir_design",
+      "weight": 0.4,
+      "name": "assets"
+    },
+    {
+      "kind": "dir_design",
+      "weight": 0.4,
+      "name": "assets"
+    },
+    {
+      "kind": "dir_design",
+      "weight": 0.4,
+      "name": "assets"
+    },
+    {
+      "kind": "dir_design",
+      "weight": 0.4,
+      "name": "assets"
+    },
+    {
+      "kind": "dir_design",
+      "weight": 0.4,
+      "name": "assets"
+    },
+    {
+      "kind": "dir_design",
+      "weight": 0.4,
+      "name": "assets"
+    },
+    {
+      "kind": "dir_design",
+      "weight": 0.4,
+      "name": "assets"
+    },
+    {
+      "kind": "dir_design",
+      "weight": 0.4,
+      "name": "assets"
+    },
+    {
+      "kind": "dir_design",
+      "weight": 0.4,
+      "name": "assets"
+    },
+    {
+      "kind": "dir_design",
+      "weight": 0.4,
+      "name": "assets"
+    },
+    {
+      "kind": "dir_design",
+      "weight": 0.4,
+      "name": "assets"
+    },
+    {
+      "kind": "dir_design",
+      "weight": 0.4,
+      "name": "assets"
+    },
+    {
+      "kind": "dir_design",
+      "weight": 0.4,
+      "name": "assets"
+    },
+    {
+      "kind": "dir_design",
+      "weight": 0.4,
+      "name": "assets"
+    },
+    {
+      "kind": "dir_design",
+      "weight": 0.4,
+      "name": "assets"
+    },
+    {
+      "kind": "dir_design",
+      "weight": 0.4,
+      "name": "assets"
+    },
+    {
+      "kind": "dir_design",
+      "weight": 0.4,
+      "name": "assets"
+    },
+    {
+      "kind": "dir_design",
+      "weight": 0.4,
+      "name": "assets"
+    },
+    {
+      "kind": "dir_design",
+      "weight": 0.4,
+      "name": "assets"
+    },
+    {
+      "kind": "dir_design",
+      "weight": 0.4,
+      "name": "assets"
+    },
+    {
+      "kind": "dir_design",
+      "weight": 0.4,
+      "name": "assets"
+    },
+    {
+      "kind": "dir_design",
+      "weight": 0.4,
+      "name": "assets"
+    },
+    {
+      "kind": "dir_design",
+      "weight": 0.4,
+      "name": "figma"
+    },
+    {
+      "kind": "dir_design",
+      "weight": 0.4,
+      "name": "assets"
+    },
+    {
+      "kind": "dir_design",
+      "weight": 0.4,
+      "name": "assets"
+    },
+    {
+      "kind": "file_extension_ratio",
+      "weight": 0.7,
+      "domain": "software",
+      "ratio": 0.984,
+      "count": 4977
+    },
+    {
+      "kind": "filename_pattern",
+      "weight": 0.3,
+      "domain": "design",
+      "name": "wireframe-greybox.webp"
+    },
+    {
+      "kind": "filename_pattern",
+      "weight": 0.3,
+      "domain": "design",
+      "name": "wireframe-sketch.webp"
+    }
+  ],
+  "fallback_reason": null,
+  "file_tree_hash": "1d685b7b607278a1",
+  "branch_hash": "f921bd05e68b0374"
+}

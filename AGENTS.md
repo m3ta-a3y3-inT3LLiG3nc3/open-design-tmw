@@ -1,3 +1,150 @@
+---
+ijfw_version: 1.3.2
+ijfw_schema: 1
+type: software
+primary_type: software
+secondary_types:
+  - design
+confidence: 0.906
+detected_at: 2026-10-09T13:04:56.462Z
+signals:
+  - kind: manifest
+    weight: 0.9
+    manifests: [package.json, package.json, package.json, package.json, package.json, package.json]
+  - kind: dir_design
+    weight: 0.4
+    name: assets
+  - kind: dir_design
+    weight: 0.4
+    name: assets
+  - kind: dir_design
+    weight: 0.4
+    name: assets
+  - kind: dir_design
+    weight: 0.4
+    name: assets
+  - kind: dir_design
+    weight: 0.4
+    name: assets
+  - kind: dir_design
+    weight: 0.4
+    name: assets
+  - kind: dir_design
+    weight: 0.4
+    name: assets
+  - kind: dir_design
+    weight: 0.4
+    name: assets
+  - kind: dir_design
+    weight: 0.4
+    name: assets
+  - kind: dir_design
+    weight: 0.4
+    name: assets
+  - kind: dir_design
+    weight: 0.4
+    name: assets
+  - kind: dir_design
+    weight: 0.4
+    name: assets
+  - kind: dir_design
+    weight: 0.4
+    name: assets
+  - kind: dir_design
+    weight: 0.4
+    name: design
+  - kind: dir_design
+    weight: 0.4
+    name: assets
+  - kind: dir_design
+    weight: 0.4
+    name: assets
+  - kind: dir_design
+    weight: 0.4
+    name: assets
+  - kind: dir_design
+    weight: 0.4
+    name: assets
+  - kind: dir_design
+    weight: 0.4
+    name: assets
+  - kind: dir_design
+    weight: 0.4
+    name: assets
+  - kind: dir_design
+    weight: 0.4
+    name: assets
+  - kind: dir_design
+    weight: 0.4
+    name: assets
+  - kind: dir_design
+    weight: 0.4
+    name: assets
+  - kind: dir_design
+    weight: 0.4
+    name: assets
+  - kind: dir_design
+    weight: 0.4
+    name: assets
+  - kind: dir_design
+    weight: 0.4
+    name: assets
+  - kind: dir_design
+    weight: 0.4
+    name: assets
+  - kind: dir_design
+    weight: 0.4
+    name: assets
+  - kind: dir_design
+    weight: 0.4
+    name: assets
+  - kind: dir_design
+    weight: 0.4
+    name: assets
+  - kind: dir_design
+    weight: 0.4
+    name: assets
+  - kind: dir_design
+    weight: 0.4
+    name: assets
+  - kind: dir_design
+    weight: 0.4
+    name: assets
+  - kind: dir_design
+    weight: 0.4
+    name: assets
+  - kind: dir_design
+    weight: 0.4
+    name: assets
+  - kind: dir_design
+    weight: 0.4
+    name: assets
+  - kind: dir_design
+    weight: 0.4
+    name: assets
+  - kind: dir_design
+    weight: 0.4
+    name: figma
+  - kind: dir_design
+    weight: 0.4
+    name: assets
+  - kind: dir_design
+    weight: 0.4
+    name: assets
+  - kind: file_extension_ratio
+    weight: 0.7
+    domain: software
+    ratio: 0.984
+    count: 4977
+  - kind: filename_pattern
+    weight: 0.3
+    domain: design
+    name: wireframe-greybox.webp
+  - kind: filename_pattern
+    weight: 0.3
+    domain: design
+    name: wireframe-sketch.webp
+---
 # Directory guide
 
 This file is the single source of truth for agents entering this repository. Read this file first; after entering `apps/`, `packages/`, `tools/`, or `e2e/`, read that layer's `AGENTS.md` for module-level details. Do not copy module details back into the root file; root stays focused on cross-repository boundaries, workflow, and commands.
@@ -436,6 +583,15 @@ pnpm --filter @open-design/tools-pack build
 pnpm --filter @open-design/tools-serve build
 ```
 
+Run a single test by forwarding Vitest file or `-t` name filters after `--` (Playwright takes `--grep`). Go through the package script rather than calling `vitest` directly: the daemon's `pretest` builds its workspace dependencies first.
+
+```bash
+pnpm --filter @open-design/web test -- tests/App.test.ts
+pnpm --filter @open-design/daemon test -- tests/aborted-error.test.ts -t "<test name>"
+pnpm --filter @open-design/e2e test -- tests/dialog/stop-reconciles-message.test.ts
+pnpm --filter @open-design/e2e test:ui -- ui/app.test.ts --grep "<title>"
+```
+
 ```bash
 pnpm tools-pack mac build --to all
 pnpm tools-pack mac install
@@ -473,3 +629,11 @@ Run `pnpm install` after changing package manifests, workspace layout, command e
 ## Can I use Node 22 instead of Node 24?
 
 No. `package.json#engines` specifies `node: "~24"`, which is the only supported runtime. The current lockfile pins `better-sqlite3@11.10.0`; on Windows it has no prebuilt binary for Node 24 and is built from source via node-gyp (see the Windows native section). Older Node versions are not tested and may hit lockfile or dependency incompatibilities.
+
+<!-- IJFW-MEMORY-START -->
+Project memory at .ijfw/memory/. Call `ijfw_memory_prelude` for full context.
+<!-- IJFW-MEMORY-END -->
+
+<!-- IJFW-AGENTS-START -->
+No project agents yet. Run `ijfw team` to set them up.
+<!-- IJFW-AGENTS-END -->
